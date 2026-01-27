@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>NR_111480</INSDSeq_locus>
+    <INSDSeq_length>568</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-NOV-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>25-MAR-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps halabalaensis BCC 21491 ITS region; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_111480</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_111480.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_111480.1|</INSDSeqid>
+      <INSDSeqid>gi|597900815</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA177353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps halabalaensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps halabalaensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Robbertse,B.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Irinyi,L.</INSDAuthor>
+          <INSDAuthor>Meyer,W.</INSDAuthor>
+          <INSDAuthor>Nilsson,R.H.</INSDAuthor>
+          <INSDAuthor>Hughes,K.</INSDAuthor>
+          <INSDAuthor>Miller,A.N.</INSDAuthor>
+          <INSDAuthor>Kirk,P.M.</INSDAuthor>
+          <INSDAuthor>Abarenkov,K.</INSDAuthor>
+          <INSDAuthor>Aime,M.C.</INSDAuthor>
+          <INSDAuthor>Ariyawansa,H.A.</INSDAuthor>
+          <INSDAuthor>Bidartondo,M.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Buyck,B.</INSDAuthor>
+          <INSDAuthor>Cai,Q.</INSDAuthor>
+          <INSDAuthor>Chen,J.</INSDAuthor>
+          <INSDAuthor>Crespo,A.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Damm,U.</INSDAuthor>
+          <INSDAuthor>De Beer,Z.W.</INSDAuthor>
+          <INSDAuthor>Dentinger,B.T.</INSDAuthor>
+          <INSDAuthor>Divakar,P.K.</INSDAuthor>
+          <INSDAuthor>Duenas,M.</INSDAuthor>
+          <INSDAuthor>Feau,N.</INSDAuthor>
+          <INSDAuthor>Fliegerova,K.</INSDAuthor>
+          <INSDAuthor>Garcia,M.A.</INSDAuthor>
+          <INSDAuthor>Ge,Z.W.</INSDAuthor>
+          <INSDAuthor>Griffith,G.W.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>Grube,M.</INSDAuthor>
+          <INSDAuthor>Gryzenhout,M.</INSDAuthor>
+          <INSDAuthor>Gueidan,C.</INSDAuthor>
+          <INSDAuthor>Guo,L.</INSDAuthor>
+          <INSDAuthor>Hambleton,S.</INSDAuthor>
+          <INSDAuthor>Hamelin,R.</INSDAuthor>
+          <INSDAuthor>Hansen,K.</INSDAuthor>
+          <INSDAuthor>Hofstetter,V.</INSDAuthor>
+          <INSDAuthor>Hong,S.B.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Inderbitzin,P.</INSDAuthor>
+          <INSDAuthor>Johnston,P.R.</INSDAuthor>
+          <INSDAuthor>Karunarathna,S.C.</INSDAuthor>
+          <INSDAuthor>Koljalg,U.</INSDAuthor>
+          <INSDAuthor>Kovacs,G.M.</INSDAuthor>
+          <INSDAuthor>Kraichak,E.</INSDAuthor>
+          <INSDAuthor>Krizsan,K.</INSDAuthor>
+          <INSDAuthor>Kurtzman,C.P.</INSDAuthor>
+          <INSDAuthor>Larsson,K.H.</INSDAuthor>
+          <INSDAuthor>Leavitt,S.</INSDAuthor>
+          <INSDAuthor>Letcher,P.M.</INSDAuthor>
+          <INSDAuthor>Liimatainen,K.</INSDAuthor>
+          <INSDAuthor>Liu,J.K.</INSDAuthor>
+          <INSDAuthor>Lodge,D.J.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+          <INSDAuthor>Lumbsch,H.T.</INSDAuthor>
+          <INSDAuthor>Maharachchikumbura,S.S.</INSDAuthor>
+          <INSDAuthor>Manamgoda,D.</INSDAuthor>
+          <INSDAuthor>Martin,M.P.</INSDAuthor>
+          <INSDAuthor>Minnis,A.M.</INSDAuthor>
+          <INSDAuthor>Moncalvo,J.M.</INSDAuthor>
+          <INSDAuthor>Mule,G.</INSDAuthor>
+          <INSDAuthor>Nakasone,K.K.</INSDAuthor>
+          <INSDAuthor>Niskanen,T.</INSDAuthor>
+          <INSDAuthor>Olariaga,I.</INSDAuthor>
+          <INSDAuthor>Papp,T.</INSDAuthor>
+          <INSDAuthor>Petkovits,T.</INSDAuthor>
+          <INSDAuthor>Pino-Bodas,R.</INSDAuthor>
+          <INSDAuthor>Powell,M.J.</INSDAuthor>
+          <INSDAuthor>Raja,H.A.</INSDAuthor>
+          <INSDAuthor>Redecker,D.</INSDAuthor>
+          <INSDAuthor>Sarmiento-Ramirez,J.M.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Stenroos,S.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Suh,S.O.</INSDAuthor>
+          <INSDAuthor>Tanaka,K.</INSDAuthor>
+          <INSDAuthor>Tedersoo,L.</INSDAuthor>
+          <INSDAuthor>Telleria,M.T.</INSDAuthor>
+          <INSDAuthor>Udayanga,D.</INSDAuthor>
+          <INSDAuthor>Untereiner,W.A.</INSDAuthor>
+          <INSDAuthor>Dieguez Uribeondo,J.</INSDAuthor>
+          <INSDAuthor>Subbarao,K.V.</INSDAuthor>
+          <INSDAuthor>Vagvolgyi,C.</INSDAuthor>
+          <INSDAuthor>Visagie,C.</INSDAuthor>
+          <INSDAuthor>Voigt,K.</INSDAuthor>
+          <INSDAuthor>Walker,D.M.</INSDAuthor>
+          <INSDAuthor>Weir,B.S.</INSDAuthor>
+          <INSDAuthor>Weiss,M.</INSDAuthor>
+          <INSDAuthor>Wijayawardene,N.N.</INSDAuthor>
+          <INSDAuthor>Wingfield,M.J.</INSDAuthor>
+          <INSDAuthor>Xu,J.P.</INSDAuthor>
+          <INSDAuthor>Yang,Z.L.</INSDAuthor>
+          <INSDAuthor>Zhang,N.</INSDAuthor>
+          <INSDAuthor>Zhuang,W.Y.</INSDAuthor>
+          <INSDAuthor>Federhen,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Finding needles in haystacks: linking scientific names, reference specimens and molecular data for Fungi</INSDReference_title>
+        <INSDReference_journal>Database (Oxford) 2014 (2014)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1093/database/bau061</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>24980130</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps halabalaensis: a new species of Ophiocordyceps pathogenic to Camponotus gigas in Hala Bala Wildlife Sanctuary, Southern Thailand</INSDReference_title>
+        <INSDReference_journal>Fungal Biol 115 (7), 608-614 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.funbio.2011.03.002</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>21724166</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_consortium>NCBI RefSeq Targeted Loci Project</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-MAR-2014) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>4</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (08-FEB-2010) Phylogenetics Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, 113 Paholyothin Rd., Khlong 1, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to GU723758.</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..568</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>568</INSDInterval_to>
+            <INSDInterval_accession>NR_111480.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>MY1308</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>BCC&lt;THA&gt;:21491</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:988312</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>ex-holotype culture of Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..152</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>152</INSDInterval_to>
+            <INSDInterval_accession>NR_111480.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>153..310</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>153</INSDInterval_from>
+            <INSDInterval_to>310</INSDInterval_to>
+            <INSDInterval_accession>NR_111480.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAGCCCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCACGCCTGTCCGAGCGTCATGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>311..516</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>311</INSDInterval_from>
+            <INSDInterval_to>516</INSDInterval_to>
+            <INSDInterval_accession>NR_111480.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>517..&gt;568</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>517</INSDInterval_from>
+            <INSDInterval_to>568</INSDInterval_to>
+            <INSDInterval_accession>NR_111480.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGTTGACCTCGGATCAGGCGGGGATACCCGCCGAACTTAAGCATATCAATAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggatattaccgggtcgcgagacgcccacacccccgcgagaacgagagagggaaccgtccgattgcctcggcggcgaacccgccgccggagggccgagcaaggcgcttttttccaagtcgaacagcctctgagtgaacgcgaataacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggtgcgcgcctcccccccaccccttttctgagggttccggaaggcaagcacccggcgatggggggccgcccgttcgcggcgccccccgaaatgcagcggcggcaacgccccgcctcccccgcgaagtaaaaaaacacctccgcgacggggggcgcggcgacgccacgcccggcaagaactgcccccattaccacaaggttgacctcggatcaggcggggatacccgccgaacttaagcatatcaataa</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA177353</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NG_060365</INSDSeq_locus>
+    <INSDSeq_length>865</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>15-JUN-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>15-JUN-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps halabalaensis BCC 21491 28S rRNA gene, partial sequence; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NG_060365</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NG_060365.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NG_060365.1|</INSDSeqid>
+      <INSDSeqid>gi|1402550446</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA51803</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps halabalaensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps halabalaensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..865</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Khonsanit,A.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Kobmoo,N.</INSDAuthor>
+          <INSDAuthor>Piasai,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Cryptic species of Ophiocordyceps myrmecophila complex on Formicine ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to MH028152.; ##Assembly-Data-START## ; Assembly Method :: Bioedit v. 7.2.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..865</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>865</INSDInterval_to>
+            <INSDInterval_accession>NG_060365.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>BCC 21491</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>BCC&lt;THA&gt;:21491</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:988312</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;865</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>865</INSDInterval_to>
+            <INSDInterval_accession>NG_060365.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAGATTTGAAATCCGGCGCTCCTCCGGGGCGCCCGAGTTGTAATCTGCAGAGGAAGCTCCTGGCGCGGCGCCGTCCGAGTTCCCTGGAACGGGACGCCGCAGAGGGTGAGAGCCCCGTACGGTCGGACGCCTAGCCTGTGTGGAGCTCCTTCGGCGAGTCGAGTAGTTTGGGAATGCTGCTCAAAACGGGAGGTATACGCCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGGCCAGACTCGGGCCCGGCGGATCATCCGGCGCTCGCGCCGGTGCACTCCGCCGGGCTTCGGGCCAGCATCGGCCCGCGGCGGGGGACAAAGGCGTCGGGAACGTGGCTCCCCAGGGAGTGTTATAGCCCGGCGCGCAACGCCCCGCGGCGGGCCGAGGTTCGCGCGTCCGCAAGGATGCTGGCATAATGGCCGCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGCATGCGAGTGTTCGGGCGTCAAACCCGTGCGCGCAATGAAAGTGAACGCTGGTGGGAGCCCTCTCGGGGGGCGCACCGCCGACCGATCCCGAAGTTCACGGACGGATTTGAGTAGGAGCATGCGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGTGTCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>attgccccagtaacggcgagtgaagcggcaacagctcagatttgaaatccggcgctcctccggggcgcccgagttgtaatctgcagaggaagctcctggcgcggcgccgtccgagttccctggaacgggacgccgcagagggtgagagccccgtacggtcggacgcctagcctgtgtggagctccttcggcgagtcgagtagtttgggaatgctgctcaaaacgggaggtatacgccttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgcggccagactcgggcccggcggatcatccggcgctcgcgccggtgcactccgccgggcttcgggccagcatcggcccgcggcgggggacaaaggcgtcgggaacgtggctccccagggagtgttatagcccggcgcgcaacgccccgcggcgggccgaggttcgcgcgtccgcaaggatgctggcataatggccgccagcgacccgtcttgaaacacggaccaaggagtcgtcttcgcatgcgagtgttcgggcgtcaaacccgtgcgcgcaatgaaagtgaacgctggtgggagccctctcggggggcgcaccgccgaccgatcccgaagttcacggacggatttgagtaggagcatgcggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagtgtcc</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA51803</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MH028152</INSDSeq_locus>
+    <INSDSeq_length>865</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>26-MAR-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>26-MAR-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps halabalaensis strain BCC21491 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH028152</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH028152.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH028152.1|</INSDSeqid>
+      <INSDSeqid>gi|1368343803</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps halabalaensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps halabalaensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..865</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Khonsanit,A.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Kobmoo,N.</INSDAuthor>
+          <INSDAuthor>Piasai,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Cryptic species of Ophiocordyceps myrmecophila complex on Formicine ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..865</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Khonsanit,A.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Kobmoo,N.</INSDAuthor>
+          <INSDAuthor>Piasai,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (06-MAR-2018) Department of Plant Pathology, Faculty of Agriculture, Kasetsart University, Phahonyothin Road, Lat Yao, Chatuchak, Bangkok 10900, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Bioedit v. 7.2.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..865</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>865</INSDInterval_to>
+            <INSDInterval_accession>MH028152.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>BCC21491</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:988312</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;865</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>865</INSDInterval_to>
+            <INSDInterval_accession>MH028152.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAGATTTGAAATCCGGCGCTCCTCCGGGGCGCCCGAGTTGTAATCTGCAGAGGAAGCTCCTGGCGCGGCGCCGTCCGAGTTCCCTGGAACGGGACGCCGCAGAGGGTGAGAGCCCCGTACGGTCGGACGCCTAGCCTGTGTGGAGCTCCTTCGGCGAGTCGAGTAGTTTGGGAATGCTGCTCAAAACGGGAGGTATACGCCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGGCCAGACTCGGGCCCGGCGGATCATCCGGCGCTCGCGCCGGTGCACTCCGCCGGGCTTCGGGCCAGCATCGGCCCGCGGCGGGGGACAAAGGCGTCGGGAACGTGGCTCCCCAGGGAGTGTTATAGCCCGGCGCGCAACGCCCCGCGGCGGGCCGAGGTTCGCGCGTCCGCAAGGATGCTGGCATAATGGCCGCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGCATGCGAGTGTTCGGGCGTCAAACCCGTGCGCGCAATGAAAGTGAACGCTGGTGGGAGCCCTCTCGGGGGGCGCACCGCCGACCGATCCCGAAGTTCACGGACGGATTTGAGTAGGAGCATGCGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGTGTCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>attgccccagtaacggcgagtgaagcggcaacagctcagatttgaaatccggcgctcctccggggcgcccgagttgtaatctgcagaggaagctcctggcgcggcgccgtccgagttccctggaacgggacgccgcagagggtgagagccccgtacggtcggacgcctagcctgtgtggagctccttcggcgagtcgagtagtttgggaatgctgctcaaaacgggaggtatacgccttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgcggccagactcgggcccggcggatcatccggcgctcgcgccggtgcactccgccgggcttcgggccagcatcggcccgcggcgggggacaaaggcgtcgggaacgtggctccccagggagtgttatagcccggcgcgcaacgccccgcggcgggccgaggttcgcgcgtccgcaaggatgctggcataatggccgccagcgacccgtcttgaaacacggaccaaggagtcgtcttcgcatgcgagtgttcgggcgtcaaacccgtgcgcgcaatgaaagtgaacgctggtgggagccctctcggggggcgcaccgccgaccgatcccgaagttcacggacggatttgagtaggagcatgcggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagtgtcc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>GU723763</INSDSeq_locus>
+    <INSDSeq_length>599</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUL-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUL-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps cf. unilateralis MY5151 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>GU723763</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>GU723763.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|GU723763.1|</INSDSeqid>
+      <INSDSeqid>gi|325492527</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps halabalaensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps halabalaensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..599</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps halabalaensis: a new species of Ophiocordyceps pathogenic to Camponotus gigas in Hala Bala Wildlife Sanctuary, Southern Thailand</INSDReference_title>
+        <INSDReference_journal>Fungal Biol 115 (7), 608-614 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.funbio.2011.03.002</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>21724166</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..599</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (08-FEB-2010) Phylogenetics Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, 113 Paholyothin Rd., Khlong 1, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..599</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>599</INSDInterval_to>
+            <INSDInterval_accession>GU723763.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>MY5151</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:988312</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;599</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>599</INSDInterval_to>
+            <INSDInterval_accession>GU723763.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgggtcgcgagacgcccacacccccgcgagaacgagagagggaaccgtccgttgcctcggcggcgaacccgccgccggagggccgagcaaggcgcttttttccaagtcgaacagcctctgagtgaacgcgaataacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggtgcgcgcctccccccaccccttttctgagggttccggaaggcaagcacccggcgatggggggccgcccgttcgcggcgccccccgaaatgcagcggcggcaacgccccgcctcccccgcgaagtaaaaaacacctccgcgacggggggcgcggcgacgccacgcccggcaagaactgcccccattaccacaaggttgacctcggatcaggcggggatacccgccgaacttaagcatatcaata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>GU723758</INSDSeq_locus>
+    <INSDSeq_length>568</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUL-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUL-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps cf. unilateralis MY1308 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>GU723758</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>GU723758.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|GU723758.1|</INSDSeqid>
+      <INSDSeqid>gi|325492522</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps halabalaensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps halabalaensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps halabalaensis: a new species of Ophiocordyceps pathogenic to Camponotus gigas in Hala Bala Wildlife Sanctuary, Southern Thailand</INSDReference_title>
+        <INSDReference_journal>Fungal Biol 115 (7), 608-614 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.funbio.2011.03.002</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>21724166</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (08-FEB-2010) Phylogenetics Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, 113 Paholyothin Rd., Khlong 1, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..568</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>568</INSDInterval_to>
+            <INSDInterval_accession>GU723758.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps halabalaensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>MY1308</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:988312</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;568</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>568</INSDInterval_to>
+            <INSDInterval_accession>GU723758.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggatattaccgggtcgcgagacgcccacacccccgcgagaacgagagagggaaccgtccgattgcctcggcggcgaacccgccgccggagggccgagcaaggcgcttttttccaagtcgaacagcctctgagtgaacgcgaataacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggtgcgcgcctcccccccaccccttttctgagggttccggaaggcaagcacccggcgatggggggccgcccgttcgcggcgccccccgaaatgcagcggcggcaacgccccgcctcccccgcgaagtaaaaaaacacctccgcgacggggggcgcggcgacgccacgcccggcaagaactgcccccattaccacaaggttgacctcggatcaggcggggatacccgccgaacttaagcatatcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

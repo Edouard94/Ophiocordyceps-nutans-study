@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>NR_163284</INSDSeq_locus>
+    <INSDSeq_length>460</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-MAY-2019</INSDSeq_update-date>
+    <INSDSeq_create-date>03-MAY-2019</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans FLOR 57336 ITS region; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_163284</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_163284.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_163284.1|</INSDSeqid>
+      <INSDSeqid>gi|1632314058</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA177353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..460</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..460</INSDReference_position>
+        <INSDReference_consortium>NCBI RefSeq Targeted Loci Project</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (03-MAY-2019) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..460</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to KX197239.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..460</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>460</INSDInterval_to>
+            <INSDInterval_accession>NR_163284.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>KEL113</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>FLOR:57336</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>10-Mar-2014</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Raquel Friedrich</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..27</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>27</INSDInterval_to>
+            <INSDInterval_accession>NR_163284.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>28..155</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>28</INSDInterval_from>
+            <INSDInterval_to>155</INSDInterval_to>
+            <INSDInterval_accession>NR_163284.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>156..314</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>156</INSDInterval_from>
+            <INSDInterval_to>314</INSDInterval_to>
+            <INSDInterval_accession>NR_163284.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTTAACAACGGATCTCTTGGCTCTAGCATCGATGAAGAACGCAGCTAAATGCGATAAGTAATGCGAATTGCAGATTTCAGTGAGTCATCGAGTTTTTGAACGCATATTGCGCCTGCTGGCTATTCCAGCAGGCATGCCTGTTCGAGCGTTATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>315..&gt;460</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>315</INSDInterval_from>
+            <INSDInterval_to>460</INSDInterval_to>
+            <INSDInterval_accession>NR_163284.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gttggtgaaccagcggagggatcattagagttaaaaacgctctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaacattagacgtctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcattgcggaagaaaggcatcttaactgctataaactttttaa</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA177353</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX197244</INSDSeq_locus>
+    <INSDSeq_length>484</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>04-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans voucher KEL142 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX197244</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX197244.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX197244.1|</INSDSeqid>
+      <INSDSeqid>gi|1046610936</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..484</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..484</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..484</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>484</INSDInterval_to>
+            <INSDInterval_accession>KX197244.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KEL142</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>23-Nov-2013</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Raquel Friedrich</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;484</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>484</INSDInterval_to>
+            <INSDInterval_accession>KX197244.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>taacaaggtctccgttggtgaaccagcggagggatcattagagttaaaaaacactctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactaattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaatattagacgcctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcagtgcggaagaaaggcatcttaactgctataaacttttaatagtttaacc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX197243</INSDSeq_locus>
+    <INSDSeq_length>537</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>04-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans voucher KEL138 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX197243</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX197243.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX197243.1|</INSDSeqid>
+      <INSDSeqid>gi|1046610935</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..537</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..537</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..537</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>537</INSDInterval_to>
+            <INSDInterval_accession>KX197243.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KEL138</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>23-Nov-2013</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Raquel Friedrich</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;537</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>537</INSDInterval_to>
+            <INSDInterval_accession>KX197243.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattagagttaaaaacgctctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactaattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaacattagacgtctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcattgcggaagaaaggcatcttaactgctataaactttttaatagtttaacctcgaatcaggtagggatacccgctgaacttaagcatatcaataaggcggaggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX197242</INSDSeq_locus>
+    <INSDSeq_length>526</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>04-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans voucher FMF88 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX197242</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX197242.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX197242.1|</INSDSeqid>
+      <INSDSeqid>gi|1046610934</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..526</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..526</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..526</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>526</INSDInterval_to>
+            <INSDInterval_accession>KX197242.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>FMF88</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Mar-2013</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>F. Mafalda-Freire</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;526</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>526</INSDInterval_to>
+            <INSDInterval_accession>KX197242.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattagagttaaaaacgctctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactaattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaacattagacgtctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcattgcggaagaaaggcatcttaactgctataaactttttaatagtttaacctcgaatcaggtagggatacccgctgaacttaagcatatcaata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX197241</INSDSeq_locus>
+    <INSDSeq_length>525</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>04-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans voucher KEL114 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX197241</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX197241.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX197241.1|</INSDSeqid>
+      <INSDSeqid>gi|1046610933</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..525</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..525</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..525</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>525</INSDInterval_to>
+            <INSDInterval_accession>KX197241.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KEL114</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>10-Mar-2014</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Raquel Friedrich</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;525</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>525</INSDInterval_to>
+            <INSDInterval_accession>KX197241.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattagagttaaaaacgctctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaacattagacgtctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcattgcggaagaaaggcatcttaactgctataaactttttaatagtttaacctcgaatcaggtagggatacccgctgaacttaagcatatcaata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX197240</INSDSeq_locus>
+    <INSDSeq_length>489</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>04-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans voucher KEL110 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX197240</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX197240.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX197240.1|</INSDSeqid>
+      <INSDSeqid>gi|1046610932</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..489</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..489</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..489</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>489</INSDInterval_to>
+            <INSDInterval_accession>KX197240.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KEL110</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>10-Mar-2014</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Raquel Friedrich</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;489</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>489</INSDInterval_to>
+            <INSDInterval_accession>KX197240.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>taacaaggtctccgttggtgaaccagcggagggatcattagagttaaaaacgctctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactaattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaacattagacgtctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcattgcggaagaaaggcatcttaactgctataaactttttaatagtttaacctcgaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX197239</INSDSeq_locus>
+    <INSDSeq_length>460</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>04-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neonutans voucher KEL113 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX197239</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX197239.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX197239.1|</INSDSeqid>
+      <INSDSeqid>gi|1046610931</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neonutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neonutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..460</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungal diversity notes 4: new fungal taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..460</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Freire,F.M.</INSDAuthor>
+          <INSDAuthor>Reck,M.A.</INSDAuthor>
+          <INSDAuthor>Santos,E.R.D.</INSDAuthor>
+          <INSDAuthor>Neto,A.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-MAY-2016) Departamento de botanica, Universidade Federal de Santa Catarina, R. Eng. Agronomico Andrei Cristian Ferreira, s/n, Florianopolis, Santa Catarina 88040900, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..460</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>460</INSDInterval_to>
+            <INSDInterval_accession>KX197239.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>parasiting insects inside tropical forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KEL113</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from type material of Ophiocordyceps neonutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1881843</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>10-Mar-2014</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Raquel Friedrich</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;460</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>460</INSDInterval_to>
+            <INSDInterval_accession>KX197239.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gttggtgaaccagcggagggatcattagagttaaaaacgctctaacccactgtgaacactaccgtgtatgcctcggcaggcccttttattagggcctgccaaaggaactatgcaaactattattaaagtcgtgagcgtattatgaataactataaaaacttttaacaacggatctcttggctctagcatcgatgaagaacgcagctaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattccagcaggcatgcctgttcgagcgttattacaacattagacgtctgtctttgttagagattggctagcggccacctctgaaatacagcagcagctgtctgccctagctcccttgtgtagtaaaaataagccacgcattgcggaagaaaggcatcttaactgctataaactttttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

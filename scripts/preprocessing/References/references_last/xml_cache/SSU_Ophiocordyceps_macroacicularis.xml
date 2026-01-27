@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OM745535</INSDSeq_locus>
+    <INSDSeq_length>265</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>23-FEB-2022</INSDSeq_update-date>
+    <INSDSeq_create-date>23-FEB-2022</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis voucher 4612596cb668704f1b441cc0da895cf8 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OM745535</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OM745535.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OM745535.1|</INSDSeqid>
+      <INSDSeqid>gi|2196327155</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..265</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Meng,Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Can nitrogen supersede host identity in shaping the community composition of foliar endophytic fungi in an alpine meadow ecosystem?</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..265</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Meng,Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-FEB-2022) School of Life Sciences, Lanzhou University, Tianshui South Road, Lanzhou, Gansu 730000, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: QIIME2 v. 2019.10 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..265</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>265</INSDInterval_to>
+            <INSDInterval_accession>OM745535.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Anemone rivularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>4612596cb668704f1b441cc0da895cf8</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>33.66667 N 101.85 E</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;265</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>265</INSDInterval_to>
+            <INSDInterval_accession>OM745535.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, and 5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aagtcgtaacaaggtctccgttggtgaaccagcggagggatcattatcgagttccacgactcccaaaccccctgcgaaccttaccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccgaggcgcccgccggaggaccacccagactctcctgtcgcagtggcatttctctccgagtcaaaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NG_064859</INSDSeq_locus>
+    <INSDSeq_length>2522</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-MAY-2019</INSDSeq_update-date>
+    <INSDSeq_create-date>03-MAY-2019</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis NBRC 100685 18S rRNA gene, partial sequence; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NG_064859</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NG_064859.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NG_064859.1|</INSDSeqid>
+      <INSDSeqid>gi|1632313315</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA39195</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to AB968388.</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>NG_064859.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>NG_064859.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTCAAAACCAATGCCCTCTGGGCTCACTGGTGATTCATGATAACTCCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGCGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATAGTCAGAGGTGAAATTCTTGGATCTATTGAAGACTAACTACTGCGAAAGCATTTGTCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTAAACCGCAGTCGCTCTGCCCCCGAAAGCAGCCGGGAAACCGGTCACTGGGTCCTTGGCCGGGAGGCCGAAGAATGCTAGTCGCCCCCCGGGGCGGCGACACCCTCCAATTGCGGGAACTCCCTAAAGCCGACTGGGACCAAGCGGGCGCCGAAAGGGCGTCCCGTGGCCGGGTTAACGACCCCGGGTACGGTAACACGCCGGTCGGATGAGCTTTACAATGGGTGATCCGCAGCCAAGCGCCTACCCGGCGAGCGCAGCAGCGCCGCCGCAGGGCGAAGGTTCAGAGACTTGACGGGGGTGGGTCCGGGGCGCCTCTGGGCGCCGCCGGGCCTAAGATGAAGTCCGTCTGCGCGCGAAAGCGCGACAGAGCCCCTCCGAAAACGGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTTGACCTTCACAGGCCTGTCATAGTGGGCCTCGTTAAAGATAACTGCTAGTCCAGCGACTTAGCCTCCGCGGGGAAGCCCCCAATGTCGGGCGGAGGAGGACCCCCCTCACGGGGCGGGGTGCCTTGTCGCGGGCGACACCACCTGGTACAGGGAACGCCGCGAGCCCAGCGATGGGGGAGCGGCCGATCCTGTGGCGAGCCCGGGCAGCGCCGGGCCGTCGCAACGCGCGCAAAGGGGTGGGCCGGGCCGCTGGACGCGGCCGGCTTAAGGTACGTGCTAATCCCGTGGGAAACCACGCTCCCGTGACTAGGCCCGACACGCCGAAGCACGGGGGGGCCGCCCGCGGGCGGCCGGCGGAGGCGGCGCCCGCGGCGGCCGCCTCGAATGCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTTCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGACTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattcaaaaccaatgccctctgggctcactggtgattcatgataactcctcgaatcgcacggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggcgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaatagtcagaggtgaaattcttggatctattgaagactaactactgcgaaagcatttgtcaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtaaaccgcagtcgctctgcccccgaaagcagccgggaaaccggtcactgggtccttggccgggaggccgaagaatgctagtcgccccccggggcggcgacaccctccaattgcgggaactccctaaagccgactgggaccaagcgggcgccgaaagggcgtcccgtggccgggttaacgaccccgggtacggtaacacgccggtcggatgagctttacaatgggtgatccgcagccaagcgcctacccggcgagcgcagcagcgccgccgcagggcgaaggttcagagacttgacgggggtgggtccggggcgcctctgggcgccgccgggcctaagatgaagtccgtctgcgcgcgaaagcgcgacagagcccctccgaaaacgggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggttgaccttcacaggcctgtcatagtgggcctcgttaaagataactgctagtccagcgacttagcctccgcggggaagcccccaatgtcgggcggaggaggacccccctcacggggcggggtgccttgtcgcgggcgacaccacctggtacagggaacgccgcgagcccagcgatgggggagcggccgatcctgtggcgagcccgggcagcgccgggccgtcgcaacgcgcgcaaaggggtgggccgggccgctggacgcggccggcttaaggtacgtgctaatcccgtgggaaaccacgctcccgtgactaggcccgacacgccgaagcacgggggggccgcccgcgggcggccggcggaggcggcgcccgcggcggccgcctcgaatgctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaacttcgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgactacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA39195</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NR_147511</INSDSeq_locus>
+    <INSDSeq_length>582</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>24-JAN-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>18-MAY-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis NBRC 100685 ITS region; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_147511</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_147511.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_147511.1|</INSDSeqid>
+      <INSDSeqid>gi|1194526822</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA177353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_consortium>NCBI RefSeq Targeted Loci Project</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (18-MAY-2017) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to AB968400.</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>NR_147511.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>ex-holotype culture of Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..32</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>32</INSDInterval_to>
+            <INSDInterval_accession>NR_147511.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>33..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>33</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>NR_147511.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..359</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>359</INSDInterval_to>
+            <INSDInterval_accession>NR_147511.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCCTGTCCGAGCGTCATTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>360..542</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>360</INSDInterval_from>
+            <INSDInterval_to>542</INSDInterval_to>
+            <INSDInterval_accession>NR_147511.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>543..&gt;582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>543</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>NR_147511.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tctccgttggtgaaccagcggagggatcattatcgagttccacgactcccaaaccccctgcgaaccttaccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccacccagactctcctgtcgcagtggcatttctctccgagtcaaaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccctccgcccccgggcggcggcggggcccggcgttgggggtccacggccgcgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaacctcctcctggaagttgacctcggatcaggtagggatacccgctgaacttaa</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA177353</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341797</INSDSeq_locus>
+    <INSDSeq_length>151</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-111_2 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341797</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341797.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341797.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515180</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341797.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-111_2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341797.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341789</INSDSeq_locus>
+    <INSDSeq_length>163</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-106_2 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341789</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341789.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341789.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515172</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..163</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..163</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..163</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>163</INSDInterval_to>
+            <INSDInterval_accession>MF341789.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-106_2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;163</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>163</INSDInterval_to>
+            <INSDInterval_accession>MF341789.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CGTTGACTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cgttgactacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341766</INSDSeq_locus>
+    <INSDSeq_length>151</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-078_2 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341766</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341766.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341766.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515149</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341766.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-078_2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341766.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341765</INSDSeq_locus>
+    <INSDSeq_length>151</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-077_2 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341765</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341765.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341765.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515148</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341765.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-077_2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341765.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTCGGCAACTACCCCTCAGAGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtcggcaactacccctcagagccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341754</INSDSeq_locus>
+    <INSDSeq_length>151</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-066_2 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341754</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341754.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341754.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515137</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341754.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-066_2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341754.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTGCCCTTTGTACACGCCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAAGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctgccctttgtacacgccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcaaggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341743</INSDSeq_locus>
+    <INSDSeq_length>151</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-054_3 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341743</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341743.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341743.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515126</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341743.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-054_3</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341743.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF341718</INSDSeq_locus>
+    <INSDSeq_length>151</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis clone G-ela1-SSU2_OTU-0-020_8 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF341718</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF341718.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF341718.1|</INSDSeqid>
+      <INSDSeqid>gi|1206515101</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative metagenomics reveals herpotrichiellaceous core in diverse rhizome mycobiomes inhabiting different mycoheterotrophic Gastrodia orchids</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..151</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lee,R.-H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JUN-2017) Institute of Tropical Plant Sciences, National Cheng Kung University, #1, University Road, Tainan 70001, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Perl script v. Huang et al., 2014 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341718.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>G-ela rhizome-associated mycobiome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>clone</INSDQualifier_name>
+            <INSDQualifier_value>G-ela1-SSU2_OTU-0-020_8</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;151</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>151</INSDInterval_to>
+            <INSDInterval_accession>MF341718.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTGCCCTTTGTCCACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACACAGTCATTTAGAGGAAGTAAAAGTCGTAACAAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctgccctttgtccacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaacacagtcatttagaggaagtaaaagtcgtaacaagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968402</INSDSeq_locus>
+    <INSDSeq_length>582</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis genes for small subunit ribosomal RNA, ITS1, 5.8S rRNA, ITS2, large subunit ribosomal RNA, partial and complete sequence, culture_collection: NBRC:105889</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968402</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968402.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968402.1|</INSDSeqid>
+      <INSDSeqid>gi|731174801</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>AB968402.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105889</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105889</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..32</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>32</INSDInterval_to>
+            <INSDInterval_accession>AB968402.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>33..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>33</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>AB968402.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..358</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>358</INSDInterval_to>
+            <INSDInterval_accession>AB968402.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCCTGTCCGAGCGTCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>359..543</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>359</INSDInterval_from>
+            <INSDInterval_to>543</INSDInterval_to>
+            <INSDInterval_accession>AB968402.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>544..&gt;582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>544</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>AB968402.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tctccgttggtgaaccagcggagggatcattatcgagttccacgactcccaaaccccctgcgaaccttaccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccacccagactctcctgtcgcagtggcatttctctccgagtcaaaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccctccgcccccgggcggcggcggggcccggcgttgggggtccacggccgcgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaacctcctcctggaagttgacctcggatcaggtagggatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968401</INSDSeq_locus>
+    <INSDSeq_length>582</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis genes for small subunit ribosomal RNA, ITS1, 5.8S rRNA, ITS2, large subunit ribosomal RNA, partial and complete sequence, culture_collection: NBRC:105888</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968401</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968401.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968401.1|</INSDSeqid>
+      <INSDSeqid>gi|731174800</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>AB968401.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105888</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105888</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..32</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>32</INSDInterval_to>
+            <INSDInterval_accession>AB968401.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>33..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>33</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>AB968401.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..358</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>358</INSDInterval_to>
+            <INSDInterval_accession>AB968401.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCCTGTCCGAGCGTCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>359..543</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>359</INSDInterval_from>
+            <INSDInterval_to>543</INSDInterval_to>
+            <INSDInterval_accession>AB968401.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>544..&gt;582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>544</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>AB968401.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tctccgttggtgaaccagcggagggatcattatcgagttccacgactcccaaaccccctgcgaaccttaccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccacccagactctcctgtcgcagtggcatttctctccgagtcaaaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccctccgcccccgggcggcggcggggcccggcgttgggggtccacggccgcgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaacctcctcctggaagttgacctcggatcaggtagggatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968400</INSDSeq_locus>
+    <INSDSeq_length>582</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis genes for small subunit ribosomal RNA, ITS1, 5.8S rRNA, ITS2, large subunit ribosomal RNA, partial and complete sequence, culture_collection: NBRC:100685</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968400</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968400.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968400.1|</INSDSeqid>
+      <INSDSeqid>gi|731174799</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..582</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>AB968400.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..32</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>32</INSDInterval_to>
+            <INSDInterval_accession>AB968400.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>33..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>33</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>AB968400.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..358</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>358</INSDInterval_to>
+            <INSDInterval_accession>AB968400.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCCTGTCCGAGCGTCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>359..543</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>359</INSDInterval_from>
+            <INSDInterval_to>543</INSDInterval_to>
+            <INSDInterval_accession>AB968400.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>544..&gt;582</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>544</INSDInterval_from>
+            <INSDInterval_to>582</INSDInterval_to>
+            <INSDInterval_accession>AB968400.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tctccgttggtgaaccagcggagggatcattatcgagttccacgactcccaaaccccctgcgaaccttaccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccacccagactctcctgtcgcagtggcatttctctccgagtcaaaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccctccgcccccgggcggcggcggggcccggcgttgggggtccacggccgcgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaacctcctcctggaagttgacctcggatcaggtagggatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968390</INSDSeq_locus>
+    <INSDSeq_length>2522</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis gene for small subunit ribosomal RNA, partial sequence, culture_collection: NBRC:105889</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968390</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968390.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968390.1|</INSDSeqid>
+      <INSDSeqid>gi|731174789</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>AB968390.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105889</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105889</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>AB968390.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTCAAAACCAATGCCCTCTGGGCTCACTGGTGATTCATGATAACTCCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGCGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATAGTCAGAGGTGAAATTCTTGGATCTATTGAAGACTAACTACTGCGAAAGCATTTGTCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTAAACCGCAGTCGCTCTGCCCCCGAAAGCAGCCGGGAAACCGGTCACTGGGTCCTTGGCCGGGAGGCCGAAGAATGCTAGTCGCCCCCCGGGGCGGCGACACCCTCCAATTGCGGGAACTCCCTAAAGCCGACTGGGACCAAGCGGGCGCCGAAAGGGCGTCCCGTGGCCGGGTTAACGACCCCGGGTACGGTAACACGCCGGTCGGATGAGCTTTACAATGGGTGATCCGCAGCCAAGCGCCTACCCGGCGAGCGCAGCAGCGCCGCCGCAGGGCGAAGGTTCAGAGACTTGACGGGGGTGGGTCCGGGGCGCCTCTGGGCGCCGCCGGGCCTAAGATGAAGTCCGTCTGCGCGCGAAAGCGCGACAGAGCCCCTCCGAAAACGGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTTGACCTTCACAGGCCTGTCATAGTGGGCCTCGTTAAAGATAACTGCTAGTCCAGCGACTTAGCCTCCGCGGGGAAGCCCCCAATGTCGGGCGGAGGAGGACCCCCCTCACGGGGCGGGGTGCCTTGTCGCGGGCGACACCACCTGGTACAGGGAACGCCGCGAGCCCAGCGATGGGGGAGCGGCCGATCCTGTGGCGAGCCCGGGCAGCGCCGGGCCGTCGCAACGCGCGCAAAGGGGTGGGCCGGGCCGCTGGACGCGGCCGGCTTAAGGTACGTGCTAATCCCGTGGGAAACCACGCTCCCGTGACTAGGCCCGACACGCCGAAGCACGGGGGGGCCGCCCGCGGGCGGCCGGCGGAGGCGGCGCCCGCGGCGGCCGCCTCGAATGCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTTCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGACTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattcaaaaccaatgccctctgggctcactggtgattcatgataactcctcgaatcgcacggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggcgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaatagtcagaggtgaaattcttggatctattgaagactaactactgcgaaagcatttgtcaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtaaaccgcagtcgctctgcccccgaaagcagccgggaaaccggtcactgggtccttggccgggaggccgaagaatgctagtcgccccccggggcggcgacaccctccaattgcgggaactccctaaagccgactgggaccaagcgggcgccgaaagggcgtcccgtggccgggttaacgaccccgggtacggtaacacgccggtcggatgagctttacaatgggtgatccgcagccaagcgcctacccggcgagcgcagcagcgccgccgcagggcgaaggttcagagacttgacgggggtgggtccggggcgcctctgggcgccgccgggcctaagatgaagtccgtctgcgcgcgaaagcgcgacagagcccctccgaaaacgggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggttgaccttcacaggcctgtcatagtgggcctcgttaaagataactgctagtccagcgacttagcctccgcggggaagcccccaatgtcgggcggaggaggacccccctcacggggcggggtgccttgtcgcgggcgacaccacctggtacagggaacgccgcgagcccagcgatgggggagcggccgatcctgtggcgagcccgggcagcgccgggccgtcgcaacgcgcgcaaaggggtgggccgggccgctggacgcggccggcttaaggtacgtgctaatcccgtgggaaaccacgctcccgtgactaggcccgacacgccgaagcacgggggggccgcccgcgggcggccggcggaggcggcgcccgcggcggccgcctcgaatgctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaacttcgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgactacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968389</INSDSeq_locus>
+    <INSDSeq_length>2522</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis gene for small subunit ribosomal RNA, partial sequence, culture_collection: NBRC:105888</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968389</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968389.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968389.1|</INSDSeqid>
+      <INSDSeqid>gi|731174788</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>AB968389.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105888</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105888</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>AB968389.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTCAAAACCAATGCCCTCTGGGCTCACTGGTGATTCATGATAACTCCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGCGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATAGTCAGAGGTGAAATTCTTGGATCTATTGAAGACTAACTACTGCGAAAGCATTTGTCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTAAACCGCAGTCGCTCTGCCCCCGAAAGCAGCCGGGAAACCGGTCACTGGGTCCTTGGCCGGGAGGCCGAAGAATGCTAGTCGCCCCCCGGGGCGGCGACACCCTCCAATTGCGGGAACTCCCTAAAGCCGACTGGGACCAAGCGGGCGCCGAAAGGGCGTCCCGTGGCCGGGTTAACGACCCCGGGTACGGTAACACGCCGGTCGGATGAGCTTTACAATGGGTGATCCGCAGCCAAGCGCCTACCCGGCGAGCGCAGCAGCGCCGCCGCAGGGCGAAGGTTCAGAGACTTGACGGGGGTGGGTCCGGGGCGCCTCTGGGCGCCGCCGGGCCTAAGATGAAGTCCGTCTGCGCGCGAAAGCGCGACAGAGCCCCTCCGAAAACGGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTTGACCTTCACAGGCCTGTCATAGTGGGCCTCGTTAAAGATAACTGCTAGTCCAGCGACTTAGCCTCCGCGGGGAAGCCCCCAATGTCGGGCGGAGGAGGACCCCCCTCACGGGGCGGGGTGCCTTGTCGCGGGCGACACCACCTGGTACAGGGAACGCCGCGAGCCCAGCGATGGGGGAGCGGCCGATCCTGTGGCGAGCCCGGGCAGCGCCGGGCCGTCGCAACGCGCGCAAAGGGGTGGGCCGGGCCGCTGGACGCGGCCGGCTTAAGGTACGTGCTAATCCCGTGGGAAACCACGCTCCCGTGACTAGGCCCGACACGCCGAAGCACGGGGGGGCCGCCCGCGGGCGGCCGGCGGAGGCGGCGCCCGCGGCGGCCGCCTCGAATGCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTTCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGACTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattcaaaaccaatgccctctgggctcactggtgattcatgataactcctcgaatcgcacggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggcgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaatagtcagaggtgaaattcttggatctattgaagactaactactgcgaaagcatttgtcaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtaaaccgcagtcgctctgcccccgaaagcagccgggaaaccggtcactgggtccttggccgggaggccgaagaatgctagtcgccccccggggcggcgacaccctccaattgcgggaactccctaaagccgactgggaccaagcgggcgccgaaagggcgtcccgtggccgggttaacgaccccgggtacggtaacacgccggtcggatgagctttacaatgggtgatccgcagccaagcgcctacccggcgagcgcagcagcgccgccgcagggcgaaggttcagagacttgacgggggtgggtccggggcgcctctgggcgccgccgggcctaagatgaagtccgtctgcgcgcgaaagcgcgacagagcccctccgaaaacgggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggttgaccttcacaggcctgtcatagtgggcctcgttaaagataactgctagtccagcgacttagcctccgcggggaagcccccaatgtcgggcggaggaggacccccctcacggggcggggtgccttgtcgcgggcgacaccacctggtacagggaacgccgcgagcccagcgatgggggagcggccgatcctgtggcgagcccgggcagcgccgggccgtcgcaacgcgcgcaaaggggtgggccgggccgctggacgcggccggcttaaggtacgtgctaatcccgtgggaaaccacgctcccgtgactaggcccgacacgccgaagcacgggggggccgcccgcgggcggccggcggaggcggcgcccgcggcggccgcctcgaatgctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaacttcgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgactacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968388</INSDSeq_locus>
+    <INSDSeq_length>2522</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps macroacicularis gene for small subunit ribosomal RNA, partial sequence, culture_collection: NBRC:100685</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968388</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968388.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968388.1|</INSDSeqid>
+      <INSDSeqid>gi|731174787</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps macroacicularis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps macroacicularis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8; Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..2522</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>AB968388.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps macroacicularis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100685</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508724</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;2522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2522</INSDInterval_to>
+            <INSDInterval_accession>AB968388.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTCAAAACCAATGCCCTCTGGGCTCACTGGTGATTCATGATAACTCCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGCGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATAGTCAGAGGTGAAATTCTTGGATCTATTGAAGACTAACTACTGCGAAAGCATTTGTCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTAAACCGCAGTCGCTCTGCCCCCGAAAGCAGCCGGGAAACCGGTCACTGGGTCCTTGGCCGGGAGGCCGAAGAATGCTAGTCGCCCCCCGGGGCGGCGACACCCTCCAATTGCGGGAACTCCCTAAAGCCGACTGGGACCAAGCGGGCGCCGAAAGGGCGTCCCGTGGCCGGGTTAACGACCCCGGGTACGGTAACACGCCGGTCGGATGAGCTTTACAATGGGTGATCCGCAGCCAAGCGCCTACCCGGCGAGCGCAGCAGCGCCGCCGCAGGGCGAAGGTTCAGAGACTTGACGGGGGTGGGTCCGGGGCGCCTCTGGGCGCCGCCGGGCCTAAGATGAAGTCCGTCTGCGCGCGAAAGCGCGACAGAGCCCCTCCGAAAACGGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTTGACCTTCACAGGCCTGTCATAGTGGGCCTCGTTAAAGATAACTGCTAGTCCAGCGACTTAGCCTCCGCGGGGAAGCCCCCAATGTCGGGCGGAGGAGGACCCCCCTCACGGGGCGGGGTGCCTTGTCGCGGGCGACACCACCTGGTACAGGGAACGCCGCGAGCCCAGCGATGGGGGAGCGGCCGATCCTGTGGCGAGCCCGGGCAGCGCCGGGCCGTCGCAACGCGCGCAAAGGGGTGGGCCGGGCCGCTGGACGCGGCCGGCTTAAGGTACGTGCTAATCCCGTGGGAAACCACGCTCCCGTGACTAGGCCCGACACGCCGAAGCACGGGGGGGCCGCCCGCGGGCGGCCGGCGGAGGCGGCGCCCGCGGCGGCCGCCTCGAATGCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTTCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGACTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGCAACTACCCCTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattcaaaaccaatgccctctgggctcactggtgattcatgataactcctcgaatcgcacggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggcgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaatagtcagaggtgaaattcttggatctattgaagactaactactgcgaaagcatttgtcaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtaaaccgcagtcgctctgcccccgaaagcagccgggaaaccggtcactgggtccttggccgggaggccgaagaatgctagtcgccccccggggcggcgacaccctccaattgcgggaactccctaaagccgactgggaccaagcgggcgccgaaagggcgtcccgtggccgggttaacgaccccgggtacggtaacacgccggtcggatgagctttacaatgggtgatccgcagccaagcgcctacccggcgagcgcagcagcgccgccgcagggcgaaggttcagagacttgacgggggtgggtccggggcgcctctgggcgccgccgggcctaagatgaagtccgtctgcgcgcgaaagcgcgacagagcccctccgaaaacgggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggttgaccttcacaggcctgtcatagtgggcctcgttaaagataactgctagtccagcgacttagcctccgcggggaagcccccaatgtcgggcggaggaggacccccctcacggggcggggtgccttgtcgcgggcgacaccacctggtacagggaacgccgcgagcccagcgatgggggagcggccgatcctgtggcgagcccgggcagcgccgggccgtcgcaacgcgcgcaaaggggtgggccgggccgctggacgcggccggcttaaggtacgtgctaatcccgtgggaaaccacgctcccgtgactaggcccgacacgccgaagcacgggggggccgcccgcgggcggccggcggaggcggcgcccgcggcggccgcctcgaatgctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaacttcgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgactacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactacccctcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

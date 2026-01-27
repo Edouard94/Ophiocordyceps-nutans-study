@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MT925106</INSDSeq_locus>
+    <INSDSeq_length>236</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-AUG-2020</INSDSeq_update-date>
+    <INSDSeq_create-date>31-AUG-2020</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps konnoana isolate OTU0780 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MT925106</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MT925106.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MT925106.1|</INSDSeqid>
+      <INSDSeqid>gi|1896502067</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps konnoana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps konnoana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..236</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiang,D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Soil fungal diversity and community composition in response to continuous sweet potato cropping practices</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..236</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiang,D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-AUG-2020) College of Resources and Environment, Qingdao Agricultural University, No. 700 the Great Wall Road, Chengyang District, Qingdao, Shandong 266109, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: mothur v. v.1.32.1 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..236</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>236</INSDInterval_to>
+            <INSDInterval_accession>MT925106.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps konnoana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>OTU0780</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>soil from demonstration garden</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:102623</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Qingdao Agricultural University, Jiaozhou City, Shandong Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>25-Sep-2016</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;236</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>236</INSDInterval_to>
+            <INSDInterval_accession>MT925106.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, and 5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttcgcaactcccaaaccccgcgcgaacgtgccccgacgttgcttcggcgggccgccccccggggcgcccgccgggggacccagagacgcatgtctgtcccatcgaattttccttccgggtgaagcgagcataaatgaatcaaaactttcaacaacggatctcttggttctggcatcg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MT924814</INSDSeq_locus>
+    <INSDSeq_length>252</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-AUG-2020</INSDSeq_update-date>
+    <INSDSeq_create-date>31-AUG-2020</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps konnoana isolate OTU0488 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MT924814</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MT924814.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MT924814.1|</INSDSeqid>
+      <INSDSeqid>gi|1896501495</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps konnoana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps konnoana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..252</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiang,D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Soil fungal diversity and community composition in response to continuous sweet potato cropping practices</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..252</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiang,D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-AUG-2020) College of Resources and Environment, Qingdao Agricultural University, No. 700 the Great Wall Road, Chengyang District, Qingdao, Shandong 266109, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: mothur v. v.1.32.1 ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..252</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>252</INSDInterval_to>
+            <INSDInterval_accession>MT924814.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps konnoana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>OTU0488</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>soil from demonstration garden</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:102623</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Qingdao Agricultural University, Jiaozhou City, Shandong Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>25-Sep-2016</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;252</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>252</INSDInterval_to>
+            <INSDInterval_accession>MT924814.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, and 5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aagtcgtaacaaggtctccgttggtgaaccagcggagggatcattacagagttgcaaaactccccaaaccatcgtgaacctttaccgctaaacagttgcttcggcgggtggccagggggcgcgcgcaagcccgcccccggccgccgagcccgccggaggaatccaaaaaaccatcgctttcagtaccggcctctctgagttactgtacttttaattaagtcaaaactttcaacaacggatctcttggttctg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB031193</INSDSeq_locus>
+    <INSDSeq_length>1643</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-JUN-2008</INSDSeq_update-date>
+    <INSDSeq_create-date>19-APR-2000</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps konnoana genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, partial and complete sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB031193</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB031193.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB031193.1|</INSDSeqid>
+      <INSDSeqid>gi|7619983</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps konnoana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps konnoana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1643</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nikoh,N.</INSDAuthor>
+          <INSDAuthor>Fukatsu,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Interkingdom host jumping underground: phylogenetic analysis of entomoparasitic fungi of the genus cordyceps</INSDReference_title>
+        <INSDReference_journal>Mol. Biol. Evol. 17 (4), 629-638 (2000)</INSDReference_journal>
+        <INSDReference_pubmed>10742053</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1643</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nikoh,N.</INSDAuthor>
+          <INSDAuthor>Fukatsu,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (17-AUG-1999) Contact:Naruo Nikoh NIBH, Insect-Parasitic Symbiotic Microorganisms Research Group; 1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1643</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1643</INSDInterval_to>
+            <INSDInterval_accession>AB031193.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps konnoana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:102623</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>synonym: Cordyceps konnoana</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..217</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>217</INSDInterval_to>
+            <INSDInterval_accession>AB031193.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTAAGCGCAAGTCATCAGCTTGCGCTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCGGGGAGGTGGGAAACCGCCACCCGGGGCCGGGAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>218..351</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>218</INSDInterval_from>
+            <INSDInterval_to>351</INSDInterval_to>
+            <INSDInterval_accession>AB031193.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>352..507</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>352</INSDInterval_from>
+            <INSDInterval_to>507</INSDInterval_to>
+            <INSDInterval_accession>AB031193.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTGATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCGCG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>508..669</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>508</INSDInterval_from>
+            <INSDInterval_to>669</INSDInterval_to>
+            <INSDInterval_accession>AB031193.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>670..&gt;1643</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>670</INSDInterval_from>
+            <INSDInterval_to>1643</INSDInterval_to>
+            <INSDInterval_accession>AB031193.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>26S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCACATTTGAAATCCGGCCCCCCCCGCGGGGGCCCGAGTTGTAACCTGCAGAGGACGCTTCGGGCGGCGGCGCCCGCCGAGTTCCCTGGGACGGGACGCCGCAGAGGGTGAGAGCCCCGTCGCGCGGACCGCCGGCCGCCCCCGTGAAGCCCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGCGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGGAAAGAGGGTTAAACAGCACGTGAAATTGTTGAAAGGGAAGCGCTCGCGACCAGACGCGGGCGCGGTGGCTCACCCGGCGCTCGTCGCCGGTGCGCTCCGCCGCGCCCGGGCCAGCATCGGCTCGCCGCGGGGGACAAAGGCGGCGGGAACGTGGCTCCCCCGGGAGTGTTACAGCCCGCCGCGCAACGCCCCGCGGCGGACCGAGGCGCGCGCGTCCGCAAGGATGCTGGCGTAATGGTCGCCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGCATGCGAGTGTTGGGGCGTCAAACCCCCGCGCGGAATGAAAGTGAACGCCGGTGAGAGCCCTCGCGGGCGCATCATCGACCGATCCCGATGTCGTCGGACGGATTTGAGTAGGAGCATGCGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTCCCGCCGAAGTTTCCCTCAGGATAGCAGCGCCGCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtaagcgcaagtcatcagcttgcgctgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccggggaggtgggaaaccgccacccggggccgggaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagcctcggctcccaagcccccgcgaaccgtacccccgagttgcctcggcggcgcgccccggcgcccgccgcagggccccgaaccacccgtcttccagcggcatgtctgagtgtcacgcacgaacgagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtgatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcgcgcacgaccctcgagcccgccggctcggtgttgggggaccggcccgggccgcccccgaaacgcagtggcgaccgcccacgcgaaccccccagcgcggaacagccgcagggcgaagggggcccgcgaggtcggtcacgccgtgaaacgacccacccagcagacgtcgacctcggatcaggtagggatacccgctgaacttaagcatatcaataagcggaggaaaagaaaccaacagggattgccccagtaacggcgagtgaagcggcaacagctcacatttgaaatccggccccccccgcgggggcccgagttgtaacctgcagaggacgcttcgggcggcggcgcccgccgagttccctgggacgggacgccgcagagggtgagagccccgtcgcgcggaccgccggccgcccccgtgaagccccttcgacgagtcgagtagtttgggaatgctgctcaaagcgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttggaaagagggttaaacagcacgtgaaattgttgaaagggaagcgctcgcgaccagacgcgggcgcggtggctcacccggcgctcgtcgccggtgcgctccgccgcgcccgggccagcatcggctcgccgcgggggacaaaggcggcgggaacgtggctcccccgggagtgttacagcccgccgcgcaacgccccgcggcggaccgaggcgcgcgcgtccgcaaggatgctggcgtaatggtcgccagcgacccgtcttgaaacacggaccaaggagtcgtcctcgcatgcgagtgttggggcgtcaaacccccgcgcggaatgaaagtgaacgccggtgagagccctcgcgggcgcatcatcgaccgatcccgatgtcgtcggacggatttgagtaggagcatgcggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagctggttcccgccgaagtttccctcaggatagcagcgccgct</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

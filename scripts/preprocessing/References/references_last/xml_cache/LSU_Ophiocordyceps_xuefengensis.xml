@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>PQ159740</INSDSeq_locus>
+    <INSDSeq_length>590</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>14-AUG-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>14-AUG-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis isolate l3 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PQ159740</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PQ159740.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PQ159740.1|</INSDSeqid>
+      <INSDSeqid>gi|2785004260</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..590</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zou,J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (09-AUG-2024) College of Biological and Food Engineering, Huaihua University, Huaidong Road 180, Huaihua, Hunan 418000, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..590</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>590</INSDInterval_to>
+            <INSDInterval_accession>PQ159740.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>l3</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;590</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>590</INSDInterval_to>
+            <INSDInterval_accession>PQ159740.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatcaggtagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ935389</INSDSeq_locus>
+    <INSDSeq_length>577</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-APR-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>01-APR-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher KUMCC 5047 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ935389</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ935389.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ935389.1|</INSDSeqid>
+      <INSDSeqid>gi|2500989975</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..577</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Yang,T.</INSDAuthor>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (06-MAY-2023) Kunming Institute of Botany, Chinese Academy of Sciences, CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Lanhei Road 132. Panlong District. Kunming, Yunnan China, KunMing, YunNan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..577</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>577</INSDInterval_to>
+            <INSDInterval_accession>OQ935389.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KUMCC 5047</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>tissue_type</INSDQualifier_name>
+            <INSDQualifier_value>culture from HKAS 126146</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T.Yang</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;577</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>577</INSDInterval_to>
+            <INSDInterval_accession>OQ935389.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatagggtagggaatacccgctgaacttaagatt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ621604</INSDSeq_locus>
+    <INSDSeq_length>4563</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>01-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis strain YFCC 16049246 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ621604</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ621604.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ621604.1|</INSDSeqid>
+      <INSDSeqid>gi|2457598161</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..4563</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sun,T.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Comparative Analysis of Mitochondrial Genomes of Ophiocordyceps (Ophiocordycipitaceae, Hypocreales) and Mitogenomics, Phylogeny and Morphology Reveal Two Novel Ophiocordyceps spp</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..4563</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sun,T.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-MAR-2023) Yunnan Herbal Laboratory, School of Ecology and Environmental Science, Yunnan University, South Section, East Outer Ring Road, Chenggong District, Kunming 650500, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..4563</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>4563</INSDInterval_to>
+            <INSDInterval_accession>OQ621604.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>YFCC 16049246</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;4563</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>4563</INSDInterval_to>
+            <INSDInterval_accession>OQ621604.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCCCGCCCGCGGGGCCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCTAGCCTCTGTAAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAACGGGAGGTATATGTCTTCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACTTGGGCGCGGCGAATCATCCGGCGTTCTCGCCGGTGCACTTCGCCGCGCCCGGGCCAGCATCAGTTCGCGGCGGGGGACAAAGGCGCCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACTGAGGTTCGCGCATCCGCAAGGATGCTGGCGTAATGGTCACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCACGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTTCCGCCGAAGTTTCCCTCAGGATAGCAGTGTCGATCTCAGTTTTATGAGGTAAAGCGAATGATTAGGGACCCGGGGGCGCTCTTTAGCCTTCATCCATTCTCAAACTTTAAATATGTAAGAAGCCCTTGTTGCTTAATTGAACGTGGGCATTCGAATGTATCGACACTAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGAACGCGAGGTTAAGGTGCCGGAGTGGACGCTCATCAGACACCACAAAAGGCGTTAGTACATCTTGACAGCAGGACGGTGGCCATGGAAGTCGGAATCCGCTAAGGACTGTGTAACAACTCACCTGCCGAATGTACTAGCCCTGAAAATGGATGGCGCTCAAGCGTCCCACCCATACCTCGCCCTCGGGGTAGAAACGATGCCCCGAGGAGTAGGCGGACGTGGGGGTCTGTGACGAAGCCCAGGGCGCGAGCCCGGGTCGAACGGCCCCCAGTGCAGATCTTGGTGGTAGTAGCAAATACTTCAATGAGAACTTGAAGGACCGAAGTGGGGAAAGGTTCCATGTGAACAGCGGTTGGACATGGGTCAGTCGATCCTAAGCCATAGGGAAGTTCCGTTTCAAAGGCGCACTCGCGCGCCGTCTGGCGAAAGGGGAGCCGGTCAATATTCCGGCACCTGGATGTGGGTTTTGCGCGGCAACGCAACCGAACGCGGAGACGACGGCGGGGGCCCCGGGCAGAGTTCTCTTTTCTTCTTAACGGTCTCTCACCCTGAAATCGGTTTGTCCGGAGCTAGGGTTTAATGGCCGGAAGAGCCCAGCACCTCTGCTGGGTCTGGTGCGCCCCCGACGTCCCTTGAAAATCCGCGGGAGGGAATAATTCTCACGCCAGGTCGTACTCATAACCGCAGCAGGTCTCCAAGGTGAACAGCCTCTGGTTGATAGAACAATGTAGATAAGGGAAGTCGGCAAAATAGATCCGTAACTTCGGGATAAGGATTGGCTCTAAGGGTTGGGCACGTTGGGCCTTGGACGGACGCCTTGGGAGCAGGCCACCACTAGCCGGGCAACCGGCCGGCGGCGGCCAGCATCCGAGCGCCGATGTCCTTGGCAGGCCTCGGCCGTCCGGCGTGCGGTTAACAACCAACTTAGAACTGGTACGGACAGGGGGAATCTGACTGTCTAATTAAAACATAGCATTGCGATGGCCAGAAAGTGGTGTTGACGCAATGTGATTTCTGCCCAGTGCTCTGAATGTCAAAGTGAAGTAATTCAACCAAGCGCGGGTAAACGGCGGGAGTAACTATGACTCGAGAAGAAGATGGCATCCGGGGACGACCGACCGTCGTCCTCACTTTCCTTTGAGAGGGTCAAGCAGCGTGAAAGGCGCCTGCTAGTGGGAGGCCGCCAGGCCCCCGCGACATCGTCAAATTGCGGGGAGTTCCTAAAGCCGTGTGCTACCAAGCGGGCGCCGAAAGGTGCCCGTGGCCGGGGTAATGACCTAGGGTACGGTAACAACGCACCGGATGGAAGACAATGGATGATCCGCAGCCAAGTCCTACCTCCCCCGGCCCAGGGGGACAGGGATGCAGTTCAACGACTAAATGGCGATGGGTCCCGCGCCCAGGACGCGGCCTGCGTAGCTGGCGCGGGGCTTAAGATATAGTCTCGCCCCCCGCGAAAGCGGACGGGCTCCAAGAGCTCTTAAGGTAGCCAAATGCCTCGTCATCTAATTAGTGACGCGCATGAATGGATTAACGAGATTCCCACTGTCCCTATCTACTATCTAGCGAAACCACAGCCAAGGGAACGGGCTTGGCAGAATCAGCGGGGAAAGAAGACCCTGAGAGCAGCTCAACGGGGTCGAAAACGGCGGGGCGCGCGCGCCCCCCCGTTAGTCCAGCGGCCACACCGCTGCAGGTGGCCGCGGGCGAGACAACCTGGTACGGGGGAGCCTAAGGGCGCCTCTCCCCGAGAGGCGCCTACGGTAATCCCGTGGCGAGCCCCCCCCTTCTGGCGGGGCCGTCGTAACGCGCGGCAAGGTGTCGGTCCCGGGCAGGCGTCGCCGCCGCCCCGGGGCTTAAGGTACGTGCTAATCCCAGGCGAAAGCCTGCGCCCAGTCGGAGCGCCTGCAGCGCGAACTCTGGGCGGGCCGCCACCACGCGTGGCCGGCCGGCGAGGAAATGGTTGAGCTTGACTCTAGTTTGACATTGTGAAAAGACATAGGAGGTGTAGAATAGGTGGGAGCTTCGGCGCCGGTGAAATACCACTACTCCTATTGTTTTTTTACTTATTCAATGAAGCGGGGCTGGATTTTCGTCCAACTTCTGGTCTTAAGGTCCTCCGCGGGCCGACCCGGGTTGAAGACATTGTCAGGTGGGGAGTTTGGCTGGGGCGGCACATCTGTTAAACCATAACGCAGGTGTCCTAAGGGGGGCTCATGGAGAACAGAAATCTCCAGTAGAACAAAAGGGTAAAAGTCCCCTTGATTTTGATTTTCAGTGTGAATACAAACCATGAAAGTGTGGCCTATCGATCCTTTAGTCCCTCGACATTTGAGGCTAGAGGTGCCAGAAAAGTTACCACAGGGATTAACTGTTCCAGCCCCTCGCAGCGGGCCGCCGCTACGTGGCACGTGCCGCGCGGGGTCGATCCCGCTGCGAGTGAAGCGAACCACACGTCCCAGGCCCGGTCTCATCAGCCGCGGCCTAGTCCCCCGCCCGCCGCCATGGCACTGGCGGGCGGGGGGCAACACACCTGGATGCGGGGAACTCTCGCGAGGGTTGCAGTACCAAGCGCTGGCGGTAACGCCCCAGCGTTCCGGAGATGCGGGCATGGTAATAATCTGCAACATAGAGACAATCCGCAGCCGAGCTGGCTGCCCCCGGGAACGGGGGGTGCTGGCCGGTTCAACGCTCGCTAAGGTGTGGGTCGCGGGCTCCCGACTCGGAGCCCGCGGCTTAAGGTACGGGCTACGCCCACCCGAGAGGGTGATGTCGTCTACCGGTAGTGCAGACCGAGAAGCGGCATGCGCCGGGTGGGGGGGCTTCCTCCCCCCGGCAGGGTATCACGGAACTGGCTTGTGGCGGCCAAGCGTTCATAGCGACGTCGCTTTTTGATCCTTCGATGTCGGCTCTTCCTATCATACCGAAGCAGAATTCGGTAAGCGTTGGATTGTTCACCCACTAATAGGGAACGTGAGCTGGGTTTAGACCGTCGTGAGACAGGTTAGTTTTACCCTACTGATGAACTCGCCGCAATGGTAATTCAGCTTAGTACGAGAGGAACCGCTGATTCAGATAATTGGTTTTTGCGGCTGTCCGACCGGGCAGTGCCGCGAAGCTACCATCTGCTGGATAATGGCTGAACGCCTCTAAGTCAGAATCCATGCCAGAACGCGGCGATACCGCCCGCACGTATAGATGGACAAGAATAGGCTCCGGCTTAGCGTCTTAGCAGGCGATTCCTCCGCGGCGCCCGAAGCGCGTCGCGGTAATTCGCGTATTGTAATTTCAGCACGAGCGGGGTCAAATCCTTTGCAGACGACTTAGCTGTGCGAAACGGTCCTGTAAGCAGTAGAGTAGCCTTGTTGTTACGATCTGCTGAGGGTAAGCCGTCCTTCGCCTCGATTTCCCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agttgacctcggatcaggtagggatacccgctgaacttaagcatatcaataagcggaggaaaagaaaccaacagggattgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggcccccgcccgcggggcccgagttgtaatttgcagaggatgcttttggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgcctagcctctgtaaagctccttcgacgagtcgagtagtttgggaatgctgctctaaacgggaggtatatgtcttctaaagctaaatattggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgcttgtgaccagacttgggcgcggcgaatcatccggcgttctcgccggtgcacttcgccgcgcccgggccagcatcagttcgcggcgggggacaaaggcgccgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggactgaggttcgcgcatccgcaaggatgctggcgtaatggtcaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcacggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagctggtttccgccgaagtttccctcaggatagcagtgtcgatctcagttttatgaggtaaagcgaatgattagggacccgggggcgctctttagccttcatccattctcaaactttaaatatgtaagaagcccttgttgcttaattgaacgtgggcattcgaatgtatcgacactagtgggccatttttggtaagcagaactggcgatgcgggatgaaccgaacgcgaggttaaggtgccggagtggacgctcatcagacaccacaaaaggcgttagtacatcttgacagcaggacggtggccatggaagtcggaatccgctaaggactgtgtaacaactcacctgccgaatgtactagccctgaaaatggatggcgctcaagcgtcccacccatacctcgccctcggggtagaaacgatgccccgaggagtaggcggacgtgggggtctgtgacgaagcccagggcgcgagcccgggtcgaacggcccccagtgcagatcttggtggtagtagcaaatacttcaatgagaacttgaaggaccgaagtggggaaaggttccatgtgaacagcggttggacatgggtcagtcgatcctaagccatagggaagttccgtttcaaaggcgcactcgcgcgccgtctggcgaaaggggagccggtcaatattccggcacctggatgtgggttttgcgcggcaacgcaaccgaacgcggagacgacggcgggggccccgggcagagttctcttttcttcttaacggtctctcaccctgaaatcggtttgtccggagctagggtttaatggccggaagagcccagcacctctgctgggtctggtgcgcccccgacgtcccttgaaaatccgcgggagggaataattctcacgccaggtcgtactcataaccgcagcaggtctccaaggtgaacagcctctggttgatagaacaatgtagataagggaagtcggcaaaatagatccgtaacttcgggataaggattggctctaagggttgggcacgttgggccttggacggacgccttgggagcaggccaccactagccgggcaaccggccggcggcggccagcatccgagcgccgatgtccttggcaggcctcggccgtccggcgtgcggttaacaaccaacttagaactggtacggacagggggaatctgactgtctaattaaaacatagcattgcgatggccagaaagtggtgttgacgcaatgtgatttctgcccagtgctctgaatgtcaaagtgaagtaattcaaccaagcgcgggtaaacggcgggagtaactatgactcgagaagaagatggcatccggggacgaccgaccgtcgtcctcactttcctttgagagggtcaagcagcgtgaaaggcgcctgctagtgggaggccgccaggcccccgcgacatcgtcaaattgcggggagttcctaaagccgtgtgctaccaagcgggcgccgaaaggtgcccgtggccggggtaatgacctagggtacggtaacaacgcaccggatggaagacaatggatgatccgcagccaagtcctacctcccccggcccagggggacagggatgcagttcaacgactaaatggcgatgggtcccgcgcccaggacgcggcctgcgtagctggcgcggggcttaagatatagtctcgccccccgcgaaagcggacgggctccaagagctcttaaggtagccaaatgcctcgtcatctaattagtgacgcgcatgaatggattaacgagattcccactgtccctatctactatctagcgaaaccacagccaagggaacgggcttggcagaatcagcggggaaagaagaccctgagagcagctcaacggggtcgaaaacggcggggcgcgcgcgcccccccgttagtccagcggccacaccgctgcaggtggccgcgggcgagacaacctggtacgggggagcctaagggcgcctctccccgagaggcgcctacggtaatcccgtggcgagccccccccttctggcggggccgtcgtaacgcgcggcaaggtgtcggtcccgggcaggcgtcgccgccgccccggggcttaaggtacgtgctaatcccaggcgaaagcctgcgcccagtcggagcgcctgcagcgcgaactctgggcgggccgccaccacgcgtggccggccggcgaggaaatggttgagcttgactctagtttgacattgtgaaaagacataggaggtgtagaataggtgggagcttcggcgccggtgaaataccactactcctattgtttttttacttattcaatgaagcggggctggattttcgtccaacttctggtcttaaggtcctccgcgggccgacccgggttgaagacattgtcaggtggggagtttggctggggcggcacatctgttaaaccataacgcaggtgtcctaaggggggctcatggagaacagaaatctccagtagaacaaaagggtaaaagtccccttgattttgattttcagtgtgaatacaaaccatgaaagtgtggcctatcgatcctttagtccctcgacatttgaggctagaggtgccagaaaagttaccacagggattaactgttccagcccctcgcagcgggccgccgctacgtggcacgtgccgcgcggggtcgatcccgctgcgagtgaagcgaaccacacgtcccaggcccggtctcatcagccgcggcctagtcccccgcccgccgccatggcactggcgggcggggggcaacacacctggatgcggggaactctcgcgagggttgcagtaccaagcgctggcggtaacgccccagcgttccggagatgcgggcatggtaataatctgcaacatagagacaatccgcagccgagctggctgcccccgggaacggggggtgctggccggttcaacgctcgctaaggtgtgggtcgcgggctcccgactcggagcccgcggcttaaggtacgggctacgcccacccgagagggtgatgtcgtctaccggtagtgcagaccgagaagcggcatgcgccgggtgggggggcttcctccccccggcagggtatcacggaactggcttgtggcggccaagcgttcatagcgacgtcgctttttgatccttcgatgtcggctcttcctatcataccgaagcagaattcggtaagcgttggattgttcacccactaatagggaacgtgagctgggtttagaccgtcgtgagacaggttagttttaccctactgatgaactcgccgcaatggtaattcagcttagtacgagaggaaccgctgattcagataattggtttttgcggctgtccgaccgggcagtgccgcgaagctaccatctgctggataatggctgaacgcctctaagtcagaatccatgccagaacgcggcgataccgcccgcacgtatagatggacaagaataggctccggcttagcgtcttagcaggcgattcctccgcggcgcccgaagcgcgtcgcggtaattcgcgtattgtaatttcagcacgagcggggtcaaatcctttgcagacgacttagctgtgcgaaacggtcctgtaagcagtagagtagccttgttgttacgatctgctgagggtaagccgtccttcgcctcgatttcccc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KY454626</INSDSeq_locus>
+    <INSDSeq_length>599</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-NOV-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>27-NOV-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher MHHNU 7966-CS 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KY454626</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KY454626.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KY454626.1|</INSDSeqid>
+      <INSDSeqid>gi|1279593054</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..599</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zou,J.</INSDAuthor>
+          <INSDAuthor>Wu,L.</INSDAuthor>
+          <INSDAuthor>He,Z.M.</INSDAuthor>
+          <INSDAuthor>Zhang,P.</INSDAuthor>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Determination of the Main Nucleosides and Nucleobases in Natural and Cultured Ophiocordyceps xuefengensis</INSDReference_title>
+        <INSDReference_journal>Molecules 22 (9), 1530 (2017)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3390/molecules22091530</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>28891979</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..599</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+          <INSDAuthor>Zhang,P.</INSDAuthor>
+          <INSDAuthor>He,Z.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JAN-2017) College of Life Science, Hunan Normal University, Lushan Road No. 36, Changsha, Hunan 410081, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..599</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>599</INSDInterval_to>
+            <INSDInterval_accession>KY454626.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MHHNU 7966-CS</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>cultured stroma</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;599</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>599</INSDInterval_to>
+            <INSDInterval_accession>KY454626.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagtgacctcggatcagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KY454625</INSDSeq_locus>
+    <INSDSeq_length>618</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-NOV-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>27-NOV-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher MHHNU 7966-WS 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KY454625</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KY454625.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KY454625.1|</INSDSeqid>
+      <INSDSeqid>gi|1279593053</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..618</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zou,J.</INSDAuthor>
+          <INSDAuthor>Wu,L.</INSDAuthor>
+          <INSDAuthor>He,Z.M.</INSDAuthor>
+          <INSDAuthor>Zhang,P.</INSDAuthor>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Determination of the Main Nucleosides and Nucleobases in Natural and Cultured Ophiocordyceps xuefengensis</INSDReference_title>
+        <INSDReference_journal>Molecules 22 (9), 1530 (2017)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3390/molecules22091530</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>28891979</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..618</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+          <INSDAuthor>Zhang,P.</INSDAuthor>
+          <INSDAuthor>He,Z.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JAN-2017) College of Life Science, Hunan Normal University, Lushan Road No. 36, Changsha, Hunan 410081, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..618</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>618</INSDInterval_to>
+            <INSDInterval_accession>KY454625.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MHHNU 7966-WS</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>wild stroma</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;618</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>618</INSDInterval_to>
+            <INSDInterval_accession>KY454625.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagtgacctcggatcaggtaggaaaccacgaactcct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF375109</INSDSeq_locus>
+    <INSDSeq_length>602</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>30-JUN-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>30-JUN-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis strain HACM 001 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF375109</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF375109.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF375109.1|</INSDSeqid>
+      <INSDSeqid>gi|1210069547</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..602</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zhang,S.H.</INSDAuthor>
+          <INSDAuthor>Jin,J.</INSDAuthor>
+          <INSDAuthor>Zhong,C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-JUN-2017) Institute of Chinese Materia Medica, Hunan Academy of Chinese Medicine, 8, Road YueHua, Changsha, Hunan 410013, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..602</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>602</INSDInterval_to>
+            <INSDInterval_accession>MF375109.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>HACM 001</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;602</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>602</INSDInterval_to>
+            <INSDInterval_accession>MF375109.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatcaggtagggatacccgctgaacttaagcatatcaaaaagcggaggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX090288</INSDSeq_locus>
+    <INSDSeq_length>612</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>18-JUN-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>18-JUN-2016</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis strain CCTCC M 2015777 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX090288</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX090288.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX090288.1|</INSDSeqid>
+      <INSDSeqid>gi|1036124970</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..612</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Cui,P.</INSDAuthor>
+          <INSDAuthor>Wang,W.</INSDAuthor>
+          <INSDAuthor>Liu,S.</INSDAuthor>
+          <INSDAuthor>Liao,Y.</INSDAuthor>
+          <INSDAuthor>Chen,L.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Molecular identification of Ophiocordyceps xuefengensis through 28S rDNA analysis</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..612</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Cui,P.</INSDAuthor>
+          <INSDAuthor>Wang,W.</INSDAuthor>
+          <INSDAuthor>Liu,S.</INSDAuthor>
+          <INSDAuthor>Liao,Y.</INSDAuthor>
+          <INSDAuthor>Chen,L.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-APR-2016) College of Pharmacy, Hunan University of Chinese Medicine, No. 300 of Xueshi Road in Yuelu District, Changsha, Hunan 410208, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..612</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>612</INSDInterval_to>
+            <INSDInterval_accession>KX090288.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CCTCC M 2015777</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: 28s-f, fwd_seq: gcatatcggtaagcggaggaaaag, rev_name: 28s-r, rev_seq: ggtccgtgtttcaagacgg</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;612</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>612</INSDInterval_to>
+            <INSDInterval_accession>KX090288.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGCATATCGGTAAGCGGAGGAAAAGAAACCAACAGGGATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCCCGCCCGCGGGGCCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCTAGCCTCTGTAAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAACGGGAGGTATATGTCTTCTAAAGCTAAATATTGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACTTGGGCGCGGCGAATCATCCGGCGTTCTCGCCGGTGCGCTTCGCCGCGCCCGGGCCAGCATCAGTTCGCGGCGGGGGACAAAGGCGCCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACTGAGGTTCGCGCATCCGCAAGGATGCTGGCGTAATGGTCACCAGTGACCCGTCTTGAAACACGGAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgcatatcggtaagcggaggaaaagaaaccaacagggattgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggcccccgcccgcggggcccgagttgtaatttgcagaggatgcttttggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgcctagcctctgtaaagctccttcgacgagtcgagtagtttgggaatgctgctctaaacgggaggtatatgtcttctaaagctaaatattggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgcttgtgaccagacttgggcgcggcgaatcatccggcgttctcgccggtgcgcttcgccgcgcccgggccagcatcagttcgcggcgggggacaaaggcgccgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggactgaggttcgcgcatccgcaaggatgctggcgtaatggtcaccagtgacccgtcttgaaacacggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KU356800</INSDSeq_locus>
+    <INSDSeq_length>618</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>21-MAR-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>21-MAR-2016</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher MHHNU 7966 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KU356800</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KU356800.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KU356800.1|</INSDSeqid>
+      <INSDSeqid>gi|1006164945</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..618</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zou,J.</INSDAuthor>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Determination of nine main nucleosides and bases in natural and cultured Ophiocordyceps xuefengensis</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..618</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+          <INSDAuthor>Zou,J.</INSDAuthor>
+          <INSDAuthor>He,Z.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-DEC-2015) College of Life Science, Hunan Normal University, Lushan road No. 36, Changsha, Hunan 410081, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..618</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>618</INSDInterval_to>
+            <INSDInterval_accession>KU356800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MHHNU 7966</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Xuefeng Mountain, Hunan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;618</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>618</INSDInterval_to>
+            <INSDInterval_accession>KU356800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggttgaaagtaaaaaaagcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatcaggtaggaatcataaac</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC631804</INSDSeq_locus>
+    <INSDSeq_length>607</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-AUG-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>25-AUG-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher GZUHHN13 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC631804</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC631804.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC631804.1|</INSDSeqid>
+      <INSDSeqid>gi|531874260</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..607</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Zhu,R.-C.</INSDAuthor>
+          <INSDAuthor>Kang,J.-C.</INSDAuthor>
+          <INSDAuthor>Huang,M.-H.</INSDAuthor>
+          <INSDAuthor>Tan,D.-B.</INSDAuthor>
+          <INSDAuthor>Ariyawansha,H.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Liu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps xuefengensis sp. nov., from larvae of Phassus nodus (Hepialidae) in Hunan Province, southern China</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 123 (1), 41-50 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..607</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Kang,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-FEB-2013) Engineering Research Center of Southwest Bio-Pharmaceutical Resources Ministry of Education, Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: SEQMAN v. SEQMAN II ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..607</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>607</INSDInterval_to>
+            <INSDInterval_accession>KC631804.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Phassus nodus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>GZUHHN13</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Hunan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..31</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>31</INSDInterval_to>
+            <INSDInterval_accession>KC631804.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGGAAGTAAAAAGTTGTAACAAGGTCTCCGT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>32..190</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>32</INSDInterval_from>
+            <INSDInterval_to>190</INSDInterval_to>
+            <INSDInterval_accession>KC631804.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>191..369</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>191</INSDInterval_from>
+            <INSDInterval_to>369</INSDInterval_to>
+            <INSDInterval_accession>KC631804.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GCATCTCTCTCCGAGTCAAGAAAACAAGCAAATGAATCAAAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>370..560</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>370</INSDInterval_from>
+            <INSDInterval_to>560</INSDInterval_to>
+            <INSDInterval_accession>KC631804.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>561..&gt;607</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>561</INSDInterval_from>
+            <INSDInterval_to>607</INSDInterval_to>
+            <INSDInterval_accession>KC631804.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTAAAACAAACCTCCTCCTGGAAGTTGACCTCGGATCAGTAGTCCCG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaagttgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatcagtagtcccg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC631803</INSDSeq_locus>
+    <INSDSeq_length>602</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-AUG-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>25-AUG-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher GZUH2012HN19 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC631803</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC631803.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC631803.1|</INSDSeqid>
+      <INSDSeqid>gi|531874259</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..602</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Zhu,R.-C.</INSDAuthor>
+          <INSDAuthor>Kang,J.-C.</INSDAuthor>
+          <INSDAuthor>Huang,M.-H.</INSDAuthor>
+          <INSDAuthor>Tan,D.-B.</INSDAuthor>
+          <INSDAuthor>Ariyawansha,H.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Liu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps xuefengensis sp. nov., from larvae of Phassus nodus (Hepialidae) in Hunan Province, southern China</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 123 (1), 41-50 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..602</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Kang,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-FEB-2013) Engineering Research Center of Southwest Bio-Pharmaceutical Resources Ministry of Education, Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: SEQMAN v. SEQMAN II ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..602</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>602</INSDInterval_to>
+            <INSDInterval_accession>KC631803.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Phassus nodus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>GZUH2012HN19</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Hunan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>20-Oct-2012</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..33</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>33</INSDInterval_to>
+            <INSDInterval_accession>KC631803.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGGAAGTAAAAAGTCGTAACAAGGTCTCCGTTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>34..192</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>34</INSDInterval_from>
+            <INSDInterval_to>192</INSDInterval_to>
+            <INSDInterval_accession>KC631803.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>193..371</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>193</INSDInterval_from>
+            <INSDInterval_to>371</INSDInterval_to>
+            <INSDInterval_accession>KC631803.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATCTCTCTCCGAGTCAAGAAAACAAGCAAATGAATCAAAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>372..562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>372</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>KC631803.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>563..&gt;602</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>563</INSDInterval_from>
+            <INSDInterval_to>602</INSDInterval_to>
+            <INSDInterval_accession>KC631803.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACAAACCTCCTCCTGGAAGTTGACCTCGGATCAGGTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatcaggta</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC631802</INSDSeq_locus>
+    <INSDSeq_length>591</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-AUG-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>25-AUG-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher GZUH2012HN14 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC631802</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC631802.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC631802.1|</INSDSeqid>
+      <INSDSeqid>gi|531874258</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..591</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Zhu,R.-C.</INSDAuthor>
+          <INSDAuthor>Kang,J.-C.</INSDAuthor>
+          <INSDAuthor>Huang,M.-H.</INSDAuthor>
+          <INSDAuthor>Tan,D.-B.</INSDAuthor>
+          <INSDAuthor>Ariyawansha,H.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Liu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps xuefengensis sp. nov., from larvae of Phassus nodus (Hepialidae) in Hunan Province, southern China</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 123 (1), 41-50 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..591</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Kang,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-FEB-2013) Engineering Research Center of Southwest Bio-Pharmaceutical Resources Ministry of Education, Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: SEQMAN v. SEQMAN II ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..591</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>591</INSDInterval_to>
+            <INSDInterval_accession>KC631802.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Phassus nodus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>GZUH2012HN14</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Hunan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>20-Oct-2012</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..32</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>32</INSDInterval_to>
+            <INSDInterval_accession>KC631802.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGGAAGTAAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>33..191</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>33</INSDInterval_from>
+            <INSDInterval_to>191</INSDInterval_to>
+            <INSDInterval_accession>KC631802.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>192..370</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>192</INSDInterval_from>
+            <INSDInterval_to>370</INSDInterval_to>
+            <INSDInterval_accession>KC631802.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CATCTCTCTCCGAGTCAAGAAAACAAGCAAATGAATCAAAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>371..561</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>371</INSDInterval_from>
+            <INSDInterval_to>561</INSDInterval_to>
+            <INSDInterval_accession>KC631802.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>562..&gt;591</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>562</INSDInterval_from>
+            <INSDInterval_to>591</INSDInterval_to>
+            <INSDInterval_accession>KC631802.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TAAAACAAACCTCCTCCTGGAAGTTGACCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC631801</INSDSeq_locus>
+    <INSDSeq_length>584</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-AUG-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>25-AUG-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher GZUH2012HN13 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC631801</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC631801.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC631801.1|</INSDSeqid>
+      <INSDSeqid>gi|531874257</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Zhu,R.-C.</INSDAuthor>
+          <INSDAuthor>Kang,J.-C.</INSDAuthor>
+          <INSDAuthor>Huang,M.-H.</INSDAuthor>
+          <INSDAuthor>Tan,D.-B.</INSDAuthor>
+          <INSDAuthor>Ariyawansha,H.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Liu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps xuefengensis sp. nov., from larvae of Phassus nodus (Hepialidae) in Hunan Province, southern China</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 123 (1), 41-50 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Kang,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-FEB-2013) Engineering Research Center of Southwest Bio-Pharmaceutical Resources Ministry of Education, Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: SEQMAN v. SEQMAN II ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KC631801.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Phassus nodus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>GZUH2012HN13</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Hunan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>20-Oct-2012</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..33</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>33</INSDInterval_to>
+            <INSDInterval_accession>KC631801.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGGAAGTAAAAAGTCGTAACAAGGTCTCCGTTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>34..192</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>34</INSDInterval_from>
+            <INSDInterval_to>192</INSDInterval_to>
+            <INSDInterval_accession>KC631801.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>193..371</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>193</INSDInterval_from>
+            <INSDInterval_to>371</INSDInterval_to>
+            <INSDInterval_accession>KC631801.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATCTCTCTCCGAGTCAAGAAAACAAGCAAATGAATCAAAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>372..562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>372</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>KC631801.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>563..&gt;584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>563</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KC631801.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACAAACCTCCTCCTGGAAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC631800</INSDSeq_locus>
+    <INSDSeq_length>601</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-AUG-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>25-AUG-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps xuefengensis voucher GZUH2012HN11 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC631800</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC631800.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC631800.1|</INSDSeqid>
+      <INSDSeqid>gi|531874256</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps xuefengensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps xuefengensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..601</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Zhu,R.-C.</INSDAuthor>
+          <INSDAuthor>Kang,J.-C.</INSDAuthor>
+          <INSDAuthor>Huang,M.-H.</INSDAuthor>
+          <INSDAuthor>Tan,D.-B.</INSDAuthor>
+          <INSDAuthor>Ariyawansha,H.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Liu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps xuefengensis sp. nov., from larvae of Phassus nodus (Hepialidae) in Hunan Province, southern China</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 123 (1), 41-50 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..601</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Kang,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-FEB-2013) Engineering Research Center of Southwest Bio-Pharmaceutical Resources Ministry of Education, Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: SEQMAN v. SEQMAN II ; Sequencing Technology :: 454 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..601</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>601</INSDInterval_to>
+            <INSDInterval_accession>KC631800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps xuefengensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Phassus nodus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>GZUH2012HN11</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1379400</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Hunan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>20-Oct-2012</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..31</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>31</INSDInterval_to>
+            <INSDInterval_accession>KC631800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGAAGTAAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>32..190</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>32</INSDInterval_from>
+            <INSDInterval_to>190</INSDInterval_to>
+            <INSDInterval_accession>KC631800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>191..369</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>191</INSDInterval_from>
+            <INSDInterval_to>369</INSDInterval_to>
+            <INSDInterval_accession>KC631800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CATCTCTCTCCGAGTCAAGAAAACAAGCAAATGAATCAAAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>370..560</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>370</INSDInterval_from>
+            <INSDInterval_to>560</INSDInterval_to>
+            <INSDInterval_accession>KC631800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>561..&gt;601</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>561</INSDInterval_from>
+            <INSDInterval_to>601</INSDInterval_to>
+            <INSDInterval_accession>KC631800.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TAAAACAAACCTCCTCCTGGAAGTTGACCTCGGATCAGGTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggaagtaaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttcacaagactcccaaacccccctgcgaaccataccacacgcgttgcctcggcgggaccgccccggcgccccagcggcccggaccaaggcgcccgccggaggaccatcccagaccctcctgtcgcagtggcatctctctccgagtcaagaaaacaagcaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccccgccgccagccctccccgggcgggcggcgcggggctcggcgttgggggtttccacggccccgagccgcccccgaaatgcagtggcgaccccgccgcggcctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaaacctcctcctggaagttgacctcggatcaggta</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

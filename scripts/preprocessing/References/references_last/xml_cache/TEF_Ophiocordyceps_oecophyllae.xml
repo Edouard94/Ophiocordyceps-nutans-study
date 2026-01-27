@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OR723732</INSDSeq_locus>
+    <INSDSeq_length>740</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-NOV-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-NOV-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps oecophyllae strain BRIP 62635a translation elongation factor 1-alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>OR723732</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OR723732.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OR723732.1|</INSDSeqid>
+      <INSDSeqid>gi|2616378410</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps oecophyllae</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps oecophyllae</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..740</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Tan,Y.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (21-OCT-2023) QLD Department of Agriculture &amp; Fishieries, Queensland Plant Pathology Herbarium, 41 Boggo Road, Dutton Park, Queensland 4102, Australia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..740</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>740</INSDInterval_to>
+            <INSDInterval_accession>OR723732.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps oecophyllae</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>BRIP 62635a</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Oecophylla smaragdina</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2030792</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Australia: Queensland</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps oecophyllae</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;740</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>740</INSDInterval_to>
+            <INSDInterval_accession>OR723732.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCAAGAACATGATTACTGGCACCTCCCAGGCCGACTGCGCCATTCTCATCATCGCTGCCGGCACTGGTGAGTTTGAGGCGGGTATCTCCAAGGATGGCCAGACTCGCGAGCACGCTCTGCTCGCCTACACTCTGGGTGTCAAGCAGCTCATCGTCGCTATTAACAAGATGGACACCACCCAGTGGTCCGAGTCTCGTTTCCAGGAAATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACGGTCCCCTTTGTTCCCATTTCCGGTTTCCACGGCGACAACATGCTGGCTGCCTCGTCCAACTGCCCTTGGTACAAGGGTTGGGAGAAGGAGACCAAGGGCGGCAAGTCTACGGGTAAGACTCTGCTCGAGGCTATCGACTCCATCGAGCCCCCGAAGCGCCCCGTCGACAAGCCGCTGCGCCTGCCCCTCCAGGATGTGTACAAGATTGGCGGTATCGGCACAGTCCCCGTCGGCCGTATCGAGACCGGTGTCCTCAAGCCTGGCATGGTCGTCACGTTCGCCCCCTCCAACGTCACGACTGAGGTCAAGTCGGTCGAAATGCACCACGAGCAGCTTCAGGAGGGTGTCCCCGGCGACAACGTTGGCTTCAACGTGAAGAACGTCTCTGTCAAGGACATCCGCCGCGGCAATGTTGCCGGAGACTCCAAGAATGACCCTCCTATGGGTGCCGCCTCTTTTGACGCCCAGGTCATCGTCCTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;740</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>740</INSDInterval_to>
+            <INSDInterval_accession>OR723732.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>3</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>WOW16303.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>KNMITGTSQADCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTQWSESRFQEIIKETSNFIKKVGYNPKTVPFVPISGFHGDNMLAASSNCPWYKGWEKETKGGKSTGKTLLEAIDSIEPPKRPVDKPLRLPLQDVYKIGGIGTVPVGRIETGVLKPGMVVTFAPSNVTTEVKSVEMHHEQLQEGVPGDNVGFNVKNVSVKDIRRGNVAGDSKNDPPMGAASFDAQVIVL</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcaagaacatgattactggcacctcccaggccgactgcgccattctcatcatcgctgccggcactggtgagtttgaggcgggtatctccaaggatggccagactcgcgagcacgctctgctcgcctacactctgggtgtcaagcagctcatcgtcgctattaacaagatggacaccacccagtggtccgagtctcgtttccaggaaatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagacggtcccctttgttcccatttccggtttccacggcgacaacatgctggctgcctcgtccaactgcccttggtacaagggttgggagaaggagaccaagggcggcaagtctacgggtaagactctgctcgaggctatcgactccatcgagcccccgaagcgccccgtcgacaagccgctgcgcctgcccctccaggatgtgtacaagattggcggtatcggcacagtccccgtcggccgtatcgagaccggtgtcctcaagcctggcatggtcgtcacgttcgccccctccaacgtcacgactgaggtcaagtcggtcgaaatgcaccacgagcagcttcaggagggtgtccccggcgacaacgttggcttcaacgtgaagaacgtctctgtcaaggacatccgccgcggcaatgttgccggagactccaagaatgaccctcctatgggtgccgcctcttttgacgcccaggtcatcgtcctc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

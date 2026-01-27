@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MH469161</INSDSeq_locus>
+    <INSDSeq_length>791</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JUL-2019</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JUL-2019</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps camponoti-atricipis voucher INPA 280294 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH469161</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH469161.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH469161.1|</INSDSeqid>
+      <INSDSeqid>gi|1399734406</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps camponoti-atricipis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps camponoti-atricipis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..791</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Andriolli,F.S.</INSDAuthor>
+          <INSDAuthor>Ishikawa,N.K.</INSDAuthor>
+          <INSDAuthor>Isla,R.V.</INSDAuthor>
+          <INSDAuthor>Cabral,T.S.</INSDAuthor>
+          <INSDAuthor>de Bekker,C.</INSDAuthor>
+          <INSDAuthor>Baccaro,F.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Do zombie-ant fungi turn their hosts into light seekers?</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..791</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Andriolli,F.S.</INSDAuthor>
+          <INSDAuthor>Cabral,T.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (12-JUN-2018) Genetics, Instituto Nacional de Pesquisas da Amazonia, Av. Andra de Araujo, Manaus, AM 69067-375, Brazil</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..791</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>791</INSDInterval_to>
+            <INSDInterval_accession>MH469161.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps camponoti-atricipis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>INPA 280294</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1987925</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;791</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>791</INSDInterval_to>
+            <INSDInterval_accession>MH469161.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTAACGGCGAGTRAAGCGGYARYAGCTYAAATTTRAAATCTGGCGCCCCCGCGGCGCCYGAKTTRTAATCTATAGAGGACGCCTCTGGCGCGGCGCCGTCCGAGTTCCCTAGAACGGGACGCTMGAGAGGGTAAGAGCCCCGTAYRGTYRGACGCCTAGCCTATGTWAGGCTCCTTCGGCGAGTCGAGTAGTTTAGGAATACTACTTAAAACRGGAGGTATACGCCTTCTAAAGCTAAATACTAGCTRGAGACYAATAGCGYATAARTAGAGTAATCGAAAGATAAAAAGCACTTTAAAAAGAGGGTTAAATAGTACGTGAAATTATTARAAGGGAAGCGCTCGCGGCTAGACTTAGGCCTAGGGGATTATCYSGCGCTCGCGCTWGTAYACTCCGCTMRGCTCTAGGCTAGCATCGGCTCGCGGYRGGGGATAAAGGCGCTAGGAACGTAGCTCCCTARGGAGTGTTATAGCCTAGCGCGCTATGCCCCRCGGCGGGCTRAGGTGCGCGCGTCCGTAAGGATGCTAGCGTAATAGCTACTAGCGACCCGTCTTAAAACACGGACTAAGGAGTCGTCTTCGTATACGAGTGTTYRGGCGTTAAACCCGTACGCGTAATAAAAGTAAACGCGGGTAGGAGCCCCCCCCTAGGGGCGTACCGMYGACTAATCCTAATGTTCTCGGATAGATTTAAGTARGAGTATACTGGGGCTAGACCCGAAAGAAGGTAAACTATRCCTATGTAGGGTAMAGCTAGAGGAAACTCCTAGTAGAGGCTCGTAGYGGATTTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtaacggcgagtraagcggyaryagctyaaatttraaatctggcgcccccgcggcgccygakttrtaatctatagaggacgcctctggcgcggcgccgtccgagttccctagaacgggacgctmgagagggtaagagccccgtayrgtyrgacgcctagcctatgtwaggctccttcggcgagtcgagtagtttaggaatactacttaaaacrggaggtatacgccttctaaagctaaatactagctrgagacyaatagcgyataartagagtaatcgaaagataaaaagcactttaaaaagagggttaaatagtacgtgaaattattaraagggaagcgctcgcggctagacttaggcctaggggattatcysgcgctcgcgctwgtayactccgctmrgctctaggctagcatcggctcgcggyrggggataaaggcgctaggaacgtagctccctarggagtgttatagcctagcgcgctatgccccrcggcgggctraggtgcgcgcgtccgtaaggatgctagcgtaatagctactagcgacccgtcttaaaacacggactaaggagtcgtcttcgtatacgagtgttyrggcgttaaacccgtacgcgtaataaaagtaaacgcgggtaggagcccccccctaggggcgtaccgmygactaatcctaatgttctcggatagatttaagtargagtatactggggctagacccgaaagaaggtaaactatrcctatgtagggtamagctagaggaaactcctagtagaggctcgtagyggatttc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX520652</INSDSeq_locus>
+    <INSDSeq_length>901</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>24-MAY-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>24-MAY-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps camponoti-atricipis isolate ATRI3 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX520652</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX520652.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX520652.1|</INSDSeqid>
+      <INSDSeqid>gi|1194709547</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps camponoti-atricipis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps camponoti-atricipis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..901</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.P.M.</INSDAuthor>
+          <INSDAuthor>Hughes,D.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Zombie-ant fungi across continents</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..901</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.P.M.</INSDAuthor>
+          <INSDAuthor>Hughes,D.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-JUL-2016) Biology, Pennsylvania State University, Millennium Sciences Complex, State College, PA 16801, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..901</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>901</INSDInterval_to>
+            <INSDInterval_accession>KX520652.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps camponoti-atricipis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>ATRI3</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1987925</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;901</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>901</INSDInterval_to>
+            <INSDInterval_accession>KX520652.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAGATTTGAAATCCGGCGCCCCCGCGGCGCCCGAGTTGTAATCTGCAGAGGACGCCCCTGGCGCGGCGCCGTCCGAGTTCCCTGGAACGGGACGCCGGAGAGGGTGAGAGCCCCGTACGGTCGGACGCCCAGCCTGTGTGGGGCTCCTTCGGCGAGTCGAGTAGTTTGGGAATGCTGCTCAAAAGGGGAGGTATACGCCTTCTAAAGCTAAATACCGGCCGGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGGCCAGACTCGGGCCCGGGGGATCATCCGGCGCTCGCGCCGGTGCACTCCGCCGGGCTCCGGGCCAGCATCGGCCCGCGGCGGGGGACAAAGGCGCCGGGAACGTGGCTCCCCAGGGAGTGTTATAGCCCGGCGCGCCATGCCCCGCGGCGGGCCGAGGTGCGCGCGTCCGCAAGGATGCTGGCGTAATGGCCACCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGCATGCGAGTGTTCGGGCGTCAAACCCGTACGCGCAATGAAAGTGAACGCGGGTGGGAGCCCCCCCAGCGGGGGCGCACCGCCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATGCGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>taagcatatcaataagcggaggaaaagaaaccaacagggattgccccagtaacggcgagtgaagcggcaacagctcagatttgaaatccggcgcccccgcggcgcccgagttgtaatctgcagaggacgcccctggcgcggcgccgtccgagttccctggaacgggacgccggagagggtgagagccccgtacggtcggacgcccagcctgtgtggggctccttcggcgagtcgagtagtttgggaatgctgctcaaaaggggaggtatacgccttctaaagctaaataccggccggagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgcggccagactcgggcccgggggatcatccggcgctcgcgccggtgcactccgccgggctccgggccagcatcggcccgcggcgggggacaaaggcgccgggaacgtggctccccagggagtgttatagcccggcgcgccatgccccgcggcgggccgaggtgcgcgcgtccgcaaggatgctggcgtaatggccaccagcgacccgtcttgaaacacggaccaaggagtcgtcctcgcatgcgagtgttcgggcgtcaaacccgtacgcgcaatgaaagtgaacgcgggtgggagcccccccagcgggggcgcaccgccgaccgatcctgatgttctcggatggatttgagtaggagcatgcggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagct</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

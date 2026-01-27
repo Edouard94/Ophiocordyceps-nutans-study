@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KC610715</INSDSeq_locus>
+    <INSDSeq_length>723</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-SEP-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps dipterigena isolate Ophdip899 RNA polymerase II second largest subunit (RPB2) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC610715</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC610715.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC610715.1|</INSDSeqid>
+      <INSDSeqid>gi|544191461</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps dipterigena</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps dipterigena</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..723</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The phylogenetic relationship of Cordyceps in the Class Insecta in the Amazon of Colombia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..723</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-FEB-2013) Instituto de Biologia, Universidad de Antioquia, Calle 67 N 53 -108, Medellin, Antioquia 050010, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 4.8.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..723</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>723</INSDInterval_to>
+            <INSDInterval_accession>KC610715.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps dipterigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Ophdip899</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:235378</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, El Zafire</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;723</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>723</INSDInterval_to>
+            <INSDInterval_accession>KC610715.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;723</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>723</INSDInterval_to>
+            <INSDInterval_accession>KC610715.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATTGGACGAGACGGCAAGTTGGCCAAGCCGCGCCAGCTTCACAATACGCATTGGGGGCTTGTTTGCCCGGCAGAGACACCTGAAGGCCAGGCTTGTGGCTTGGTCAAGAATCTATCGTTCATGTGCTATGTCAGCACGGGCACACCGTCGGAGCCACTGGTGGAGTTTATGATTCGTTGCGGCATGGAAGTGGTGGAAGAATACGAGCCAATGCGCTATCCTCATGCCACCAAAATCTTTGTCAACGGCATCTGGGTCGGAGTGCACCAAGACCCCAAGGATTTGGCCCGGCAGGTCATGGACACGCGACGCAAATCCTTCCTTCAGTTCGAGGTGTCCATCATTCGGGAAATCCGGGATCAGGAGTTCAAGATATTTTCGGATGCCGGGCGTGTCATGCGGCCTTGCTTTACTGTTCAGCAGGAAGACGGCCCCAACTCCGGCGCCGACCCTGGCCACCTTGTCCTCACCAAGGAGGTTGTCAACCGGCTCGCCAGAGACATGGCAGAGCCCCCCGCCGATCCTTCGATGAAGTTGGGCTGGGAGGGACTTATCCATGCCGGCTACATCGAATACCTGGATGCGGAGGAGGAGGAGACGTCCATGATCTGCATGACGCCAGAGGACTTGGAAATCTACCGCACACAAAAGCAAGGCCATGGTCCGGTAGACGAGGAAGTCTCGGAAGACATGAACAAGCGGCTGCGGACGAGAATCAACCCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;723</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>723</INSDInterval_to>
+            <INSDInterval_accession>KC610715.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AGW07386.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>IGRDGKLAKPRQLHNTHWGLVCPAETPEGQACGLVKNLSFMCYVSTGTPSEPLVEFMIRCGMEVVEEYEPMRYPHATKIFVNGIWVGVHQDPKDLARQVMDTRRKSFLQFEVSIIREIRDQEFKIFSDAGRVMRPCFTVQQEDGPNSGADPGHLVLTKEVVNRLARDMAEPPADPSMKLGWEGLIHAGYIEYLDAEEEETSMICMTPEDLEIYRTQKQGHGPVDEEVSEDMNKRLRTRINP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>attggacgagacggcaagttggccaagccgcgccagcttcacaatacgcattgggggcttgtttgcccggcagagacacctgaaggccaggcttgtggcttggtcaagaatctatcgttcatgtgctatgtcagcacgggcacaccgtcggagccactggtggagtttatgattcgttgcggcatggaagtggtggaagaatacgagccaatgcgctatcctcatgccaccaaaatctttgtcaacggcatctgggtcggagtgcaccaagaccccaaggatttggcccggcaggtcatggacacgcgacgcaaatccttccttcagttcgaggtgtccatcattcgggaaatccgggatcaggagttcaagatattttcggatgccgggcgtgtcatgcggccttgctttactgttcagcaggaagacggccccaactccggcgccgaccctggccaccttgtcctcaccaaggaggttgtcaaccggctcgccagagacatggcagagccccccgccgatccttcgatgaagttgggctgggagggacttatccatgccggctacatcgaatacctggatgcggaggaggaggagacgtccatgatctgcatgacgccagaggacttggaaatctaccgcacacaaaagcaaggccatggtccggtagacgaggaagtctcggaagacatgaacaagcggctgcggacgagaatcaacccc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC610712</INSDSeq_locus>
+    <INSDSeq_length>969</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-SEP-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Hymenostilbe dipterigena isolate Hymdip995 RNA polymerase II second largest subunit (RPB2) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC610712</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC610712.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC610712.1|</INSDSeqid>
+      <INSDSeqid>gi|544191455</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps dipterigena</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps dipterigena</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..969</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The phylogenetic relationship of Cordyceps in the Class Insecta in the Amazon of Colombia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..969</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-FEB-2013) Instituto de Biologia, Universidad de Antioquia, Calle 67 N 53 -108, Medellin, Antioquia 050010, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 4.8.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..969</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>969</INSDInterval_to>
+            <INSDInterval_accession>KC610712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps dipterigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Hymdip995</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:235378</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Choco, Nuqui, Arusi, El Amargal</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;969</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>969</INSDInterval_to>
+            <INSDInterval_accession>KC610712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;969</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>969</INSDInterval_to>
+            <INSDInterval_accession>KC610712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TTCAACTTGTCCGTAGGCATCAAGCCTGGCACTCTTTCCAATGGTCTCAAGTACTCCTTGGCGACGGGCAACTGGGGCGACCAGAAGAAGGCGATGAATTCCACTGCCGGAGTGTCGCAGGTGCTGAACCGTTATACCTTTGCTTCGACTCTGTCACATTTGCGGCGCACCAACACGCCTATTGGACGAGACGGCAAGTTGGCCAAGCCGCGCCAGCTTCATAATACGCATTGGGGGCTTGTTTGCCCGGCAGAGACACCTGAAGGCCAGGCTTGTGGCTTGGTCAAGAATCTATCGCTCATGTGCTATGTCAGCACGGGCACACCGTCGGAGCCACTGGTGGAGTTTATGATCCGTTGCGGCATGGAAGTGGTGGAAGAATACGAGCCAATGCGCTACCCTCATGCCACCAAAATCTTTGTCAACGGCATCTGGGTCGGAGTGCACCAAGACCCCAAGGATTTGGCCCGGCAGGTCATGGACACGCGACGCAAATCCTTCCTTCAGTTCGAGGTGTCCATCATTCGGGAAATCCGGGATCAGGAGTTCAAAATATTCTCGGATGCCGGTCGTGTCATGCGGCCTTGCTTTACTGTTCAGCAGGAAGACGGCCCCAACTCCGGCGCCGACCCTGGCCACCTTGTCCTCACCAAGGAGGTTGTCAACCGGCTCGCCAGAGACATGGCAGAGCCCCCCGCCGATCCTTCGATGAAGTTGGGCTGGGAGGGACTTATCCATGCCGGCTGCATCGAATACCTGGATGCGGAGGAGGAGGAGACGTCCATGATCTGCATGACGCCAGAGGACTTGGAAATTTACCGCACACAAAAGCAAGGCCATGGTCCGGTAGACGAGGAAGTATCGGAAGACATGAACAAGCGGCTGCGGACGAGAATCAACCCCACCACGCACATCTATACTCACTGCGAGATTCACCCCAGCATGATTCTCGGCGTCTGTGCGAGCATC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;969</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>969</INSDInterval_to>
+            <INSDInterval_accession>KC610712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AGW07383.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>FNLSVGIKPGTLSNGLKYSLATGNWGDQKKAMNSTAGVSQVLNRYTFASTLSHLRRTNTPIGRDGKLAKPRQLHNTHWGLVCPAETPEGQACGLVKNLSLMCYVSTGTPSEPLVEFMIRCGMEVVEEYEPMRYPHATKIFVNGIWVGVHQDPKDLARQVMDTRRKSFLQFEVSIIREIRDQEFKIFSDAGRVMRPCFTVQQEDGPNSGADPGHLVLTKEVVNRLARDMAEPPADPSMKLGWEGLIHAGCIEYLDAEEEETSMICMTPEDLEIYRTQKQGHGPVDEEVSEDMNKRLRTRINPTTHIYTHCEIHPSMILGVCASI</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttcaacttgtccgtaggcatcaagcctggcactctttccaatggtctcaagtactccttggcgacgggcaactggggcgaccagaagaaggcgatgaattccactgccggagtgtcgcaggtgctgaaccgttatacctttgcttcgactctgtcacatttgcggcgcaccaacacgcctattggacgagacggcaagttggccaagccgcgccagcttcataatacgcattgggggcttgtttgcccggcagagacacctgaaggccaggcttgtggcttggtcaagaatctatcgctcatgtgctatgtcagcacgggcacaccgtcggagccactggtggagtttatgatccgttgcggcatggaagtggtggaagaatacgagccaatgcgctaccctcatgccaccaaaatctttgtcaacggcatctgggtcggagtgcaccaagaccccaaggatttggcccggcaggtcatggacacgcgacgcaaatccttccttcagttcgaggtgtccatcattcgggaaatccgggatcaggagttcaaaatattctcggatgccggtcgtgtcatgcggccttgctttactgttcagcaggaagacggccccaactccggcgccgaccctggccaccttgtcctcaccaaggaggttgtcaaccggctcgccagagacatggcagagccccccgccgatccttcgatgaagttgggctgggagggacttatccatgccggctgcatcgaatacctggatgcggaggaggaggagacgtccatgatctgcatgacgccagaggacttggaaatttaccgcacacaaaagcaaggccatggtccggtagacgaggaagtatcggaagacatgaacaagcggctgcggacgagaatcaaccccaccacgcacatctatactcactgcgagattcaccccagcatgattctcggcgtctgtgcgagcatc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

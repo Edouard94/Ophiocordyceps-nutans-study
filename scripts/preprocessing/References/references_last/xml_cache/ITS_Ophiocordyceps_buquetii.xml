@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763782</INSDSeq_locus>
+    <INSDSeq_length>553</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 93053 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763782</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763782.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763782.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917227</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..553</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..553</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..553</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>553</INSDInterval_to>
+            <INSDInterval_accession>ON763782.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 93053</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Oecophylla smaragdina</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;553</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>553</INSDInterval_to>
+            <INSDInterval_accession>ON763782.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaagcat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763781</INSDSeq_locus>
+    <INSDSeq_length>557</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 76498 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763781</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763781.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763781.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917226</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..557</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..557</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..557</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>557</INSDInterval_to>
+            <INSDInterval_accession>ON763781.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 76498</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Oecophylla smaragdina</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;557</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>557</INSDInterval_to>
+            <INSDInterval_accession>ON763781.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaagcatatca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763780</INSDSeq_locus>
+    <INSDSeq_length>555</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 65826 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763780</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763780.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763780.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917225</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..555</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..555</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..555</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>555</INSDInterval_to>
+            <INSDInterval_accession>ON763780.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 65826</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Polyrhachis illaudata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;555</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>555</INSDInterval_to>
+            <INSDInterval_accession>ON763780.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>caaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttcttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763779</INSDSeq_locus>
+    <INSDSeq_length>564</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 45576 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763779</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763779.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763779.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917224</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..564</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..564</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..564</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>564</INSDInterval_to>
+            <INSDInterval_accession>ON763779.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 45576</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Dilobocondyla sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;564</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>564</INSDInterval_to>
+            <INSDInterval_accession>ON763779.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaagcatatc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763778</INSDSeq_locus>
+    <INSDSeq_length>565</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 46610 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763778</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763778.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763778.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917223</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..565</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..565</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..565</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>565</INSDInterval_to>
+            <INSDInterval_accession>ON763778.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 46610</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Crematogaster sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;565</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>565</INSDInterval_to>
+            <INSDInterval_accession>ON763778.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaagcatatca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763777</INSDSeq_locus>
+    <INSDSeq_length>512</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 33187 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763777</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763777.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763777.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917222</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..512</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..512</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..512</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>512</INSDInterval_to>
+            <INSDInterval_accession>ON763777.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 33187</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Polyrhachis sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;512</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>512</INSDInterval_to>
+            <INSDInterval_accession>ON763777.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaattcttatattagcttgacctcagatcaggtag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763776</INSDSeq_locus>
+    <INSDSeq_length>557</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 19962 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763776</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763776.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763776.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917221</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..557</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..557</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..557</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>557</INSDInterval_to>
+            <INSDInterval_accession>ON763776.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 19962</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Polyrhachis sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;557</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>557</INSDInterval_to>
+            <INSDInterval_accession>ON763776.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttcttttttttcttttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaattttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763775</INSDSeq_locus>
+    <INSDSeq_length>555</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 19960 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763775</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763775.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763775.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917220</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..555</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..555</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..555</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>555</INSDInterval_to>
+            <INSDInterval_accession>ON763775.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 19960</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Polyrhachis sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;555</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>555</INSDInterval_to>
+            <INSDInterval_accession>ON763775.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttcttttttttcttttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaattttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON763774</INSDSeq_locus>
+    <INSDSeq_length>557</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>08-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate BCC 19729 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON763774</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON763774.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON763774.1|</INSDSeqid>
+      <INSDSeqid>gi|2252917219</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..557</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1) (2023) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>https://doi.org/10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..557</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National science and technology development agency, 111 Thailand Science Park, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..557</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>557</INSDInterval_to>
+            <INSDInterval_accession>ON763774.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 19729</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Polyrhachis sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS5, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;557</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>557</INSDInterval_to>
+            <INSDInterval_accession>ON763774.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttcttttttttcttttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaattttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagcttgacctcagatcaggtaggaatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OM743932</INSDSeq_locus>
+    <INSDSeq_length>538</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>23-FEB-2022</INSDSeq_update-date>
+    <INSDSeq_create-date>23-FEB-2022</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate SDYRS18112603 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OM743932</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OM743932.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OM743932.1|</INSDSeqid>
+      <INSDSeqid>gi|2196271982</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..538</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,G.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Crystal structure of 1,4,5,6-tetra-epi-koninginin G, C16H30O5</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..538</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,G.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (17-FEB-2022) The Engineering Research Center of Southwest Bio Pharmaceutical Resources Ministry of Education, Guizhou University, Xiahui Road, Guiyang, Guizhou Province 650224, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..538</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>538</INSDInterval_to>
+            <INSDInterval_accession>OM743932.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>SDYRS18112603</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Nov-2018</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Guang-Di Wang</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;538</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>538</INSDInterval_to>
+            <INSDInterval_accession>OM743932.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cgtaacaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagctgacctcagatcagg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

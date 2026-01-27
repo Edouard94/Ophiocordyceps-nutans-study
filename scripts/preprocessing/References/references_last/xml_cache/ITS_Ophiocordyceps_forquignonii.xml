@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KEQB01000000</INSDSeq_locus>
+    <INSDSeq_length>4396</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>ENV</INSDSeq_division>
+    <INSDSeq_update-date>11-FEB-2022</INSDSeq_update-date>
+    <INSDSeq_create-date>11-FEB-2022</INSDSeq_create-date>
+    <INSDSeq_definition>TLS: root associated fungus metagenome ribosomal RNA internal transcribed spacer region, targeted locus study</INSDSeq_definition>
+    <INSDSeq_primary-accession>KEQB00000000</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KEQB00000000.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KEQB00000000.1|KEQB01000000</INSDSeqid>
+      <INSDSeqid>gi|2192842986</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA692353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>TLS</INSDKeyword>
+      <INSDKeyword>Targeted Locus Study</INSDKeyword>
+      <INSDKeyword>ENV</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>root associated fungus metagenome</INSDSeq_source>
+    <INSDSeq_organism>root associated fungus metagenome</INSDSeq_organism>
+    <INSDSeq_taxonomy>unclassified sequences; metagenomes; ecological metagenomes</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..4396</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Petrolli,R.</INSDAuthor>
+          <INSDAuthor>Vieira,C.A.</INSDAuthor>
+          <INSDAuthor>Jakalski,M.</INSDAuthor>
+          <INSDAuthor>Bocayuva,M.F.</INSDAuthor>
+          <INSDAuthor>Valle,C.</INSDAuthor>
+          <INSDAuthor>Da Silva Cruz,E.</INSDAuthor>
+          <INSDAuthor>Selosse,M.-A.</INSDAuthor>
+          <INSDAuthor>Martos,F.</INSDAuthor>
+          <INSDAuthor>Kasuya,M.C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The Bark Side of Fungi: fine-scale spatial structure of bark fungal communities and influence of epiphytic roots</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..4396</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Petrolli,R.</INSDAuthor>
+          <INSDAuthor>Vieira,C.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (09-NOV-2020) Institut de Systematique, Evolution et Biodiversite (ISYEB), Museum National d&apos;Histoire Naturelle, 57 rue Cuvier, CP 39, Paris 75005, France</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>The root associated fungus metagenome targeted locus study (TLS) project has the project accession KEQB00000000. This version of the project (01) has the accession number KEQB01000000, and consists of sequences KEQB01000001-KEQB01004396.; ##Assembly-Data-START## ; Assembly Method :: BBMerge v. 38.75 ; Sequencing Technology :: Illumina ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..4396</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>4396</INSDInterval_to>
+            <INSDInterval_accession>KEQB00000000.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>root associated fungus metagenome</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>tree bark and orchid roots</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1518171</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>environmental_sample</INSDQualifier_name>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Brazil: Parque Estadual Serra do Brigadeiro, MG</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>20.72 S 42.48 W</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>2015-02/2016-02</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>metagenomic</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_alt-seq>
+      <INSDAltSeqData>
+        <INSDAltSeqData_name>TLS</INSDAltSeqData_name>
+        <INSDAltSeqData_items>
+          <INSDAltSeqItem>
+          <INSDAltSeqItem_first-accn>KEQB01000001</INSDAltSeqItem_first-accn>
+          <INSDAltSeqItem_last-accn>KEQB01004396</INSDAltSeqItem_last-accn>
+          </INSDAltSeqItem>
+        </INSDAltSeqData_items>
+      </INSDAltSeqData>
+    </INSDSeq_alt-seq>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA692353</INSDXref_id>
+      </INSDXref>
+      <INSDXref>
+        <INSDXref_dbname>BioSample</INSDXref_dbname>
+        <INSDXref_id>SAMN17320629</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>HQ662164</INSDSeq_locus>
+    <INSDSeq_length>666</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-JUN-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>25-JUN-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps forquignonii isolate 4H4-2010 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>HQ662164</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>HQ662164.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|HQ662164.1|</INSDSeqid>
+      <INSDSeqid>gi|336441530</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps forquignonii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps forquignonii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..666</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>O Hanlon,R.</INSDAuthor>
+          <INSDAuthor>Harrington,T.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (26-NOV-2010) Department of Life Sciences, University of Limerick, Castletroy, Limerick, Ireland</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..666</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>666</INSDInterval_to>
+            <INSDInterval_accession>HQ662164.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps forquignonii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>4H4-2010</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>dead fly in forest</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1046109</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1f, fwd_seq: cttggtcatttagaggaagtaa, rev_name: ITS4, rev_seq: tcctccgcttattgatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;666</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>666</INSDInterval_to>
+            <INSDInterval_accession>HQ662164.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gagggtcattactgagtgttaaaactctccaaccccctatgtgattactaccatttttattcctcggcagtgtaaggcgggaagagtatccccctctatatttctctattataggggattctagaggggcgctgctcccccctctcccccgctgccggtggaaaccactataatctatatttcatctattgagtcttctgagttttataatacaaaacgcataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgaatctttgaacgcacattgcgcctgctggccattccagcaggcatgcctgtccgagcgtcattatcaacccctctcaggctttcttatagggttttaataggaccctatatcgattgactggcacctggagattggccgtgcccctcttgtttttttcttaaaactaagggggaaggccagctctgaaatacagtggcgactcgaggtcttacttcttcccctgcgcagtaaaactcttgctcgcaacgggactagtgaccttgtgttagccatcttaacaccctatattttcaatggttgacctcggatcaggtaggagtacccgctgaacttaagcatatcaaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AJ786562</INSDSeq_locus>
+    <INSDSeq_length>620</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>06-MAY-2005</INSDSeq_update-date>
+    <INSDSeq_create-date>01-OCT-2004</INSDSeq_create-date>
+    <INSDSeq_definition>Cordyceps forquignoni partial 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and partial 28S rRNA gene, strain UoC-17.06.84</INSDSeq_definition>
+    <INSDSeq_primary-accession>AJ786562</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AJ786562.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>emb|AJ786562.1|</INSDSeqid>
+      <INSDSeqid>gi|53748127</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_keywords>
+      <INSDKeyword>18S ribosomal RNA</INSDKeyword>
+      <INSDKeyword>18S rRNA gene</INSDKeyword>
+      <INSDKeyword>28S ribosomal RNA</INSDKeyword>
+      <INSDKeyword>28S rRNA gene</INSDKeyword>
+      <INSDKeyword>5.8S ribosomal RNA</INSDKeyword>
+      <INSDKeyword>5.8S rRNA gene</INSDKeyword>
+      <INSDKeyword>internal transcribed spacer 1</INSDKeyword>
+      <INSDKeyword>internal transcribed spacer 2</INSDKeyword>
+      <INSDKeyword>ITS1</INSDKeyword>
+      <INSDKeyword>ITS2</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps forquignonii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps forquignonii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..620</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Stensrud,O.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Schumacher,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Towards a phylogenetic classification of Cordyceps: ITS nrDNA sequence data confirm divergent lineages and paraphyly</INSDReference_title>
+        <INSDReference_journal>Mycol. Res. 109 (PT 1), 41-56 (2005)</INSDReference_journal>
+        <INSDReference_pubmed>15736862</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..620</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Stensrud,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (30-JUL-2004) Stensrud O., Dept. of Biology, University of Oslo, Division of Botany and Plant Physiology, P.O. Box 1045, Blindern, 0316 Oslo, NORWAY</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..620</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>620</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps forquignonii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>UoC-17.06.84</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1046109</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..5</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>5</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>18S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..5</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>5</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>18S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_feature</INSDFeature_key>
+        <INSDFeature_location>6..220</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>6</INSDInterval_from>
+            <INSDInterval_to>220</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1, ITS1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>221..380</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>221</INSDInterval_from>
+            <INSDInterval_to>380</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>5.8S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>221..380</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>221</INSDInterval_from>
+            <INSDInterval_to>380</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>5.8S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AACTTTCAGCAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGCGAATTGCAGATTTCAGTGAGTCATCGAATCTTTGAACGCACATTGCGCCTGCTGGCCATTCCAGCAGGCATGCCTGTCCGAGCGTCATTATC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_feature</INSDFeature_key>
+        <INSDFeature_location>381..611</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>381</INSDInterval_from>
+            <INSDInterval_to>611</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2, ITS2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>612..&gt;620</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>612</INSDInterval_from>
+            <INSDInterval_to>620</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>28S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>612..&gt;620</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>612</INSDInterval_from>
+            <INSDInterval_to>620</INSDInterval_to>
+            <INSDInterval_accession>AJ786562.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>28S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cattactgagtgttaaaactctcyaaccccctatgtgattactaccatttttattcctcggcagtgtaacggcgggaagagtatccccctctatatttctctattataggggattctagaggggcgctgctcccccctctcccccgctgccggtggaaaccactataatctatatttcatctattgagtcttctgagttttataatacaaaacgcataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagatttcagtgagtcatcgaatctttgaacgcacattgcgcctgctggccattccagcaggcatgcctgtccgagcgtcattatcaacccctctcaggctttcttatagggttttaataggaccctatatcgattgactggcacctggagattggccgtgcccctcttgtttttttcttaaaaccaagggggaaggccagctctgaaatacagtggcgactcgaggtcttacttcttcccctgcgcagtaaaactcttgctcgcaacgggactagtgaccttgtgttagccatcttaacaccctatattttcaatggttgacctc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

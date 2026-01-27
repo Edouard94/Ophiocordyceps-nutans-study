@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>PP727840</INSDSeq_locus>
+    <INSDSeq_length>358</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-APR-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>25-APR-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher IAvH-TRI-MR160 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP727840</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP727840.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|TRIHF160-22.ITS</INSDSeqid>
+      <INSDSeqid>gb|PP727840.1|</INSDSeqid>
+      <INSDSeqid>gi|2727567920</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..358</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungus from Ecoreserve La Tribuna (Huila-Neiva), Biomonitores program</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..358</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-APR-2024) Biologia, Universidad de Caldas, Vereda La Floresta, Narino, Sapuyes 5255, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..358</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>358</INSDInterval_to>
+            <INSDInterval_accession>PP727840.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>IAvH-TRI-MR160</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Huila, Neiva, Ecoreserva la Tribuna, Camino a la parcela 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>3.067 N 75.377 W</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>06-Nov-2021</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica Rosas, Biomonitores, Laura Garzon</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica B Rosas Riascos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagkaraagtcgtaacaagg, rev_seq: rgtttcttttcctccgctta</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;358</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>358</INSDInterval_to>
+            <INSDInterval_accession>PP727840.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cctcttattttgttactttataataaaatagagaaggaaaaaatgcttctgaatataaggtttttatataaaatactttaaaaacttttagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgatacgtaatgcgaattgcagaattcagcgagtcatcgaatctttgaacgcatattgcgcctgttagttattctggcaggcatgcctgtctgagcgttatatataattaaatatacttttttaagtataactttggggatctagtttttatttaaactatcccttaaatttagtagtgataatctagcttatcttctacgtagtatatttctatattacc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PP727821</INSDSeq_locus>
+    <INSDSeq_length>485</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-APR-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>25-APR-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher IAvH-TRI-MR158 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP727821</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP727821.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|TRIHF158-22.ITS</INSDSeqid>
+      <INSDSeqid>gb|PP727821.1|</INSDSeqid>
+      <INSDSeqid>gi|2727567902</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..485</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungus from Ecoreserve La Tribuna (Huila-Neiva), Biomonitores program</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..485</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-APR-2024) Biologia, Universidad de Caldas, Vereda La Floresta, Narino, Sapuyes 5255, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..485</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>485</INSDInterval_to>
+            <INSDInterval_accession>PP727821.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>IAvH-TRI-MR158</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Huila, Neiva, Ecoreserva la Tribuna, Camino a la parcela 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>3.065 N 75.373 W</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>03-Nov-2021</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica Rosas, Biomonitores, Laura Garzon</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica B Rosas Riascos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagkaraagtcgtaacaagg, rev_seq: rgtttcttttcctccgctta</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;485</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>485</INSDInterval_to>
+            <INSDInterval_accession>PP727821.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcttacctttattttatgcctcggcgggttcctgcagaaggagcctgccaaaggaatataactttcttttttatttctcctcttattttgttactttataataaaatagagaaggaaaaaatgcttctgaatataaggtttttatataaaatactttaaaaacttttagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgatacgtaatgcgaattgcagaattcagcgagtcatcgaatctttgaacgcatattgcgcctgttagttattctggcaggcatgcctgtctgagcgttatatataattaaatatacttttttaagtataactttggggatctagtttttatttaaactatcccttaaatttagtagtgataatctagcttatcttctacgtagtatatttctatattaccacgtaattagagagctttaaacactataaaactccttttcttttaaaag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PP727759</INSDSeq_locus>
+    <INSDSeq_length>452</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-APR-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>25-APR-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher IAvH-TRI-MR159 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP727759</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP727759.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|TRIHF159-22.ITS</INSDSeqid>
+      <INSDSeqid>gb|PP727759.1|</INSDSeqid>
+      <INSDSeqid>gi|2727567850</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..452</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungus from Ecoreserve La Tribuna (Huila-Neiva), Biomonitores program</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..452</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-APR-2024) Biologia, Universidad de Caldas, Vereda La Floresta, Narino, Sapuyes 5255, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..452</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>452</INSDInterval_to>
+            <INSDInterval_accession>PP727759.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>IAvH-TRI-MR159</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Huila, Neiva, Ecoreserva la Tribuna, Camino a la parcela 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>3.065 N 75.373 W</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Nov-2021</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica Rosas, Biomonitores, Laura Garzon</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica B Rosas Riascos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagkaraagtcgtaacaagg, rev_seq: rgtttcttttcctccgctta</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;452</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>452</INSDInterval_to>
+            <INSDInterval_accession>PP727759.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gaatataactttcttttttatttctcctcttattttgttactttataataaaatagagaaggaaaaaatgcttctgaatataaggtttttatataaaatactttaaaaacttttagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgatacgtaatgcgaattgcagaattcagcgagtcatcgaatctttgaacgcatattgcgcctgttagttattctggcaggcatgcctgtctgagcgttatatataattaaatatacttttttaagtataactttggggatctagtttttatttaaactatcccttaaatttagtagtgataatctagcttatcttctacgtagtatatttctatattaccacgtaattagagagctttaaacactataaaactccttttcttttaaaaggaccttcaagttttaacctc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PP727725</INSDSeq_locus>
+    <INSDSeq_length>491</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-APR-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>25-APR-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher IAvH-TRI-MR161 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP727725</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP727725.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|TRIHF161-22.ITS</INSDSeqid>
+      <INSDSeqid>gb|PP727725.1|</INSDSeqid>
+      <INSDSeqid>gi|2727567817</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..491</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Fungus from Ecoreserve La Tribuna (Huila-Neiva), Biomonitores program</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..491</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Rosas,M.</INSDAuthor>
+          <INSDAuthor>Vasco,A.</INSDAuthor>
+          <INSDAuthor>Gonzalez,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-APR-2024) Biologia, Universidad de Caldas, Vereda La Floresta, Narino, Sapuyes 5255, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..491</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>491</INSDInterval_to>
+            <INSDInterval_accession>PP727725.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>IAvH-TRI-MR161</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Huila, Neiva, Ecoreserva la Tribuna, Camino a la parcela 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>3.067 N 75.377 W</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>06-Nov-2021</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica Rosas, Biomonitores, Laura Garzon</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Monica B Rosas Riascos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagkaraagtcgtaacaagg, rev_seq: rgtttcttttcctccgctta</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;491</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>491</INSDInterval_to>
+            <INSDInterval_accession>PP727725.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgtgtaaatcttacctttattttatgcctcggcgggttcctgcagaaggagcctgccaaaggaatataactttcttttttatttctcctcttattttgttactttataataaaatagagaaggaaaaaatgcttctgaatataaggtttttatataaaatactttaaaaacttttagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgatacgtaatgcgaattgcagaattcagcgagtcatcgaatctttgaacgcatattgcgcctgttagttattctggcaggcatgcctgtctgagcgttatatataattaaatatacttttttaagtataactttggggatctagtttttatttaaactatcccttaaatttagtagtgataatctagcttatcttctacgtagtatatttctatattaccacgtaattagagagctttaaacactataaaactccttttctttaaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KP200888</INSDSeq_locus>
+    <INSDSeq_length>376</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-SEP-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>13-SEP-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis isolate Ophaus1780 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KP200888</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KP200888.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KP200888.1|</INSDSeqid>
+      <INSDSeqid>gi|926451174</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..376</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+          <INSDAuthor>Tabima,J.</INSDAuthor>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Five new species of entomopathogenic fungi from the Amazon and evolution of neotropical Ophiocordyceps</INSDReference_title>
+        <INSDReference_journal>Fungal Biol 119 (10), 901-916 (2015)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.funbio.2015.06.010</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>26399185</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..376</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (26-NOV-2014) Instituto de Biologia, Universidad de Antioquia, Calle 67 N 53 -108, Medellin, Antioquia 050010, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..376</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>376</INSDInterval_to>
+            <INSDInterval_accession>KP200888.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Ophaus1780</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Pachycondyla crassinoda</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, El Zafire</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>A. Vasco</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;376</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>376</INSDInterval_to>
+            <INSDInterval_accession>KP200888.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tactgagtaataaaaactttcagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgctagttattctagcaggcatgcctgtctgagcgttattacatagattatgcttaatattattagcatatgttggagcttggtttaataaccatctcttaaatctagtggcgacttttgctctgtcctctatgtagtaaaattaatttatcgcataattggaaagcttctaaactgccataaaattttaattttaaatgtaaaagtttaacctccgatcagggaggaatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KF937351</INSDSeq_locus>
+    <INSDSeq_length>439</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-NOV-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>05-NOV-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher TSJ774a internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KF937351</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KF937351.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|FUNCO004-13.ITS</INSDSeqid>
+      <INSDSeqid>gb|KF937351.1|</INSDSeqid>
+      <INSDSeqid>gi|574450313</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..439</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Austroboletus amazonicus sp. nov. and Fistulinella campinaranae var. scrobiculata, two commonly occurring boletes from a forest dominated by Pseudomonotes tropenbosii (Dipterocarpaceae) in Colombian Amazonia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..439</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-NOV-2013) Yeast and Basidiomycete Research, CBS-KNAQ. Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht 3584 CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..439</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>439</INSDInterval_to>
+            <INSDInterval_accession>KF937351.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>TSJ774a</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>BOLD:FUNCO004-13.ITS</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, La Chorrera, San Francisco, Chuquial</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>28-Jul-2009</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Tatiana Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagtaaaagtcgtaacaagg, rev_seq: tcctccgcttattgatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;439</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>439</INSDInterval_to>
+            <INSDInterval_accession>KF937351.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tactgagtctcgactctcccaacccttgtgaattatatatcttaattactgcttcggtagggtttttaaacctaccagaggagttttataaatgctatattatttatgttatcttctgagtttatttttataatattataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatccagtgagtcatcgaatttttgaacgcatattgcgcctgctagttttactagtaggcatgcctgtctgagcgttatttctatattatgcttaatattaagtatatgttgaagactggttctttttaagtaccaccttctaaatctagtggcaactattgctttatcctctatgtatttaaaatcacataattggaaagctttctaaactgccagaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KF937350</INSDSeq_locus>
+    <INSDSeq_length>349</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-NOV-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>05-NOV-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher TSJ926 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KF937350</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KF937350.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|FUNCO013-13.ITS</INSDSeqid>
+      <INSDSeqid>gb|KF937350.1|</INSDSeqid>
+      <INSDSeqid>gi|574450312</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..349</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Austroboletus amazonicus sp. nov. and Fistulinella campinaranae var. scrobiculata, two commonly occurring boletes from a forest dominated by Pseudomonotes tropenbosii (Dipterocarpaceae) in Colombian Amazonia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..349</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-NOV-2013) Yeast and Basidiomycete Research, CBS-KNAQ. Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht 3584 CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..349</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>349</INSDInterval_to>
+            <INSDInterval_accession>KF937350.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>TSJ926</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>BOLD:FUNCO013-13.ITS</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, Puerto Santander, rio Yari</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>25-Mar-2011</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Tatiana Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagtaaaagtcgtaacaagg, rev_seq: tcctccgcttattgatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;349</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>349</INSDInterval_to>
+            <INSDInterval_accession>KF937350.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>actctccaaccccttgtgaattacaattctatttgctgcctcggcaggcttttcttctaggagaaagtctgccagaggagtttttctataaattctatttatttattttttttctgattttattattttatataataataaaaactttcagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgctagttattctagcaggcatgcctgtctgagcgttattacacagattatgcttaatattattagcatatgttggagcttggttttttt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KF937349</INSDSeq_locus>
+    <INSDSeq_length>577</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-NOV-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>05-NOV-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps australis voucher TSJ992 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KF937349</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KF937349.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|FUNCO014-13.ITS</INSDSeqid>
+      <INSDSeqid>gb|KF937349.1|</INSDSeqid>
+      <INSDSeqid>gi|574450311</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps australis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps australis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..577</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Austroboletus amazonicus sp. nov. and Fistulinella campinaranae var. scrobiculata, two commonly occurring boletes from a forest dominated by Pseudomonotes tropenbosii (Dipterocarpaceae) in Colombian Amazonia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..577</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-NOV-2013) Yeast and Basidiomycete Research, CBS-KNAQ. Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht 3584 CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..577</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>577</INSDInterval_to>
+            <INSDInterval_accession>KF937349.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps australis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>TSJ992</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>BOLD:FUNCO014-13.ITS</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399860</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Tolima, Mariquita, Bosque Municipal</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>03-Jan-2012</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Tatiana Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_seq: ggaagtaaaagtcgtaacaagg, rev_seq: tcctccgcttattgatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;577</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>577</INSDInterval_to>
+            <INSDInterval_accession>KF937349.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcttggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctcctaacccttgtgaattatatatcttaattactgcttcggtagggtttttaacctgccagaagagttttataaatgctatattatttttattatcttctgagtttatttttataatattataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatccagtgagtcatcgaatttttgaacgcatattgcgcctgctagttttactagtaggcatgcctgtctgagcgttatttctatactatacttaatattaagtatatgttggagactggtttttttaagtaccaccttctaaatctagtggcaactattgctttatcctctatgtatttaaaatcacataattggaaggctttttaaactgccagaaatatatattataagtttaacctcagatcaggtaggaatacccgctgaacttaagcatatcaataagcggaggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

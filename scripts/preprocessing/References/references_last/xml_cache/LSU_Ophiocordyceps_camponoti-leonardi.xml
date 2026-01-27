@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OR685713</INSDSeq_locus>
+    <INSDSeq_length>884</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>06-MAY-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>06-MAY-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps camponoti-leonardi (nom. inval.) strain YFCC 9028 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OR685713</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OR685713.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OR685713.1|</INSDSeqid>
+      <INSDSeqid>gi|2593195815</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps camponoti-leonardi (nom. inval.)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps camponoti-leonardi (nom. inval.)</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..884</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lu,Y.</INSDAuthor>
+          <INSDAuthor>Tang,D.</INSDAuthor>
+          <INSDAuthor>Liu,Z.</INSDAuthor>
+          <INSDAuthor>Zhao,J.</INSDAuthor>
+          <INSDAuthor>Chen,Y.</INSDAuthor>
+          <INSDAuthor>Ma,J.</INSDAuthor>
+          <INSDAuthor>Luo,L.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Genomic comparative analysis of Ophiocordyceps unilateralis sensu lato</INSDReference_title>
+        <INSDReference_journal>Front Microbiol 15, 1293077 (2024)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3389/fmicb.2024.1293077</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>38686108</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Online-Only</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..884</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lu,Y.</INSDAuthor>
+          <INSDAuthor>Tang,D.</INSDAuthor>
+          <INSDAuthor>Liu,Z.</INSDAuthor>
+          <INSDAuthor>Chen,Y.</INSDAuthor>
+          <INSDAuthor>Ma,J.</INSDAuthor>
+          <INSDAuthor>Luo,L.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (18-OCT-2023) Yunnan Herbal Laboratory, College of Ecology and Environmental Sciences, Yunnan University, No. 2, Kunming 650091, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..884</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>884</INSDInterval_to>
+            <INSDInterval_accession>OR685713.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps camponoti-leonardi (nom. inval.)</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>YFCC 9028</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2039875</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;884</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>884</INSDInterval_to>
+            <INSDInterval_accession>OR685713.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACCAACAGGGATTGCCCCAGTAACGGCGAGTGAAGCGGCAAGAGCTCAGATTTGAAATCCGGCGCCCCCCCGGGCGCCCGAGTTGTAATCTGCAGAGGGACCTCCTGGCGCGGCGCCGTCCGAGTTCCCTGGAACGGGACGCCTCAGAGGGTGAGAGCCCCGTACGGTCGGACGCCCAGCCTGTGTGGAGCCCCTTCGGCGAGTCGAGTAGTTTGGGAATGCTGCTCAAAACGGGAGGTATACGCCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGGCCAGACTCGGGCCCGGCGGATCATCCGGCGCTCGCGCCGGTGCACTCCGCCGGGCTCCGGGCCAGCATCGGCCCGCGGCGGGGGACAAAGGCGCCGGGAACGTGGCTCCCCAGGGAGTGTTATAGCCCGGCGCGCAACGCCCCGCGGCGGGCCGAGGTTCGCGCGTCCGCAAGGATGCTGGCGTAATGGCCACCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGCATGCGAGTGTTCGGGCGTCAAACCCGTGCGCGCAATGAAAGTGAACGCCGGTGGGAGCCCCCCGCGGGGCGCACCGCCGACCGATCCTGAAGTTCACGGATGGATTTGAGTAGGAGCATGCGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTCCCGCCGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aaaccaacagggattgccccagtaacggcgagtgaagcggcaagagctcagatttgaaatccggcgcccccccgggcgcccgagttgtaatctgcagagggacctcctggcgcggcgccgtccgagttccctggaacgggacgcctcagagggtgagagccccgtacggtcggacgcccagcctgtgtggagccccttcggcgagtcgagtagtttgggaatgctgctcaaaacgggaggtatacgccttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgcggccagactcgggcccggcggatcatccggcgctcgcgccggtgcactccgccgggctccgggccagcatcggcccgcggcgggggacaaaggcgccgggaacgtggctccccagggagtgttatagcccggcgcgcaacgccccgcggcgggccgaggttcgcgcgtccgcaaggatgctggcgtaatggccaccagcgacccgtcttgaaacacggaccaaggagtcgtcttcgcatgcgagtgttcgggcgtcaaacccgtgcgcgcaatgaaagtgaacgccggtgggagccccccgcggggcgcaccgccgaccgatcctgaagttcacggatggatttgagtaggagcatgcggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagctggttcccgccga</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ127390</INSDSeq_locus>
+    <INSDSeq_length>842</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>15-FEB-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps camponoti-leonardi (nom. inval.) voucher MFLU:22-0269 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ127390</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ127390.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ127390.1|</INSDSeqid>
+      <INSDSeqid>gi|2417570670</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps camponoti-leonardi (nom. inval.)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps camponoti-leonardi (nom. inval.)</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..842</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Gentekaki,E.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Tang,S.M.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity, molecular dating and ancestral characters state reconstruction of entomopathogenic fungi in Hypocreales</INSDReference_title>
+        <INSDReference_journal>Mycosphere 13 (2), 281-351 (2022)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..842</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Gentekaki,E.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Tang,S.M.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-DEC-2022) Centre of Excellence in Fungal Research, Mae Fah Luang University, 333 M. 1, T. Thasud, Muang, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..842</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>842</INSDInterval_to>
+            <INSDInterval_accession>OQ127390.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps camponoti-leonardi (nom. inval.)</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>on ant (Camponotus leonardi) attached to living dicotyledonous leaf</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MFLU:22-0269</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2039875</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand: Chiang Mai Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>13-Aug-2020</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>De-Ping Wei</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>De-Ping Wei</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;842</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>842</INSDInterval_to>
+            <INSDInterval_accession>OQ127390.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TTGCCCCAGTAACGGCGAGTGAAGCGGCAAGAGCTCAGATTTGAAATCCGGCGCCCCCCGGGGCGCCCGAGTTGTAATCTGCAGAGGGACCTCCTGGCGCGGCGCCGTCCGAGTTCCCTGGAACGGGACGCCTCAGAGGGTGAGAGCCCCGTACGGTCGGACGCCCAGCCTGTGTGGAGCCCCTTCGGCGAGTCGAGTAGTTTGGGAATGCTGCTCAAAACGGGAGGTATACGCCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGGCCAGACTCGGGCCCGGCGGATCATCCGGCGCTCGCGCCGGTGCACTCCGCCGGGCTCCGGGCCAGCATCGGCCCGCGGCGGGGGACAAAGGCGCCGGGAACGTGGCTCCCCAGGGAGTGTTATAGCCCGGCGCGCAACGCCCCGCGGCGGGCCGAGGTTCGCGCGTCCGCAAGGATGCTGGCGTAATGGCCACCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGCATGCGAGTGTTCGGGCGTCAAACCCGTGCGCGCAATGAAAGTGAACGCCGGTGGGAGCCCCCCGCGGGGCGCACCGCCGACCGATCCTGAAGTTCACGGATGGATTTGAGTAGGAGCATGCGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttgccccagtaacggcgagtgaagcggcaagagctcagatttgaaatccggcgccccccggggcgcccgagttgtaatctgcagagggacctcctggcgcggcgccgtccgagttccctggaacgggacgcctcagagggtgagagccccgtacggtcggacgcccagcctgtgtggagccccttcggcgagtcgagtagtttgggaatgctgctcaaaacgggaggtatacgccttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgcggccagactcgggcccggcggatcatccggcgctcgcgccggtgcactccgccgggctccgggccagcatcggcccgcggcgggggacaaaggcgccgggaacgtggctccccagggagtgttatagcccggcgcgcaacgccccgcggcgggccgaggttcgcgcgtccgcaaggatgctggcgtaatggccaccagcgacccgtcttgaaacacggaccaaggagtcgtcttcgcatgcgagtgttcgggcgtcaaacccgtgcgcgcaatgaaagtgaacgccggtgggagccccccgcggggcgcaccgccgaccgatcctgaagttcacggatggatttgagtaggagcatgcggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaat</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>
