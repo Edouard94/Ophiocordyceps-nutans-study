@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+type: dataset
+title: "Disentangling Ophiocordyceps nutans complex through Museomics"
+abstract: "A repository containing data and analysis scripts for a scientific study investigating the Ophiocordyceps nutans species complex using museomics approaches."
+authors:
+  - family-names: "To be added"
+    given-names: "Authors"
+repository-code: "https://github.com/Edouard94/Ophiocordyceps-nutans-study"
+keywords:
+  - Ophiocordyceps
+  - nutans
+  - museomics
+  - phylogenetics
+  - entomopathogenic fungi
+  - species complex
+license: "To be determined"

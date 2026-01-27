@@ -1,0 +1,67 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large data files (uncomment specific patterns as needed)
+# *.fastq
+# *.fastq.gz
+# *.fasta
+# *.fasta.gz
+# *.bam
+# *.sam
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Results that can be regenerated
+# results/figures/*.png
+# results/figures/*.pdf
+# results/tables/*.csv
