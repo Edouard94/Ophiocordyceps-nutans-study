@@ -1,0 +1,5 @@
+p1_SSU_trimmed = 1-316
+p2_LSU_trimmed = 317-730
+p3_TEF_trimmed = 731-1265
+p4_RPB1_trimmed = 1266-1792
+p5_RPB2_trimmed = 1793-2409

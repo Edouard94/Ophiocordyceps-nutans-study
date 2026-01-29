@@ -1,0 +1,5 @@
+DNA, p1_SSU_trimmed = 1-316
+DNAF, p2_LSU_trimmed = 317-730
+DNAF, p3_TEF_trimmed = 731-1265
+DNAF, p4_RPB1_trimmed = 1266-1792
+DNAF, p5_RPB2_trimmed = 1793-2409

@@ -1,0 +1,14 @@
+#nexus
+begin sets;
+  charset p1_SSU_trimmed = 1-316;
+  charset p2_LSU_trimmed = 317-730;
+  charset p3_TEF_trimmed = 731-1265;
+  charset p4_RPB1_trimmed = 1266-1792;
+  charset p5_RPB2_trimmed = 1793-2409;
+  charpartition mymodels =
+    HKY+I+G4: p1_SSU_trimmed,
+    TN+F+I+G4: p2_LSU_trimmed,
+    TIM2+F+I+G4: p3_TEF_trimmed,
+    TN+F+I+G4: p4_RPB1_trimmed,
+    TN+F+I+G4: p5_RPB2_trimmed;
+end;
