@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KU382154</INSDSeq_locus>
+    <INSDSeq_length>514</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>06-DEC-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>06-DEC-2016</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides isolate CBS_139.63 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KU382154</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KU382154.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KU382154.1|</INSDSeqid>
+      <INSDSeqid>gi|1110961989</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..514</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Gams,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>More white verticillium-like anamorphs with erect conidiophores</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 15 (10), 993-1030 (2016)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..514</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Gams,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-JAN-2016) Department of Botany, Iranian Research Institute of Plant Protection, Yaman St., No 1, 19395-1454, Tehran, Iran</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..514</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>514</INSDInterval_to>
+            <INSDInterval_accession>KU382154.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>CBS_139.63</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;514</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>514</INSDInterval_to>
+            <INSDInterval_accession>KU382154.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccagccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaatttatagcggcatattctgagtctcacaaaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccctagcgggggactggtgttggggaccggccccggccgccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggatacccg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

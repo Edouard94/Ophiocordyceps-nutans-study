@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KJ878988</INSDSeq_locus>
+    <INSDSeq_length>717</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>14-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>01-SEP-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps formosana voucher TNM F13893 DNA-directed RNA polymerase II largest subunit gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KJ878988</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KJ878988.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KJ878988.1|</INSDSeqid>
+      <INSDSeqid>gi|675023513</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps formosana (Cordyceps formosana)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps formosana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..717</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Quandt,C.A.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Gams,W.</INSDAuthor>
+          <INSDAuthor>Araujo,J.P.</INSDAuthor>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Evans,H.C.</INSDAuthor>
+          <INSDAuthor>Hughes,D.</INSDAuthor>
+          <INSDAuthor>Humber,R.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+          <INSDAuthor>Li,Z.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Sanjuan,T.</INSDAuthor>
+          <INSDAuthor>Sato,H.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Yao,Y.J.</INSDAuthor>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogenetic-based nomenclatural proposals for Ophiocordycipitaceae (Hypocreales) with new combinations in Tolypocladium</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 5 (1), 121-134 (2014)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.5598/imafungus.2014.05.01.12</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>25083412</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..717</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-MAY-2014) Botany and Plant Pathology, Oregon State University, 2082 Cordley Hall, Corvallis, OR 97331, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: genious v. 7.1.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..717</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KJ878988.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps formosana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>TNM F13893</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:450344</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..59,127..&gt;717)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>59</INSDInterval_to>
+            <INSDInterval_accession>KJ878988.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>127</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KJ878988.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGGTCAAGAAGATCTTGGAGATCGTCTGCCATAACTGCAGCAAGGTGTTGGCCGATACTAGCGACCCTGAGTTTGCTGCTGCCATCAACACCCGGGACCCCAAGCTGCGCTTTAACCGTGTCTGGGCCGTCTGCAAGAAGAAGCGGAGGTGTGAGAACGAGGATCGTCAGAACAAGGACAAGGATGAGGATTTCGCGCCGGGAATGAAGCCGCATCAGACGGTCGACAACCATGGCGGATGCGGCAACGTGCAGCCCGCCGTGCGACAGGCCGCTCTGCAACTCAAGGCTGCGTTCGAGGTTGTCCAGGAAGACGGCCCCAAGAGGAAGGAGGCGGTTGCCATCACGCCCGAAATGGCTCACGGCATCCTACGGCGGATTTCCGAGAAAGACCTGCGTAACATGGGTCTCAACTGCGACTATGCTCGCCCCGAGTGGATGATCATCACCGTCCTGCCGGTTCCTCCGCCGCCGGTTCGCCCTAGCATTTCCATGGACGGCACGGGCACGGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGTGACATCATCCGTGCCAACGGCAATGTCAAGCAGGCTATCCGCGAAGGCTCCCCTCAGCACATTGCAAGGGACTTTGAAGAATTGCTGCAGTACCATGTGGCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..59,127..&gt;717)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>59</INSDInterval_to>
+            <INSDInterval_accession>KJ878988.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>127</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KJ878988.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>3</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AIL33430.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VKKILEIVCHNCSKVLADTSDPEFAAAINTRDPKLRFNRVWAVCKKKRRCENEDRQNKDKDEDFAPGMKPHQTVDNHGGCGNVQPAVRQAALQLKAAFEVVQEDGPKRKEAVAITPEMAHGILRRISEKDLRNMGLNCDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aggtcaagaagatcttggagatcgtctgccataactgcagcaaggtgttggccgatactgttagtctatgctgcaatctgcaaggttttctttgacctactggatactgacctgcgttgtttgcagagcgaccctgagtttgctgctgccatcaacacccgggaccccaagctgcgctttaaccgtgtctgggccgtctgcaagaagaagcggaggtgtgagaacgaggatcgtcagaacaaggacaaggatgaggatttcgcgccgggaatgaagccgcatcagacggtcgacaaccatggcggatgcggcaacgtgcagcccgccgtgcgacaggccgctctgcaactcaaggctgcgttcgaggttgtccaggaagacggccccaagaggaaggaggcggttgccatcacgcccgaaatggctcacggcatcctacggcggatttccgagaaagacctgcgtaacatgggtctcaactgcgactatgctcgccccgagtggatgatcatcaccgtcctgccggttcctccgccgccggttcgccctagcatttccatggacggcacgggcacgggcatgcgaaacgaagacgacttgacctacaagctcggtgacatcatccgtgccaacggcaatgtcaagcaggctatccgcgaaggctcccctcagcacattgcaagggactttgaagaattgctgcagtaccatgtggct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KR052521</INSDSeq_locus>
+    <INSDSeq_length>635</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>19-OCT-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps formosana voucher MUCHO 815 RNA polymerase II largest subunit (Rpb1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KR052521</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KR052521.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KR052521.1|</INSDSeqid>
+      <INSDSeqid>gi|818211402</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps formosana (Cordyceps formosana)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps formosana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..635</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.W.</INSDAuthor>
+          <INSDAuthor>Hong,T.W.</INSDAuthor>
+          <INSDAuthor>Tai,Y.L.</INSDAuthor>
+          <INSDAuthor>Wang,Y.J.</INSDAuthor>
+          <INSDAuthor>Tsai,S.H.</INSDAuthor>
+          <INSDAuthor>Lien,P.T.</INSDAuthor>
+          <INSDAuthor>Chou,T.H.</INSDAuthor>
+          <INSDAuthor>Lai,J.Y.</INSDAuthor>
+          <INSDAuthor>Chu,R.</INSDAuthor>
+          <INSDAuthor>Ding,S.T.</INSDAuthor>
+          <INSDAuthor>Irie,K.</INSDAuthor>
+          <INSDAuthor>Li,T.K.</INSDAuthor>
+          <INSDAuthor>Tzean,S.S.</INSDAuthor>
+          <INSDAuthor>Shen,T.L.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Evaluation of an Epitypified Ophiocordyceps formosana (Cordyceps s.l.) for Its Pharmacological Potential</INSDReference_title>
+        <INSDReference_journal>Evid Based Complement Alternat Med 2015, 189891 (2015)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1155/2015/189891</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>26451152</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..635</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.-W.</INSDAuthor>
+          <INSDAuthor>Tzean,S.-S.</INSDAuthor>
+          <INSDAuthor>Shen,T.-L.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (02-APR-2015) Department of Plant Pathology and Microbiology, National Taiwan University, No. 1, Sec. 4, Roosevelt Rd., Taipei, Taiwan 10617, R.O.C.</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Vector NTI v. 11.5.1 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..635</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KR052521.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps formosana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MUCHO 815</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:450344</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;635</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KR052521.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>Rpb1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;635)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KR052521.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KR052521.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>Rpb1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGTGTTGGCCGATACTAGCGACCCTGAGTTTGCTGCTGCCATCAACACCCGGGACCCCAAGCTGCGCTTTAACCGTGTCTGGGCCGTCTGCAAGAAGAAGCGGAGGTGTGAGAACGAGGATCGTCAGAACAAGGACAAGGATGAGGATTTCGCGCCGGGAATGAAGCCGCATCAGACGGTCGACAACCATGGCGGATGCGGCAACGTGCAGCCCGCCGTGCGACAGGCCGCTCTGCAACTCAAGGCTGCGTTCGAGGTTGTCCAGGAAGACGGCCCCAAGAGGAAGGAGGCGGTTGCCATCACGCCCGAAATGGCTCACGGCATCCTACGGCGGATTTCCGAGAAAGACCTGCGTAACATGGGTCTCAACTGCGACTATGCTCGCCCCGAGTGGATGATCATCACCGTCCTGCCGGTTCCTCCGCCGCCGGTTCGCCCTAGCATTTCCATGGACGGCACGGGCACGGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGTGACATCATCCGTGCCAACGGCAATGTCAAGCAGGCTATCCGCGAAGGCTCCCCTCAGCACATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;635)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KR052521.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KR052521.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>Rpb1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AKG25562.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VLADTSDPEFAAAINTRDPKLRFNRVWAVCKKKRRCENEDRQNKDKDEDFAPGMKPHQTVDNHGGCGNVQPAVRQAALQLKAAFEVVQEDGPKRKEAVAITPEMAHGILRRISEKDLRNMGLNCDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHI</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggtgttggccgatactgttagtctatgctgcaatctgcaaggttttctttgacctactggatactgacctgcgttgtttgcagagcgaccctgagtttgctgctgccatcaacacccgggaccccaagctgcgctttaaccgtgtctgggccgtctgcaagaagaagcggaggtgtgagaacgaggatcgtcagaacaaggacaaggatgaggatttcgcgccgggaatgaagccgcatcagacggtcgacaaccatggcggatgcggcaacgtgcagcccgccgtgcgacaggccgctctgcaactcaaggctgcgttcgaggttgtccaggaagacggccccaagaggaaggaggcggttgccatcacgcccgaaatggctcacggcatcctacggcggatttccgagaaagacctgcgtaacatgggtctcaactgcgactatgctcgccccgagtggatgatcatcaccgtcctgccggttcctccgccgccggttcgccctagcatttccatggacggcacgggcacgggcatgcgaaacgaagacgacttgacctacaagctcggtgacatcatccgtgccaacggcaatgtcaagcaggctatccgcgaaggctcccctcagcacatt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KT275190</INSDSeq_locus>
+    <INSDSeq_length>635</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>19-OCT-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps formosana strain NTU 00035 RNA polymerase II largest subunit (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KT275190</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KT275190.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KT275190.1|</INSDSeqid>
+      <INSDSeqid>gi|938257649</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps formosana (Cordyceps formosana)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps formosana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..635</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.W.</INSDAuthor>
+          <INSDAuthor>Hong,T.W.</INSDAuthor>
+          <INSDAuthor>Tai,Y.L.</INSDAuthor>
+          <INSDAuthor>Wang,Y.J.</INSDAuthor>
+          <INSDAuthor>Tsai,S.H.</INSDAuthor>
+          <INSDAuthor>Lien,P.T.</INSDAuthor>
+          <INSDAuthor>Chou,T.H.</INSDAuthor>
+          <INSDAuthor>Lai,J.Y.</INSDAuthor>
+          <INSDAuthor>Chu,R.</INSDAuthor>
+          <INSDAuthor>Ding,S.T.</INSDAuthor>
+          <INSDAuthor>Irie,K.</INSDAuthor>
+          <INSDAuthor>Li,T.K.</INSDAuthor>
+          <INSDAuthor>Tzean,S.S.</INSDAuthor>
+          <INSDAuthor>Shen,T.L.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Evaluation of an Epitypified Ophiocordyceps formosana (Cordyceps s.l.) for Its Pharmacological Potential</INSDReference_title>
+        <INSDReference_journal>Evid Based Complement Alternat Med 2015, 189891 (2015)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1155/2015/189891</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>26451152</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..635</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.-W.</INSDAuthor>
+          <INSDAuthor>Tzean,S.-S.</INSDAuthor>
+          <INSDAuthor>Shen,T.-L.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-JUL-2015) Department of Plant Pathology and Microbiology, National Taiwan University, No. 1, Sec. 4, Roosevelt Rd., Taipei 10617, Taiwan (R.O.C.)</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Vector NTI v. 11.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..635</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KT275190.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps formosana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NTU 00035</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:450344</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;635</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KT275190.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;635)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KT275190.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KT275190.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGTGTTGGCCGATACTAGCGACCCTGAGTTTGCTGCTGCCATCAACACCCGGGACCCCAAGCTGCGCTTTAACCGTGTCTGGGCCGTCTGCAAGAAGAAGCGGAGGTGTGAGAACGAGGATCGTCAGAACAAGGACAAGGATGAGGATTTCGCGCCGGGAATGAAGCCGCATCAGACGGTCGACAACCATGGCGGATGCGGCAACGTGCAGCCCGCCGTGCGACAGGCCGCTCTGCAACTCAAGGCTGCGTTCGAGGTTGTCCAGGAAGACGGCCCCAAGAGGAAGGAGGCGGTTGCCATCACGCCCGAAATGGCTCACGGCATCCTACGGCGGATTTCCGAGAAAGACCTGCGTAACATGGGTCTCAACTGCGACTATGCTCGCCCCGAGTGGATGATCATCACCGTCCTGCCGGTTCCTCCGCCGCCGGTTCGCCCTAGCATTTCCATGGACGGCACGGGCACGGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGTGACATCATCCGTGCCAACGGCAATGTCAAGCAGGCTATCCGCGAAGGCTCCCCTCAGCACATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;635)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KT275190.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>635</INSDInterval_to>
+            <INSDInterval_accession>KT275190.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>ALJ30697.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VLADTSDPEFAAAINTRDPKLRFNRVWAVCKKKRRCENEDRQNKDKDEDFAPGMKPHQTVDNHGGCGNVQPAVRQAALQLKAAFEVVQEDGPKRKEAVAITPEMAHGILRRISEKDLRNMGLNCDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHI</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggtgttggccgatactgttagtctatgctgcaatctgcaaggttttctttgacctactggatactgacctgcgttgtttgcagagcgaccctgagtttgctgctgccatcaacacccgggaccccaagctgcgctttaaccgtgtctgggccgtctgcaagaagaagcggaggtgtgagaacgaggatcgtcagaacaaggacaaggatgaggatttcgcgccgggaatgaagccgcatcagacggtcgacaaccatggcggatgcggcaacgtgcagcccgccgtgcgacaggccgctctgcaactcaaggctgcgttcgaggttgtccaggaagacggccccaagaggaaggaggcggttgccatcacgcccgaaatggctcacggcatcctacggcggatttccgagaaagacctgcgtaacatgggtctcaactgcgactatgctcgccccgagtggatgatcatcaccgtcctgccggttcctccgccgccggttcgccctagcatttccatggacggcacgggcacgggcatgcgaaacgaagacgacttgacctacaagctcggtgacatcatccgtgccaacggcaatgtcaagcaggctatccgcgaaggctcccctcagcacatt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KU854947</INSDSeq_locus>
+    <INSDSeq_length>674</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>10-OCT-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>10-OCT-2016</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps formosana voucher MFLU:15-3888 RNA polymerase II largest subunit (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KU854947</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KU854947.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KU854947.1|</INSDSeqid>
+      <INSDSeqid>gi|1073633626</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps formosana (Cordyceps formosana)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps formosana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..674</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-MAR-2016) Mycology, Mae Fah Luang University, Muang, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..674</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854947.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps formosana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Coleoptera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MFLU:15-3888</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:450344</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>23-Oct-2014</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Tingchi Wen</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;674</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854947.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;674)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KU854947.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854947.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGTGTTGGCCGATACTAGCGACCCTGAGTTTGCTGCTGCCATCAACACCCGGGACCCCAAGCTGCGCTTTAACCGTGTCTGGGCCGTCTGCAAGAAGAAGCGGAGGTGTGAGAACGAGGATCGTCAGAACAAGGACAAGGATGAGGATTTCGCGCCGGGAATGAAGCCGCATCAGACGGTCGACAACCATGGCGGATGCGGCAACGTGCAGCCCGCCGTGCGACAGGCCGCTCTGCAACTCAAGGCTGCGTTCGAGGTTGTCCAGGAAGACGGCCCCAAGAGGAAGGAGGCGGTTGCCATCACGCCCGAAATGGCTCACGGCATCCTACGGCGGATTTCCGAGAAAGACCTGCGTAACATGGGTCTCAACTGCGACTATGCTCGCCCCGAGTGGATGATCATCACCGTCCTGCCGGTTCCTCCGCCGCCGGTTCGCCCTAGCATTTCCATGGACGGCACGGGCACGGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGTGACATCATCCGTGCCAACGGCAATGTCAAGCAGGCTATCCGCGAAGGCTCTCCTCAGCACATTGCAAGGGACTTTGAAGAATTGCTGCAGTACCATGTGGCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;674)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KU854947.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854947.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AOT86867.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VLADTSDPEFAAAINTRDPKLRFNRVWAVCKKKRRCENEDRQNKDKDEDFAPGMKPHQTVDNHGGCGNVQPAVRQAALQLKAAFEVVQEDGPKRKEAVAITPEMAHGILRRISEKDLRNMGLNCDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggtgttggccgatactgttagtctatgctgcaatctgcaaggttttctttgacctactggatactgacctgcgttgtttgcagagcgaccctgagtttgctgctgccatcaacacccgggaccccaagctgcgctttaaccgtgtctgggccgtctgcaagaagaagcggaggtgtgagaacgaggatcgtcagaacaaggacaaggatgaggatttcgcgccgggaatgaagccgcatcagacggtcgacaaccatggcggatgcggcaacgtgcagcccgccgtgcgacaggccgctctgcaactcaaggctgcgttcgaggttgtccaggaagacggccccaagaggaaggaggcggttgccatcacgcccgaaatggctcacggcatcctacggcggatttccgagaaagacctgcgtaacatgggtctcaactgcgactatgctcgccccgagtggatgatcatcaccgtcctgccggttcctccgccgccggttcgccctagcatttccatggacggcacgggcacgggcatgcgaaacgaagacgacttgacctacaagctcggtgacatcatccgtgccaacggcaatgtcaagcaggctatccgcgaaggctctcctcagcacattgcaagggactttgaagaattgctgcagtaccatgtggct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KU854948</INSDSeq_locus>
+    <INSDSeq_length>674</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>10-OCT-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>10-OCT-2016</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps formosana voucher MFLU:15-3889 RNA polymerase II largest subunit (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KU854948</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KU854948.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KU854948.1|</INSDSeqid>
+      <INSDSeqid>gi|1073633628</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps formosana (Cordyceps formosana)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps formosana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..674</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-MAR-2016) Mycology, Mae Fah Luang University, Muang, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..674</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854948.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps formosana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Coleoptera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MFLU:15-3889</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:450344</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>23-Oct-2014</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Ping Zhang</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;674</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854948.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;674)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KU854948.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854948.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGTGTTGGCCGATACTAGCGACCCTGAGTTTGCTGCTGCCATCAACACCCGGGACCCCAAGCTGCGCTTTAACCGTGTCTGGGCCGTCTGCAAGAAGAAGCGGAGGTGTGAGAACGAGGATCGTCAGAACAAGGACAAGGATGAGGATTTCGCGCCGGGAATGAAGCCGCATCAGACGGTCGACAACCATGGCGGATGCGGCAACGTGCAGCCCGCCGTGCGACAGGCCGCTCTGCAACTCAAGGCTGCGTTCGAGGTTGTCCAGGAAGACGGCCCCAAGAGGAAGGAGGCGGTTGCCATCACGCCCGAAATGGCTCACGGCATCCTACGGCGGATTTCCGAGAAAGACCTGCGTAACATGGGTCTCAACTGCGACTATGCTCGCCCCGAGTGGATGATCATCACCGTCCTGCCGGTTCCTCCGCCGCCGGTTCGCCCTAGCATTTCCATGGACGGCACGGGCACGGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGTGACATCATCCGTGCCAACGGCAATGTCAAGCAGGCTATCCGCGAAGGCTCTCCTCAGCACATTGCAAGGGACTTTGAAGAATTGCTGCAGTACCATGTGGCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..16,84..&gt;674)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>16</INSDInterval_to>
+            <INSDInterval_accession>KU854948.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>84</INSDInterval_from>
+            <INSDInterval_to>674</INSDInterval_to>
+            <INSDInterval_accession>KU854948.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AOT86868.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VLADTSDPEFAAAINTRDPKLRFNRVWAVCKKKRRCENEDRQNKDKDEDFAPGMKPHQTVDNHGGCGNVQPAVRQAALQLKAAFEVVQEDGPKRKEAVAITPEMAHGILRRISEKDLRNMGLNCDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggtgttggccgatactgttagtctatgctgcaatctgcaaggttttctttgacctactggatactgacctgcgttgtttgcagagcgaccctgagtttgctgctgccatcaacacccgggaccccaagctgcgctttaaccgtgtctgggccgtctgcaagaagaagcggaggtgtgagaacgaggatcgtcagaacaaggacaaggatgaggatttcgcgccgggaatgaagccgcatcagacggtcgacaaccatggcggatgcggcaacgtgcagcccgccgtgcgacaggccgctctgcaactcaaggctgcgttcgaggttgtccaggaagacggccccaagaggaaggaggcggttgccatcacgcccgaaatggctcacggcatcctacggcggatttccgagaaagacctgcgtaacatgggtctcaactgcgactatgctcgccccgagtggatgatcatcaccgtcctgccggttcctccgccgccggttcgccctagcatttccatggacggcacgggcacgggcatgcgaaacgaagacgacttgacctacaagctcggtgacatcatccgtgccaacggcaatgtcaagcaggctatccgcgaaggctctcctcagcacattgcaagggactttgaagaattgctgcagtaccatgtggct</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

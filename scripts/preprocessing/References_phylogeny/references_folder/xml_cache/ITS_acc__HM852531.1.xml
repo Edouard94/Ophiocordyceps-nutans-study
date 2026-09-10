@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>HM852531</INSDSeq_locus>
+    <INSDSeq_length>637</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-DEC-2010</INSDSeq_update-date>
+    <INSDSeq_create-date>22-DEC-2010</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps neovolkiana internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>HM852531</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>HM852531.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|HM852531.1|</INSDSeqid>
+      <INSDSeqid>gi|315139120</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps neovolkiana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps neovolkiana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..637</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lien,L.T.</INSDAuthor>
+          <INSDAuthor>Hung,P.H.</INSDAuthor>
+          <INSDAuthor>Ly,D.T.T.</INSDAuthor>
+          <INSDAuthor>Thuy,L.H.A.</INSDAuthor>
+          <INSDAuthor>Hiep,D.M.</INSDAuthor>
+          <INSDAuthor>Nguyen,T.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Cordyceps neolkiana, new founded at Langbiang mountain, Dalat, Vietnam</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..637</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Lien,L.T.</INSDAuthor>
+          <INSDAuthor>Hung,P.H.</INSDAuthor>
+          <INSDAuthor>Ly,D.T.T.</INSDAuthor>
+          <INSDAuthor>Thuy,L.H.A.</INSDAuthor>
+          <INSDAuthor>Hiep,D.M.</INSDAuthor>
+          <INSDAuthor>Nguyen,T.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (21-JUL-2010) Biotechnology, Ho Chi Minh City Open University, 97 Vo Van Tan, District 3, Ho Chi Minh City 12345, Vietnam</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..637</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>637</INSDInterval_to>
+            <INSDInterval_accession>HM852531.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps neovolkiana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:933235</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;637</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>637</INSDInterval_to>
+            <INSDInterval_accession>HM852531.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gggnnnnccgnagtttaaactcccnaaccccggtgtgaacctctacctcatcgttgcctcggcgggatcgccccggcgcgccccctccagggcgtccggaccacacggcgcccgccgcaggaccccccaaactctctcgcccctccggcgtcgttttattctgagtggacctttttcctcgcgagagcggggtgaaaatgaattaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgtccgagcgtcatttcgaccctcaggccccgtcaggggactggcgttgggggacggcaccgctgggaggaggggggttcgcctcccctcccccgccgccgcccccgaaatgcagtggcggcctcgccgcagcgacctccgcgtagtagcacagaacctcgcggcctgggagctgggcgcggccacgccgtaaaacaacccccacgcgaagaacccttcgcaccaagagttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaataancgggaggaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

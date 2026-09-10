@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OM743932</INSDSeq_locus>
+    <INSDSeq_length>538</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>23-FEB-2022</INSDSeq_update-date>
+    <INSDSeq_create-date>23-FEB-2022</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps buquetii isolate SDYRS18112603 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OM743932</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OM743932.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OM743932.1|</INSDSeqid>
+      <INSDSeqid>gi|2196271982</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps buquetii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps buquetii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..538</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,G.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Crystal structure of 1,4,5,6-tetra-epi-koninginin G, C16H30O5</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..538</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,G.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (17-FEB-2022) The Engineering Research Center of Southwest Bio Pharmaceutical Resources Ministry of Education, Guizhou University, Xiahui Road, Guiyang, Guizhou Province 650224, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..538</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>538</INSDInterval_to>
+            <INSDInterval_accession>OM743932.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps buquetii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>SDYRS18112603</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:150383</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Nov-2018</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Guang-Di Wang</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;538</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>538</INSDInterval_to>
+            <INSDInterval_accession>OM743932.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cgtaacaaggtctccgttggtgaaccagcggagggatcattactgagtctcgactctccaacccttgtgaactatatttatattttctgcctcggcaggttctttttttttctttcaaagaaaagccctgccagaggagttttcaaaattctatatttattgttttctctgagatttattataatataataaaaactttcagcaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcatattgcgcctgttagttattctagcaggcatgcctgtctgagcgttattgttctgattatgcttttagcatatgttggagattggttgttctactaccatctctaaaatatagtggcgatttttgctttatcctctatgtagtaaatcttatatattctacaacataattggaaagcttttaaaataaactgccattaaaaaagaatttttcttatattagctgacctcagatcagg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

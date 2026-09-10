@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>PP654217</INSDSeq_locus>
+    <INSDSeq_length>698</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-APR-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>22-APR-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps asiana voucher HKAS125846 DNA-directed RNA polymerase II largest subunit (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP654217</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP654217.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PP654217.1|</INSDSeqid>
+      <INSDSeqid>gi|2718041897</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps asiana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps asiana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..698</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zhang,X.</INSDAuthor>
+          <INSDAuthor>Wen,T.C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-APR-2024) Engineering Research Center of Southwest Bio-Pharmaceutical Resources, Guizhou University, Song-Tao Road, South Campus of Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..698</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>698</INSDInterval_to>
+            <INSDInterval_accession>PP654217.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps asiana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>Tessaratoma sp.; adult</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS125846</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2790971</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Guizhou</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>25.150000 N 107.430000 E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>12-Jul-2022</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Xing-Can Peng</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;698</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>698</INSDInterval_to>
+            <INSDInterval_accession>PP654217.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..43,114..&gt;698)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>43</INSDInterval_to>
+            <INSDInterval_accession>PP654217.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>114</INSDInterval_from>
+            <INSDInterval_to>698</INSDInterval_to>
+            <INSDInterval_accession>PP654217.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGAGATTGTCTGCCACAACTGCAGCAAGGTGTTGGCCGATACTAGCGACCCTGACTTTGCCGCTGCCATCAAGACGCGGGATCCCAAGGTCCGCTTCAACCTCGTCTGGAATGTGTGCAAGAAGAAGCGGAGATGCGAAAACGAGGATCGTCAGGGCAAGGACAAGGACGAAGACTTTATGCCAGGAATGAAACATCTGCACACTGTCGATAACCACGGCGGCTGTGGCAACGTTCAACCTGCCGTGCGTCAGCTTGCACTGCAACTCAAGGCTGCCTTCGACGTGCCCCAGGAAGACGGGCCCAAGCGGAGAGACACAGTCCCAATCACTCCGGAAATGGCTCTCAACATTCTGCGGCGCATCTCGGAGGAAGATTTGTGCAACATGGGTCTCAACGTCGATTATGCTCGCCCCGAGTGGATGATCATTACTGTTCTGCCCGTTCCTCCTCCACCCGTTCGCCCCAGTATTTCCATGGATGGCACAGGCACTGGAATGCGCAACGAAGACGATTTGACATACAAGCTCGGCGACATCATTCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGCTCTCCCCAACACATATCGCGAGATTTCGAAGAGCTGCTCCAGTACCAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..43,114..&gt;698)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>43</INSDInterval_to>
+            <INSDInterval_accession>PP654217.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>114</INSDInterval_from>
+            <INSDInterval_to>698</INSDInterval_to>
+            <INSDInterval_accession>PP654217.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>WZK92026.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>EIVCHNCSKVLADTSDPDFAAAIKTRDPKVRFNLVWNVCKKKRRCENEDRQGKDKDEDFMPGMKHLHTVDNHGGCGNVQPAVRQLALQLKAAFDVPQEDGPKRRDTVPITPEMALNILRRISEEDLCNMGLNVDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHISRDFEELLQYH</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggagattgtctgccacaactgcagcaaggtgttggccgatactgttagttaacgcaacattcttcaagatatttctcatgactttgttgattgctgactggctaatgatgtagagcgaccctgactttgccgctgccatcaagacgcgggatcccaaggtccgcttcaacctcgtctggaatgtgtgcaagaagaagcggagatgcgaaaacgaggatcgtcagggcaaggacaaggacgaagactttatgccaggaatgaaacatctgcacactgtcgataaccacggcggctgtggcaacgttcaacctgccgtgcgtcagcttgcactgcaactcaaggctgccttcgacgtgccccaggaagacgggcccaagcggagagacacagtcccaatcactccggaaatggctctcaacattctgcggcgcatctcggaggaagatttgtgcaacatgggtctcaacgtcgattatgctcgccccgagtggatgatcattactgttctgcccgttcctcctccacccgttcgccccagtatttccatggatggcacaggcactggaatgcgcaacgaagacgatttgacatacaagctcggcgacatcattcgcgccaacggcaacgtcaagcaggctatccgcgaaggctctccccaacacatatcgcgagatttcgaagagctgctccagtaccat</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

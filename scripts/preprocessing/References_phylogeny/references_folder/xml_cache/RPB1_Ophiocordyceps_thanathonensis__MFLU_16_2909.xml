@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MF872615</INSDSeq_locus>
+    <INSDSeq_length>712</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-FEB-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>05-FEB-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis culture MFLUCC:16-2909 DNA-directed RNA polymerase II largest subunit (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF872615</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF872615.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF872615.1|</INSDSeqid>
+      <INSDSeqid>gi|1337393570</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..712</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.-P.</INSDAuthor>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+          <INSDAuthor>Sun,J.-Z.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Introducing Ophiocordyceps thanathonensis, a new species of entomogenous fungi on ants, and a reference specimen for O. pseudolloydii</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 328 (2), 115-126 (2017)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..712</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-SEP-2017) School of science, Mae Fah Luang University, Muang, Chiang Rai, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..712</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>712</INSDInterval_to>
+            <INSDInterval_accession>MF872615.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Hymenotera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>MFLUCC:16-2909</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand: ChiangMai, MRC</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>19-Jul-2015</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;712</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>712</INSDInterval_to>
+            <INSDInterval_accession>MF872615.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..37,108..&gt;712)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>37</INSDInterval_to>
+            <INSDInterval_accession>MF872615.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>108</INSDInterval_from>
+            <INSDInterval_to>712</INSDInterval_to>
+            <INSDInterval_accession>MF872615.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGTCTGCCATAACTGCAGCAAGGTGTTGGCCGATACTAGCGATCCAGACTTTGCTGCGGCCATCAAGACGCGGGATCCCAAGGTTCGCTTTAATCGCGTCTGGAACGTCTGCAAGAAGAAGCGGCGTTGTGAAAATGAGGATCGACAGAACAAGGACAAGGATGACGACTTTCTACCAGGAATGAAGCAGTTGCAGACCGTCGATAACCACGGTGGCTGCGGCAACGTTCAGCCCGCCGTTCGTCAGCTTGCATTACAACTCAAGGCGGCCTTTGATGTGCCGCAGGAAGATGGACCCAAGCGAAGGGACACGGTACCAATAACTCCTGAAATGGCTCATGGAATTCTGCGGCGCATCTCAGATGAAGACCTGCGCAACATGGGCCTAAATGTCGATTATGCTCGTCCTGAATGGATGATCATTACTGTGTTGCCCGTTCCTCCGCCGCCAGTCCGGCCCAGCATTTCTATGGACGGCACAGGAACTGGCATGCGCAATGAAGACGATTTGACTTATAAGCTTGGTGATATTATTCGTGCCAACGGTAACGTCAAGCAGGCAATTCGTGAGGGCTCTCCCCAGCACATTGCCAGAGATTTTGAAGAGTTGCTGCAGTATCATGTGGCGACTTACATGGACAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..37,108..&gt;712)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>37</INSDInterval_to>
+            <INSDInterval_accession>MF872615.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>108</INSDInterval_from>
+            <INSDInterval_to>712</INSDInterval_to>
+            <INSDInterval_accession>MF872615.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AUW40217.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VCHNCSKVLADTSDPDFAAAIKTRDPKVRFNRVWNVCKKKRRCENEDRQNKDKDDDFLPGMKQLQTVDNHGGCGNVQPAVRQLALQLKAAFDVPQEDGPKRRDTVPITPEMAHGILRRISDEDLRNMGLNVDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVATYMD</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgtctgccataactgcagcaaggtgttggccgatactgttagttgatgcagcattcttcaaggtgattctcaagacttgattgactgctaacacgctttcaacgtagagcgatccagactttgctgcggccatcaagacgcgggatcccaaggttcgctttaatcgcgtctggaacgtctgcaagaagaagcggcgttgtgaaaatgaggatcgacagaacaaggacaaggatgacgactttctaccaggaatgaagcagttgcagaccgtcgataaccacggtggctgcggcaacgttcagcccgccgttcgtcagcttgcattacaactcaaggcggcctttgatgtgccgcaggaagatggacccaagcgaagggacacggtaccaataactcctgaaatggctcatggaattctgcggcgcatctcagatgaagacctgcgcaacatgggcctaaatgtcgattatgctcgtcctgaatggatgatcattactgtgttgcccgttcctccgccgccagtccggcccagcatttctatggacggcacaggaactggcatgcgcaatgaagacgatttgacttataagcttggtgatattattcgtgccaacggtaacgtcaagcaggcaattcgtgagggctctccccagcacattgccagagattttgaagagttgctgcagtatcatgtggcgacttacatggacaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF872616</INSDSeq_locus>
+    <INSDSeq_length>713</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-FEB-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>05-FEB-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis culture MFLUCC:16-2910 DNA-directed RNA polymerase II largest subunit (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF872616</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF872616.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF872616.1|</INSDSeqid>
+      <INSDSeqid>gi|1337393630</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..713</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.-P.</INSDAuthor>
+          <INSDAuthor>Wen,T.-C.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+          <INSDAuthor>Sun,J.-Z.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Introducing Ophiocordyceps thanathonensis, a new species of entomogenous fungi on ants, and a reference specimen for O. pseudolloydii</INSDReference_title>
+        <INSDReference_journal>Phytotaxa 328 (2), 115-126 (2017)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..713</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-SEP-2017) School of science, Mae Fah Luang University, Muang, Chiang Rai, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..713</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>713</INSDInterval_to>
+            <INSDInterval_accession>MF872616.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Hymenotera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>MFLUCC:16-2910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand: ChiangMai, MRC</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>18-Jul-2015</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;713</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>713</INSDInterval_to>
+            <INSDInterval_accession>MF872616.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..37,108..&gt;713)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>37</INSDInterval_to>
+            <INSDInterval_accession>MF872616.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>108</INSDInterval_from>
+            <INSDInterval_to>713</INSDInterval_to>
+            <INSDInterval_accession>MF872616.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGTCTGCCATAACTGCAGCAAGGTGTTGGCCGATACTAGCGATCCAGACTTTGCTGCGGCCATCAAGACGCGGGATCCCAAGGTTCGCTTTAATCGCGTCTGGAACGTCTGCAAGAAGAAACGGCGTTGTGAAAATGAGGATCGACAGAACAAGGACAAGGATGACGACTTTCTACCAGGAATGAAGCAGTTGCAGACCGTCGATAACCACGGTGGCTGCGGCAACGTTCAGCCCGCCGTTCGTCAGCTTGCGTTACAACTCAAGGCGGCCTTTGATGTGCCGCAGGAAGATGGACCCAAGCGAAGGGACACGGTACCAATAACTCCTGAAATGGCTCATGGAATTCTGCGGCGCATCTCAGATGAAGACCTGCGCAACATGGGCCTAAATGTCGATTATGCTCGTCCTGAATGGATGATCATTACTGTGTTGCCCGTTCCTCCGCCGCCAGTCCGGCCCAGCATTTCTATGGACGGCACAGGAACTGGCATGCGCAATGAAGACGATTTGACTTATAAGCTTGGTGATATTATTCGTGCCAACGGTAACGTCAAGCAGGCAATTCGTGAGGGCTCTCCCCAGCACATTGCCAGAGATTTTGAAGAGTTGCTGCAGTACCATGTGGCGACTTACATGGACAAC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..37,108..&gt;713)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>37</INSDInterval_to>
+            <INSDInterval_accession>MF872616.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>108</INSDInterval_from>
+            <INSDInterval_to>713</INSDInterval_to>
+            <INSDInterval_accession>MF872616.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AUW40218.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VCHNCSKVLADTSDPDFAAAIKTRDPKVRFNRVWNVCKKKRRCENEDRQNKDKDDDFLPGMKQLQTVDNHGGCGNVQPAVRQLALQLKAAFDVPQEDGPKRRDTVPITPEMAHGILRRISDEDLRNMGLNVDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVATYMDN</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgtctgccataactgcagcaaggtgttggccgatactgttagttgatgcagcattcttcaaggtgattctcaagacttgattgactgctaacacgctttcaacgtagagcgatccagactttgctgcggccatcaagacgcgggatcccaaggttcgctttaatcgcgtctggaacgtctgcaagaagaaacggcgttgtgaaaatgaggatcgacagaacaaggacaaggatgacgactttctaccaggaatgaagcagttgcagaccgtcgataaccacggtggctgcggcaacgttcagcccgccgttcgtcagcttgcgttacaactcaaggcggcctttgatgtgccgcaggaagatggacccaagcgaagggacacggtaccaataactcctgaaatggctcatggaattctgcggcgcatctcagatgaagacctgcgcaacatgggcctaaatgtcgattatgctcgtcctgaatggatgatcattactgtgttgcccgttcctccgccgccagtccggcccagcatttctatggacggcacaggaactggcatgcgcaatgaagacgatttgacttataagcttggtgatattattcgtgccaacggtaacgtcaagcaggcaattcgtgagggctctccccagcacattgccagagattttgaagagttgctgcagtaccatgtggcgacttacatggacaac</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

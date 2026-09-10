@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KC610789</INSDSeq_locus>
+    <INSDSeq_length>936</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JAN-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides isolate Ophkni790 18S small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC610789</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC610789.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC610789.1|</INSDSeqid>
+      <INSDSeqid>gi|544191568</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..936</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Isolation of fungi related with Cordyceps from Colombia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..936</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-FEB-2013) Instituto de Biologia, Universidad de Antioquia, Calle 67 N 53 -108, Medellin, Antioquia 050010, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 4.8.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..936</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>936</INSDInterval_to>
+            <INSDInterval_accession>KC610789.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Ophkni790</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Cephalotes atratus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399861</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, La Chorrera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;936</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>936</INSDInterval_to>
+            <INSDInterval_accession>KC610789.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATTTGATAGCACCTCGCTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAGACCAATGCCCCCTGGGCTCTCTGGTGATTCATGATAACTGCTCGGATCGCACGGCCTTGCGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTACAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCCGCGGAACCCCATGCCCTTCGCTGGGCGTGGCGGGGAAACGGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTGATAGGGACAGTCGGGGGCATCAGTATTCAACCGTCAGAGGTGAAATTCTTGGACCGGTTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atttgatagcacctcgctacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaagaccaatgccccctgggctctctggtgattcatgataactgctcggatcgcacggccttgcgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttacaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctccgcggaaccccatgcccttcgctgggcgtggcggggaaacgggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattgatagggacagtcgggggcatcagtattcaaccgtcagaggtgaaattcttggaccggttgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgtta</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC610790</INSDSeq_locus>
+    <INSDSeq_length>601</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JAN-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides var. kniphofioides isolate Ophkni975 18S small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC610790</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC610790.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC610790.1|</INSDSeqid>
+      <INSDSeqid>gi|544191569</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides var. kniphofioides</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides var. kniphofioides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..601</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Isolation of fungi related with Cordyceps from Colombia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..601</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sanjuan,T.I.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.-E.</INSDAuthor>
+          <INSDAuthor>Restrepo,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-FEB-2013) Instituto de Biologia, Universidad de Antioquia, Calle 67 N 53 -108, Medellin, Antioquia 050010, Colombia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 4.8.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..601</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>601</INSDInterval_to>
+            <INSDInterval_accession>KC610790.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides var. kniphofioides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Ophkni975</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Cephalotes atratus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399862</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, La Chorrera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;601</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>601</INSDInterval_to>
+            <INSDInterval_accession>KC610790.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACGGCGAAACTGCCGAATGGCTCATTATATAAGTTATCGTTCATTTGATAGCACCTCGCTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCCCTGGGCTCTCTGGTGATTCATGATAACTGCTCGAATCGCATGGCCTTGCGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgtctcaaagattaagccatgcatgtctaagtataagcaattatacggcgaaactgccgaatggctcattatataagttatcgttcatttgatagcacctcgctacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccccctgggctctctggtgattcatgataactgctcgaatcgcatggccttgcgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KF937352</INSDSeq_locus>
+    <INSDSeq_length>575</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-NOV-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>05-NOV-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides voucher TSJ790 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KF937352</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KF937352.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gnl|uoguelph|FUNCO008-13.ITS</INSDSeqid>
+      <INSDSeqid>gb|KF937352.1|</INSDSeqid>
+      <INSDSeqid>gi|574450314</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..575</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Austroboletus amazonicus sp. nov. and Fistulinella campinaranae var. scrobiculata, two commonly occurring boletes from a forest dominated by Pseudomonotes tropenbosii (Dipterocarpaceae) in Colombian Amazonia</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..575</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vasco-Palacios,A.M.</INSDAuthor>
+          <INSDAuthor>Lopez-Quintero,C.</INSDAuthor>
+          <INSDAuthor>Franco-Molano,A.E.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-NOV-2013) Yeast and Basidiomycete Research, CBS-KNAQ. Fungal Biodiversity Centre, Uppsalalaan 8, Utrecht 3584 CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..575</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>575</INSDInterval_to>
+            <INSDInterval_accession>KF937352.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>TSJ790</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>BOLD:FUNCO008-13.ITS</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399861</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Colombia: Amazonas, La Chorrera, San Francisco, Chuquial</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>30-Jul-2009</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Tatiana Sanjuan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;575</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>575</INSDInterval_to>
+            <INSDInterval_accession>KF937352.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatacaactcccaaacccgtgtgaacctctacctcaacgttgcctcggcgggattcgccccggcggcgccctggcggcaacgtcaggcgctccggataccatggcgcccgccgcaggacccccccaaaactctctttgcatctccggtggcatttctcttctgagtaaacgattactcccgcgagagcgggagggaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgtccgagcgtcatttcgaccctcaggctggggaaaaaagaaccacttttacagcggttcccctccccgtcgagcctggtgttgggggacggcagcggctttctaacgccccgccgcccccgaaatgcagtggcggccacgtcgcagcgacctccgcgtagtagcacaagaaacc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX713646</INSDSeq_locus>
+    <INSDSeq_length>1017</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-OCT-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>03-OCT-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides var. monacidis strain MF74C small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX713646</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX713646.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX713646.1|</INSDSeqid>
+      <INSDSeqid>gi|1248804880</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides var. monacidis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides var. monacidis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1017</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.P.M.</INSDAuthor>
+          <INSDAuthor>Hughes,D.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Zombie-ant fungus across continents: 14 new species and new combinations for the Ophiocordyceps pathogens of ants: Hirsutelloid species</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1017</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.P.M.</INSDAuthor>
+          <INSDAuthor>Hughes,D.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-AUG-2016) Biology, Pennsylvania State University, Millennium Sciences Complex, State College, PA 16801, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1017</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1017</INSDInterval_to>
+            <INSDInterval_accession>KX713646.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides var. monacidis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>MF74C</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2030791</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>group: Ophiocordyceps unilateralis s.l.</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1017</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1017</INSDInterval_to>
+            <INSDInterval_accession>KX713646.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TTATACGGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTCTATTTGATAGCACCTCGCTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAGTCCCGACTTCGGAAGGGATGTGTTTATTAGATTAAAAACCAATGCCCTCTGGGCTCCTTGGTGATTCATGGTAACCTCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCGAATTTCTTCCCTATCAACTTTCGATGTTCGGGTAGTGGCCTAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCTGCGGAACCCCATGCCCTTCACTGGGCGTGGCGGGGAAGCAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCTGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTGATAGGGACAGTCGGGGGCATCAGTATTCGATCGTCAGAGGTGAAATTCTTGGACCGATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTACTTGACTCGTTCGGCACCTTACGAGAAATCAAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttatacggcgaaactgcgaatggctcattatataagttatcgtctatttgatagcacctcgctacttggataaccgtggtaattctagagctaatacatgctgaaagtcccgacttcggaagggatgtgtttattagattaaaaaccaatgccctctgggctccttggtgattcatggtaacctctcgaatcgcacggccttgcgccggcgatggttcattcgaatttcttccctatcaactttcgatgttcgggtagtggcctaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctctgcggaaccccatgcccttcactgggcgtggcggggaagcaggacttttactttgaaaaaattagagtgctcctggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctaggaccgccgtaatgattgatagggacagtcgggggcatcagtattcgatcgtcagaggtgaaattcttggaccgattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattacttgactcgttcggcaccttacgagaaatcaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX713647</INSDSeq_locus>
+    <INSDSeq_length>1011</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-OCT-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>03-OCT-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides var. monacidis strain MF74 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX713647</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX713647.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX713647.1|</INSDSeqid>
+      <INSDSeqid>gi|1248804881</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides var. monacidis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides var. monacidis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1011</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.P.M.</INSDAuthor>
+          <INSDAuthor>Hughes,D.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Zombie-ant fungus across continents: 14 new species and new combinations for the Ophiocordyceps pathogens of ants: Hirsutelloid species</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1011</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.P.M.</INSDAuthor>
+          <INSDAuthor>Hughes,D.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-AUG-2016) Biology, Pennsylvania State University, Millennium Sciences Complex, State College, PA 16801, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1011</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1011</INSDInterval_to>
+            <INSDInterval_accession>KX713647.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides var. monacidis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>MF74</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2030791</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>group: Ophiocordyceps unilateralis s.l.</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1011</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1011</INSDInterval_to>
+            <INSDInterval_accession>KX713647.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CAATTATACGGCGAAACTNGCGAATGGCTCATTATATAAGTTATCGTCTATTTGATAGCACCTCGCTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAGTCCCGACTTCGGAAGGGATGTGTTTATTAGATTAAAAACCAATGCCCTCTGGGCTCCTTGGTGATTCATGGTAACCTCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCGAATTTCTTCCCTATCAACTTTCGATGTTCGGGTAGTGGCCTAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCTGCGGAACCCCATGCCCTTCACTGGGCGTGGCGGGGAAGCAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTGGGACCGCCGTAATGATTGATAGGGACAGTCGGGGGCATCAGTATTCGATCGTCAGAGGTGAAATTCTTGGACCGATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTACTTGACTCGTTCGGCACCTTACG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>caattatacggcgaaactngcgaatggctcattatataagttatcgtctatttgatagcacctcgctacttggataaccgtggtaattctagagctaatacatgctgaaagtcccgacttcggaagggatgtgtttattagattaaaaaccaatgccctctgggctccttggtgattcatggtaacctctcgaatcgcacggccttgcgccggcgatggttcattcgaatttcttccctatcaactttcgatgttcgggtagtggcctaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctctgcggaaccccatgcccttcactgggcgtggcggggaagcaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctgggaccgccgtaatgattgatagggacagtcgggggcatcagtattcgatcgtcagaggtgaaattcttggaccgattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattacttgactcgttcggcaccttacg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF416620</INSDSeq_locus>
+    <INSDSeq_length>944</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>26-DEC-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>26-DEC-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides voucher HUA TSF 790 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF416620</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF416620.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF416620.1|</INSDSeqid>
+      <INSDSeqid>gi|1315192915</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..944</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Quandt,C.A.</INSDAuthor>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Aime,M.C.</INSDAuthor>
+          <INSDAuthor>Henkel,T.W.</INSDAuthor>
+          <INSDAuthor>Sanjuan,T.</INSDAuthor>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Chen,M.</INSDAuthor>
+          <INSDAuthor>Li,Z.</INSDAuthor>
+          <INSDAuthor>Rossman,A.Y.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>A phylogenetically-based nomenclature for Cordycipitaceae (Hypocreales)</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 8 (2), 335-353 (2017)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.5598/imafungus.2017.08.02.08</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29242779</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..944</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Quandt,C.Alisha.</INSDAuthor>
+          <INSDAuthor>Sung,G.-H.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Aime,M.Catherine.</INSDAuthor>
+          <INSDAuthor>Henkel,T.W.</INSDAuthor>
+          <INSDAuthor>Sanjuan,T.</INSDAuthor>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Chen,M.</INSDAuthor>
+          <INSDAuthor>Rossman,A.Y.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (28-JUN-2017) Sustainable Agricultural Systems Laboratory, United States Department of Agriculture, 10300 Baltimore Ave Bldg 001, Beltsville, MD 20705, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: CodonCode v. 2.0.6 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..944</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>944</INSDInterval_to>
+            <INSDInterval_accession>MF416620.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HUA TSF 790</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399861</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;944</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>944</INSDInterval_to>
+            <INSDInterval_accession>MF416620.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATCGTTTATTTGATAGCACCTCGCTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAGACCAATGCCCCCTGGGCTCTCTGGTGATTCATGATAACTGCTCGGATCGCACGGCCTTGCGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTACAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCCGCGGAACCCCATGCCCTTCGCTGGGCGTGGCGGGGAAACGGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTGATAGGGACAGTCGGGGGCATCAGTATTCAACCGTCAGAGGTGAAATTCTTGGACCGGTTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcgtttatttgatagcacctcgctacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaagaccaatgccccctgggctctctggtgattcatgataactgctcggatcgcacggccttgcgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttacaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctccgcggaaccccatgcccttcgctgggcgtggcggggaaacgggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattgatagggacagtcgggggcatcagtattcaaccgtcagaggtgaaattcttggaccggttgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MK874746</INSDSeq_locus>
+    <INSDSeq_length>965</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>07-MAY-2019</INSDSeq_update-date>
+    <INSDSeq_create-date>07-MAY-2019</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides voucher MF90 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MK874746</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MK874746.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MK874746.1|</INSDSeqid>
+      <INSDSeqid>gi|1628816610</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..965</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Araujo,J.</INSDAuthor>
+          <INSDAuthor>Hughes,D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-MAY-2019) Entomology, Pennsylvania State University, W113 Millennium Sciences Complex, University Park, PA 16802, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..965</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>965</INSDInterval_to>
+            <INSDInterval_accession>MK874746.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MF90</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399861</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;965</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>965</INSDInterval_to>
+            <INSDInterval_accession>MK874746.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GAATGGCTCATTATACAAGTTATCGTTTATTTGATAGCACCTCGCTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCCGAAAATCCCGACTTCGGAAGGGATGTATTTATAAGATTAAAGACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTGCTCGGATCGCACGGCCTTGCGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTACAACGGGCGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGCAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCCGCGGAACCCCATGCCCTTCGCTGGGCGTGGCGGGGAAACGGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATCATGGAATAATGAAAGACGTGCGGTTCTATTTTGTTGGTTTCGACCGCCGTAATGATGGACAGTCGGGGGCATCAGTATTCAACCGTCAGAGGAATTCTTGGACCGGTAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACGGATCGGACGATGTTATTTTTCTCGTTCGGCACCTTACGAGAAATCAAAGTGC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gaatggctcattatacaagttatcgtttatttgatagcacctcgctacttggataaccgtggtaattctagagctaatacatgccgaaaatcccgacttcggaagggatgtatttataagattaaagaccaatgccctctgggctctctggtgattcatgataactgctcggatcgcacggccttgcgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttacaacgggcggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggcaaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctccgcggaaccccatgcccttcgctgggcgtggcggggaaacgggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacatcatggaataatgaaagacgtgcggttctattttgttggtttcgaccgccgtaatgatggacagtcgggggcatcagtattcaaccgtcagaggaattcttggaccggtagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgacggatcggacgatgttatttttctcgttcggcaccttacgagaaatcaaagtgc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

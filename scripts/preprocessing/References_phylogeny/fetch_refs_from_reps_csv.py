@@ -2,26 +2,46 @@
 """
 Fetch reference sequences from NCBI for multigene phylogeny analysis.
 
-This script reads a CSV of representative species with accessions and vouchers,
-then fetches reference sequences from NCBI for specified genes (ITS, SSU, LSU, TEF, RPB1, RPB2).
-For each species, it uses direct accession numbers when available, or performs
-voucher-based searches for missing accessions. It can also optionally include
-outgroup taxa, audit vouchers missing ITS accessions, and populate additional
-representatives for specific species (including synonyms) by finding vouchers with multiple genes.
+This script reads a “representatives” CSV (species + voucher + optional per-gene
+accessions) and fetches reference sequences from NCBI for a set of genes
+(ITS, SSU, LSU, TEF, RPB1, RPB2).
 
-Expects CSV format: Species,Voucher,SSU,LSU,TEF,RPB1,RPB2,Host
+For each row and requested gene:
+    - If an accession is present in the CSV, it is fetched directly (batched per gene).
+    - If the accession cell is blank, the script searches NCBI using species + gene
+        markers and tries to recover the sequence for that voucher.
+        If voucher matching fails, it can optionally fall back to the first hit
+        (unless --strict-voucher is enabled).
+
+Optional features:
+    - Add outgroup taxa.
+    - Audit missing ITS accessions.
+    - Populate “additional representatives” for one or more species names by
+        discovering vouchers that have >= N genes.
+
+Expected CSV column names (minimum):
+    Species,Voucher
+and one column per gene you want to use/fetch, e.g.:
+    ITS,SSU,LSU,TEF,RPB1,RPB2
 
 Usage:
 
+    # Typical run (download + cache XML + per-gene FASTAs)
     nohup conda run -n base python3 scripts/fetch_refs_from_reps_csv.py \
         --csv Ophiocordyceps_species_representatives.csv \
         --outdir references_last \
         --genes ITS SSU LSU TEF RPB1 RPB2 \
         --include-outgroups \
         --audit-its \
+        > references_last/logs/fetch.nohup.log 2>&1 &
+
+    # Populate additional representatives (synonyms allowed) then fetch
+    nohup conda run -n base python3 scripts/fetch_refs_from_reps_csv.py \
+        --csv Ophiocordyceps_species_representatives.csv \
+        --outdir references_last \
         --populate-species "Ophiocordyceps nutans" "Cordyceps nutans" "Ophiocordyceps neonutans" \
-        --min-genes 1 \
-        > fetch_refs.log 2>&1 &
+        --min-genes 4 \
+        > references_last/logs/fetch.populate.nohup.log 2>&1 &
 
     # Monitor progress:
     tail -f fetch_refs.log
@@ -30,7 +50,8 @@ Options:
     --csv PATH                 Path to representatives CSV (required)
     --outdir DIR               Output directory (default: references)
     --genes GENES              Genes to fetch (default: ITS SSU LSU TEF RPB1)
-    --strict-voucher           Strict voucher matching
+    --strict-voucher           Require voucher match (no first-hit fallback) AND enforce a single
+                               “primary voucher” per species across genes (other vouchers skipped).
     --include-outgroups        Include outgroup references
     --outgroups SPECIES...     Outgroup species (default: Tolypocladium inflatum Tolypocladium ophioglossoides)
     --audit-its                Audit missing ITS accessions
@@ -38,7 +59,13 @@ Options:
     --populate-species SPECIES...  Populate additional representatives
     --min-genes N              Min genes for additional reps (default: 3)
 
-Output: Creates {GENE}_refs.fasta files with headers formatted as:
+Output: Creates files under --outdir:
+    {GENE}_refs.fasta          Per-gene reference FASTAs
+    xml_cache/*.xml            Cached NCBI XML queries (gbc/INSDSeq)
+    logs/fetch.log             Run log
+    audits/*                   Optional audit reports
+
+FASTA headers are formatted as:
     >SpeciesName_VoucherID_Gene_Accession
 
 Notes:
@@ -74,7 +101,10 @@ VOUCHER_FIELDS = [
 
 
 GENE_MARKERS = {
-    "ITS": "(ITS[All Fields] OR ITS2[All Fields] OR internal transcribed spacer[All Fields] OR internal transcribed spacer 2[All Fields])",
+    # ITS: prefer records that look like the complete ITS region (ITS1 + 5.8S + ITS2)
+    # but keep a permissive fallback so we still get something for taxa where only partial
+    # ITS is available.
+    "ITS": "(((ITS1[All Fields] OR \"internal transcribed spacer 1\"[All Fields]) AND (ITS2[All Fields] OR \"internal transcribed spacer 2\"[All Fields])) OR (\"5.8S\"[All Fields] AND (ITS1[All Fields] OR ITS2[All Fields] OR \"internal transcribed spacer\"[All Fields])) OR ITS[All Fields] OR \"internal transcribed spacer\"[All Fields])",
     "SSU": "(SSU[All Fields] OR 18S[All Fields] OR small subunit[All Fields])",
     "LSU": "(LSU[All Fields] OR 28S[All Fields] OR large subunit[All Fields])",
     "TEF": "(tef1[All Fields] OR tef[All Fields] OR tef1a[All Fields] OR \"tef1-alpha\"[All Fields] OR translation elongation factor 1 alpha[All Fields])",
@@ -93,6 +123,53 @@ def need(bin_name):
 
 def norm(s):
     return re.sub(r"[^A-Za-z0-9]", "", s or "").lower()
+
+
+def voucher_tokens(v: str) -> set[str]:
+    """Return a set of normalized tokens for a voucher.
+
+    This is intentionally permissive: it splits on whitespace and common
+    separators, and also adds a fully-collapsed alnum token.
+
+    Examples:
+      "OSC 128580" -> {"osc", "128580", "osc128580"}
+      "NBRC_105890" -> {"nbrc", "105890", "nbrc105890"}
+    """
+    if not v:
+        return set()
+
+    # Split on whitespace and separators, keep also the collapsed form.
+    raw = v.strip()
+    parts = re.split(r"[^A-Za-z0-9]+", raw)
+    toks = {p.lower() for p in parts if p}
+
+    collapsed = norm(raw)
+    if collapsed:
+        toks.add(collapsed)
+
+    # Common pattern: ABC 12345 -> ABC12345
+    if len(parts) >= 2:
+        joined = norm("".join(parts))
+        if joined:
+            toks.add(joined)
+
+    return toks
+
+
+def voucher_match(query_voucher: str, found_voucher: str) -> bool:
+    """Flexible voucher match.
+
+    Matches if:
+      - exact normalized-substring match in either direction, OR
+      - token overlap between query voucher and found voucher.
+    """
+    qn = norm(query_voucher)
+    fn = norm(found_voucher)
+    if not qn or not fn:
+        return False
+    if qn in fn or fn in qn:
+        return True
+    return bool(voucher_tokens(query_voucher) & voucher_tokens(found_voucher))
 
 def canonical_voucher(v: str) -> str:
     """Return a canonical voucher string:
@@ -190,7 +267,40 @@ def efetch_fasta_batch(accessions):
         return ""
     ids = ",".join(accessions)
     res = sp.run(["efetch", "-db", "nuccore", "-id", ids, "-format", "fasta"], capture_output=True, text=True)
+    if res.returncode != 0:
+        raise RuntimeError(f"efetch failed (fasta): {res.stderr[:200]}")
     return res.stdout
+
+
+def efetch_xml_for_accession(acc: str, save_path: Path | None = None) -> str:
+    """Fetch INSDSeq XML for a single accession (gbc format).
+
+    This is used for locus validation and is cached on disk when save_path is
+    provided to avoid repeated network calls.
+    """
+    if not acc:
+        return ""
+    # efetch can take accession-version or primary accession.
+    res = sp.run(["efetch", "-db", "nuccore", "-id", acc, "-format", "gbc"], capture_output=True, text=True)
+    xml_text = res.stdout or ""
+    if save_path:
+        save_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(save_path, "w", encoding="utf-8") as fh:
+            fh.write(xml_text)
+    return xml_text
+
+
+def get_cached_accession_xml(xml_dir: Path, requested_gene: str, accession: str) -> tuple[str, str]:
+    """Return (xml_text, cache_filename) for accession XML, fetching if needed."""
+    acc_safe = re.sub(r"[^A-Za-z0-9_.-]+", "_", accession)
+    xml_filename = f"{requested_gene}_acc__{acc_safe}.xml"
+    xml_path = xml_dir / xml_filename
+    if xml_path.exists():
+        try:
+            return (xml_path.read_text(encoding="utf-8", errors="replace"), xml_filename)
+        except Exception:
+            pass
+    return (efetch_xml_for_accession(accession, save_path=xml_path), xml_filename)
 
 
 def valid_xml(xml_text: str) -> bool:
@@ -222,14 +332,66 @@ def parse_xml_for_voucher(xml_text, voucher, log_prefix=""):
             for q in insd.findall(".//INSDQualifier")
             if (q.findtext("INSDQualifier_name") or "").lower() in VOUCHER_FIELDS
         ]
-        match = (any(voucher_norm in norm(vv) for vv in vvals) or voucher_norm in norm(definition)) if voucher_norm else True
+        match = (any(voucher_match(voucher, vv) for vv in vvals) or voucher_match(voucher, definition)) if voucher_norm else True
         # Fallback: if still not matched, scan all qualifier values (some submitters only put codes in unusual fields)
         if (not match) and voucher_norm:
             all_qvals = [q.findtext("INSDQualifier_value") or "" for q in insd.findall(".//INSDQualifier")]
-            match = any(voucher_norm in norm(vv) for vv in all_qvals)
+            match = any(voucher_match(voucher, vv) for vv in all_qvals)
         if match:
             hits.append((acc, org, vvals[0] if vvals else "", seq))
     return hits
+
+
+def first_insd_record(xml_text: str):
+    """Return (acc, org, voucher, seq) for the first INSDSeq in an XML document."""
+    if not valid_xml(xml_text):
+        return ("", "", "", "")
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return ("", "", "", "")
+    insd = root.find(".//INSDSeq")
+    if insd is None:
+        return ("", "", "", "")
+    acc = insd.findtext("INSDSeq_accession-version") or insd.findtext("INSDSeq_primary-accession") or ""
+    org = insd.findtext("INSDSeq_organism") or ""
+    seq = insd.findtext("INSDSeq_sequence") or ""
+    definition = insd.findtext("INSDSeq_definition") or ""
+    vvals = [
+        q.findtext("INSDQualifier_value") or ""
+        for q in insd.findall(".//INSDQualifier")
+        if (q.findtext("INSDQualifier_name") or "").lower() in VOUCHER_FIELDS
+    ]
+    v = vvals[0] if vvals else ""
+    # if voucher isn't present in qualifiers, definition sometimes contains it
+    if not v and definition:
+        v = definition
+    return (acc, org, v, seq)
+
+
+def build_voucher_query_clause(voucher: str) -> str:
+    """Build an NCBI query clause to help match a voucher flexibly."""
+    toks = sorted(voucher_tokens(voucher))
+    if not toks:
+        return ""
+
+    # Prefer the collapsed token and any digit-only token(s).
+    collapsed = norm(voucher)
+    digits = [t for t in toks if t.isdigit()]
+    alpha_num = [t for t in toks if t and not t.isdigit()]
+    prefer = []
+    if collapsed:
+        prefer.append(collapsed)
+    prefer.extend(digits[:2])
+    prefer.extend(alpha_num[:2])
+    prefer = [p for i, p in enumerate(prefer) if p and p not in prefer[:i]]
+
+    # Use both quoted and unquoted forms; NCBI sometimes indexes differently.
+    clauses = []
+    for p in prefer:
+        clauses.append(f'"{p}"[All Fields]')
+        clauses.append(f'{p}[All Fields]')
+    return "(" + " OR ".join(clauses) + ")"
 
 
 def extract_qualifiers(insd):
@@ -379,6 +541,94 @@ def parse_xml_entries(xml_text):
     return out
 
 
+def xml_text_for_gene_validation(xml_text: str) -> str:
+    """Return a concatenated text blob emphasizing DEFINITION and gene qualifiers.
+
+    This is intentionally conservative: it downweights other fields (titles/notes)
+    that can mention unrelated loci and cause false positives in esearch.
+    """
+    if not valid_xml(xml_text):
+        return ""
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return ""
+
+    parts = []
+    for insd in root.findall(".//INSDSeq"):
+        definition = (insd.findtext("INSDSeq_definition") or "").strip()
+        if definition:
+            parts.append(definition)
+
+        # Pull all /gene qualifiers across features
+        for qual in extract_qualifiers(insd):
+            if (qual.get("name") or "").lower() == "gene" and (qual.get("value") or "").strip():
+                parts.append(qual["value"].strip())
+    return "\n".join(parts)
+
+
+def gene_accept_from_xml(xml_text: str, requested_gene: str) -> tuple[bool, str]:
+    """Decide whether an INSD XML record matches the requested gene.
+
+    Contract:
+      - Uses only INSDSeq_definition and /gene qualifiers (NOT title/notes).
+      - Returns (accepted, reason).
+
+    Reasons are short strings used for auditing.
+    """
+    blob = xml_text_for_gene_validation(xml_text)
+    if not blob:
+        return (False, "no-xml-or-parse-error")
+
+    blob_norm = blob.lower().replace("-", " ").replace("_", " ")
+    blob_norm = re.sub(r"\s+", " ", blob_norm)
+
+    g = (requested_gene or "").upper().strip()
+
+    # ITS: require explicit ITS signal in DEFINITION or /gene.
+    if g == "ITS":
+        its_ok = (
+            "internal transcribed spacer" in blob_norm
+            or " its1" in f" {blob_norm} "
+            or " its2" in f" {blob_norm} "
+            or " 5.8s" in f" {blob_norm} "
+            or re.search(r"\bits\b", blob_norm) is not None
+        )
+        if not its_ok:
+            return (False, "no-its-in-definition-or-gene")
+        # Common false positive loci sometimes co-mentioned; reject if clearly not ITS.
+        if re.search(r"\bmcm7\b", blob_norm):
+            return (False, "definition-gene-mentions-mcm7")
+        return (True, "ok")
+
+    # SSU / LSU: accept only if small/large subunit or 18S/28S is mentioned.
+    if g == "SSU":
+        if re.search(r"\b18s\b", blob_norm) or re.search(r"\bssu\b", blob_norm) or ("small subunit" in blob_norm):
+            return (True, "ok")
+        return (False, "no-ssu-in-definition-or-gene")
+    if g == "LSU":
+        if re.search(r"\b28s\b", blob_norm) or re.search(r"\blsu\b", blob_norm) or ("large subunit" in blob_norm):
+            return (True, "ok")
+        return (False, "no-lsu-in-definition-or-gene")
+
+    # Protein coding loci: accept only if the locus itself is mentioned.
+    if g == "TEF":
+        if re.search(r"\btef\b", blob_norm) or ("elongation factor" in blob_norm) or re.search(r"\bef1\b", blob_norm):
+            return (True, "ok")
+        return (False, "no-tef-in-definition-or-gene")
+    if g == "RPB1":
+        if re.search(r"\brpb1\b", blob_norm) or ("rna polymerase ii" in blob_norm and "largest" in blob_norm):
+            return (True, "ok")
+        return (False, "no-rpb1-in-definition-or-gene")
+    if g == "RPB2":
+        if re.search(r"\brpb2\b", blob_norm) or ("rna polymerase ii" in blob_norm and "second" in blob_norm):
+            return (True, "ok")
+        return (False, "no-rpb2-in-definition-or-gene")
+
+    # Unknown gene: don't block.
+    return (True, "unknown-gene-no-filter")
+
+
 def write_gene_fastas(outdir, gene_to_records):
     outdir.mkdir(parents=True, exist_ok=True)
     for gene, recs in gene_to_records.items():
@@ -419,7 +669,7 @@ def log(msg):
             pass
 
 
-def populate_additional_reps(species_list, genes, min_genes, rows):
+def populate_additional_reps(species_list, genes, min_genes, rows, outdir: Path):
     """Populate vouchers that have at least min_genes among requested genes across provided species names.
     Strategy: single broad query per species (all sequences length filter) then classify sequences by voucher.
     This avoids per-gene queries and reduces network calls dramatically.
@@ -427,7 +677,8 @@ def populate_additional_reps(species_list, genes, min_genes, rows):
     Key fix: Only assign ONE accession per voucher+gene combination (the first one found).
     This prevents mismatches where a voucher's gene gets assigned an accession from a different voucher.
     """
-    xml_dir = Path("references") / "xml_cache"
+    # Keep cache alongside the chosen output directory, so repeated runs are reproducible.
+    xml_dir = outdir / "xml_cache"
     voucher_to_gene_acc = defaultdict(lambda: defaultdict(str))
     voucher_to_species = {}  # Track which species each voucher belongs to
     
@@ -463,8 +714,13 @@ def populate_additional_reps(species_list, genes, min_genes, rows):
             if not vval or not gene or not acc:
                 continue
                 
+            # For populated reps, be conservative: verify locus using DEFINITION+/gene by accession XML.
             gene = gene.upper()
             if gene in genes:
+                xml_acc, _ = get_cached_accession_xml(xml_dir, gene, acc)
+                ok, _reason = gene_accept_from_xml(xml_acc, gene)
+                if not ok:
+                    continue
                 voucher_gene_pairs[(vval, gene)].append(acc)
                 # Only assign if not already set for this voucher+gene combo
                 if not voucher_to_gene_acc[vval][gene]:
@@ -564,9 +820,11 @@ def main():
 
     if args.populate_species:
         log(f"[INFO] Populating additional reps for: {', '.join(args.populate_species)} (min_genes={args.min_genes})")
-        populate_additional_reps(args.populate_species, genes, args.min_genes, rows)
+        populate_additional_reps(args.populate_species, genes, args.min_genes, rows, outdir)
 
-    # Collect accessions per gene (batch fetch) and voucher-search requests where accession missing
+    # Collect accessions per gene (batch fetch) and voucher-search requests where accession missing.
+    # CSV-listed taxa should be fetched directly when accessions are present; only blank cells
+    # fall back to voucher-based lookup. Optional outgroups remain separate from CSV taxa.
     gene_to_accessions = defaultdict(set)
     voucher_requests = []  # tuples: (species, voucher, gene)
 
@@ -578,7 +836,11 @@ def main():
             if acc:
                 gene_to_accessions[g].add(acc)
             else:
-                voucher_requests.append((species, voucher, g))
+                # Only enqueue voucher-based lookup when a voucher exists.
+                # If accession AND voucher are missing, the row is still carried forward
+                # (e.g. for presence tables), but we can't search NCBI meaningfully.
+                if species and voucher:
+                    voucher_requests.append((species, voucher, g))
 
     if args.parse_only:
         total = len(rows)
@@ -590,6 +852,9 @@ def main():
 
     # Batch fetch all known accessions (concise implementation)
     gene_to_records = defaultdict(list)
+    # Track which (gene, accession) came explicitly from the CSV.
+    # These should never be removed by strict voucher filtering.
+    explicit_csv_acc = set()  # set[(gene, accession)]
     fetch_summary = defaultdict(list)
     for g, accs in gene_to_accessions.items():
         if not accs:
@@ -617,6 +882,8 @@ def main():
                 a = row[g].strip()
                 acc_index[a] = (row.get("Species", "").strip(), row.get("Voucher", "").strip())
                 acc_index[a.split('.')[0]] = acc_index[a]
+                explicit_csv_acc.add((g, a))
+                explicit_csv_acc.add((g, a.split('.')[0]))
 
         for acc, seq in acc_to_seq.items():
             if not seq:
@@ -629,52 +896,97 @@ def main():
             gene_to_records[g].append((species, acc, voucher, seq))
             fetch_summary[g].append(f"[OK] {g}: {species} | {voucher} | {acc}")
 
-    # Voucher-based searches for missing accessions (one query per species+gene, then filter vouchers locally)
+    # Voucher-based searches for missing accessions.
+    # Strategy (in order):
+    #   1) species+gene+voucher_terms query (more selective, fewer false positives)
+    #   2) species+gene broad query + local voucher filter
+    #   3) species+gene broad query first-record fallback (unless --strict-voucher)
     xml_dir = outdir / "xml_cache"
-    species_gene_xml_cache = {}
-    for species, voucher, g in voucher_requests:
-        if not species:
-            fetch_summary[g].append(f"[SKIP] Blank species for {g} | {voucher}")
-            continue
-        marker = GENE_MARKERS[g]
-        key = (species, g)
-        if key not in species_gene_xml_cache:
-            safe_species = re.sub(r"[^\w\s-]", "", species).replace(" ", "_")
-            xml_filename = f"{g}_{safe_species}.xml"
-            xml_path = xml_dir / xml_filename
-            query = f'"{species}"[ORGN] AND {marker} AND 0:8000[SLEN]'
-            log(f"[INFO] Voucher search XML fetch: species={species} gene={g}")
-            species_gene_xml_cache[key] = esearch_xml(query, save_path=xml_path)
-        xml = species_gene_xml_cache[key]
-        hits = parse_xml_for_voucher(xml, voucher, f"voucher filter {species} {g}")
-        if not hits:
-            if args.strict_voucher:
-                fetch_summary[g].append(f"[FAIL] No voucher match for {species} | {voucher} | {g}")
-                continue
-            # fallback: first sequence in species+gene XML
-            log(f"[WARN] No exact voucher match for {species} | {voucher} | {g}; using first sequence as fallback. Use --strict-voucher to skip instead.")
-            if not valid_xml(xml):
-                fetch_summary[g].append(f"[FAIL] Empty XML response for {species} | {voucher} | {g}")
-                continue
-            try:
-                root = ET.fromstring(xml)
-                insd = root.find(".//INSDSeq")
-                if insd is None:
-                    fetch_summary[g].append(f"[FAIL] No sequence found for {species} | {voucher} | {g}")
-                    continue
-                acc = insd.findtext("INSDSeq_accession-version") or insd.findtext("INSDSeq_primary-accession") or ""
-                seq = insd.findtext("INSDSeq_sequence") or ""
-                if acc and seq:
-                    hits = [(acc, species, voucher, seq)]
-            except ET.ParseError:
-                fetch_summary[g].append(f"[FAIL] XML parse error for {species} | {voucher} | {g}")
-                continue
-        if hits:
-            acc, org, vval, seq = hits[0]
-            gene_to_records[g].append((species or org, acc, vval or voucher, seq))
-            fetch_summary[g].append(f"[OK] {g}: {species or org} | {vval or voucher} | {acc}")
+    xml_dir.mkdir(parents=True, exist_ok=True)
+    # Audit: keep track of sequences rejected because the locus doesn't match
+    # the requested gene based on DEFINITION and /gene qualifiers.
+    audit_dir = outdir / "audits"
+    audit_dir.mkdir(parents=True, exist_ok=True)
+    rejected_path = audit_dir / "rejected_locus_hits.tsv"
 
-    # Optional: include outgroup references
+    species_gene_xml_cache = {}
+    with open(rejected_path, "w", encoding="utf-8") as rejected_fh:
+        rejected_fh.write("Species\tVoucher\tRequestedGene\tAccession\tReason\tXmlFile\n")
+        for species, voucher, g in voucher_requests:
+            if not species or not voucher:
+                fetch_summary[g].append(f"[SKIP] Blank species for {g} | {voucher}")
+                continue
+            marker = GENE_MARKERS[g]
+            safe_species = re.sub(r"[^\w\s-]", "", species).replace(" ", "_")
+
+            hits = []
+
+            # 1) Voucher-augmented query
+            voucher_clause = build_voucher_query_clause(voucher)
+            if voucher_clause:
+                # Cache is safe here because voucher_clause is derived from voucher; we keep per-row file anyway.
+                # Using a per-voucher filename avoids collisions between different vouchers for same species.
+                safe_voucher = re.sub(r"[^A-Za-z0-9]+", "_", voucher).strip("_")
+                xml_filename = f"{g}_{safe_species}__{safe_voucher}.xml"
+                xml_path = xml_dir / xml_filename
+                query = f'"{species}"[ORGN] AND {marker} AND {voucher_clause} AND 0:8000[SLEN]'
+                log(f"[INFO] Voucher search (voucher terms) XML fetch: species={species} gene={g} voucher={voucher}")
+                try:
+                    xml_v = esearch_xml(query, save_path=xml_path)
+                    hits = parse_xml_for_voucher(xml_v, voucher, f"voucher terms filter {species} {g}")
+                except Exception as e:
+                    log(f"[WARN] Voucher-terms query failed for {species} {voucher} {g}: {e}")
+
+            # 2) species+gene broad query, cached
+            if not hits:
+                key = (species, g)
+                if key not in species_gene_xml_cache:
+                    xml_filename = f"{g}_{safe_species}.xml"
+                    xml_path = xml_dir / xml_filename
+                    query = f'"{species}"[ORGN] AND {marker} AND 0:8000[SLEN]'
+                    log(f"[INFO] Voucher search (broad) XML fetch: species={species} gene={g}")
+                    species_gene_xml_cache[key] = esearch_xml(query, save_path=xml_path)
+                xml = species_gene_xml_cache[key]
+                hits = parse_xml_for_voucher(xml, voucher, f"voucher filter {species} {g}")
+
+            if not hits:
+                if args.strict_voucher:
+                    fetch_summary[g].append(f"[FAIL] No voucher match for {species} | {voucher} | {g}")
+                    continue
+                # fallback: first sequence in species+gene XML
+                log(f"[WARN] No exact voucher match for {species} | {voucher} | {g}; using first sequence as fallback. Use --strict-voucher to skip instead.")
+                if not valid_xml(xml):
+                    fetch_summary[g].append(f"[FAIL] Empty XML response for {species} | {voucher} | {g}")
+                    continue
+                acc, org, vval, seq = first_insd_record(xml)
+                if acc and seq:
+                    hits = [(acc, org or species, vval or voucher, seq)]
+                else:
+                    fetch_summary[g].append(f"[FAIL] XML parse error for {species} | {voucher} | {g}")
+                    continue
+
+            if hits:
+                # Filter candidate hits by gene identity using per-accession XML (DEFINITION + /gene).
+                accepted = None
+                for (acc, org, vval, seq) in hits:
+                    xml_acc, xml_filename = get_cached_accession_xml(xml_dir, g, acc)
+                    ok, reason = gene_accept_from_xml(xml_acc, g)
+                    if ok:
+                        accepted = (acc, org, vval, seq)
+                        break
+                    rejected_fh.write(f"{species}\t{voucher}\t{g}\t{acc}\t{reason}\t{xml_filename}\n")
+
+                if accepted is None:
+                    fetch_summary[g].append(f"[FAIL] All voucher hits rejected by locus validation for {species} | {voucher} | {g}")
+                    continue
+
+                acc, org, vval, seq = accepted
+                gene_to_records[g].append((species or org, acc, vval or voucher, seq))
+                fetch_summary[g].append(f"[OK] {g}: {species or org} | {vval or voucher} | {acc}")
+
+    log(f"[INFO] Wrote locus rejection audit to {rejected_path}")
+
+    # Optional: include outgroup references only when explicitly requested.
     if args.include_outgroups:
         log(f"[INFO] Including outgroups: {', '.join(args.outgroups)}")
         for g in genes:
@@ -756,7 +1068,10 @@ def main():
         gene_to_records[g] = list(voucher_best.values())
         log(f"[INFO] {g}: {len(gene_to_records[g])} unique sequences after deduplication")
 
-    # Enforce strict voucher consistency: if --strict-voucher is set, ensure one voucher per species
+    # Enforce strict voucher consistency: if --strict-voucher is set, ensure one voucher per species.
+    # IMPORTANT: this filter must NOT drop sequences whose accessions were explicitly provided
+    # in the representatives CSV. Strict voucher consistency is meant to avoid cross-voucher
+    # mixing when we are *searching* for missing loci, not to override user-specified accessions.
     if args.strict_voucher:
         # Determine the primary voucher per species (first encountered in input CSV with a non-empty voucher)
         species_primary_voucher = {}
@@ -780,6 +1095,11 @@ def main():
             for (species, acc, voucher, seq) in gene_to_records[g]:
                 # Allow outgroups and empty voucher entries
                 if voucher == "Outgroup" or voucher == "NoVoucher":
+                    filtered.append((species, acc, voucher, seq))
+                    continue
+                # Always keep sequences explicitly specified in the CSV, even if their voucher
+                # differs from the species' primary voucher.
+                if (g, acc) in explicit_csv_acc or (g, acc.split('.')[0]) in explicit_csv_acc:
                     filtered.append((species, acc, voucher, seq))
                     continue
                 if is_primary(species, voucher):

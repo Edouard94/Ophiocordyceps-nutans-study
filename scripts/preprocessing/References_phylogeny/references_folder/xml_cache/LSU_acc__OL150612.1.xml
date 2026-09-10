@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OL150612</INSDSeq_locus>
+    <INSDSeq_length>637</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-NOV-2021</INSDSeq_update-date>
+    <INSDSeq_create-date>03-NOV-2021</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps oxycephala strain wyhxz-2 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OL150612</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OL150612.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OL150612.1|</INSDSeqid>
+      <INSDSeqid>gi|2125838794</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps oxycephala</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps oxycephala</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..637</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Qiu,J.</INSDAuthor>
+          <INSDAuthor>Wang,C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (28-OCT-2021) Fujian Agriculture and Forestry University, Laboratory of Biopesticide Chemical Biology, Cangshan shop down the road on the 15th, FuZhou, Fujian 350002, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..637</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>637</INSDInterval_to>
+            <INSDInterval_accession>OL150612.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps oxycephala</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>wyhxz-2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:218628</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;637</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>637</INSDInterval_to>
+            <INSDInterval_accession>OL150612.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaagtaaaaatcgtaacaaggtctccgttggtgaaccagcggagggatcattatagagagtgaaaactccctaacccactgtgaaccatacctataatctgcctcggcaggtcttttaggcctgccaaaggaacctaaactctttttatactagtcttctgagtttacctataaatattaaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcaaaatgcgataagtaatgcgaattgcagattttagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattctagcaggcatgcctgtccgaacgttatttacagtactagaggcctctatagtaagggtgttaatagtagcaagcagagctgtatagtcttttgcactaacatctgtttgttacttttagcaacctactgcatgtgtctctctgttggagcctggcttagcagccacctcttaaatctagtggcggcggttgctcttatttcccctgactagtagatttttacttgctatgtggaagtctagcagcccccctgaaaatctatctagttgacttcggatcaggtaggaatacccgctgaacttaagcatatcaataagcggaggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

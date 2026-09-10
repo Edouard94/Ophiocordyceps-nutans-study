@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AJ536561</INSDSeq_locus>
+    <INSDSeq_length>521</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>14-DEC-2008</INSDSeq_update-date>
+    <INSDSeq_create-date>09-JAN-2004</INSDSeq_create-date>
+    <INSDSeq_definition>Cordyceps nutans ITS1 (partial), 5.8S rRNA gene, ITS2 and 26S rRNA gene (partial), isolate 20876</INSDSeq_definition>
+    <INSDSeq_primary-accession>AJ536561</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AJ536561.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>emb|AJ536561.1|</INSDSeqid>
+      <INSDSeqid>gi|40788156</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_keywords>
+      <INSDKeyword>26S ribosomal RNA</INSDKeyword>
+      <INSDKeyword>26S rRNA gene</INSDKeyword>
+      <INSDKeyword>5.8S ribosomal RNA</INSDKeyword>
+      <INSDKeyword>5.8S rRNA gene</INSDKeyword>
+      <INSDKeyword>internal transcribed spacer 1</INSDKeyword>
+      <INSDKeyword>internal transcribed spacer 2</INSDKeyword>
+      <INSDKeyword>ITS1</INSDKeyword>
+      <INSDKeyword>ITS2</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..521</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Chen,Y.Q.</INSDAuthor>
+          <INSDAuthor>Hu,B.</INSDAuthor>
+          <INSDAuthor>Qu,L.H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Molecular phylogeny of the genus Cordyceps and its related anamorph</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..521</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Hu,B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-JAN-2003) Hu B., Zhongshan University, The Engineering Research Centre, Zhongshan University, 510275, CHINA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..521</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>521</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>20876</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China:GuangDong Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>teleomorph</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_feature</INSDFeature_key>
+        <INSDFeature_location>&lt;1..133</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>133</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1, ITS1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>134..291</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>134</INSDInterval_from>
+            <INSDInterval_to>291</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>5.8S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>134..291</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>134</INSDInterval_from>
+            <INSDInterval_to>291</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>5.8S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ACTTTTAGCAACGGATCTCTTGGCTCTAGCATCGATGAAGAACGCAGCAAAATGCGATAAGTAATGCGAATTGCAGATTTTAGTGAGTCATCGAGTTTTTGAACGCATATTGCGCCTGCTGGCTATTCTAGCAGGCATGCCTGTCCGAACGTCATTTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_feature</INSDFeature_key>
+        <INSDFeature_location>292..456</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>292</INSDInterval_from>
+            <INSDInterval_to>456</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2, ITS2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>457..&gt;521</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>457</INSDInterval_from>
+            <INSDInterval_to>521</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>26S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>457..&gt;521</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>457</INSDInterval_from>
+            <INSDInterval_to>521</INSDInterval_to>
+            <INSDInterval_accession>AJ536561.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>26S rRNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>26S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TTGACTTCGGATCAGGTAGGAATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gaacactccctaacccctgtgaacctatacctatatatgcctcggcaggctctgtaaagagactgccaaaggaacctaaactcttgttttttatataactagtcttctgagtgatttttataaatatataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcaaaatgcgataagtaatgcgaattgcagattttagtgagtcatcgagtttttgaacgcatattgcgcctgctggctattctagcaggcatgcctgtccgaacgtcatttacagtactaaagaccctatatggtctttctgttggaggctggctcttagcggccacctcttaaatttagtagcggcggttgcttttaatttcccctgcaaagtagattttttacttgccatgttggaagactagcaaccccctataaacaacctctttctctctagttgacttcggatcaggtaggaatacccgctgaacttaagcatatcaataagcggaggaaaagagg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

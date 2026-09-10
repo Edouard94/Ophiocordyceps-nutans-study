@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MK453047</INSDSeq_locus>
+    <INSDSeq_length>501</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>02-FEB-2019</INSDSeq_update-date>
+    <INSDSeq_create-date>02-FEB-2019</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans voucher MHHNU 30295 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MK453047</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MK453047.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MK453047.1|</INSDSeqid>
+      <INSDSeqid>gi|1562683378</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..501</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+          <INSDAuthor>Zhang,P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Atlas of Macrofungi in Hunan</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..501</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Chen,Z.H.</INSDAuthor>
+          <INSDAuthor>Zhang,P.</INSDAuthor>
+          <INSDAuthor>Su,Y.T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-JAN-2019) College of Life Science, Hunan Normal University, Lushan Road No. 36, Changsha, Hunan 410081, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..501</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>501</INSDInterval_to>
+            <INSDInterval_accession>MK453047.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MHHNU 30295</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;501</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>501</INSDInterval_to>
+            <INSDInterval_accession>MK453047.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttattgagttaaaaaaactctccaattctctgtgaacatatatatatattttctgcctcggcaggtatttcttcggagtacatgccggaggaactattaaaacgctatatttttaagtatttctcagtattaaaaaaacaataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatctagtgagtcatcgaatctttgaacgcatattgcgcctactagctattctagtaggcatgcctatttgagcgtcatttaaagcatttataccttgtatagtgttggagaatagcgaataaacgacgctatctctaaaataaagaagcaagcaattcaacttctcttcttgtagagtaaaagctacaaatgcaagaagttgaggaaggaaagctttaaacaaaaacctataagttgacctcaaattaggtaggaatacccgctgaacttaagcatac</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

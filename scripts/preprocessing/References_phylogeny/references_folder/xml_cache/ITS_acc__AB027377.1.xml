@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AB027377</INSDSeq_locus>
+    <INSDSeq_length>1657</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-JUN-2008</INSDSeq_update-date>
+    <INSDSeq_create-date>19-APR-2000</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps cochlidiicola genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB027377</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB027377.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB027377.1|</INSDSeqid>
+      <INSDSeqid>gi|7619973</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps cochlidiicola</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps cochlidiicola</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1657</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nikoh,N.</INSDAuthor>
+          <INSDAuthor>Fukatsu,T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Interkingdom host jumping underground: phylogenetic analysis of entomoparasitic fungi of the genus cordyceps</INSDReference_title>
+        <INSDReference_journal>Mol. Biol. Evol. 17 (4), 629-638 (2000)</INSDReference_journal>
+        <INSDReference_pubmed>10742053</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1657</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nikoh,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (17-MAY-1999) Contact:Naruo Nikoh NIBH, Insect-Parasitic Symbiotic Microorganisms Research Group; 1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1657</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1657</INSDInterval_to>
+            <INSDInterval_accession>AB027377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps cochlidiicola</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94215</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>synonym: Cordyceps cochlidiicola</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..217</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>217</INSDInterval_to>
+            <INSDInterval_accession>AB027377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTAAGCGCAAGTCATCAGCTTGCGTTGACTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGGGAGGTGGGCAACTACCACCCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>218..375</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>218</INSDInterval_from>
+            <INSDInterval_to>375</INSDInterval_to>
+            <INSDInterval_accession>AB027377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>376..531</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>376</INSDInterval_from>
+            <INSDInterval_to>531</INSDInterval_to>
+            <INSDInterval_accession>AB027377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>532..689</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>532</INSDInterval_from>
+            <INSDInterval_to>689</INSDInterval_to>
+            <INSDInterval_accession>AB027377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>690..&gt;1657</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>690</INSDInterval_from>
+            <INSDInterval_to>1657</INSDInterval_to>
+            <INSDInterval_accession>AB027377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCCGGCGCCCCCGCGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCCAGCCTCTGTAAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACTCGGGCGTGGCGGATCATCCGGCGTTCTCGCCGGTGCACTCCGCCCCGCCCGGGCCAGCATCAGCTCGCCGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGTGGCGGACTGAGGTTCGCGCGTCCGCAAGGATGCTGGCGTAATGGTCACCAGTGACCCGTCTTGAAACACGGACCGAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGAAATGAAAGTGAACGCAGGTGAGAGCCTCACGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTTCCGCCGAAGTTTCCCTCAGGATAGCAGTGTCGAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtaagcgcaagtcatcagcttgcgttgactacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagggaggtgggcaactaccacccagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttacaactcccaaaccccctgcgaaccgtaccagttgcctcggcgggaccgccccggcgcccatcgcggcccggacccaggcgcccgccggagggccccaagactccaactgtcagcggcatctcggcgtacaagcaaaacaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcaccgctcggcgttgggggagcggcccgcgcgccgccccccgaaatgcagtggcgaccccgccgcgtccacccctgcgcagtagctctcccgagaacctcgcatcggcggcgcggcggcggtcacgccgtgaaacgaccctcaagagttgacctcggatcaggtagggatacccgctgaacttaagcatatcaataagcggaggaaaagaaaccaacagggattgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatccggcgcccccgcggcgcccgagttgtaatttgcagaggatgcttttggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgcccagcctctgtaaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgcttgtgaccagactcgggcgtggcggatcatccggcgttctcgccggtgcactccgccccgcccgggccagcatcagctcgccgcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgtggcggactgaggttcgcgcgtccgcaaggatgctggcgtaatggtcaccagtgacccgtcttgaaacacggaccgaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgaaatgaaagtgaacgcaggtgagagcctcacggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagctggtttccgccgaagtttccctcaggatagcagtgtcgat</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

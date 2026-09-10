@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>JN993177</INSDSeq_locus>
+    <INSDSeq_length>616</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-JUL-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps capitata strain NBRC 106325 DNA replication licensing factor 7 (MCM7) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN993177</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN993177.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN993177.1|</INSDSeqid>
+      <INSDSeqid>gi|363544031</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..616</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Izumi,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..616</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Izumi,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) GenBank taxonomy, NIH/NLM/NCBI, 45 Center Drive, MSC 6510, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106325</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106325</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:8407</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>21-Feb-2007</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA replication licensing factor 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CATCGTGCAAGTCAGTGCGTATACGTGCGATCGCTGCGGTTGCGAAATCTTCCAGCCCGTCGCCGACAGGGAGTACGGCCCATTGACGATGTGCCCGTCGGAGGATTGCAAGAGCAACCAGTCCAAGGGCCAGCTGAATCCCTCAACGAGGGCGTCCAAGTTCCTGCCTTTCCAGGAGGTAAAGGTCCAAGAGATGGCCGAGCAGGTCCCCATTGGGCAGATCCCTCGATCACTTACAGTTTCTTGCTACGGCAGCCTGGTCCGCAAGATCAACCCCGGCGATGTGGTCGACATCTCTGGCATCTTCCTGCCTACCCCGTACACGGGGTTCAAGGCCATGAAGGCCGGTCTCCTGACCGACACCTTCCTCGAGGCGCACCACGTCCAGCAGCACAAGAAGGCTTACAGCGAGATGATCATCGACCCTCGGTTGGTTCGAAGAATCGACAAGTACCGGCAGACCGGACAGGTCTACGAGCTGCTCGCCAAGTCGATTGCTCCCGAGATTTTCGGCCATCTCGACGTCAAGAAGGCTCTGTTGCTTCTGCTCATCGGCGGTGTCACCAAGGAAATGGGCGACGGAATGAAGATTCGTGGCGATGTCAACATCTGCCTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993177.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA replication licensing factor 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEW26494.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HRASQCVYVRSLRLRNLPARRRQGVRPIDDVPVGGLQEQPVQGPAESLNEGVQVPAFPGGKGPRDGRAGPHWADPSITYSFLLRQPGPQDQPRRCGRHLWHLPAYPVHGVQGHEGRSPDRHLPRGAPRPAAQEGLQRDDHRPSVGSKNRQVPADRTGLRAARQVDCSRDFRPSRRQEGSVASAHRRCHQGNGRRNEDSWRCQHLP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>catcgtgcaagtcagtgcgtatacgtgcgatcgctgcggttgcgaaatcttccagcccgtcgccgacagggagtacggcccattgacgatgtgcccgtcggaggattgcaagagcaaccagtccaagggccagctgaatccctcaacgagggcgtccaagttcctgcctttccaggaggtaaaggtccaagagatggccgagcaggtccccattgggcagatccctcgatcacttacagtttcttgctacggcagcctggtccgcaagatcaaccccggcgatgtggtcgacatctctggcatcttcctgcctaccccgtacacggggttcaaggccatgaaggccggtctcctgaccgacaccttcctcgaggcgcaccacgtccagcagcacaagaaggcttacagcgagatgatcatcgaccctcggttggttcgaagaatcgacaagtaccggcagaccggacaggtctacgagctgctcgccaagtcgattgctcccgagattttcggccatctcgacgtcaagaaggctctgttgcttctgctcatcggcggtgtcaccaaggaaatgggcgacggaatgaagattcgtggcgatgtcaacatctgcctg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

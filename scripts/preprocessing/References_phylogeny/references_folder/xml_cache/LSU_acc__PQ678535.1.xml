@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>PQ678535</INSDSeq_locus>
+    <INSDSeq_length>575</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>11-DEC-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps variabilis isolate OMDL iNat # 225224010 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PQ678535</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PQ678535.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PQ678535.1|</INSDSeqid>
+      <INSDSeqid>gi|2864358706</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps variabilis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps variabilis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..575</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Guerin,Z.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Quark,M.</INSDAuthor>
+          <INSDAuthor>Rozanoff,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ohio Mushroom DNA Lab (OMDL)</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..575</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Guerin,Z.</INSDAuthor>
+          <INSDAuthor>Rozanoff,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (02-DEC-2024) Mycology, Ohio Mushroom DNA Lab, 2855 Alternate State Route 49, Arcanum, OH 45304, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: NGSpeciesID v. 0.3.0 ; Sequencing Technology :: Oxford Nanopore Technologies MinION; Flongle 10.4.1 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..575</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>575</INSDInterval_to>
+            <INSDInterval_accession>PQ678535.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps variabilis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>OMDL iNat # 225224010</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:386289</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Indiana, Orange County, Hardinsburg</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>25-Jun-2024</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Robert Simcox</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>Ohio Mushroom DNA Lab: OMDL17; iNaturalist.org #225224010;&#xa;PCR_primers=fwd_name: ITS1F, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;575</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>575</INSDInterval_to>
+            <INSDInterval_accession>PQ678535.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagctcgactcccaaaccccctgtggacgttacccctaccgttgcctcggcggtgccgcctcggccgggcgcccgccggaggaccccccgaactctgctttccacagtggttcccctccgagtattgcaggcaaggaatgagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaaccatcgaatctttgaacgcacattgcgcccgccagcaccctggcgggcatgcctgtccgagcgtcattttcacccctcaggcccccgcgaccccggcgtcgcccggggcctggtgttgggggccggcccaggccgcccccgaaacgcagtggcgaccccagccgcggccccccgtgcgcagtagaacgctgaggaaagctcgcaccggggcgcgggcggcggtcacgccgtaaaacgcccgccccaggcacccctggagttgacctcggatcaggtagggatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

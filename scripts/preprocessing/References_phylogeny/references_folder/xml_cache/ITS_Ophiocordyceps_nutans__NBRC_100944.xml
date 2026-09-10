@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>JN993196</INSDSeq_locus>
+    <INSDSeq_length>616</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-JUL-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 100944 DNA replication licensing factor 7 (MCM7) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN993196</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN993196.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN993196.1|</INSDSeqid>
+      <INSDSeqid>gi|363544069</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..616</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Izumi,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..616</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Izumi,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) GenBank taxonomy, NIH/NLM/NCBI, 45 Center Drive, MSC 6510, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993196.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:8563</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>22-Aug-2004</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993196.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993196.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA replication licensing factor 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CAACGTCCAGGTCAGCGCCTATACCTGTGATCGCTGCGGCTGTGAAATCTTCCAGACCGTCACGGATAAGCAATTCGGGCCTCTGACTATCTGTCCCTCTAAATACTGTGTCGAGAACCAGTCAAAGGGACAGCTAAATGCTTCAACCCGTGCCTCCAAGTTCCTGCCAATGCAGGAAGTCAAGGTACAGGAATTGGCAGAGCAGGTGCCCATTGGTCAGATTCCTCGCTCTCTGACAGTGCTGTGCCACGGCAGTCTGGTGCGCCAAGCCAACCCGGGCGACGTTGTTGACATTTCTGGCATCTTTTTGCCAACTCCATATACCGGCTTCAAGGCCCTCAAGGCTGGCTTGCTGACGGACACGTACCTCGAGGCCCACGACATCCACCAGCACAAAAAAGCCTATAGCGAAATGATCATCGACCCGAAGCTGGTGCGGCGCATTGACCAGTACAGAGAGTCGGGACAGGTCTATGAGCTGTTGGCAAGGTCCATCGCACCAGAAATATACGGCCATGTCGACGTCAAGAAGGCGCTGTTGCTGCTGCTCATCGGAGGAGTCACAAAGCAGGTCGGCGATGGCATGAAGATTCGTGGCGACATCAACATCTGCCTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993196.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA replication licensing factor 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEW26513.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>NVQVSAYTCDRCGCEIFQTVTDKQFGPLTICPSKYCVENQSKGQLNASTRASKFLPMQEVKVQELAEQVPIGQIPRSLTVLCHGSLVRQANPGDVVDISGIFLPTPYTGFKALKAGLLTDTYLEAHDIHQHKKAYSEMIIDPKLVRRIDQYRESGQVYELLARSIAPEIYGHVDVKKALLLLLIGGVTKQVGDGMKIRGDINICL</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>caacgtccaggtcagcgcctatacctgtgatcgctgcggctgtgaaatcttccagaccgtcacggataagcaattcgggcctctgactatctgtccctctaaatactgtgtcgagaaccagtcaaagggacagctaaatgcttcaacccgtgcctccaagttcctgccaatgcaggaagtcaaggtacaggaattggcagagcaggtgcccattggtcagattcctcgctctctgacagtgctgtgccacggcagtctggtgcgccaagccaacccgggcgacgttgttgacatttctggcatctttttgccaactccatataccggcttcaaggccctcaaggctggcttgctgacggacacgtacctcgaggcccacgacatccaccagcacaaaaaagcctatagcgaaatgatcatcgacccgaagctggtgcggcgcattgaccagtacagagagtcgggacaggtctatgagctgttggcaaggtccatcgcaccagaaatatacggccatgtcgacgtcaagaaggcgctgttgctgctgctcatcggaggagtcacaaagcaggtcggcgatggcatgaagattcgtggcgacatcaacatctgcctc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN993197</INSDSeq_locus>
+    <INSDSeq_length>616</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>25-JUL-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 101749 DNA replication licensing factor 7 (MCM7) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN993197</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN993197.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN993197.1|</INSDSeqid>
+      <INSDSeqid>gi|363544071</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..616</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Izumi,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..616</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Izumi,O.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) GenBank taxonomy, NIH/NLM/NCBI, 45 Center Drive, MSC 6510, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993197.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:8569</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Aug-2005</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993197.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993197.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA replication licensing factor 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CAACGTCCAGGTCAGCGCCTATACCTGTGATCGCTGCGGCTGTGAAATCTTCCAGACCGTCACGGATAAGCAATTCGGGCCTCTGACTATCTGTCCCTCTAAATACTGTGTCGAGAACCAGTCAAAGGGACAGCTAAATGCTTCAACCCGTGCCTCCAAGTTCCTGCCAATGCAGGAAGTCAAGGTACAGGAATTGGCAGAGCAGGTGCCCATTGGTCAGATTCCTCGCTCTCTGACAGTGCTGTGCCACGGCAGTCTGGTGCGCCAAGCCAACCCGGGCGACGTTGTTGACATTTCTGGCATCTTTTTGCCAACTCCATATACCGGCTTCAAGGCCCTCAAGGCTGGCTTGCTGACGGACACGTACCTCGAGGCCCACGACATCCACCAGCACAAAAAAGCCTATAGCGAAATGATCATCGACCCGAAGCTGGTGCGGCGCATTGACCAGTACAGAGAGTCGGGACAGGTCTATGAGCTGTTGGCAAGGTCCATCGCACCAGAAATATACGGCCATGTCGACGTCAAGAAGGCGCTGTTGCTGCTGCTCATCGGAGGAGTCACAAAGCAGGTCGGCGATGGCATGAAGATTCGTGGCGACATCAACATCTGCCTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;616</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>616</INSDInterval_to>
+            <INSDInterval_accession>JN993197.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>MCM7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA replication licensing factor 7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEW26514.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>NVQVSAYTCDRCGCEIFQTVTDKQFGPLTICPSKYCVENQSKGQLNASTRASKFLPMQEVKVQELAEQVPIGQIPRSLTVLCHGSLVRQANPGDVVDISGIFLPTPYTGFKALKAGLLTDTYLEAHDIHQHKKAYSEMIIDPKLVRRIDQYRESGQVYELLARSIAPEIYGHVDVKKALLLLLIGGVTKQVGDGMKIRGDINICL</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>caacgtccaggtcagcgcctatacctgtgatcgctgcggctgtgaaatcttccagaccgtcacggataagcaattcgggcctctgactatctgtccctctaaatactgtgtcgagaaccagtcaaagggacagctaaatgcttcaacccgtgcctccaagttcctgccaatgcaggaagtcaaggtacaggaattggcagagcaggtgcccattggtcagattcctcgctctctgacagtgctgtgccacggcagtctggtgcgccaagccaacccgggcgacgttgttgacatttctggcatctttttgccaactccatataccggcttcaaggccctcaaggctggcttgctgacggacacgtacctcgaggcccacgacatccaccagcacaaaaaagcctatagcgaaatgatcatcgacccgaagctggtgcggcgcattgaccagtacagagagtcgggacaggtctatgagctgttggcaaggtccatcgcaccagaaatatacggccatgtcgacgtcaagaaggcgctgttgctgctgctcatcggaggagtcacaaagcaggtcggcgatggcatgaagattcgtggcgacatcaacatctgcctc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941712</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>21-DEC-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 101749 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941712</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941712.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941712.1|</INSDSeqid>
+      <INSDSeqid>gi|363544824</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1370</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Aug-2005</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941712.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTGCCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAATACCCGACTTTTGAAGGGTTGTATTTATTAGATTAAAAGCCAATGCCCTCTGGGCTCACTGGTGAATCATGATAACTTCGCGAATCGCATGGCCTTGTGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGATACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGAACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATACAATTTGCTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCGGGTCCGCCTCACCGCGTGTACTGCGCCGGCCGGGCCTTTCCCTCTGTGGAACCCTATGCCCTTTATTGGGTGTAGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATATATTAGCATGGAATAATAAAATAGGACGTGTGGTTTTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTACTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCTGCGTTGCTTTGGCAGCGTGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTGAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTTCGGACTGGCCTAGAGAGGTGGGCAACCAACACTCAGGGCCGGAAAGTTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtgccttactacttggataaccgtggtaattctagagctaatacatgctaaaatacccgacttttgaagggttgtatttattagattaaaagccaatgccctctgggctcactggtgaatcatgataacttcgcgaatcgcatggccttgtgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgatacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagaacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatatacaatttgctgtggttaaaaagctcgtagttgaaccttgggcctggctggcgggtccgcctcaccgcgtgtactgcgccggccgggcctttccctctgtggaaccctatgccctttattgggtgtagcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatatattagcatggaataataaaataggacgtgtggttttattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattacttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcctgcgttgctttggcagcgtgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgtgaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgttcggactggcctagagaggtgggcaaccaacactcagggccggaaagttctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941713</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>21-DEC-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 100944 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941713</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941713.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941713.1|</INSDSeqid>
+      <INSDSeqid>gi|363544825</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941713.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1369</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>22-Aug-2004</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941713.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941713.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTGCCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAATACCCGACTTTTGAAGGGTTGTATTTATTAGATTAAAAGCCAATGCCCTCTGGGCTCACTGGTGAATCATGATAACTTCGCGAATCGCATGGCCTTGTGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGATACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGAACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATACAATTTGCTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCGGGTCCGCCTCACCGCGTGTACTGCGCCGGCCGGGCCTTTCCCTCTGTGGAACCCTATGCCCTTTATTGGGTGTAGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATATATTAGCATGGAATAATAAAATAGGACGTGTGGTTTTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTACTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCTGCGTTGCTTTGGCAGCGTGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTGAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTTCGGACTGGCCTAGAGAGGTGGGCAACCAACACTCAGGGCCGGAAAGTTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtgccttactacttggataaccgtggtaattctagagctaatacatgctaaaatacccgacttttgaagggttgtatttattagattaaaagccaatgccctctgggctcactggtgaatcatgataacttcgcgaatcgcatggccttgtgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgatacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagaacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatatacaatttgctgtggttaaaaagctcgtagttgaaccttgggcctggctggcgggtccgcctcaccgcgtgtactgcgccggccgggcctttccctctgtggaaccctatgccctttattgggtgtagcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatatattagcatggaataataaaataggacgtgtggttttattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattacttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcctgcgttgctttggcagcgtgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgtgaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgttcggactggcctagagaggtgggcaaccaacactcagggccggaaagttctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941428</INSDSeq_locus>
+    <INSDSeq_length>922</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>21-DEC-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 100944 28S ribosomal RNA (LSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941428</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941428.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941428.1|</INSDSeqid>
+      <INSDSeqid>gi|363544920</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..922</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..922</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..922</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>922</INSDInterval_to>
+            <INSDInterval_accession>JN941428.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1369</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>22-Aug-2004</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;922</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>922</INSDInterval_to>
+            <INSDInterval_accession>JN941428.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>LSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;922</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>922</INSDInterval_to>
+            <INSDInterval_accession>JN941428.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>LSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCTTAGTAACGGCGAGTGAAGCGGCAATAGCTCAAATTTGAAATCTGGCTTTTGTAAATAAAAGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCAAGGCACTGTCTAAGTTCCCTGGAATGGGACGCCACAGAGGGTAAGAGCCCCGTCTAGTTAGATGCCGAAGCCTTTTTAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTAGGAGGTATATGTCTTCTAAAGCTAAATATTAGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGCTAAAAGGGAAGCACTTGCAACTAGACATAGATGTTTTCAATCAATTAGTGATTTTCACTAATGTGCTTGGAATTATCTAGGCTAGCATCGGTTTACTGTAGAGAAAAAAGATATCTAGAACGTGGCCCTCTTCGGAGGGTGTTATAGCTAGATGTGTAATGCTTTACTTAGTAGACCGAGGTGTTATTGCGCATTCTTGCAAGGATGCTGGCGTAATAGTTGCTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGTATGCGAGTGTTTGGGTATAAAACCCTTGCGCGAAATGAAAGTAAACGTAGGTAAGAACCTCTTTAAAAAAGAGGCACATTACCGACCGATCTTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACGTGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTTCCGCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atatcaataagcggaggaaaagaaaccaacagggattgccttagtaacggcgagtgaagcggcaatagctcaaatttgaaatctggcttttgtaaataaaagtccgagttgtaatttgcagaggatgcttttggcaaggcactgtctaagttccctggaatgggacgccacagagggtaagagccccgtctagttagatgccgaagcctttttaaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtaggaggtatatgtcttctaaagctaaatattagctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgctaaaagggaagcacttgcaactagacatagatgttttcaatcaattagtgattttcactaatgtgcttggaattatctaggctagcatcggtttactgtagagaaaaaagatatctagaacgtggccctcttcggagggtgttatagctagatgtgtaatgctttacttagtagaccgaggtgttattgcgcattcttgcaaggatgctggcgtaatagttgctagtgacccgtcttgaaacacggaccaaggagtcgtcttcgtatgcgagtgtttgggtataaaacccttgcgcgaaatgaaagtaaacgtaggtaagaacctctttaaaaaagaggcacattaccgaccgatcttgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacgtgggcatgggggcgaaagactaatcgaaccttctagtagctggtttccgcc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941429</INSDSeq_locus>
+    <INSDSeq_length>922</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>21-DEC-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 101749 28S ribosomal RNA (LSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941429</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941429.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941429.1|</INSDSeqid>
+      <INSDSeqid>gi|363544921</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..922</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..922</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..922</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>922</INSDInterval_to>
+            <INSDInterval_accession>JN941429.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1370</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Aug-2005</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;922</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>922</INSDInterval_to>
+            <INSDInterval_accession>JN941429.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>LSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;922</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>922</INSDInterval_to>
+            <INSDInterval_accession>JN941429.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>LSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCTTAGTAACGGCGAGTGAAGCGGCAATAGCTCAAATTTGAAATCTGGCTTTTGTAAATAAAAGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCAAGGCACTGTCTAAGTTCCCTGGAATGGGACGCCACAGAGGGTAAGAGCCCCGTCTAGTTAGATGCCGAAGCCTTTTTAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTAGGAGGTATATGTCTTCTAAAGCTAAATATTAGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGCTAAAAGGGAAGCACTTGCAACTAGACATAGATATTTTCAATCAATTAGTGATTTTCACTAATGTGCTTGGAATTATCTAGGCTAGCATCGGTTTACTGTAGAGAAAAAAGATATCTAGAACGTGGCCCTCTTCGGAGGGTGTTATAGCTAGATGTGTAATGCTTTACTTAGTAGACCGAGGTGTTATTGCGCATTCTTGCAAGGATGCTGGCGTAATAGTTGCTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGTATGCGAGTGTTTGGGTATAAAACCCTTGCGCGAAATGAAAGTAAACGTAGGTAAGAACCTCTTTAAAAAAGAGGCACATTACCGACCGATCTTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACGTGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTTCCGCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atatcaataagcggaggaaaagaaaccaacagggattgccttagtaacggcgagtgaagcggcaatagctcaaatttgaaatctggcttttgtaaataaaagtccgagttgtaatttgcagaggatgcttttggcaaggcactgtctaagttccctggaatgggacgccacagagggtaagagccccgtctagttagatgccgaagcctttttaaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtaggaggtatatgtcttctaaagctaaatattagctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgctaaaagggaagcacttgcaactagacatagatattttcaatcaattagtgattttcactaatgtgcttggaattatctaggctagcatcggtttactgtagagaaaaaagatatctagaacgtggccctcttcggagggtgttatagctagatgtgtaatgctttacttagtagaccgaggtgttattgcgcattcttgcaaggatgctggcgtaatagttgctagtgacccgtcttgaaacacggaccaaggagtcgtcttcgtatgcgagtgtttgggtataaaacccttgcgcgaaatgaaagtaaacgtaggtaagaacctctttaaaaaagaggcacattaccgaccgatcttgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacgtgggcatgggggcgaaagactaatcgaaccttctagtagctggtttccgcc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN992446</INSDSeq_locus>
+    <INSDSeq_length>770</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>29-JAN-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>29-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 101749 RPB1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN992446</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN992446.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN992446.1|</INSDSeqid>
+      <INSDSeqid>gi|373841762</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..770</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..770</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..770</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992446.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1370</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Aug-2005</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;770</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992446.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,177..&gt;770)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992446.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>177</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992446.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCACATCGAGTTGGCTAAGCCCGTCTATCACCCCGGCTTCATCAAAAAGGTCAAGAAAATCTTGGAGATTGTCTGCCACAACTGCAGCAAGGTGTTGGCCGATACTAGCGACCCTGACTTTGCCGCTGCCATCAAGACGCGCGATCCCAAGGTCCGCTTCAACCTCGTCTGGAATGTGTGCAAGAAGAAGCGGAGATGCGAAAACGAGGATCGCCAGGGCAAGGACAAGGACGAAGACTTTATGCCAGGAATGAAACATCTGCACACTGTCGATAACCACGGCGGCTGTGGCAACGTTCAACCTGCCGTGCGTCAGCTTGCACTGCAACTCAAGGCTGCCTTCGACGTGCCCCAGGAAGACGGGCCCAAGCGGAGAGACACAGTCCCAATCACTCCGGAAATGGCTCTCAACATTCTGCGGCGCATCTCGGAGGAAGATTTGTGCAACATGGGTCTCAACGTCGATTATGCTCGCCCCGAGTGGATGATCATTACTGTTCTGCCCGTTCCTCCTCCACCCGTTCGCCCCAGTATTTCCATGGATGGCACAGGCACTGGAATGCGCAACGAAGACGATTTGACATACAAGCTCGGCGACATCATTCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGCTCCCCCCAACACATATCGCGAGATTTCGAAGAGCTGCTCCAGTACCATGTGGCTACA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,177..&gt;770)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992446.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>177</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992446.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEY76974.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HIELAKPVYHPGFIKKVKKILEIVCHNCSKVLADTSDPDFAAAIKTRDPKVRFNLVWNVCKKKRRCENEDRQGKDKDEDFMPGMKHLHTVDNHGGCGNVQPAVRQLALQLKAAFDVPQEDGPKRRDTVPITPEMALNILRRISEEDLCNMGLNVDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHISRDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcacatcgagttggctaagcccgtctatcaccccggcttcatcaaaaaggtcaagaaaatcttggagattgtctgccacaactgcagcaaggtgttggccgatactgttagttaacgcaacattcttcaagatatttctcatgactttgttgattgctgactggctaatgatgtagagcgaccctgactttgccgctgccatcaagacgcgcgatcccaaggtccgcttcaacctcgtctggaatgtgtgcaagaagaagcggagatgcgaaaacgaggatcgccagggcaaggacaaggacgaagactttatgccaggaatgaaacatctgcacactgtcgataaccacggcggctgtggcaacgttcaacctgccgtgcgtcagcttgcactgcaactcaaggctgccttcgacgtgccccaggaagacgggcccaagcggagagacacagtcccaatcactccggaaatggctctcaacattctgcggcgcatctcggaggaagatttgtgcaacatgggtctcaacgtcgattatgctcgccccgagtggatgatcattactgttctgcccgttcctcctccacccgttcgccccagtatttccatggatggcacaggcactggaatgcgcaacgaagacgatttgacatacaagctcggcgacatcattcgcgccaacggcaacgtcaagcaggctatccgcgaaggctccccccaacacatatcgcgagatttcgaagagctgctccagtaccatgtggctaca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN992447</INSDSeq_locus>
+    <INSDSeq_length>770</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>29-JAN-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>29-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans strain NBRC 100944 RPB1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN992447</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN992447.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN992447.1|</INSDSeqid>
+      <INSDSeqid>gi|373841764</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..770</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..770</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..770</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992447.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100944</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1369</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>22-Aug-2004</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;770</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992447.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,177..&gt;770)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992447.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>177</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992447.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCACATCGAGTTGGCTAAGCCCGTCTATCACCCCGGCTTCATCAAAAAGGTCAAGAAAATCTTGGAGATTGTCTGCCACAACTGCAGCAAGGTGTTGGCCGATACTAGCGACCCTGACTTTGCCGCTGCCATCAAGACGCGCGATCCCAAGGTCCGCTTCAACCTCGTCTGGAATGTGTGCAAGAAGAAGCGGAGATGCGAAAACGAGGATCGCCAGGGCAAGGACAAGGACGAAGACTTTATGCCAGGAATGAAACATCTGCACACTGTCGATAACCACGGCGGCTGTGGCAACGTTCAACCTGCCGTGCGTCAGCTTGCACTGCAACTCAAGGCTGCCTTCGACGTGCCCCAGGAAGACGGGCCCAAGCGGAGAGACACAGTCCCAATCACTCCGGAAATGGCTCTCAACATTCTGCGGCGCATCTCGGAGGAAGATTTGTGCAACATGGGTCTCAACGTCGATTATGCTCGCCCCGAGTGGATGATCATTACTGTTCTGCCCGTTCCTCCTCCACCCGTTCGCCCCAGTATTTCCATGGATGGCACAGGCACTGGAATGCGCAACGAAGACGATTTGACATACAAGCTCGGCGACATCATTCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGCTCCCCCCAACACATATCGCGAGATTTCGAAGAGCTGCTCCAGTACCATGTGGCTACA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,177..&gt;770)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992447.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>177</INSDInterval_from>
+            <INSDInterval_to>770</INSDInterval_to>
+            <INSDInterval_accession>JN992447.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEY76975.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HIELAKPVYHPGFIKKVKKILEIVCHNCSKVLADTSDPDFAAAIKTRDPKVRFNLVWNVCKKKRRCENEDRQGKDKDEDFMPGMKHLHTVDNHGGCGNVQPAVRQLALQLKAAFDVPQEDGPKRRDTVPITPEMALNILRRISEEDLCNMGLNVDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHISRDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcacatcgagttggctaagcccgtctatcaccccggcttcatcaaaaaggtcaagaaaatcttggagattgtctgccacaactgcagcaaggtgttggccgatactgttagttaacgcaacattcttcaagatatttctcatgactttgttgattgctgactggctaatgatgtagagcgaccctgactttgccgctgccatcaagacgcgcgatcccaaggtccgcttcaacctcgtctggaatgtgtgcaagaagaagcggagatgcgaaaacgaggatcgccagggcaaggacaaggacgaagactttatgccaggaatgaaacatctgcacactgtcgataaccacggcggctgtggcaacgttcaacctgccgtgcgtcagcttgcactgcaactcaaggctgccttcgacgtgccccaggaagacgggcccaagcggagagacacagtcccaatcactccggaaatggctctcaacattctgcggcgcatctcggaggaagatttgtgcaacatgggtctcaacgtcgattatgctcgccccgagtggatgatcattactgttctgcccgttcctcctccacccgttcgccccagtatttccatggatggcacaggcactggaatgcgcaacgaagacgatttgacatacaagctcggcgacatcattcgcgccaacggcaacgtcaagcaggctatccgcgaaggctccccccaacacatatcgcgagatttcgaagagctgctccagtaccatgtggctaca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968408</INSDSeq_locus>
+    <INSDSeq_length>568</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps nutans genes for small subunit ribosomal RNA, ITS1, 5.8S rRNA, ITS2, large subunit ribosomal RNA, partial and complete sequence, culture_collection: NBRC:101749</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968408</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968408.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968408.1|</INSDSeqid>
+      <INSDSeqid>gi|731174807</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps nutans</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps nutans</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..568</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..568</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>568</INSDInterval_to>
+            <INSDInterval_accession>AB968408.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps nutans</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:101749</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:87751</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..54</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>54</INSDInterval_to>
+            <INSDInterval_accession>AB968408.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGAAGTAAAAGTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>55..223</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>55</INSDInterval_from>
+            <INSDInterval_to>223</INSDInterval_to>
+            <INSDInterval_accession>AB968408.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>224..382</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>224</INSDInterval_from>
+            <INSDInterval_to>382</INSDInterval_to>
+            <INSDInterval_accession>AB968408.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTTAGCAACGGATCTCTTGGCTCTAGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGCGAATTGCAGAATCTAGTGAGTCATCGAATCTTTGAACGCATATTGCGCCTACTAGCTATTCTAGTAGGCATGCCTATTTGAGCGTCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>383..529</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>383</INSDInterval_from>
+            <INSDInterval_to>529</INSDInterval_to>
+            <INSDInterval_accession>AB968408.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>530..&gt;568</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>530</INSDInterval_from>
+            <INSDInterval_to>568</INSDInterval_to>
+            <INSDInterval_accession>AB968408.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCAAATTAGGTAGGGATACCCGCTGAACTTAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttttaaagctctctattcctgatgtgaatttataaaacttgttgtgcttcggcagttgccttaaattttttttttttaaaaaaaaaaaaaaaggagagaacatatgccgaaggaaatttaaatgctgtcatgttaaatttcaaaacgtatattaaaaatataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatctagtgagtcatcgaatctttgaacgcatattgcgcctactagctattctagtaggcatgcctatttgagcgtcattataagcatttatactctgtatagtgttggagaatagcggaaatagctatctctaaaatatagaagcaagctctcttctttatcccttgcaaaagtaataatataggttgcaaggggagaaagaagaaggagagtcttttctttttaaagttgacctcaaattaggtagggatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

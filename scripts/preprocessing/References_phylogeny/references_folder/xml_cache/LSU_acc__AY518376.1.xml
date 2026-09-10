@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AY518376</INSDSeq_locus>
+    <INSDSeq_length>766</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-NOV-2005</INSDSeq_update-date>
+    <INSDSeq_create-date>01-FEB-2005</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 532 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AY518376</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AY518376.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|AY518376.1|</INSDSeqid>
+      <INSDSeqid>gi|46277140</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..766</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Liu,M.</INSDAuthor>
+          <INSDAuthor>Rombach,M.C.</INSDAuthor>
+          <INSDAuthor>Humber,R.A.</INSDAuthor>
+          <INSDAuthor>Hodge,K.T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>What&apos;s in a name? Aschersonia insperata: a new pleoanamorphic fungus with characteristics of Aschersonia and Hirsutella</INSDReference_title>
+        <INSDReference_journal>Mycologia 97 (1), 246-253 (2005)</INSDReference_journal>
+        <INSDReference_pubmed>16389976</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..766</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Liu,M.</INSDAuthor>
+          <INSDAuthor>Rombach,M.C.</INSDAuthor>
+          <INSDAuthor>Humber,R.A.</INSDAuthor>
+          <INSDAuthor>Hodge,K.T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-JAN-2004) Plant Pathology, Cornell University, 334 Plant Science Building, Ithaca, NY 14853, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..766</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>766</INSDInterval_to>
+            <INSDInterval_accession>AY518376.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 532</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Indonesia</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;766</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>766</INSDInterval_to>
+            <INSDInterval_accession>AY518376.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

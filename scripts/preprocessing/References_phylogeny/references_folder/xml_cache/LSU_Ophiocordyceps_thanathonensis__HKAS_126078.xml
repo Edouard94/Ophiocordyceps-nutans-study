@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OP962388</INSDSeq_locus>
+    <INSDSeq_length>834</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JAN-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis voucher HKAS 126056 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OP962388</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OP962388.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OP962388.1|</INSDSeqid>
+      <INSDSeqid>gi|2391356534</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-DEC-2022) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Lanhei Road 132, Kunming, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>OP962388.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS 126056</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>tissue_type</INSDQualifier_name>
+            <INSDQualifier_value>stroma</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T.Yang</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>OP962388.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCTAGTAACGGCGAGTGAAGCGGCAAAAGCTCAAATTTGAAATCTGGCCTCTAGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGTAGAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCAAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCACTTACAACTAGACGTGGGGGCGTGCAATCACCTAGTACTCGTACTAGGGCACTTGGGCGCCTCTAGGCTAGCATTGGTTTGCCGTGGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTGCAATGCCCTGTGGCAGACCAAGGTCCGCGTTCTGCAAGGATGCTGGCATAATGGTTGTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTCTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACGTGGGCATGGGGGCGAAAGACTAATC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccctagtaacggcgagtgaagcggcaaaagctcaaatttgaaatctggcctctaggggtccgagttgtaatttgcagaggatgcttttggtagagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcaaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcacttacaactagacgtgggggcgtgcaatcacctagtactcgtactagggcacttgggcgcctctaggctagcattggtttgccgtgggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtgcaatgccctgtggcagaccaaggtccgcgttctgcaaggatgctggcataatggttgttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctctagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaggagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacgtgggcatgggggcgaaagactaatc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OP962389</INSDSeq_locus>
+    <INSDSeq_length>846</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JAN-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis voucher HKAS 126057 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OP962389</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OP962389.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OP962389.1|</INSDSeqid>
+      <INSDSeqid>gi|2391356536</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..846</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-DEC-2022) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Lanhei Road 132, Kunming, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..846</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>846</INSDInterval_to>
+            <INSDInterval_accession>OP962389.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS 126057</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>tissue_type</INSDQualifier_name>
+            <INSDQualifier_value>stroma</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T.Yang</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;846</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>846</INSDInterval_to>
+            <INSDInterval_accession>OP962389.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCTAGTAACGGCGAGTGAAGCGGCAAAAGCTCAAATTTGAAATCTGGCCTCTAGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGTAGAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCAAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCACTTACAACTAGACGTGGGGGCGTGCAATCACCTAGTACTCGTACTAGGGCACTTGGGCGCCTCTAGGCTAGCATTGGTTTGCCGTGGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTGTAATGCCCTGTGGCAGACCAAGGTCCGCGCTCTGCAAGGATGCTGGCATAATGGTTGTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTCTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACGTGGGCATGGGGGCGAAAGATTATCGAACTTCTATAGTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cctagtaacggcgagtgaagcggcaaaagctcaaatttgaaatctggcctctaggggtccgagttgtaatttgcagaggatgcttttggtagagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcaaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcacttacaactagacgtgggggcgtgcaatcacctagtactcgtactagggcacttgggcgcctctaggctagcattggtttgccgtgggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtgtaatgccctgtggcagaccaaggtccgcgctctgcaaggatgctggcataatggttgttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctctagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaggagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacgtgggcatgggggcgaaagattatcgaacttctatagtg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ127361</INSDSeq_locus>
+    <INSDSeq_length>583</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>15-FEB-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis voucher HKAS:102442 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ127361</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ127361.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ127361.1|</INSDSeqid>
+      <INSDSeqid>gi|2417570641</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Gentekaki,E.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Tang,S.M.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity, molecular dating and ancestral characters state reconstruction of entomopathogenic fungi in Hypocreales</INSDReference_title>
+        <INSDReference_journal>Mycosphere 13 (2), 281-351 (2022)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Gentekaki,E.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Tang,S.M.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-DEC-2022) Centre of Excellence in Fungal Research, Mae Fah Luang University, 333 M. 1, T. Thasud, Muang, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>OQ127361.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>on dead ant lying on leaf litter</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS:102442</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand: Chiang Mai Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>13-Aug-2020</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>De-Ping Wei</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>De-Ping Wei</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>OQ127361.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtaacaaggtctccgttggtgaaccagcggagggatcattaaggagttgataacgcgggaaactctccgaacctctgtgaacctacctatttccctcggcaggcaagcctctaggggttgagtgcactagcacgagtctagcgcctaggcgcgaagactaagcgctagagcccttagcacctagcaggcccctgccagaggaccctaaaacctatttaaagtctttttgagtgggatatagcataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgaaaagtaatgcgaattgcagattagtgagtcatcgaatctttgaacgcacattgcgcctgctagcaactatagcaggcatgcctgtccgagcgttattacactactagacagcagtctatgttggagcctggtagcaaccagctctgaaatacagtggaaaacagccctctatatgcttgtatagtaaactgcttgcattgcattgtagggggctaggtgccgtaacctctagtttaacctcggatcaggtaggaatacccgctgaacttaagcatatc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ127395</INSDSeq_locus>
+    <INSDSeq_length>834</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>15-FEB-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis voucher HKAS:102442 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ127395</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ127395.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ127395.1|</INSDSeqid>
+      <INSDSeqid>gi|2417570675</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Gentekaki,E.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Tang,S.M.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity, molecular dating and ancestral characters state reconstruction of entomopathogenic fungi in Hypocreales</INSDReference_title>
+        <INSDReference_journal>Mycosphere 13 (2), 281-351 (2022)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Gentekaki,E.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Tang,S.M.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-DEC-2022) Centre of Excellence in Fungal Research, Mae Fah Luang University, 333 M. 1, T. Thasud, Muang, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>OQ127395.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>on dead ant lying on leaf litter</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS:102442</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand: Chiang Mai Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>13-Aug-2020</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>De-Ping Wei</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>De-Ping Wei</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>OQ127395.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GAGGAAAAGAAACCAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAAAAGCTCAAATTTGAAATCTGGCCTCTAGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGTAGAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCAAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCACTTACAACTAGACGTGGGGGCGTGCAATCACCTAGTACTCGTACTAGGGCACTTGGGCGCCTCTAGGCTAGCATTGGTTTGCCGTGGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTGTAATGCCCTGTGGCAGACCAAGGTCCGCGCTCTGCAAGGATGCTGGCATAATGGTTGTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTCTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaaaagctcaaatttgaaatctggcctctaggggtccgagttgtaatttgcagaggatgcttttggtagagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcaaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcacttacaactagacgtgggggcgtgcaatcacctagtactcgtactagggcacttgggcgcctctaggctagcattggtttgccgtgggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtgtaatgccctgtggcagaccaaggtccgcgctctgcaaggatgctggcataatggttgttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctctagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaggagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652030</INSDSeq_locus>
+    <INSDSeq_length>717</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1035 RNA polymerase II largest subunit (rpb1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652030</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652030.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652030.1|</INSDSeqid>
+      <INSDSeqid>gi|751129379</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..717</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..717</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..717</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KM652030.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1035</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;717</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KM652030.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..37,103..&gt;717)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>37</INSDInterval_to>
+            <INSDInterval_accession>KM652030.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>103</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KM652030.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGTCTGCCATAATTGCAGCAAGGTGTTGGCCGATACTAGCGATCCCGAGTTCGTCACGGCCATCAACACCCGGGATCCCAAACTCCGCTTCAGCCGCGTCTGGACCGTGTGCAAGAAGAAGCGGAGATGCGAGAATGAGGACCGACAGAACAAGGACAAGGATGAGGACTTTGCGCCCGGCATGAAGCAACAGGCCGTCGACAACCACGGAGGTTGTGGCAACGTGCAGCCCGCCGTGCGCCAGACCGCTCTGCAGCTGAAGGCTGCGTATGAAGTCGTGCCGGAAGACGGTCCGAAGCGCAAGGAGACGACTCCCATCACTCCCGAAACCGCTCACGGCATCCTCCGTCGCATTTCAGAGCAGGACTTGCGCAACATGGGCCTCAACTCTGATTACGCCCGCCCCGAGTGGATGATCATCACCGTTCTGCCCGTGCCTCCCCCTCCTGTTCGCCCCAGTATCTCCATGGATGGAACCGGGACCGGTATGCGGAACGAGGACGACTTGACCTACAAGCTCGGCGACATCATTCGCGCCAACGGCAACGTTAAACAAGCCATCCGTGAGGGCTCGCCCCAGCACATTGCCAGGGACTTTGAAGAGCTCCTCCAGTACCACGTCGCCACCTACATGGACAACGACATCGCCGGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..37,103..&gt;717)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>37</INSDInterval_to>
+            <INSDInterval_accession>KM652030.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>103</INSDInterval_from>
+            <INSDInterval_to>717</INSDInterval_to>
+            <INSDInterval_accession>KM652030.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AJF36254.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>VCHNCSKVLADTSDPEFVTAINTRDPKLRFSRVWTVCKKKRRCENEDRQNKDKDEDFAPGMKQQAVDNHGGCGNVQPAVRQTALQLKAAYEVVPEDGPKRKETTPITPETAHGILRRISEQDLRNMGLNSDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVATYMDNDIAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgtctgccataattgcagcaaggtgttggccgatactgttcgtacaagcaactctctccaaggtttttctgtcgcttgacggagactgacctcacttgctagagcgatcccgagttcgtcacggccatcaacacccgggatcccaaactccgcttcagccgcgtctggaccgtgtgcaagaagaagcggagatgcgagaatgaggaccgacagaacaaggacaaggatgaggactttgcgcccggcatgaagcaacaggccgtcgacaaccacggaggttgtggcaacgtgcagcccgccgtgcgccagaccgctctgcagctgaaggctgcgtatgaagtcgtgccggaagacggtccgaagcgcaaggagacgactcccatcactcccgaaaccgctcacggcatcctccgtcgcatttcagagcaggacttgcgcaacatgggcctcaactctgattacgcccgccccgagtggatgatcatcaccgttctgcccgtgcctccccctcctgttcgccccagtatctccatggatggaaccgggaccggtatgcggaacgaggacgacttgacctacaagctcggcgacatcattcgcgccaacggcaacgttaaacaagccatccgtgagggctcgccccagcacattgccagggactttgaagagctcctccagtaccacgtcgccacctacatggacaacgacatcgccgga</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

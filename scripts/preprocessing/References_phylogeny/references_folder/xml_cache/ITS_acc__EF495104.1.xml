@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>EF495104</INSDSeq_locus>
+    <INSDSeq_length>628</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-MAY-2007</INSDSeq_update-date>
+    <INSDSeq_create-date>22-MAY-2007</INSDSeq_create-date>
+    <INSDSeq_definition>Cordyceps crinalis strain HMIGD 20919 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>EF495104</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>EF495104.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|EF495104.1|</INSDSeqid>
+      <INSDSeqid>gi|146772359</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps crinalis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps crinalis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..628</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Tian,L.</INSDAuthor>
+          <INSDAuthor>Hu,B.</INSDAuthor>
+          <INSDAuthor>Zhou,H.</INSDAuthor>
+          <INSDAuthor>Zhang,W.</INSDAuthor>
+          <INSDAuthor>Qu,L.</INSDAuthor>
+          <INSDAuthor>Chen,Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>RPB2 offer potential for increasing phylogenetic resolution in Cordyceps (Sordariomycetes: Clavicipitaceae) and its relevant taxa</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..628</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Tian,L.</INSDAuthor>
+          <INSDAuthor>Hu,B.</INSDAuthor>
+          <INSDAuthor>Zhou,H.</INSDAuthor>
+          <INSDAuthor>Zhang,W.</INSDAuthor>
+          <INSDAuthor>Qu,L.</INSDAuthor>
+          <INSDAuthor>Chen,Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-MAR-2007) Sun Yat-Sen University, Key Laboratory of Gene Engineering of the Ministry of Education, State Key Laboratory of Biocontrol, 135 Xing Gangxi, Guangzhou, Guangdong 510275, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..628</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>628</INSDInterval_to>
+            <INSDInterval_accession>EF495104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps crinalis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>HMIGD 20919</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:438476</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..187</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>187</INSDInterval_to>
+            <INSDInterval_accession>EF495104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>188..344</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>188</INSDInterval_from>
+            <INSDInterval_to>344</INSDInterval_to>
+            <INSDInterval_accession>EF495104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTATTCTGGCGGGCATGCCTGTCCGAGCGTCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>345..566</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>345</INSDInterval_from>
+            <INSDInterval_to>566</INSDInterval_to>
+            <INSDInterval_accession>EF495104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>567..&gt;628</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>567</INSDInterval_from>
+            <INSDInterval_to>628</INSDInterval_to>
+            <INSDInterval_accession>EF495104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGAATACCCGCTGAACTTAAGCATATCAATAAGCGGAGAAAAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ctcccaaccccagtgtgaacctctacctcatcgttgcctcggcgggatcgccccggcgcgcccccctccaggggcgtccggaccacacggcgcccgccgcaggaccccctaaactctctcgcctctccggcgtcgttttcttctgagtagacctttttccccgcgagagcggggtgaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgtccgagcgtcatttcgaccctcaggccctcgtcaggggacctggcgttgggggacggcaccgctgggaaggagggggggggagtctcccccgcccctcgcccgccgccgcccccgaaatgcagtggcggcctcgccgcagcgacctccgcgtagtagcacagaacctcgcggcctgggagctgggcgcggccacgccgtaaaacaccccctacgcgaaaacccttcgcaacaagagttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaataagcggagaaaag</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

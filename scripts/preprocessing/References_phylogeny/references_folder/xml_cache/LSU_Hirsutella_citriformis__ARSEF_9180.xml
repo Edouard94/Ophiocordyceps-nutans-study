@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AY518376</INSDSeq_locus>
+    <INSDSeq_length>766</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-NOV-2005</INSDSeq_update-date>
+    <INSDSeq_create-date>01-FEB-2005</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 532 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AY518376</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AY518376.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|AY518376.1|</INSDSeqid>
+      <INSDSeqid>gi|46277140</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..766</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Liu,M.</INSDAuthor>
+          <INSDAuthor>Rombach,M.C.</INSDAuthor>
+          <INSDAuthor>Humber,R.A.</INSDAuthor>
+          <INSDAuthor>Hodge,K.T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>What&apos;s in a name? Aschersonia insperata: a new pleoanamorphic fungus with characteristics of Aschersonia and Hirsutella</INSDReference_title>
+        <INSDReference_journal>Mycologia 97 (1), 246-253 (2005)</INSDReference_journal>
+        <INSDReference_pubmed>16389976</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..766</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Liu,M.</INSDAuthor>
+          <INSDAuthor>Rombach,M.C.</INSDAuthor>
+          <INSDAuthor>Humber,R.A.</INSDAuthor>
+          <INSDAuthor>Hodge,K.T.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-JAN-2004) Plant Pathology, Cornell University, 334 Plant Science Building, Ithaca, NY 14853, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..766</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>766</INSDInterval_to>
+            <INSDInterval_accession>AY518376.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 532</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Indonesia</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;766</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>766</INSDInterval_to>
+            <INSDInterval_accession>AY518376.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KJ803256</INSDSeq_locus>
+    <INSDSeq_length>933</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain ARSEF 8378 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KJ803256</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KJ803256.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KJ803256.1|</INSDSeqid>
+      <INSDSeqid>gi|666179888</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..933</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Toledo,A.V.</INSDAuthor>
+          <INSDAuthor>Franco,M.E.E.</INSDAuthor>
+          <INSDAuthor>Balatti,P.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Selection of media for increasing Hirsutella citriformis synnemata and conidia production</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..933</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Toledo,A.V.</INSDAuthor>
+          <INSDAuthor>Franco,M.E.E.</INSDAuthor>
+          <INSDAuthor>Balatti,P.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (29-APR-2014) Facultad de Ciencias Agrarias y Forestales, Universidad Nacional de La Plata, Centro de Investigaciones de Fitopatologia (CIDEFI), Avda. 60 y 119 s/n, La Plata, Buenos Aires 1900, Argentina</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..933</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>933</INSDInterval_to>
+            <INSDInterval_accession>KJ803256.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 8378</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Oliarus dimidiatus (Hemiptera: Cixiidae)</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Argentina: Los Hornos, Buenos Aires</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;933</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>933</INSDInterval_to>
+            <INSDInterval_accession>KJ803256.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATCGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCCGGCGCCCCCGCGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCCGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCACAGAGGGTGAGAGCCCCGTCCGGTCGGACGCCAAGCCGGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAACGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGCCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTCACCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGGAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTTCCGCCGAAGTTTCCCTCAGG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtacccgctgaacttaagcatatcaataagcggaggaaaagaaaccaacagggatcgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatccggcgcccccgcggcgcccgagttgtaatttgcagaggatgcttccggcgcggcgccttccgagttccctggaacgggacgccacagagggtgagagccccgtccggtcggacgccaagccggtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaacgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgccgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggtcaccagcgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcggaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagctggtttccgccgaagtttccctcagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652103</INSDSeq_locus>
+    <INSDSeq_length>808</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 490 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652103</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652103.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652103.1|</INSDSeqid>
+      <INSDSeqid>gi|751129486</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..808</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..808</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..808</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>808</INSDInterval_to>
+            <INSDInterval_accession>KM652103.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 490</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: IRRI, Los Banos, Manila</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>05-May-1980</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;808</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>808</INSDInterval_to>
+            <INSDInterval_accession>KM652103.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGAYAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggayaaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652104</INSDSeq_locus>
+    <INSDSeq_length>834</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 591 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652104</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652104.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652104.1|</INSDSeqid>
+      <INSDSeqid>gi|751129487</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>KM652104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 591</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Indonesia: Bantul District, Yogyakarta, Java</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Feb-1981</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>KM652104.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagact</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652105</INSDSeq_locus>
+    <INSDSeq_length>835</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1035 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652105</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652105.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652105.1|</INSDSeqid>
+      <INSDSeqid>gi|751129488</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..835</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..835</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..835</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>835</INSDInterval_to>
+            <INSDInterval_accession>KM652105.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1035</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;835</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>835</INSDInterval_to>
+            <INSDInterval_accession>KM652105.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagacta</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652106</INSDSeq_locus>
+    <INSDSeq_length>835</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1446 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652106</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652106.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652106.1|</INSDSeqid>
+      <INSDSeqid>gi|751129489</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..835</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..835</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..835</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>835</INSDInterval_to>
+            <INSDInterval_accession>KM652106.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1446</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;835</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>835</INSDInterval_to>
+            <INSDInterval_accession>KM652106.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagacta</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652107</INSDSeq_locus>
+    <INSDSeq_length>828</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 2598 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652107</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652107.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652107.1|</INSDSeqid>
+      <INSDSeqid>gi|751129490</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..828</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..828</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..828</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>828</INSDInterval_to>
+            <INSDInterval_accession>KM652107.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Heteropsylla cubana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 2598</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: Visayas, Leyte</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1987</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;828</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>828</INSDInterval_to>
+            <INSDInterval_accession>KM652107.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGTCCCCCCGCGGGGCCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCGAGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCTAGCCTCTGTAAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTTGTGACCAGACTTGAGCGCGGCGGATCATCCGGCGTTCTCGCCGGTGCACTCCGCCGTGCCCAGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCTCTCGGGGAGTGTTACAGCCCGTCGCGCAATGCCCCGCCTGCGGACCGAGGTACGCGCTCCGCAAGGATGCTGGCGTAATGGTCACCAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGTAATGAAAGTGAACGCAGGTGAGAGCTTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTATAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAATATGGGCATGGGGGCGAAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggtccccccgcggggcccgagttgtaatttgcagaggatgcttttggcgaggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgcctagcctctgtaaagctccttcgacgagtcgagtagtttgggaatgctgctcaaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgcttgtgaccagacttgagcgcggcggatcatccggcgttctcgccggtgcactccgccgtgcccaggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcctctcggggagtgttacagcccgtcgcgcaatgccccgcctgcggaccgaggtacgcgctccgcaaggatgctggcgtaatggtcaccagcgacccgtcttgaaacacggaccaaggagtcgtcttcgtatgcgagtgttcgggtgtcaaacccctacgcgtaatgaaagtgaacgcaggtgagagcttcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtatagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaatatgggcatgggggcgaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652108</INSDSeq_locus>
+    <INSDSeq_length>834</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 9180 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652108</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652108.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652108.1|</INSDSeqid>
+      <INSDSeqid>gi|751129491</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..834</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>KM652108.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 9180</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Immokalee, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>01-Jul-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>DG Boucias</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>DG Boucias</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;834</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>834</INSDInterval_to>
+            <INSDInterval_accession>KM652108.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGCCCCAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGAGCCCCCCGCGGGCGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGACGCCAAGCCTGTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCTAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGTGACCAGACTCGGCCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGGCGCCGGGCCAGCATCGGTTCGCGGCGGGGGATAAAGGCGTCGGGAACGTGGCTCCCCCGGGAGTGTTATAGCCCGGCGCGCAATGCCCCGCGGCGGACCGAGGTTCGCGCATTCGCAAGGATGCTGGCGTAATGGTTACCAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCAGGTGAGAGCCTCGGCGCATCATCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgccccagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggagccccccgcgggcgcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggacgccaagcctgtgtgaagctccttcgacgagtcgagtagtttgggaatgctgctctaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgtgaccagactcggccccggcggatcatccggcgttcttcgccggtgcactccgccgggcgccgggccagcatcggttcgcggcgggggataaaggcgtcgggaacgtggctcccccgggagtgttatagcccggcgcgcaatgccccgcggcggaccgaggttcgcgcattcgcaaggatgctggcgtaatggttaccagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcaggtgagagcctcggcgcatcatcgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagact</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652151</INSDSeq_locus>
+    <INSDSeq_length>583</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 490 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652151</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652151.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652151.1|</INSDSeqid>
+      <INSDSeqid>gi|751129534</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652151.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 490</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: IRRI, Los Banos, Manila</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>05-May-1980</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652151.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaacccttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaacctcgggacccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652152</INSDSeq_locus>
+    <INSDSeq_length>584</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 591 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652152</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652152.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652152.1|</INSDSeqid>
+      <INSDSeqid>gi|751129535</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652152.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 591</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Indonesia: Bantul District, Yogyakarta, Java</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Feb-1981</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652152.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaacccttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaacctcgggacccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652153</INSDSeq_locus>
+    <INSDSeq_length>584</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1035 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652153</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652153.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652153.1|</INSDSeqid>
+      <INSDSeqid>gi|751129536</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652153.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1035</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652153.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652154</INSDSeq_locus>
+    <INSDSeq_length>585</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1446 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652154</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652154.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652154.1|</INSDSeqid>
+      <INSDSeqid>gi|751129537</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..585</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..585</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..585</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>585</INSDInterval_to>
+            <INSDInterval_accession>KM652154.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1446</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;585</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>585</INSDInterval_to>
+            <INSDInterval_accession>KM652154.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652155</INSDSeq_locus>
+    <INSDSeq_length>583</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 2598 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652155</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652155.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652155.1|</INSDSeqid>
+      <INSDSeqid>gi|751129538</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652155.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Heteropsylla cubana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 2598</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: Visayas, Leyte</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1987</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652155.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggagttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652156</INSDSeq_locus>
+    <INSDSeq_length>627</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 9180 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652156</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652156.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652156.1|</INSDSeqid>
+      <INSDSeqid>gi|751129539</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..627</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..627</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..627</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>627</INSDInterval_to>
+            <INSDInterval_accession>KM652156.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 9180</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Immokalee, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>01-Jul-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>DG Boucias</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>DG Boucias</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;627</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>627</INSDInterval_to>
+            <INSDInterval_accession>KM652156.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cttggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatatcaataagcggagg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

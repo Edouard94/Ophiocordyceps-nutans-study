@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MF416565</INSDSeq_locus>
+    <INSDSeq_length>309</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>26-DEC-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>26-DEC-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps kniphofioides voucher HUA TSF 790 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF416565</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF416565.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF416565.1|</INSDSeqid>
+      <INSDSeqid>gi|1315192860</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps kniphofioides</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps kniphofioides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..309</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Quandt,C.A.</INSDAuthor>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Aime,M.C.</INSDAuthor>
+          <INSDAuthor>Henkel,T.W.</INSDAuthor>
+          <INSDAuthor>Sanjuan,T.</INSDAuthor>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Chen,M.</INSDAuthor>
+          <INSDAuthor>Li,Z.</INSDAuthor>
+          <INSDAuthor>Rossman,A.Y.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>A phylogenetically-based nomenclature for Cordycipitaceae (Hypocreales)</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 8 (2), 335-353 (2017)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.5598/imafungus.2017.08.02.08</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29242779</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..309</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Quandt,C.Alisha.</INSDAuthor>
+          <INSDAuthor>Sung,G.-H.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Aime,M.Catherine.</INSDAuthor>
+          <INSDAuthor>Henkel,T.W.</INSDAuthor>
+          <INSDAuthor>Sanjuan,T.</INSDAuthor>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Chen,M.</INSDAuthor>
+          <INSDAuthor>Rossman,A.Y.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (28-JUN-2017) Sustainable Agricultural Systems Laboratory, United States Department of Agriculture, 10300 Baltimore Ave Bldg 001, Beltsville, MD 20705, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: CodonCode v. 2.0.6 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..309</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>309</INSDInterval_to>
+            <INSDInterval_accession>MF416565.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps kniphofioides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HUA TSF 790</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1399861</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;309</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>309</INSDInterval_to>
+            <INSDInterval_accession>MF416565.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TAAAATAGGAGGTATATATCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCATAAGTAGAGTGATCGAAAGATAAAAAGCACTTTAAAAAGAGGGTTAAATAGTATATAAAATTATTAAAAGGGAAGCGCTTGCGACTAGACTCGGCCGCGGCGGATTACCTAGAGTTTCCTCTAGCGCACTTTCCGCCGCAGCCAGGCCAGCGTCGGCTCGCTACGGGGGACAAAGGCGCTAGGAACGTAGCTCCCCTAGGAGTGTTATAGCCCGGCGCGTAATGCCCCGCGGCGGGCCGAGGTCCGCGCGTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>taaaataggaggtatatatcttctaaagctaaataccggctagagaccgatagcgcataagtagagtgatcgaaagataaaaagcactttaaaaagagggttaaatagtatataaaattattaaaagggaagcgcttgcgactagactcggccgcggcggattacctagagtttcctctagcgcactttccgccgcagccaggccagcgtcggctcgctacgggggacaaaggcgctaggaacgtagctcccctaggagtgttatagcccggcgcgtaatgccccgcggcgggccgaggtccgcgcgtc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

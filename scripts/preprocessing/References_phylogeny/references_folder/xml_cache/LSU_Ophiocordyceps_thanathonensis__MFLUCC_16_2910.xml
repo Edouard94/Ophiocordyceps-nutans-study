@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MF362990</INSDSeq_locus>
+    <INSDSeq_length>837</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-MAR-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>01-AUG-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis strain MFLU 16-2908 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF362990</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF362990.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF362990.1|</INSDSeqid>
+      <INSDSeqid>gi|1208693654</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..837</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+          <INSDAuthor>Sun,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Introducing Ophiocordyceps thanathonensis, a new species of entomogenous fungi on ants in Thailand, and a reference specimen of O. pseudolloydii</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..837</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+          <INSDAuthor>Sun,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (19-JUN-2017) Engineering Research Center of Southwest Bio-Pharmaceutical Resources, Ministry of Education, Guizhou University, Xueshi, Guiyang 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..837</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>837</INSDInterval_to>
+            <INSDInterval_accession>MF362990.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>MFLU 16-2908</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Ant</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>18-Jul-2015</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;837</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>837</INSDInterval_to>
+            <INSDInterval_accession>MF362990.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CGGGGAAAAGAACCACCAGGGATTGCCCTAGTACCGGCGAGTGAAGCGGCAAGAGCTCAAATTTGAAATCTGGCCTCCATGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCATAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCGAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCGCTTACAACTAGACGTGGGGGCGTGCAATCAACTAGTATTCTTACTAGGGCACTTGGGCGCCATCTAGGCTAGCATTGGTTTGTTATAGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTATAATGCCCTATGGCAGACCAAGGTCCGCGCTTCGGCAAGGATGCTGGCATAATGGTTGTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTGTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cggggaaaagaaccaccagggattgccctagtaccggcgagtgaagcggcaagagctcaaatttgaaatctggcctccatggggtccgagttgtaatttgcagaggatgcttttggcatagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcgaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcgcttacaactagacgtgggggcgtgcaatcaactagtattcttactagggcacttgggcgccatctaggctagcattggtttgttataggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtataatgccctatggcagaccaaggtccgcgcttcggcaaggatgctggcataatggttgttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctgtagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF850377</INSDSeq_locus>
+    <INSDSeq_length>862</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-MAR-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis voucher MFLU 16-2910 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF850377</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF850377.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF850377.1|</INSDSeqid>
+      <INSDSeqid>gi|1240181576</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..862</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Introducing Ophiocordyceps thanathonensis, a new species of entomogenous fungi on ants, and a reference specimen of O. pseudolloydii</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..862</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (06-SEP-2017) Engineering Research Center of Southwest Bio-Pharmaceutical Resources, Ministry of Education, Guizhou University, Xueshi, Guiyang 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..862</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>862</INSDInterval_to>
+            <INSDInterval_accession>MF850377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>Hymenotera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MFLU 16-2910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>18-Jul-2015</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;862</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>862</INSDInterval_to>
+            <INSDInterval_accession>MF850377.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGAGGAAAAGAAACCAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAAAAGCTCAAATTTGAAATCTGGCCTCTAGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGTAGAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCAAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCACTTACAACTAGACGTGGGGGCGTGCAATCACCTAGTACTCGTACTAGGGCACTTGGGCGCCTCTGGGCTAGCATTGGTTTGCCGTGGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTGTAATGCCCTGTGGCAGACCAAGGTCCGCGCTCTGCAAGGATGCTGGCATAATGGTTGTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTCTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACGTGGGCATGGGGGCGAAAGACTAATCGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaaaagctcaaatttgaaatctggcctctaggggtccgagttgtaatttgcagaggatgcttttggtagagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcaaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcacttacaactagacgtgggggcgtgcaatcacctagtactcgtactagggcacttgggcgcctctgggctagcattggtttgccgtgggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtgtaatgccctgtggcagaccaaggtccgcgctctgcaaggatgctggcataatggttgttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctctagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaggagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacgtgggcatgggggcgaaagactaatcga</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MF850378</INSDSeq_locus>
+    <INSDSeq_length>864</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-MAR-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis voucher MFLU 16-2909 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MF850378</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MF850378.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MF850378.1|</INSDSeqid>
+      <INSDSeqid>gi|1240181577</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..864</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Introducing Ophiocordyceps thanathonensis, a new species of entomogenous fungi on ants, and a reference specimen of O. pseudolloydii</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..864</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (06-SEP-2017) Engineering Research Center of Southwest Bio-Pharmaceutical Resources, Ministry of Education, Guizhou University, Xueshi, Guiyang 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..864</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>864</INSDInterval_to>
+            <INSDInterval_accession>MF850378.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>Hymenotera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MFLU 16-2909</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>19-Jul-2015</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;864</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>864</INSDInterval_to>
+            <INSDInterval_accession>MF850378.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGATTGCCCTAGTAACGGCGAGTGAAGCGGCAAAAGCTCAAATTTGAAATCTGGCCTCTAGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGTAGAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCAAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCACTTACAACTAGACGTGGGGGCGTGCAATCACCTAGTACTCGTACTAGGGCTCTTGGGCGCCTCTAGGCTAGCATTGGTTTGCCGTGGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTGCAATGCCCTGTGGTAGACCAAGGTCCGCGCTCTGCAAGGATGCTGGCATAATGGTTGTTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTCTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACGTGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTTCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggattgccctagtaacggcgagtgaagcggcaaaagctcaaatttgaaatctggcctctaggggtccgagttgtaatttgcagaggatgcttttggtagagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcaaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcacttacaactagacgtgggggcgtgcaatcacctagtactcgtactagggctcttgggcgcctctaggctagcattggtttgccgtgggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtgcaatgccctgtggtagaccaaggtccgcgctctgcaaggatgctggcataatggttgtttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctctagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaggagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacgtgggcatgggggcgaaagactaatcgaaccttctagtagctggtttcc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NG_059842</INSDSeq_locus>
+    <INSDSeq_length>837</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-JUN-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>05-JUN-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps thanathonensis MFLU 16-2908 28S rRNA gene, partial sequence; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NG_059842</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NG_059842.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NG_059842.1|</INSDSeqid>
+      <INSDSeqid>gi|1395446955</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA51803</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps thanathonensis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps thanathonensis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..837</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Xiao,Y.</INSDAuthor>
+          <INSDAuthor>Wen,T.</INSDAuthor>
+          <INSDAuthor>Hongsanan,S.</INSDAuthor>
+          <INSDAuthor>Sun,J.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Introducing Ophiocordyceps thanathonensis, a new species of entomogenous fungi on ants in Thailand, and a reference specimen of O. pseudolloydii</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to MF362990.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..837</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>837</INSDInterval_to>
+            <INSDInterval_accession>NG_059842.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>MFLU 16-2908</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Ant</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MFLU:16-2908</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps thanathonensis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2014595</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>18-Jul-2015</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Yuanpin Xiao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;837</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>837</INSDInterval_to>
+            <INSDInterval_accession>NG_059842.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CGGGGAAAAGAACCACCAGGGATTGCCCTAGTACCGGCGAGTGAAGCGGCAAGAGCTCAAATTTGAAATCTGGCCTCCATGGGGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCATAGCACTATCCGAGTTCCCTGGAATGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTTAGCTGCGAAGCCTCTATAAAGCTCCTTCAACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAGTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCGCTTACAACTAGACGTGGGGGCGTGCAATCAACTAGTATTCTTACTAGGGCACTTGGGCGCCATCTAGGCTAGCATTGGTTTGTTATAGGGGATAAAGACTCTAGGAACGTAGCCCCCCTCGGGGGGTGTTATAGCCTAGTGTATAATGCCCTATGGCAGACCAAGGTCCGCGCTTCGGCAAGGATGCTGGCATAATGGTTGTTAGTGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTTAAACCCGTGCGCGGAATGAAAGTAAACGTAGGTGAGAGCCCTGTAGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cggggaaaagaaccaccagggattgccctagtaccggcgagtgaagcggcaagagctcaaatttgaaatctggcctccatggggtccgagttgtaatttgcagaggatgcttttggcatagcactatccgagttccctggaatgggacgccatagagggtgagagccccgtctggttagctgcgaagcctctataaagctccttcaacgagtcgagtagtttgggaatgctgctcaaagtgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcgcttacaactagacgtgggggcgtgcaatcaactagtattcttactagggcacttgggcgccatctaggctagcattggtttgttataggggataaagactctaggaacgtagcccccctcggggggtgttatagcctagtgtataatgccctatggcagaccaaggtccgcgcttcggcaaggatgctggcataatggttgttagtgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgttaaacccgtgcgcggaatgaaagtaaacgtaggtgagagccctgtagggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacg</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA51803</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+</INSDSet>

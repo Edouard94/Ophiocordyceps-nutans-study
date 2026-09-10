@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OR167124</INSDSeq_locus>
+    <INSDSeq_length>694</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>02-JAN-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>02-JAN-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sp. voucher BRIP 62634a small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OR167124</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OR167124.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OR167124.1|</INSDSeqid>
+      <INSDSeqid>gi|2523150139</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps poecilometigena</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps poecilometigena</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..694</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Tan,Y.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (21-JUN-2023) Department of Agriculture &amp; Fisheries, Queensland Plant Pathology Herbarium, 41 Boggo Road, Dutton Park, Queensland 4102, Australia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..694</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>694</INSDInterval_to>
+            <INSDInterval_accession>OR167124.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps poecilometigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Poecilometigena sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>BRIP 62634a</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps poecilometigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3002429</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Australia: Queensland, Lacey Creek</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;694</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>694</INSDInterval_to>
+            <INSDInterval_accession>OR167124.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gactggcctagagaggtgggcaaccaccactcagggccggaaagttctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgttaaactctccatgtcctatgtgaatctgtaaaactgttgtgcctcggcaggttggcctatctttttatttcccttgattttcccgaaaggaaatagagaattaaatagataaaagagtcactatgccggaggaacgtttaattttcaacgctactttaatggttcttcaaagtaaataaatattgaaaaatgataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatctagtgagtcatcgaatctttgaacgcatattgcgcctactagctattctagcaggcatgcctatttgagcgttatttatagcatttataccttgtatagtgttggagaatagcgggcgtaagctttgtagctatctctaaaacatgaaaaagcttactttttcactctctctctctctgcggaagtaaattatctagttatagagaagagtttttttcaaagtattataaatcttgaaagttaacctcaaattaggtaggaatacccgctgaacttaagcatatc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NR_191271</INSDSeq_locus>
+    <INSDSeq_length>694</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>06-JUN-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>06-JUN-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps poecilometigena BRIP 62634a ITS region; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_191271</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_191271.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_191271.1|</INSDSeqid>
+      <INSDSeqid>gi|2740297925</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA177353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps poecilometigena</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps poecilometigena</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..694</INSDReference_position>
+        <INSDReference_consortium>NCBI RefSeq Targeted Loci Project</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (06-JUN-2024) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..694</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Tan,Y.P.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (21-JUN-2023) Department of Agriculture &amp; Fisheries, Queensland Plant Pathology Herbarium, 41 Boggo Road, Dutton Park, Queensland 4102, Australia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to OR167124.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..694</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>694</INSDInterval_to>
+            <INSDInterval_accession>NR_191271.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps poecilometigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Poecilometigena sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>BRIP:62634a</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>holotype of Ophiocordyceps poecilometigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3002429</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Australia: Queensland, Lacey Creek</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..121</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>121</INSDInterval_to>
+            <INSDInterval_accession>NR_191271.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GACTGGCCTAGAGAGGTGGGCAACCACCACTCAGGGCCGGAAAGTTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>122..327</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>122</INSDInterval_from>
+            <INSDInterval_to>327</INSDInterval_to>
+            <INSDInterval_accession>NR_191271.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>328..486</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>328</INSDInterval_from>
+            <INSDInterval_to>486</INSDInterval_to>
+            <INSDInterval_accession>NR_191271.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTTAGCAACGGATCTCTTGGCTCTAGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGCGAATTGCAGAATCTAGTGAGTCATCGAATCTTTGAACGCATATTGCGCCTACTAGCTATTCTAGCAGGCATGCCTATTTGAGCGTTATTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>487..647</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>487</INSDInterval_from>
+            <INSDInterval_to>647</INSDInterval_to>
+            <INSDInterval_accession>NR_191271.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>648..&gt;694</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>648</INSDInterval_from>
+            <INSDInterval_to>694</INSDInterval_to>
+            <INSDInterval_accession>NR_191271.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTAACCTCAAATTAGGTAGGAATACCCGCTGAACTTAAGCATATC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gactggcctagagaggtgggcaaccaccactcagggccggaaagttctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgttaaactctccatgtcctatgtgaatctgtaaaactgttgtgcctcggcaggttggcctatctttttatttcccttgattttcccgaaaggaaatagagaattaaatagataaaagagtcactatgccggaggaacgtttaattttcaacgctactttaatggttcttcaaagtaaataaatattgaaaaatgataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatctagtgagtcatcgaatctttgaacgcatattgcgcctactagctattctagcaggcatgcctatttgagcgttatttatagcatttataccttgtatagtgttggagaatagcgggcgtaagctttgtagctatctctaaaacatgaaaaagcttactttttcactctctctctctctgcggaagtaaattatctagttatagagaagagtttttttcaaagtattataaatcttgaaagttaacctcaaattaggtaggaatacccgctgaacttaagcatatc</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA177353</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+</INSDSet>

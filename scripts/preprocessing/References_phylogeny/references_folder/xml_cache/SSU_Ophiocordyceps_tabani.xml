@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>PV170901</INSDSeq_locus>
+    <INSDSeq_length>515</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>11-JUL-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>11-JUL-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps tabani strain BCC45127 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV170901</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV170901.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV170901.1|</INSDSeqid>
+      <INSDSeqid>gi|2917119424</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps tabani</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps tabani</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..515</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Liangsiri,K.</INSDAuthor>
+          <INSDAuthor>Jaiyen,S.</INSDAuthor>
+          <INSDAuthor>Rungjindamai,N.</INSDAuthor>
+          <INSDAuthor>Stadler,M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-locus molecular phylogenetic analysis reveals four new species and a new record of Ophiocordyceps (Ophiocordycipitaceae, Hypocreales) on dipteran hosts in Thailand</INSDReference_title>
+        <INSDReference_journal>MycoKeys 119, 235-261 (2025)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3897/mycokeys.119.155439</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..515</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Liangsiri,K.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Khonsanit,A.</INSDAuthor>
+          <INSDAuthor>Jaiyen,S.</INSDAuthor>
+          <INSDAuthor>Rungjindamai,N.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (18-FEB-2025) Plant Microbe Interaction Research Team, National Center for Genetic Engineering and Biotechnology (BIOTEC), National Science and Technology, Phahonyothin Road, Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..515</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>515</INSDInterval_to>
+            <INSDInterval_accession>PV170901.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps tabani</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>BCC45127</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Dipterigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps tabani</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3400756</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Nov-2010</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: LROR, rev_name: LR7</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;515</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>515</INSDInterval_to>
+            <INSDInterval_accession>PV170901.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>taacaaggtctccgttggtgaaccagcggagggatcattacagtgtatccacactcatcctttgtgaagtttaccatattgtttgggcagcgagctgccactaaaaaacctgatgttgttttctgagtttttgcttcaacttataaaaactttcagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcacattgcgcctgctagaaatctagcaggcatgcctgtttgagcgttagtagtcgccagtccttggaggtgttggagcgtcatgaagccccagtccttacgggtgttggagaatggcgtaccatctctgaaatgcagtggcagatgatggcaaaatctctgtgcagtataaaaacagccacactgaaagccagtctgagtgccagaaacttacaagtttaacctcaaatcaggtaggaatacccgctgaacttaagcatatc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NR_201009</INSDSeq_locus>
+    <INSDSeq_length>515</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-OCT-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>01-OCT-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps tabani BCC 45127 ITS region; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_201009</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_201009.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_201009.1|</INSDSeqid>
+      <INSDSeqid>gi|3070107216</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA177353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Ophiocordyceps tabani</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps tabani</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..515</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Liangsiri,K.</INSDAuthor>
+          <INSDAuthor>Jaiyen,S.</INSDAuthor>
+          <INSDAuthor>Rungjindamai,N.</INSDAuthor>
+          <INSDAuthor>Stadler,M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-locus molecular phylogenetic analysis reveals four new species and a new record of Ophiocordyceps (Ophiocordycipitaceae, Hypocreales) on dipteran hosts in Thailand</INSDReference_title>
+        <INSDReference_journal>MycoKeys 119, 235-261 (2025)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3897/mycokeys.119.155439</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..515</INSDReference_position>
+        <INSDReference_consortium>NCBI RefSeq Targeted Loci Project</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-OCT-2025) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..515</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Liangsiri,K.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Khonsanit,A.</INSDAuthor>
+          <INSDAuthor>Jaiyen,S.</INSDAuthor>
+          <INSDAuthor>Rungjindamai,N.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (18-FEB-2025) Plant Microbe Interaction Research Team, National Center for Genetic Engineering and Biotechnology (BIOTEC), National Science and Technology, Phahonyothin Road, Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to PV170901.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..515</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>515</INSDInterval_to>
+            <INSDInterval_accession>NR_201009.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps tabani</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>BCC45127</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Dipterigena</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>BCC&lt;THA&gt;:45127</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps tabani</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3400756</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>04-Nov-2010</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: LROR, rev_name: LR7</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..40</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>40</INSDInterval_to>
+            <INSDInterval_accession>NR_201009.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>41..146</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>41</INSDInterval_from>
+            <INSDInterval_to>146</INSDInterval_to>
+            <INSDInterval_accession>NR_201009.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>147..303</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>147</INSDInterval_from>
+            <INSDInterval_to>303</INSDInterval_to>
+            <INSDInterval_accession>NR_201009.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAGCAACGGATCTCTTGGCTCTAGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGCGAATTGCAGAATTCAGTGAGTCATCGAATCTTTGAACGCACATTGCGCCTGCTAGAAATCTAGCAGGCATGCCTGTTTGAGCGTTAGT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>304..468</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>304</INSDInterval_from>
+            <INSDInterval_to>468</INSDInterval_to>
+            <INSDInterval_accession>NR_201009.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>469..&gt;515</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>469</INSDInterval_from>
+            <INSDInterval_to>515</INSDInterval_to>
+            <INSDInterval_accession>NR_201009.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTTAACCTCAAATCAGGTAGGAATACCCGCTGAACTTAAGCATATC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>taacaaggtctccgttggtgaaccagcggagggatcattacagtgtatccacactcatcctttgtgaagtttaccatattgtttgggcagcgagctgccactaaaaaacctgatgttgttttctgagtttttgcttcaacttataaaaactttcagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaattcagtgagtcatcgaatctttgaacgcacattgcgcctgctagaaatctagcaggcatgcctgtttgagcgttagtagtcgccagtccttggaggtgttggagcgtcatgaagccccagtccttacgggtgttggagaatggcgtaccatctctgaaatgcagtggcagatgatggcaaaatctctgtgcagtataaaaacagccacactgaaagccagtctgagtgccagaaacttacaagtttaacctcaaatcaggtaggaatacccgctgaacttaagcatatc</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA177353</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+</INSDSet>
