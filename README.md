@@ -1,10 +1,10 @@
 # Disentangling Ophiocordyceps nutans complex through Museomics
 
-This repository contains data and analysis scripts for the scientific study on the Ophiocordyceps nutans species complex using museomics approaches.
+This repository contains data and analysis scripts for the scientific study on the _Ophiocordyceps nutans_ species complex using museomics approaches.
 
 ## Overview
 
-Ophiocordyceps nutans is an entomopathogenic fungus that infects insects. This study uses museomics (genomic analysis of museum specimens) to investigate the species boundaries and phylogenetic relationships within the O. nutans complex.
+_Ophiocordyceps nutans_ is an entomopathogenic fungus that infects insects. This study uses museomics (molecular analysis of museum specimens) to investigate the species boundaries and phylogenetic relationships within the _O. nutans_ complex.
 
 ## Repository Structure
 
