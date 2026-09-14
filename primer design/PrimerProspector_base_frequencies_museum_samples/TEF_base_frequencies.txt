@@ -1,0 +1,30 @@
+# Base frequency report for optimizing primers
+# This file is tab separated for easy importation into Excel or other spreadsheets
+# Degenerate DNA codes (listed here for convenience): R=AG, Y=CT, M=AC, K=GT, W=AT, S=CG, B=CGT, D=AGT, H=ACT, V=ACG, N=ACGT
+# The primer is listed in 5' to 3' orientation.
+# Hits file used to generate base frequency data: TEFf_TEF_c99_hits.txt
+# Score type used: weighted_score
+# Score threshold: 5
+# Primer sequence: TGGTACAAGGGCTGGGAGAAGG
+#
+Primer	T	G	G	T	A	C	A	A	G	G	G	C	T	G	G	G	A	G	A	A	G	G
+Base
+A	0.00	0.00	0.00	0.00	0.97	0.01	0.97	1.00	0.01	0.00	0.00	0.01	0.00	0.00	0.01	0.06	0.98	0.01	0.96	0.99	0.01	0.00
+T	0.99	0.01	0.00	0.99	0.00	0.02	0.00	0.00	0.00	0.00	0.00	0.32	0.96	0.00	0.02	0.03	0.01	0.00	0.00	0.00	0.00	0.00
+C	0.01	0.00	0.00	0.01	0.02	0.97	0.00	0.00	0.01	0.00	0.02	0.65	0.04	0.00	0.01	0.01	0.01	0.07	0.02	0.00	0.00	0.00
+G	0.00	0.99	1.00	0.00	0.00	0.00	0.02	0.00	0.98	1.00	0.97	0.01	0.00	0.99	0.97	0.90	0.00	0.91	0.01	0.01	0.99	1.00
+# Base frequency report for optimizing primers
+# This file is tab separated for easy importation into Excel or other spreadsheets
+# Degenerate DNA codes (listed here for convenience): R=AG, Y=CT, M=AC, K=GT, W=AT, S=CG, B=CGT, D=AGT, H=ACT, V=ACG, N=ACGT
+# The primer is listed in 5' to 3' orientation.
+# Hits file used to generate base frequency data: TEFr_TEF_c99_hits.txt
+# Score type used: weighted_score
+# Score threshold: 5
+# Primer sequence: GCTGCTCGTGGTGCATTTCG
+#
+Primer	G	C	T	G	C	T	C	G	T	G	G	T	G	C	A	T	T	T	C	G
+Base
+A	0.01	0.01	0.02	0.00	0.00	0.00	0.00	0.02	0.00	0.00	0.08	0.00	0.00	0.01	0.98	0.00	0.00	0.00	0.00	0.15
+T	0.00	0.03	0.97	0.02	0.07	0.97	0.01	0.01	1.00	0.00	0.00	0.98	0.00	0.00	0.00	0.98	0.18	1.00	0.00	0.00
+C	0.00	0.95	0.01	0.02	0.93	0.02	0.97	0.00	0.00	0.01	0.00	0.00	0.01	0.99	0.00	0.00	0.80	0.00	0.98	0.11
+G	0.99	0.02	0.00	0.97	0.00	0.01	0.02	0.97	0.00	0.98	0.92	0.02	0.98	0.00	0.02	0.01	0.01	0.00	0.02	0.74

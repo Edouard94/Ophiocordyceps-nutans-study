@@ -1,0 +1,30 @@
+# Base frequency report for optimizing primers
+# This file is tab separated for easy importation into Excel or other spreadsheets
+# Degenerate DNA codes (listed here for convenience): R=AG, Y=CT, M=AC, K=GT, W=AT, S=CG, B=CGT, D=AGT, H=ACT, V=ACG, N=ACGT
+# The primer is listed in 5' to 3' orientation.
+# Hits file used to generate base frequency data: LSUf_LSU_c99_hits.txt
+# Score type used: weighted_score
+# Score threshold: 5
+# Primer sequence: AGCGCACAAGTAGAGTGATCG
+#
+Primer	A	G	C	G	C	A	C	A	A	G	T	A	G	A	G	T	G	A	T	C	G
+Base
+A	0.76	0.02	0.00	0.00	0.01	0.77	0.01	0.96	0.96	0.20	0.02	0.96	0.03	0.96	0.02	0.01	0.01	0.77	0.02	0.02	0.00
+T	0.02	0.01	0.01	0.02	0.01	0.20	0.02	0.02	0.02	0.04	0.93	0.01	0.01	0.01	0.00	0.97	0.01	0.00	0.77	0.00	0.00
+C	0.01	0.02	0.98	0.21	0.97	0.01	0.75	0.01	0.01	0.01	0.01	0.03	0.01	0.03	0.02	0.01	0.00	0.02	0.20	0.77	0.00
+G	0.21	0.95	0.01	0.78	0.01	0.02	0.21	0.01	0.01	0.75	0.04	0.00	0.95	0.00	0.97	0.01	0.97	0.20	0.01	0.21	1.00
+# Base frequency report for optimizing primers
+# This file is tab separated for easy importation into Excel or other spreadsheets
+# Degenerate DNA codes (listed here for convenience): R=AG, Y=CT, M=AC, K=GT, W=AT, S=CG, B=CGT, D=AGT, H=ACT, V=ACG, N=ACGT
+# The primer is listed in 5' to 3' orientation.
+# Hits file used to generate base frequency data: LSUr_LSU_c99_hits.txt
+# Score type used: weighted_score
+# Score threshold: 5
+# Primer sequence: GGTCCGTGTTTCAAGACGG
+#
+Primer	G	G	T	C	C	G	T	G	T	T	T	C	A	A	G	A	C	G	G
+Base
+A	0.02	0.03	0.01	0.04	0.01	0.06	0.02	0.03	0.01	0.01	0.01	0.05	0.81	0.62	0.07	0.62	0.03	0.01	0.00
+T	0.03	0.25	0.90	0.02	0.04	0.03	0.64	0.01	0.93	0.83	0.86	0.04	0.03	0.03	0.01	0.03	0.02	0.03	0.00
+C	0.01	0.02	0.02	0.68	0.66	0.04	0.04	0.03	0.03	0.09	0.03	0.88	0.07	0.27	0.02	0.08	0.89	0.02	0.00
+G	0.94	0.70	0.07	0.25	0.30	0.87	0.30	0.93	0.03	0.07	0.10	0.03	0.10	0.08	0.90	0.26	0.06	0.94	1.00

@@ -1,0 +1,30 @@
+# Base frequency report for optimizing primers
+# This file is tab separated for easy importation into Excel or other spreadsheets
+# Degenerate DNA codes (listed here for convenience): R=AG, Y=CT, M=AC, K=GT, W=AT, S=CG, B=CGT, D=AGT, H=ACT, V=ACG, N=ACGT
+# The primer is listed in 5' to 3' orientation.
+# Hits file used to generate base frequency data: SSUf_SSU_c99_hits.txt
+# Score type used: weighted_score
+# Score threshold: 5
+# Primer sequence: CCGTGGTAATTCTAGAGCTAATACATGC
+#
+Primer	C	C	G	T	G	G	T	A	A	T	T	C	T	A	G	A	G	C	T	A	A	T	A	C	A	T	G	C
+Base
+A	0.00	0.01	0.00	0.00	0.00	0.00	0.00	0.99	0.94	0.00	0.00	0.00	0.00	0.99	0.03	0.96	0.01	0.03	0.01	0.98	0.98	0.03	0.94	0.00	0.99	0.01	0.00	0.00
+T	0.00	0.01	0.00	0.99	0.00	0.00	0.97	0.00	0.01	0.99	0.96	0.03	0.99	0.00	0.00	0.01	0.00	0.00	0.98	0.01	0.00	0.96	0.01	0.03	0.00	0.99	0.00	0.00
+C	0.99	0.98	0.01	0.01	0.03	0.01	0.01	0.01	0.00	0.01	0.04	0.97	0.00	0.00	0.01	0.04	0.04	0.95	0.01	0.01	0.01	0.01	0.04	0.97	0.01	0.01	0.00	0.99
+G	0.01	0.00	0.99	0.00	0.96	0.98	0.01	0.01	0.03	0.00	0.00	0.00	0.01	0.01	0.96	0.00	0.96	0.01	0.01	0.01	0.00	0.00	0.01	0.00	0.01	0.00	1.00	0.00
+# Base frequency report for optimizing primers
+# This file is tab separated for easy importation into Excel or other spreadsheets
+# Degenerate DNA codes (listed here for convenience): R=AG, Y=CT, M=AC, K=GT, W=AT, S=CG, B=CGT, D=AGT, H=ACT, V=ACG, N=ACGT
+# The primer is listed in 5' to 3' orientation.
+# Hits file used to generate base frequency data: SSUr_SSU_c99_hits.txt
+# Score type used: weighted_score
+# Score threshold: 5
+# Primer sequence: RTCGGGATTGGGTAATTTGCGC
+#
+Primer	R	T	C	G	G	G	A	T	T	G	G	G	T	A	A	T	T	T	G	C	G	C
+Base
+A	0.28	0.08	0.03	0.03	0.04	0.03	0.89	0.02	0.01	0.01	0.01	0.04	0.04	0.83	0.81	0.07	0.01	0.03	0.00	0.02	0.01	0.00
+T	0.02	0.79	0.08	0.03	0.02	0.01	0.04	0.84	0.93	0.07	0.01	0.06	0.90	0.04	0.09	0.81	0.87	0.91	0.11	0.00	0.00	0.00
+C	0.06	0.04	0.88	0.01	0.08	0.01	0.01	0.06	0.03	0.05	0.01	0.02	0.02	0.02	0.05	0.05	0.07	0.01	0.01	0.92	0.07	1.00
+G	0.65	0.08	0.02	0.93	0.86	0.94	0.06	0.08	0.03	0.86	0.97	0.89	0.04	0.11	0.06	0.06	0.05	0.05	0.88	0.07	0.92	0.00
