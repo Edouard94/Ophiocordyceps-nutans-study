@@ -1,6 +1,6 @@
 # Disentangling Ophiocordyceps nutans complex through Museomics
 
-This repository contains data and analysis scripts for the scientific study on the Ophiocordyceps nutans species complex using museomics approaches.
+This repository contains data and analysis scripts for the scientific study on the _Ophiocordyceps nutans_ species complex using museomics approaches.
 
 ## Overview
 
