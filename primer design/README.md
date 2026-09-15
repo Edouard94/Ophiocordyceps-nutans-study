@@ -1,20 +1,16 @@
-# Scripts Directory
+# Primer Design Directory
 
-This directory contains analysis scripts for the Ophiocordyceps nutans complex study.
+This directory contains files generated and used during primer design work for the *Ophiocordyceps nutans* complex study.
 
-## Structure
+## Contents
 
-- `preprocessing/` - Scripts for data cleaning and preparation
-- `analysis/` - Scripts for phylogenetic and statistical analyses
-- `visualization/` - Scripts for generating figures and visualizations
+- `Primer_Design_Ophio_cordyceps_genes.sh` — main primer-design workflow script.
+- `Primers_museomics_opti.xlsx` — curated candidate/optimized primer table.
+- `PrimerProspector_base_frequencies_museum_samples/` — per-locus base-frequency outputs.
+- `alignments/` — aligned loci (raw and trimmed) used for primer evaluation.
+- `entropy_plots/` and `entropy_plots1_non-trimmed/` — entropy visualizations for trimmed/non-trimmed alignments.
+- `Primer_Blast_Museomics/` — Primer-BLAST PDF reports.
 
-## Workflow
+## Notes
 
-1. Data preprocessing and quality control
-2. Phylogenetic analysis
-3. Species delimitation analysis
-4. Visualization and figure generation
-
-## Requirements
-
-Dependencies and software requirements will be documented in the main README.
+Keep new primer iterations grouped by method/output type and document locus names consistently.

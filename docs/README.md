@@ -1,14 +1,13 @@
-# Documentation
+# Documentation and Data Tables
 
-This directory contains additional documentation for the Ophiocordyceps nutans complex study.
+This folder stores project tables and supporting documentation for the *Ophiocordyceps nutans* complex study.
 
-## Contents
+## Current Files
 
-- Analysis protocols
-- Supplementary methods
-- Data dictionary
-- Additional notes and documentation
+- `All_seq_data.xlsx` — sequence and specimen-associated dataset.
+- `DNA_Extraction_QC.xlsx` — DNA extraction tracking and quality-control records.
+- `Sanger_Data_Pentatomidae_Julia_Aug2025.xlsx` — Sanger sequencing dataset for Pentatomidae samples.
 
-## Contributing
+## Notes
 
-If you are contributing to this study, please document your methods and analyses clearly in this directory.
+Add future documentation and curated study tables here, keeping filenames explicit and versioned when needed.

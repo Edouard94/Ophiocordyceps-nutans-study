@@ -1,12 +1,13 @@
 # Results Directory
 
-This directory contains the outputs and results from the analyses.
+This directory stores outputs generated from analyses of the *Ophiocordyceps nutans* complex.
 
 ## Structure
 
-- `figures/` - Generated figures and plots
-- `tables/` - Summary tables and statistical outputs
+- `figures/` — plots and graphical outputs.
+- `tables/` — summary tables and exported result matrices.
 
 ## Notes
 
-Results files should be clearly named and documented. Consider adding metadata for each result file.
+- Preserve one result per clearly named file.
+- Add short metadata notes when results are regenerated or replaced.

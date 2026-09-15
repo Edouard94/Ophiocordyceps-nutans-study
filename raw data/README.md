@@ -1,7 +1,8 @@
-# Data Directory
+# Raw Data Directory
 
-This directory contains data for the Ophiocordyceps nutans complex study.
+This directory is reserved for additional raw inputs related to the *Ophiocordyceps nutans* complex study.
 
-## Data Description
+## Status
 
-This study uses museomics approaches to disentangle the *Ophiocordyceps nutans* species complex. Data includes genetic sequences from museum specimens, morphological observations, and associated metadata.
+- No raw data files are currently tracked here.
+- Add new raw files in this folder and document provenance (source, date, and processing status).
