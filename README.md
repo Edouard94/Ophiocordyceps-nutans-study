@@ -37,4 +37,5 @@ Please use the citation metadata in `CITATION.cff` for this repository.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+- **Software and code** (for example, `.py` and `.sh` files) are licensed under the MIT License. See [LICENSE](LICENSE).
+- **Data, documentation, and other non-software repository content** are licensed under CC BY 4.0. See [LICENSE-DATA](LICENSE-DATA).
