@@ -1,59 +1,40 @@
-# Disentangling Ophiocordyceps nutans complex through Museomics
+# Disentangling the *Ophiocordyceps nutans* Complex Through Museomics
 
-This repository contains data and analysis scripts for the scientific study on the _Ophiocordyceps nutans_ species complex using museomics approaches.
-
-## Overview
-
-_Ophiocordyceps nutans_ is an entomopathogenic fungus that infects insects. This study uses museomics (molecular analysis of museum specimens) to investigate the species boundaries and phylogenetic relationships within the _O. nutans_ complex.
+This repository contains data resources, primer design assets, and phylogenetic workflows used to study the *Ophiocordyceps nutans* species complex from museum material.
 
 ## Repository Structure
 
-```
+```text
 .
-├── data/               # Data files
-│   ├── raw/           # Raw data (sequences, specimen data)
-│   └── processed/     # Processed and cleaned data
-├── scripts/           # Analysis scripts
-│   ├── preprocessing/ # Data preprocessing scripts
-│   ├── analysis/      # Phylogenetic and statistical analyses
-│   └── visualization/ # Figure generation scripts
-├── results/           # Analysis outputs
-│   ├── figures/       # Generated figures
-│   └── tables/        # Summary tables
-└── docs/              # Additional documentation
+├── CITATION.cff
+├── docs/                     # Core project spreadsheets and documentation
+├── phylogeny/                # Amplicon/phylogeny scripts and reference-sequence resources
+├── primer design/            # Primer design scripts, alignments, entropy plots, and validation outputs
+├── raw data/                 # Placeholder directory for additional raw inputs
+└── results/                  # Output folders for generated figures and tables
 ```
 
-## Getting Started
+## Directory Highlights
 
-### Prerequisites
-
-List of software and dependencies required for the analyses:
-- (To be added based on specific analysis requirements)
-
-### Data
-
-Raw data should be placed in the `data/raw/` directory. Processed data will be stored in `data/processed/`.
-
-### Running the Analysis
-
-Detailed instructions for running the analysis pipeline will be added as scripts are developed.
+- `docs/`
+  - `All_seq_data.xlsx`
+  - `DNA_Extraction_QC.xlsx`
+  - `Sanger_Data_Pentatomidae_Julia_Aug2025.xlsx`
+- `phylogeny/`
+  - `amplicon & phylogenetic scripts/` (pipeline and QC scripts)
+  - `references for phylogeny/` (reference metadata, FASTA files, and cache)
+- `primer design/`
+  - `Primer_Design_Ophio_cordyceps_genes.sh`
+  - `Primers_museomics_opti.xlsx`
+  - alignment, entropy, and Primer-BLAST result folders
+- `results/`
+  - `figures/`
+  - `tables/`
 
 ## Citation
 
-If you use this data or code, please cite:
-
-```
-[Citation information to be added upon publication]
-```
-
-## Authors
-
-- [Author names to be added]
+Please use the citation metadata in `CITATION.cff` for this repository.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-This research utilizes museum specimens and acknowledges the importance of natural history collections for biodiversity research.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
