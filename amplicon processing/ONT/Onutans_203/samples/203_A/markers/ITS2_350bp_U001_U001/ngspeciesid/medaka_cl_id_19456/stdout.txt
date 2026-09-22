@@ -1,0 +1,12 @@
+Checking program versions
+This is medaka 2.0.1
+Program    Version    Required   Pass     
+bcftools   1.24       1.11       True     
+bgzip      1.23.1     1.11       True     
+minimap2   2.31       2.11       True     
+samtools   1.23.1     1.11       True     
+tabix      1.23.1     1.11       True     
+WARNING: Output Onutans_203/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/medaka_cl_id_19456 already exists, may use old results.
+Aligning basecalls to draft
+Running medaka consensus
+Polished assembly written to Onutans_203/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/medaka_cl_id_19456/consensus.fasta, have a nice day.

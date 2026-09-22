@@ -1,0 +1,5 @@
+Lowest read error rate:1.5097302981420466e-05
+Highest read error rate:0.19933462768730942
+Median read error rate:0.0038097644603187564
+Mean read error rate:0.010736403620589327
+

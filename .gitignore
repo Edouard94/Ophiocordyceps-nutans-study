@@ -55,6 +55,8 @@ ENV/
 # *.fasta.gz
 # *.bam
 # *.sam
+amplicon processing/ONT/**/*.fastq
+amplicon processing/ONT/**/*.fastq.gz
 
 # Temporary files
 *.tmp

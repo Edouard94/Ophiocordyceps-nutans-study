@@ -1,0 +1,3 @@
+ONT_main_070726/samples/NC_DNA/markers/ITS2_350bp_U001_U007/ngspeciesid/consensus_reference_16.fasta
+ONT_main_070726/samples/NC_DNA/markers/ITS2_350bp_U001_U007/ngspeciesid/consensus_reference_4.fasta
+ONT_main_070726/samples/NC_DNA/markers/ITS2_350bp_U001_U007/ngspeciesid/consensus_reference_50.fasta

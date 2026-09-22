@@ -1,0 +1,36 @@
+Sample	Marker	Status	Demuxed	PrimerMatched	Final	AvgLen	IntendedLen	Note
+203_A	ITS2_350bp_U001_U001	HAS_SUPPORTED_CANDIDATES	13009	378	378	318.1		Supported candidate consensuses: 3
+203_A	SSU_305bp_U001_U001	NO_PRIMER_MATCH	13009	0	0			No reads matched linked marker primers
+203_A	LSU_308bp_U001_U001	HAS_SUPPORTED_CANDIDATES	13009	409	409	264.6		Supported candidate consensuses: 3
+203_A	TEF_268bp_U001_U001	HAS_SUPPORTED_CANDIDATES	13009	972	468	210.0		Supported candidate consensuses: 2
+203_A	RPB1_320bp_U001_U001	HAS_SUPPORTED_CANDIDATES	13009	497	474	264.3		Supported candidate consensuses: 1
+204_B	ITS2_350bp_U001_U002	HAS_SUPPORTED_CANDIDATES	14376	2275	2275	293.1		Supported candidate consensuses: 1
+204_B	SSU_305bp_U001_U002	NO_PRIMER_MATCH	14376	0	0			No reads matched linked marker primers
+204_B	LSU_308bp_U001_U002	HAS_SUPPORTED_CANDIDATES	14376	3004	3004	274.9		Supported candidate consensuses: 1
+204_B	TEF_268bp_U001_U002	HAS_SUPPORTED_CANDIDATES	14376	2443	2206	218.3		Supported candidate consensuses: 1
+204_B	RPB1_320bp_U001_U002	HAS_SUPPORTED_CANDIDATES	14376	695	576	227.4		Supported candidate consensuses: 2
+205_A	ITS2_350bp_U001_U003	HAS_SUPPORTED_CANDIDATES	21005	2726	2726	258.5		Supported candidate consensuses: 1
+205_A	SSU_305bp_U001_U003	NO_PRIMER_MATCH	21005	0	0			No reads matched linked marker primers
+205_A	LSU_308bp_U001_U003	HAS_SUPPORTED_CANDIDATES	21005	1791	1791	265.0		Supported candidate consensuses: 1
+205_A	TEF_268bp_U001_U003	HAS_SUPPORTED_CANDIDATES	21005	3494	3465	220.4		Supported candidate consensuses: 1
+205_A	RPB1_320bp_U001_U003	HAS_SUPPORTED_CANDIDATES	21005	5611	5546	275.1		Supported candidate consensuses: 1
+206_A	ITS2_350bp_U001_U004	HAS_SUPPORTED_CANDIDATES	5689	2572	2572	298.7		Supported candidate consensuses: 1
+206_A	SSU_305bp_U001_U004	NO_PRIMER_MATCH	5689	0	0			No reads matched linked marker primers
+206_A	LSU_308bp_U001_U004	HAS_SUPPORTED_CANDIDATES	5689	1606	1606	276.7		Supported candidate consensuses: 1
+206_A	TEF_268bp_U001_U004	LOW_DEPTH_SKIP_NGSID	5689	139	65	136.9		final_reads=65 < NGSID_MIN_AMPLICON_READS=100; skipping NGSpeciesID
+206_A	RPB1_320bp_U001_U004	LOW_DEPTH_SKIP_NGSID	5689	21	11	151.3		final_reads=11 < NGSID_MIN_AMPLICON_READS=100; skipping NGSpeciesID
+NC_DNA	ITS2_350bp_U001_U007	HAS_SUPPORTED_CANDIDATES	341	146	146	302.2		Supported candidate consensuses: 3
+NC_DNA	SSU_305bp_U001_U007	NO_PRIMER_MATCH	341	0	0			No reads matched linked marker primers
+NC_DNA	LSU_308bp_U001_U007	HAS_SUPPORTED_CANDIDATES	341	106	106	264.8		Supported candidate consensuses: 2
+NC_DNA	TEF_268bp_U001_U007	LOW_DEPTH_SKIP_NGSID	341	15	15	216.5		final_reads=15 < NGSID_MIN_AMPLICON_READS=100; skipping NGSpeciesID
+NC_DNA	RPB1_320bp_U001_U007	FINAL_FILTER_FAILED	341	1	0			Final amplicon length filter produced zero reads
+NC_PCR	ITS2_350bp_U001_U006	LOW_DEPTH_SKIP_NGSID	53	12	12	276.0		final_reads=12 < NGSID_MIN_AMPLICON_READS=100; skipping NGSpeciesID
+NC_PCR	SSU_305bp_U001_U006	NO_PRIMER_MATCH	53	0	0			No reads matched linked marker primers
+NC_PCR	LSU_308bp_U001_U006	NO_PRIMER_MATCH	53	0	0			No reads matched linked marker primers
+NC_PCR	TEF_268bp_U001_U006	LOW_DEPTH_SKIP_NGSID	53	6	2	280.0		final_reads=2 < NGSID_MIN_AMPLICON_READS=100; skipping NGSpeciesID
+NC_PCR	RPB1_320bp_U001_U006	NO_PRIMER_MATCH	53	0	0			No reads matched linked marker primers
+PC_Beauveria	ITS2_350bp_U001_U005	HAS_SUPPORTED_CANDIDATES	21887	1779	1779	304.8		Supported candidate consensuses: 1
+PC_Beauveria	SSU_305bp_U001_U005	NO_PRIMER_MATCH	21887	0	0			No reads matched linked marker primers
+PC_Beauveria	LSU_308bp_U001_U005	LOW_DEPTH_SKIP_NGSID	21887	2	2	260.5		final_reads=2 < NGSID_MIN_AMPLICON_READS=100; skipping NGSpeciesID
+PC_Beauveria	TEF_268bp_U001_U005	HAS_SUPPORTED_CANDIDATES	21887	3126	2752	217.4		Supported candidate consensuses: 1
+PC_Beauveria	RPB1_320bp_U001_U005	HAS_SUPPORTED_CANDIDATES	21887	7577	7557	277.0		Supported candidate consensuses: 1

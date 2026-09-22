@@ -1,0 +1,40 @@
+[10:32:05 - MdlStrTGZ] Successfully removed temporary files from /var/folders/1_/mbx8c_ss3l72v3x750dh4vf40000gn/T/tmpjyv3jpbt.
+[10:32:06 - MdlStrTGZ] Successfully removed temporary files from /var/folders/1_/mbx8c_ss3l72v3x750dh4vf40000gn/T/tmp_q4uvquj.
+[10:32:08 - MdlStrTGZ] Successfully removed temporary files from /var/folders/1_/mbx8c_ss3l72v3x750dh4vf40000gn/T/tmp7l2d06vb.
+[10:32:08 - MdlStrTGZ] Successfully removed temporary files from /var/folders/1_/mbx8c_ss3l72v3x750dh4vf40000gn/T/tmpjjt7e6zr.
+Creating fai index file /Users/rsl479/Bioinfo/ONT_amplicon/Julia_Museomics/ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_401.fasta.fai
+Creating mmi index file /Users/rsl479/Bioinfo/ONT_amplicon/Julia_Museomics/ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_401.fasta.map-ont.mmi
+[M::mm_idx_gen::0.001*2.99] collected minimizers
+[M::mm_idx_gen::0.001*2.90] sorted minimizers
+[M::main::0.002*1.98] loaded/built the index for 1 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.002*1.97] distinct minimizers: 15 (100.00% are singletons); average occurrences: 1.000; average spacing: 7.000; total length: 105
+[M::main] Version: 2.30-r1287
+[M::main] CMD: minimap2 -I 16G -x map-ont -d /Users/rsl479/Bioinfo/ONT_amplicon/Julia_Museomics/ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_401.fasta.map-ont.mmi /Users/rsl479/Bioinfo/ONT_amplicon/Julia_Museomics/ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_401.fasta
+[M::main] Real time: 0.002 sec; CPU: 0.004 sec; Peak RSS: 0.002 GB
+[M::main::0.002*2.22] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.002*2.18] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.002*2.16] distinct minimizers: 15 (100.00% are singletons); average occurrences: 1.000; average spacing: 7.000; total length: 105
+[M::worker_pipeline::0.003*1.66] mapped 82 sequences
+[M::main] Version: 2.30-r1287
+[M::main] CMD: minimap2 -x map-ont --secondary=no -L --MD -A 2 -B 4 -O 4,24 -E 2,1 -t 1 -a /Users/rsl479/Bioinfo/ONT_amplicon/Julia_Museomics/ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_401.fasta.map-ont.mmi /Users/rsl479/Bioinfo/ONT_amplicon/Julia_Museomics/ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/reads_to_consensus_401.fastq
+[M::main] Real time: 0.003 sec; CPU: 0.005 sec; Peak RSS: 0.003 GB
+[10:32:09 - Predict] Processing region(s): consensus_cl_id_401_total_supporting_reads_109:0-105
+[10:32:09 - Predict] Using model: /Users/rsl479/miniforge3/envs/ngs-arm-py310/lib/python3.10/site-packages/medaka/data/r1041_e82_400bps_sup_v5.0.0_model_pt.tar.gz.
+[10:32:09 - Predict] Using minimum mapQ threshold of 1 for read filtering.
+[10:32:09 - MdlStrTGZ] Model GRUModel(
+  (gru): GRU(10, 128, num_layers=2, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=256, out_features=5, bias=True)
+)
+[10:32:09 - MdlStrTGZ] loading weights from /var/folders/1_/mbx8c_ss3l72v3x750dh4vf40000gn/T/tmp9d21zjkw/model/weights.pt
+[10:32:09 - MdlStrTGZ] Successfully removed temporary files from /var/folders/1_/mbx8c_ss3l72v3x750dh4vf40000gn/T/tmp9d21zjkw.
+[10:32:09 - Predict] Model device: cpu
+[10:32:09 - Predict] Running prediction at full precision
+[10:32:09 - Predict] Processing 1 short region(s).
+[10:32:09 - PWorker] Running inference for 0.0M draft bases.
+[10:32:09 - Feature] Pileup counts do not span requested region, requested consensus_cl_id_401_total_supporting_reads_109:0-105, received 0-101.
+[10:32:09 - PWorker] Processed 1 batches
+[10:32:09 - PWorker] All done, 0 remainder regions.
+[10:32:09 - Predict] Finished processing all regions.
+[10:32:10 - DataIndx] Loaded 1/1 (100.00%) sample files.

@@ -1,0 +1,2 @@
+Onutans_203/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/medaka_cl_id_18/consensus.fasta
+Onutans_203/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/medaka_cl_id_19456/consensus.fasta

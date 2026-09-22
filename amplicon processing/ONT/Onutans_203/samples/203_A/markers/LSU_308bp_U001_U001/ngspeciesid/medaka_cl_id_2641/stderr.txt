@@ -1,0 +1,56 @@
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+[20:54:24 - MdlStrTGZ] Successfully removed temporary files from /tmp/tmpkl90cgnx.
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+[20:54:24 - MdlStrTGZ] Successfully removed temporary files from /tmp/tmpw94v3je0.
+Creating fai index file /home/edouard/Documents/Bioinfo/ONT_amplicon/Onutans203_150726/Onutans_203/samples/203_A/markers/LSU_308bp_U001_U001/ngspeciesid/consensus_reference_2641.fasta.fai
+Creating mmi index file /home/edouard/Documents/Bioinfo/ONT_amplicon/Onutans203_150726/Onutans_203/samples/203_A/markers/LSU_308bp_U001_U001/ngspeciesid/consensus_reference_2641.fasta.map-ont.mmi
+[M::mm_idx_gen::0.000*3.85] collected minimizers
+[M::mm_idx_gen::0.001*3.42] sorted minimizers
+[M::main::0.001*2.57] loaded/built the index for 1 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.001*2.54] distinct minimizers: 49 (100.00% are singletons); average occurrences: 1.000; average spacing: 5.673; total length: 278
+[M::main] Version: 2.31-r1302
+[M::main] CMD: minimap2 -I 16G -x map-ont -d /home/edouard/Documents/Bioinfo/ONT_amplicon/Onutans203_150726/Onutans_203/samples/203_A/markers/LSU_308bp_U001_U001/ngspeciesid/consensus_reference_2641.fasta.map-ont.mmi /home/edouard/Documents/Bioinfo/ONT_amplicon/Onutans203_150726/Onutans_203/samples/203_A/markers/LSU_308bp_U001_U001/ngspeciesid/consensus_reference_2641.fasta
+[M::main] Real time: 0.001 sec; CPU: 0.003 sec; Peak RSS: 0.003 GB
+[M::main::0.001*1.73] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.001*1.70] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.001*1.68] distinct minimizers: 49 (100.00% are singletons); average occurrences: 1.000; average spacing: 5.673; total length: 278
+[M::worker_pipeline::0.011*1.03] mapped 346 sequences
+[M::main] Version: 2.31-r1302
+[M::main] CMD: minimap2 -x map-ont --secondary=no -L --MD -A 2 -B 4 -O 4,24 -E 2,1 -t 1 -a /home/edouard/Documents/Bioinfo/ONT_amplicon/Onutans203_150726/Onutans_203/samples/203_A/markers/LSU_308bp_U001_U001/ngspeciesid/consensus_reference_2641.fasta.map-ont.mmi /home/edouard/Documents/Bioinfo/ONT_amplicon/Onutans203_150726/Onutans_203/samples/203_A/markers/LSU_308bp_U001_U001/ngspeciesid/reads_to_consensus_2641.fastq
+[M::main] Real time: 0.011 sec; CPU: 0.011 sec; Peak RSS: 0.005 GB
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+[20:54:25 - Predict] Processing region(s): consensus_cl_id_2641_total_supporting_reads_346:0-278
+[20:54:25 - Predict] Using model: /home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/data/r1041_e82_400bps_sup_v5.0.0_model_pt.tar.gz.
+[20:54:25 - Predict] Using minimum mapQ threshold of 1 for read filtering.
+[20:54:25 - MdlStrTGZ] Model GRUModel(
+  (gru): GRU(10, 128, num_layers=2, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=256, out_features=5, bias=True)
+)
+[20:54:25 - MdlStrTGZ] loading weights from /tmp/tmpy3j62ff8/model/weights.pt
+[20:54:25 - MdlStrTGZ] Successfully removed temporary files from /tmp/tmpy3j62ff8.
+[20:54:25 - Predict] Model device: cpu
+[20:54:25 - Predict] Running prediction at full precision
+[20:54:25 - BAMFile] Creating pool of 16 BAM file sets.
+[20:54:25 - Predict] Processing 1 short region(s).
+[20:54:25 - Sampler] Initializing sampler for consensus of region consensus_cl_id_2641_total_supporting_reads_346:0-278.
+[20:54:25 - PWorker] Running inference for 0.0M draft bases.
+[20:54:25 - Feature] Processed consensus_cl_id_2641_total_supporting_reads_346:0.0-277.0 (median depth 345.0)
+[20:54:25 - Sampler] Took 0.24s to make features.
+[20:54:25 - PWorker] Processed 1 batches
+[20:54:25 - PWorker] All done, 0 remainder regions.
+[20:54:25 - Predict] Finished processing all regions.
+/home/edouard/miniconda3/envs/NGSpeciesID/lib/python3.11/site-packages/medaka/common.py:16: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+[20:54:26 - DataIndx] Loaded 1/1 (100.00%) sample files.
+[20:54:26 - Stitcher] Stitching consensus_cl_id_2641_total_supporting_reads_346:0-278

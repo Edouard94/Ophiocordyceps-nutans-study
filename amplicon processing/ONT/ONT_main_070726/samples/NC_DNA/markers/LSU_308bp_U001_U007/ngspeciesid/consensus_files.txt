@@ -1,0 +1,2 @@
+ONT_main_070726/samples/NC_DNA/markers/LSU_308bp_U001_U007/ngspeciesid/consensus_reference_0.fasta
+ONT_main_070726/samples/NC_DNA/markers/LSU_308bp_U001_U007/ngspeciesid/consensus_reference_24.fasta

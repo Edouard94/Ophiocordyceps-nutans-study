@@ -1,0 +1,3 @@
+ONT_main_070726/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/consensus_reference_12.fasta
+ONT_main_070726/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/consensus_reference_4.fasta
+ONT_main_070726/samples/203_A/markers/ITS2_350bp_U001_U001/ngspeciesid/consensus_reference_46.fasta

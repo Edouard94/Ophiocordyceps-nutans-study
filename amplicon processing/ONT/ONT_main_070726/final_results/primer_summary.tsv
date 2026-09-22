@@ -1,0 +1,35 @@
+Sample	Marker	Demuxed	PrimerMatched	Final	AvgLen	IntendedLen	PrimerLengthMode	NGSIDLengthMode	MinOverlap	MatchRate
+203_A	ITS2_350bp_U001_U001	13009	378	378	318.1		disabled	disabled	14	2.91
+203_A	SSU_305bp_U001_U001	13009	0	0			disabled	disabled	13	0.00
+203_A	LSU_308bp_U001_U001	13009	409	409	264.6		disabled	disabled	11	3.14
+203_A	TEF_268bp_U001_U001	13009	972	468	210.0		disabled	disabled	12	7.47
+203_A	RPB1_320bp_U001_U001	13009	497	474	264.3		disabled	disabled	12	3.82
+204_B	ITS2_350bp_U001_U002	14376	2275	2275	293.1		disabled	disabled	14	15.82
+204_B	SSU_305bp_U001_U002	14376	0	0			disabled	disabled	13	0.00
+204_B	LSU_308bp_U001_U002	14376	3004	3004	274.9		disabled	disabled	11	20.90
+204_B	TEF_268bp_U001_U002	14376	2443	2206	218.3		disabled	disabled	12	16.99
+204_B	RPB1_320bp_U001_U002	14376	695	576	227.4		disabled	disabled	12	4.83
+205_A	ITS2_350bp_U001_U003	21005	2726	2726	258.5		disabled	disabled	14	12.98
+205_A	SSU_305bp_U001_U003	21005	0	0			disabled	disabled	13	0.00
+205_A	LSU_308bp_U001_U003	21005	1791	1791	265.0		disabled	disabled	11	8.53
+205_A	TEF_268bp_U001_U003	21005	3494	3465	220.4		disabled	disabled	12	16.63
+205_A	RPB1_320bp_U001_U003	21005	5611	5546	275.1		disabled	disabled	12	26.71
+206_A	ITS2_350bp_U001_U004	5689	2572	2572	298.7		disabled	disabled	14	45.21
+206_A	SSU_305bp_U001_U004	5689	0	0			disabled	disabled	13	0.00
+206_A	LSU_308bp_U001_U004	5689	1606	1606	276.7		disabled	disabled	11	28.23
+206_A	TEF_268bp_U001_U004	5689	139	65	136.9		disabled	disabled	12	2.44
+206_A	RPB1_320bp_U001_U004	5689	21	11	151.3		disabled	disabled	12	0.37
+NC_DNA	ITS2_350bp_U001_U007	341	146	146	302.2		disabled	disabled	14	42.82
+NC_DNA	SSU_305bp_U001_U007	341	0	0			disabled	disabled	13	0.00
+NC_DNA	LSU_308bp_U001_U007	341	106	106	264.8		disabled	disabled	11	31.09
+NC_DNA	TEF_268bp_U001_U007	341	15	15	216.5		disabled	disabled	12	4.40
+NC_PCR	ITS2_350bp_U001_U006	53	12	12	276.0		disabled	disabled	14	22.64
+NC_PCR	SSU_305bp_U001_U006	53	0	0			disabled	disabled	13	0.00
+NC_PCR	LSU_308bp_U001_U006	53	0	0			disabled	disabled	11	0.00
+NC_PCR	TEF_268bp_U001_U006	53	6	2	280.0		disabled	disabled	12	11.32
+NC_PCR	RPB1_320bp_U001_U006	53	0	0			disabled	disabled	12	0.00
+PC_Beauveria	ITS2_350bp_U001_U005	21887	1779	1779	304.8		disabled	disabled	14	8.13
+PC_Beauveria	SSU_305bp_U001_U005	21887	0	0			disabled	disabled	13	0.00
+PC_Beauveria	LSU_308bp_U001_U005	21887	2	2	260.5		disabled	disabled	11	0.01
+PC_Beauveria	TEF_268bp_U001_U005	21887	3126	2752	217.4		disabled	disabled	12	14.28
+PC_Beauveria	RPB1_320bp_U001_U005	21887	7577	7557	277.0		disabled	disabled	12	34.62

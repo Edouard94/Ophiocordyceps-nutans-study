@@ -85,7 +85,7 @@ plotcon -sequence "alignments/${gene}_c99.aln" -winsize 10 -graph png -goutfile 
 done
 
 # ──────────────────────────────────────────────────────────────
-# MBC-prime analysis of combined Hemiptera and Fungi sequences
+# MBC-prime analysis of combined Hemiptera and Fungi sequences -- optional
 # ──────────────────────────────────────────────────────────────
 #!/usr/bin/env bash
 set -euo pipefail
@@ -110,7 +110,7 @@ for gene in "${GENES[@]}"; do
 done
 
 # ──────────────────────────────────────────────────────────────
-# ecoPrimers primer design for ~300 bp amplicons (all genes)
+# ecoPrimers primer design for ~300 bp amplicons (all genes)  -- optional
 # ──────────────────────────────────────────────────────────────
 #!/usr/bin/env bash
 set -euo pipefail

@@ -1,0 +1,1 @@
+ONT_main_070726/samples/204_B/markers/LSU_308bp_U001_U002/ngspeciesid/consensus_reference_0.fasta

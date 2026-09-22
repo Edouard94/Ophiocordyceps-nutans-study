@@ -1,0 +1,6 @@
+Sample	Marker	Status	Demuxed	PrimerMatched	Final	AvgLen	IntendedLen	Note
+203_A	ITS2_350bp_U001_U001	HAS_SUPPORTED_CANDIDATES	7150235	67975	67975	320.1	350	NGSpeciesID completed; supported candidate consensuses: 2
+203_A	SSU_305bp_U001_U001	HAS_SUPPORTED_CANDIDATES	7150235	359341	359341	258.9	305	NGSpeciesID completed; supported candidate consensuses: 3
+203_A	LSU_308bp_U001_U001	HAS_SUPPORTED_CANDIDATES	7150235	629355	629355	270.1	308	NGSpeciesID completed; supported candidate consensuses: 2
+203_A	TEF_268bp_U001_U001	HAS_SUPPORTED_CANDIDATES	7150235	631831	631831	227.0	268	NGSpeciesID completed; supported candidate consensuses: 1
+203_A	RPB1_320bp_U001_U001	HAS_SUPPORTED_CANDIDATES	7150235	12263	12263	305.1	320	NGSpeciesID completed; supported candidate consensuses: 1

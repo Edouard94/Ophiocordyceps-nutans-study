@@ -1,0 +1,1 @@
+ONT_main_070726/samples/203_A/markers/RPB1_320bp_U001_U001/ngspeciesid/consensus_reference_0.fasta

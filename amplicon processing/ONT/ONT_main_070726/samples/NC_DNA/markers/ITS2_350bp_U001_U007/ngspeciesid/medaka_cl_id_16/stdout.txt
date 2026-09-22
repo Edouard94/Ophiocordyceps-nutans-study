@@ -1,0 +1,12 @@
+Checking program versions
+This is medaka 2.1.1
+Program    Version    Required   Pass     
+bcftools   1.22       1.11       True     
+bgzip      1.22.1     1.11       True     
+minimap2   2.30       2.11       True     
+samtools   1.22.1     1.11       True     
+tabix      1.22.1     1.11       True     
+WARNING: Output ONT_main_070726/samples/NC_DNA/markers/ITS2_350bp_U001_U007/ngspeciesid/medaka_cl_id_16 already exists, may use old results.
+Aligning basecalls to draft
+Running medaka inference
+Polished assembly written to ONT_main_070726/samples/NC_DNA/markers/ITS2_350bp_U001_U007/ngspeciesid/medaka_cl_id_16/consensus.fasta, have a nice day.

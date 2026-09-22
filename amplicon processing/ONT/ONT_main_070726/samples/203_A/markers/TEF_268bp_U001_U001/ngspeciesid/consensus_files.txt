@@ -1,0 +1,2 @@
+ONT_main_070726/samples/203_A/markers/TEF_268bp_U001_U001/ngspeciesid/consensus_reference_0.fasta
+ONT_main_070726/samples/203_A/markers/TEF_268bp_U001_U001/ngspeciesid/consensus_reference_64.fasta

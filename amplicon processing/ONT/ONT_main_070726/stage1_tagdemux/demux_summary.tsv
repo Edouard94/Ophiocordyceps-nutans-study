@@ -1,0 +1,10 @@
+SafeSample	Reads	FASTQ
+203_A	13009	demuxed-203_A.fastq
+204_B	14376	demuxed-204_B.fastq
+205_A	21005	demuxed-205_A.fastq
+206_A	5689	demuxed-206_A.fastq
+NC_DNA	341	demuxed-NC_DNA.fastq
+NC_PCR	53	demuxed-NC_PCR.fastq
+PC_Beauveria	21887	demuxed-PC_Beauveria.fastq
+UNASSIGNED	310782	unassigned.fastq
+TOTAL	395525	

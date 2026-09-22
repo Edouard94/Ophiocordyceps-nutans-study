@@ -1,0 +1,6 @@
+Sample	Marker	Demuxed	PrimerMatched	Final	AvgLen	IntendedLen	PrimerLengthMode	NGSIDLengthMode	MinOverlap	MatchRate
+203_A	ITS2_350bp_U001_U001	7150235	67975	67975	320.1	350	intended_length	disabled	12	0.95
+203_A	SSU_305bp_U001_U001	7150235	359341	359341	258.9	305	intended_length	disabled	11	5.03
+203_A	LSU_308bp_U001_U001	7150235	629355	629355	270.1	308	intended_length	disabled	9	8.80
+203_A	TEF_268bp_U001_U001	7150235	631831	631831	227.0	268	intended_length	disabled	10	8.84
+203_A	RPB1_320bp_U001_U001	7150235	12263	12263	305.1	320	intended_length	disabled	10	0.17

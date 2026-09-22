@@ -1,0 +1,2 @@
+ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_0.fasta
+ONT_main_070726/samples/204_B/markers/RPB1_320bp_U001_U002/ngspeciesid/consensus_reference_401.fasta
