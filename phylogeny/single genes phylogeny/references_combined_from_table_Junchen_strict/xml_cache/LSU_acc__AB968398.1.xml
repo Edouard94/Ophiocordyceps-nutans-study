@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968398</INSDSeq_locus>
+    <INSDSeq_length>558</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps arborescens genes for small subunit ribosomal RNA, ITS1, 5.8S rRNA, ITS2, large subunit ribosomal RNA, partial and complete sequence, culture_collection: NBRC:105891</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968398</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968398.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968398.1|</INSDSeqid>
+      <INSDSeqid>gi|731174797</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps arborescens</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps arborescens</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..558</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..558</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (04-JUN-2014) Contact:Sayaka Ban National Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..558</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>558</INSDInterval_to>
+            <INSDInterval_accession>AB968398.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps arborescens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105891</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps arborescens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:105891</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1508723</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..32</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>32</INSDInterval_to>
+            <INSDInterval_accession>AB968398.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>33..197</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>33</INSDInterval_from>
+            <INSDInterval_to>197</INSDInterval_to>
+            <INSDInterval_accession>AB968398.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>198..354</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>198</INSDInterval_from>
+            <INSDInterval_to>354</INSDInterval_to>
+            <INSDInterval_accession>AB968398.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTACTCTGGCGGGCATGCCTGTCCGAGCGTCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>355..519</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>355</INSDInterval_from>
+            <INSDInterval_to>519</INSDInterval_to>
+            <INSDInterval_accession>AB968398.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>520..&gt;558</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>520</INSDInterval_from>
+            <INSDInterval_to>558</INSDInterval_to>
+            <INSDInterval_accession>AB968398.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGGATACCCGCTGAACTTAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tctccgttggtgaaccagcggagggatcattaccgagttatacaactcccaaaccccctgtgaaccttaccacacgcgttgcctcggcgggaccgccccggcgccctcgcggcccggaccaaggcgcccgccggaggaccaccagactctcgtcgcagtggcatttctctccgagtccaaacaagcaaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcccggctcggtgttgggggaccgacggccgcgaggccgcccccgaaatgcattggcgaccccgccgcggccctcccctgcgcagtagctcccagagaacctcgcaccggaagcgcggaggcggtcacgccgtaaaacaactctcctcctggaagttgacctcggatcaggtagggatacccgctgaacttaa</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

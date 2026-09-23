@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>JQ922263</INSDSeq_locus>
+    <INSDSeq_length>661</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-MAY-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>26-JUN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps longissima isolate Cod-MK1 18S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JQ922263</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JQ922263.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JQ922263.1|</INSDSeqid>
+      <INSDSeqid>gi|392495432</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps longissima</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps longissima</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..661</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Isolation, identification, culture and production of adenosine and cordycepin from cicada larva infected with entomopathogenic fungi in Thailand</INSDReference_title>
+        <INSDReference_journal>Afr J Microbiol Res 7 (2), 137-146 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..661</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-APR-2012) Biology, Mahasarakham University, Khamrieng, Kantarawichai, Maha Sarakham 44150, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..661</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>661</INSDInterval_to>
+            <INSDInterval_accession>JQ922263.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps longissima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Cod-MK1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452169</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ns1, fwd_seq: gtagtcatatgcttgtctc, rev_name: ns2, rev_seq: ggctgctggcaccagacttgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;661</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>661</INSDInterval_to>
+            <INSDInterval_accession>JQ922263.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGGAGGAGGAGGAAGAGAGGAAGGGGGAGAGAGAGAGAGGAGAAGAAACGAGAGTAAACATTATCGGCGAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGCACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGAAAGAAAAAAAAGCATGATAACTGCGCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCTGCCCCGGAGAAGGAACCTGACAGTCGGAAATACAGCCATTGTAATAGTCATTGCCCGATAGTTACCCTCTCTACGACACGAGTGAGATCCCAGCCAGCATCTGACTCATTTCGATATTGTGTAAGGACTATATATATAGAACACTGCAGCCTAGGTCAGGATACCCCACATGCACGAAAGAACTTAATCCAAATATAGAATAGTCCGAGAAAGATATAAAGCACCCTGTCCTGCAAAACACATTATTATAAATATATAAGGCAATATTGATTCTATATAAATTTATTCTTCTTAGGAAGTTGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tggaggaggaggaagagaggaagggggagagagagagaggagaagaaacgagagtaaacattatcggcgaactgcgaatggctcattatataagttatcgtttatttgatagcaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctggaaagaaaaaaaagcatgataactgcgcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctctgccccggagaaggaacctgacagtcggaaatacagccattgtaatagtcattgcccgatagttaccctctctacgacacgagtgagatcccagccagcatctgactcatttcgatattgtgtaaggactatatatatagaacactgcagcctaggtcaggataccccacatgcacgaaagaacttaatccaaatatagaatagtccgagaaagatataaagcaccctgtcctgcaaaacacattattataaatatataaggcaatattgattctatataaatttattcttcttaggaagttga</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MG031288</INSDSeq_locus>
+    <INSDSeq_length>492</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>11-OCT-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>11-OCT-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps longissima isolate Cod-Loei1301 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MG031288</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MG031288.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MG031288.1|</INSDSeqid>
+      <INSDSeqid>gi|1251778589</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps longissima</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps longissima</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..492</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>A Combined Multiple Genes Phylogenetic Analysis and Morphological Characteristic Description of the Entomopathogenic Fungi Infected Cicada Nymph from Northeast of Thailand</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..492</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-OCT-2017) Biology, Faculty of Science, Mahasarakham University, Khamriang, Kantarawichai, Maha Sarakham 44150, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>MG031288.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps longissima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Cod-Loei1301</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Cicada</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452169</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>MG031288.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GCAATTATACGGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGCACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTGGCAACGGGTAACGGAGGGTTAGGGCTCGGCCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACGCGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcaattatacggcgaaactgcgaatggctcattatataagttatcgtttatttgatagcaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggtggcaacgggtaacggagggttagggctcggccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacgcggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MG031289</INSDSeq_locus>
+    <INSDSeq_length>492</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>11-OCT-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>11-OCT-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps longissima isolate Cod-MK1202 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MG031289</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MG031289.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MG031289.1|</INSDSeqid>
+      <INSDSeqid>gi|1251778590</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps longissima</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps longissima</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..492</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>A Combined Multiple Genes Phylogenetic Analysis and Morphological Characteristic Description of the Entomopathogenic Fungi Infected Cicada Nymph from Northeast of Thailand</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..492</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-OCT-2017) Biology, Faculty of Science, Mahasarakham University, Khamriang, Kantarawichai, Maha Sarakham 44150, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>MG031289.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps longissima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Cod-MK1202</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Cicada</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452169</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>MG031289.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GCAATTATACGGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGCACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTGCGCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGGCCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcaattatacggcgaaactgcgaatggctcattatataagttatcgtttatttgatagcaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataactgcgcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcggccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MG031290</INSDSeq_locus>
+    <INSDSeq_length>464</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>11-OCT-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>11-OCT-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps longissima isolate Cod-RE1301 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MG031290</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MG031290.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MG031290.1|</INSDSeqid>
+      <INSDSeqid>gi|1251778591</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps longissima</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps longissima</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..464</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>A Combined Multiple Genes Phylogenetic Analysis and Morphological Characteristic Description of the Entomopathogenic Fungi Infected Cicada Nymph from Northeast of Thailand</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..464</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-OCT-2017) Biology, Faculty of Science, Mahasarakham University, Khamriang, Kantarawichai, Maha Sarakham 44150, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..464</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>464</INSDInterval_to>
+            <INSDInterval_accession>MG031290.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps longissima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Cod-RE1301</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Cicada</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452169</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;464</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>464</INSDInterval_to>
+            <INSDInterval_accession>MG031290.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGCATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGCACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTGCCCGAATCGCATGGCCTTGCGCCGGCGATGGTTAATTCAAATTTCTCCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCCCCCCCAAAGAAAGAGCCTCCGAAACGAAAACGGGATTTAAGGAAGGCAGCAGGCTCTCAAATTACCCAATCCCCAAGCGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAAC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggcattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagcaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataactgcccgaatcgcatggccttgcgccggcgatggttaattcaaatttctcccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcccccccaaagaaagagcctccgaaacgaaaacgggatttaaggaaggcagcaggctctcaaattacccaatccccaagcggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaac</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MG031291</INSDSeq_locus>
+    <INSDSeq_length>492</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>11-OCT-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>11-OCT-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps longissima isolate Cod-SN1402 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MG031291</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MG031291.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MG031291.1|</INSDSeqid>
+      <INSDSeqid>gi|1251778592</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps longissima</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps longissima</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..492</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>A Combined Multiple Genes Phylogenetic Analysis and Morphological Characteristic Description of the Entomopathogenic Fungi Infected Cicada Nymph from Northeast of Thailand</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..492</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Jaihan,P.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-OCT-2017) Biology, Faculty of Science, Mahasarakham University, Khamriang, Kantarawichai, Maha Sarakham 44150, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>MG031291.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps longissima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Cod-SN1402</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Cicada</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452169</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>MG031291.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGCATTATACGGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGCACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTGCGCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGGCCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggcattatacggcgaaactgcgaatggctcattatataagttatcgtttatttgatagcaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataactgcgcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcggccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

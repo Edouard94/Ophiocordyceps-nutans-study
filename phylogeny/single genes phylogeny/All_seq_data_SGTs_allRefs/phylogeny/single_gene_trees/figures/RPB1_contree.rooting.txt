@@ -1,0 +1,9 @@
+Generated: 2026-09-12 15:58:29
+Tree: /home/edouard/Documents/Bioinfo/Multigene_phylogeny/Onutans/All_seq_data_SGTs_allRefs/phylogeny/single_gene_trees/trees/RPB1.contree
+Rooted: TRUE
+Root method: monophyletic outgroup tips
+Outgroup tips: Tolypocladium_capitatum_OSC71233, Tolypocladium_inflatum_MTCC557, Tolypocladium_ophioglossoides_CBS100239
+Tip count: 121
+Figure dimensions (in): 16 x 34.25
+R: R version 4.5.2 (2025-10-31)
+Versions: ape = 5.8.1 | ggplot2 = 4.0.3 | ggtree = 4.0.5

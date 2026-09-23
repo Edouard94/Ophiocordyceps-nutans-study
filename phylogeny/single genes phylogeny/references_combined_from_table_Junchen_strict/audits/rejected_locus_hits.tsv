@@ -1,0 +1,41 @@
+Species	Voucher	RequestedGene	Accession	Reason	XmlFile
+Ophiocordyceps appendiculata	NBRC 106959	ITS	JN993174.1	no-its-in-definition-or-gene	ITS_acc__JN993174.1.xml
+Ophiocordyceps appendiculata	NBRC 106959	ITS	JN993202.1	no-its-in-definition-or-gene	ITS_acc__JN993202.1.xml
+Ophiocordyceps clavata	CEM1762	ITS	JN993173.1	no-its-in-definition-or-gene	ITS_acc__JN993173.1.xml
+Ophiocordyceps clavata	CEM1762	ITS	JN993203.1	no-its-in-definition-or-gene	ITS_acc__JN993203.1.xml
+Ophiocordyceps clavata	CEM1762	ITS	JN992460.1	no-its-in-definition-or-gene	ITS_acc__JN992460.1.xml
+Ophiocordyceps clavata	CEM1762	ITS	JN992461.1	no-its-in-definition-or-gene	ITS_acc__JN992461.1.xml
+Ophiocordyceps clavata	MY12912	ITS	JN993173.1	no-its-in-definition-or-gene	ITS_acc__JN993173.1.xml
+Ophiocordyceps clavata	MY12912	ITS	JN993203.1	no-its-in-definition-or-gene	ITS_acc__JN993203.1.xml
+Ophiocordyceps clavata	MY12912	ITS	JN992460.1	no-its-in-definition-or-gene	ITS_acc__JN992460.1.xml
+Ophiocordyceps clavata	MY12912	ITS	JN992461.1	no-its-in-definition-or-gene	ITS_acc__JN992461.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN993196.1	no-its-in-definition-or-gene	ITS_acc__JN993196.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN993197.1	no-its-in-definition-or-gene	ITS_acc__JN993197.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN941712.1	no-its-in-definition-or-gene	ITS_acc__JN941712.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN941713.1	no-its-in-definition-or-gene	ITS_acc__JN941713.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN941428.1	no-its-in-definition-or-gene	ITS_acc__JN941428.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN941429.1	no-its-in-definition-or-gene	ITS_acc__JN941429.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN992446.1	no-its-in-definition-or-gene	ITS_acc__JN992446.1.xml
+Ophiocordyceps nutans	NBRC 100944	ITS	JN992447.1	no-its-in-definition-or-gene	ITS_acc__JN992447.1.xml
+Ophiocordyceps sphecocephala	OSC 110998	ITS	JN992429.1	no-its-in-definition-or-gene	ITS_acc__JN992429.1.xml
+Ophiocordyceps sphecocephala	OSC 110998	ITS	JN992430.1	no-its-in-definition-or-gene	ITS_acc__JN992430.1.xml
+Ophiocordyceps sphecocephala	OSC 110998	ITS	JN992431.1	no-its-in-definition-or-gene	ITS_acc__JN992431.1.xml
+Ophiocordyceps sphecocephala	OSC 110998	ITS	JN992432.1	no-its-in-definition-or-gene	ITS_acc__JN992432.1.xml
+Ophiocordyceps sphecocephala	OSC 110998	ITS	JN992433.1	no-its-in-definition-or-gene	ITS_acc__JN992433.1.xml
+Ophiocordyceps sphecocephala	OSC 110998	ITS	JN992434.1	no-its-in-definition-or-gene	ITS_acc__JN992434.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN993177.1	no-its-in-definition-or-gene	ITS_acc__JN993177.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN993179.1	no-its-in-definition-or-gene	ITS_acc__JN993179.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN993209.1	no-its-in-definition-or-gene	ITS_acc__JN993209.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN993210.1	no-its-in-definition-or-gene	ITS_acc__JN993210.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN992471.1	no-its-in-definition-or-gene	ITS_acc__JN992471.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN992472.1	no-its-in-definition-or-gene	ITS_acc__JN992472.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN992473.1	no-its-in-definition-or-gene	ITS_acc__JN992473.1.xml
+Tolypocladium capitatum	ARSEF 1446	ITS	JN992474.1	no-its-in-definition-or-gene	ITS_acc__JN992474.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN993177.1	no-its-in-definition-or-gene	ITS_acc__JN993177.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN993179.1	no-its-in-definition-or-gene	ITS_acc__JN993179.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN993209.1	no-its-in-definition-or-gene	ITS_acc__JN993209.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN993210.1	no-its-in-definition-or-gene	ITS_acc__JN993210.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN992471.1	no-its-in-definition-or-gene	ITS_acc__JN992471.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN992472.1	no-its-in-definition-or-gene	ITS_acc__JN992472.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN992473.1	no-its-in-definition-or-gene	ITS_acc__JN992473.1.xml
+Tolypocladium capitatum	OSC71233	ITS	JN992474.1	no-its-in-definition-or-gene	ITS_acc__JN992474.1.xml

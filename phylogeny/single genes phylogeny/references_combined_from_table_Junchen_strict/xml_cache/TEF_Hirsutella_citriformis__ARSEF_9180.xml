@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KM651987</INSDSeq_locus>
+    <INSDSeq_length>927</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 490 translation elongation factor 1-alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM651987</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM651987.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM651987.1|</INSDSeqid>
+      <INSDSeqid>gi|751129293</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..927</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..927</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..927</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>927</INSDInterval_to>
+            <INSDInterval_accession>KM651987.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 490</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: IRRI, Los Banos, Manila</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>05-May-1980</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;927</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>927</INSDInterval_to>
+            <INSDInterval_accession>KM651987.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GCCGACTGCGCTATCCTCATCATCGCTGCCGGCACTGGTGAGTTCGAGGCTGGTATCTCCAAGGATGGCCAGACCCGCGAACACGCCCTGCTCGCCTACACCCTCGGTGTCAAGCAGCTCATCGTCGCCATCAACAAGATGGACACCACCCAGTGGTCCGAGGCCCGTTACCAGGAAATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACGGTTCCCTTCGTCCCCATCTCCGGCTTCAACGGCGACAACATGCTTGCCGCCTCCACCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGCGGCAAGTCCACCGGCAAGACGCTCCTCGAGGCCATCGACTCCATCGAGCCCCCCAAGCGTCCCACCGACAAGCCCCTCCGTCTTCCCCTCCAGGACGTCTACAAGATTGGCGGTATCGGAACTGTTCCCGTCGGCCGTATCGAGACTGGTGTCCTGAAGCCCGGCATGGTCGTCACCTTCGCCCCCTCCAACGTCACCACTGAAGTCAAGTCGGTCGAGATGCACCACGAGCAGCTCACCGAGGGTGTCCCTGGCGACAACGTCGGCTTCAACGTGAAGAACGTCTCCGTCAAGGAAATCCGCCGTGGCAACGTCGCCGGCGACTCCAAGAACGACCCCCCCGCTGGCGCTGCCTCCTTCGACGCCCAGGTCATCGTCCTCAACCACCCCGGCCAGGTCGGTGCCGGCTACGCGCCCGTCCTCGACTGCCACACGGCCCACATCGCCTGCAAGTTCGCCGAGATCAGGGAGAAGATTGACCGCCGTACCGGCAAGGCTGTCGAGGCGGCCCCCAAGTTCATCAAGTCCGGTGACTCCGCCATCGTCAAGATGGTTCCCTCCAAGCCCATGTGCGTGGAGGCCTTCACCGACTACCCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;927</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>927</INSDInterval_to>
+            <INSDInterval_accession>KM651987.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AJF36211.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>ADCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTQWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLAASTNCPWYKGWEKETKGGKSTGKTLLEAIDSIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGVLKPGMVVTFAPSNVTTEVKSVEMHHEQLTEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPAGAASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIREKIDRRTGKAVEAAPKFIKSGDSAIVKMVPSKPMCVEAFTDYP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gccgactgcgctatcctcatcatcgctgccggcactggtgagttcgaggctggtatctccaaggatggccagacccgcgaacacgccctgctcgcctacaccctcggtgtcaagcagctcatcgtcgccatcaacaagatggacaccacccagtggtccgaggcccgttaccaggaaatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagacggttcccttcgtccccatctccggcttcaacggcgacaacatgcttgccgcctccaccaactgcccctggtacaagggctgggagaaggagaccaagggcggcaagtccaccggcaagacgctcctcgaggccatcgactccatcgagccccccaagcgtcccaccgacaagcccctccgtcttcccctccaggacgtctacaagattggcggtatcggaactgttcccgtcggccgtatcgagactggtgtcctgaagcccggcatggtcgtcaccttcgccccctccaacgtcaccactgaagtcaagtcggtcgagatgcaccacgagcagctcaccgagggtgtccctggcgacaacgtcggcttcaacgtgaagaacgtctccgtcaaggaaatccgccgtggcaacgtcgccggcgactccaagaacgacccccccgctggcgctgcctccttcgacgcccaggtcatcgtcctcaaccaccccggccaggtcggtgccggctacgcgcccgtcctcgactgccacacggcccacatcgcctgcaagttcgccgagatcagggagaagattgaccgccgtaccggcaaggctgtcgaggcggcccccaagttcatcaagtccggtgactccgccatcgtcaagatggttccctccaagcccatgtgcgtggaggccttcaccgactaccct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM651988</INSDSeq_locus>
+    <INSDSeq_length>913</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 591 translation elongation factor 1-alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM651988</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM651988.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM651988.1|</INSDSeqid>
+      <INSDSeqid>gi|751129295</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..913</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..913</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..913</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>913</INSDInterval_to>
+            <INSDInterval_accession>KM651988.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 591</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Indonesia: Bantul District, Yogyakarta, Java</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Feb-1981</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;913</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>913</INSDInterval_to>
+            <INSDInterval_accession>KM651988.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GCCGACTGCGCTATCCTCATCATCGCTGCCGGCACTGGTGAGTTCGAGGCTGGTATCTCCAAGGATGGCCAGACCCGCGAACACGCCCTGCTCGCCTACACCCTCGGTGTCAAGCAGCTCATCGTCGCCATCAACAAGATGGACACCACCCAGTGGTCCGAGGCCCGTTACCAGGAAATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACGGTTCCCTTCGTCCCCATCTCCGGCTTCAACGGCGACAACATGCTTGCCGCCTCCACCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGCGGCAAGTCCACCGGCAAGACGCTCCTCGAGGCCATCGACTCCATCGAGCCCCCCAAGCGTCCCACCGACAAGCCCCTCCGTCTTCCCCTCCAGGACGTCTACAAGATTGGCGGTATCGGAACTGTTCCCGTCGGCCGTATCGAGACTGGTGTCCTGAAGCCCGGCATGGTCGTCACCTTCGCCCCCTCCAACGTCACCACTGAAGTCAAGTCGGTCGAGATGCACCACGAGCAGCTCACCGAGGGTGTCCCTGGCGACAACGTCGGCTTCAACGTGAAGAACGTCTCCGTCAAGGAAATCCGCCGTGGCAACGTCGCCGGCGACTCCAAGAACGACCCCCCCGCTGGCGCTGCCTCCTTCGACGCCCAGGTCATCGTCCTCAACCACCCCGGCCAGGTCGGTGCCGGCTACGCGCCCGTCCTCGACTGCCACACGGCCCACATCGCCTGCAAGTTCGCCGAGATCAGGGAGAAGATTGACCGCCGTACCGGCAAGGCTGTCGAGGCGGCCCCCAAGTTCATCAAGTCCGGTGACTCCGCCATCGTCAAGATGGTTCCCTCCAAGCCCATGTGCGTGGAGGCCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;913</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>913</INSDInterval_to>
+            <INSDInterval_accession>KM651988.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AJF36212.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>ADCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTQWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLAASTNCPWYKGWEKETKGGKSTGKTLLEAIDSIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGVLKPGMVVTFAPSNVTTEVKSVEMHHEQLTEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPAGAASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIREKIDRRTGKAVEAAPKFIKSGDSAIVKMVPSKPMCVEA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gccgactgcgctatcctcatcatcgctgccggcactggtgagttcgaggctggtatctccaaggatggccagacccgcgaacacgccctgctcgcctacaccctcggtgtcaagcagctcatcgtcgccatcaacaagatggacaccacccagtggtccgaggcccgttaccaggaaatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagacggttcccttcgtccccatctccggcttcaacggcgacaacatgcttgccgcctccaccaactgcccctggtacaagggctgggagaaggagaccaagggcggcaagtccaccggcaagacgctcctcgaggccatcgactccatcgagccccccaagcgtcccaccgacaagcccctccgtcttcccctccaggacgtctacaagattggcggtatcggaactgttcccgtcggccgtatcgagactggtgtcctgaagcccggcatggtcgtcaccttcgccccctccaacgtcaccactgaagtcaagtcggtcgagatgcaccacgagcagctcaccgagggtgtccctggcgacaacgtcggcttcaacgtgaagaacgtctccgtcaaggaaatccgccgtggcaacgtcgccggcgactccaagaacgacccccccgctggcgctgcctccttcgacgcccaggtcatcgtcctcaaccaccccggccaggtcggtgccggctacgcgcccgtcctcgactgccacacggcccacatcgcctgcaagttcgccgagatcagggagaagattgaccgccgtaccggcaaggctgtcgaggcggcccccaagttcatcaagtccggtgactccgccatcgtcaagatggttccctccaagcccatgtgcgtggaggcct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM651989</INSDSeq_locus>
+    <INSDSeq_length>923</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1035 translation elongation factor 1-alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM651989</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM651989.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM651989.1|</INSDSeqid>
+      <INSDSeqid>gi|751129297</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..923</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..923</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..923</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>923</INSDInterval_to>
+            <INSDInterval_accession>KM651989.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1035</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;923</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>923</INSDInterval_to>
+            <INSDInterval_accession>KM651989.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GACTGCGCTATCCTCATCATCGCTGCCGGCACTGGTGAGTTCGAGGCTGGTATCTCCAAGGATGGCCAGACCCGCGAGCACGCCCTGCTCGCCTACACCCTCGGTGTCAAGCAGCTCATCGTCGCCATCAACAAGATGGACACCACCCAGTGGTCCGAGGCCCGTTACCAGGAAATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACGGTTCCCTTCGTCCCCATCTCCGGCTTCAACGGCGACAACATGCTTGCCGCCTCCACCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGCGGCAAGTCCACCGGCAAGACGCTCCTCGAGGCCATCGACTCCATCGAGCCCCCCAAGCGTCCCACCGACAAGCCCCTCCGTCTTCCCCTCCAGGACGTCTACAAGATTGGCGGTATCGGAACTGTTCCCGTCGGCCGTATCGAGACTGGTGTCCTGAAGCCCGGCATGGTCGTCACCTTCGCCCCCTCCAACGTCACCACTGAAGTCAAGTCGGTCGAGATGCACCACGAGCAGCTCAGCGAGGGTGTCCCTGGCGACAACGTCGGCTTCAACGTGAAGAACGTCTCCGTCAAGGAAATCCGCCGTGGCAACGTCGCCGGCGACTCCAAGAACGACCCCCCCGCTGGCGCTGCCTCCTTCGACGCCCAGGTCATCGTCCTCAACCACCCCGGCCAGGTCGGTGCCGGCTACGCGCCCGTCCTTGACTGCCACACGGCCCACATCGCCTGCAAGTTCGCCGAGATCAAGGAGAAGATTGACCGCCGTACCGGCAAGGCTGTCGAGGCGGCCCCCAAGTTCATCAAGTCCGGTGACTCCGCCATCGTCAAGATGGTTCCCTCCAAGCCCATGTGCGTGGAGGCCTTCACCGACTACCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;923</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>923</INSDInterval_to>
+            <INSDInterval_accession>KM651989.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AJF36213.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>DCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTQWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLAASTNCPWYKGWEKETKGGKSTGKTLLEAIDSIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGVLKPGMVVTFAPSNVTTEVKSVEMHHEQLSEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPAGAASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVEAAPKFIKSGDSAIVKMVPSKPMCVEAFTDYP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gactgcgctatcctcatcatcgctgccggcactggtgagttcgaggctggtatctccaaggatggccagacccgcgagcacgccctgctcgcctacaccctcggtgtcaagcagctcatcgtcgccatcaacaagatggacaccacccagtggtccgaggcccgttaccaggaaatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagacggttcccttcgtccccatctccggcttcaacggcgacaacatgcttgccgcctccaccaactgcccctggtacaagggctgggagaaggagaccaagggcggcaagtccaccggcaagacgctcctcgaggccatcgactccatcgagccccccaagcgtcccaccgacaagcccctccgtcttcccctccaggacgtctacaagattggcggtatcggaactgttcccgtcggccgtatcgagactggtgtcctgaagcccggcatggtcgtcaccttcgccccctccaacgtcaccactgaagtcaagtcggtcgagatgcaccacgagcagctcagcgagggtgtccctggcgacaacgtcggcttcaacgtgaagaacgtctccgtcaaggaaatccgccgtggcaacgtcgccggcgactccaagaacgacccccccgctggcgctgcctccttcgacgcccaggtcatcgtcctcaaccaccccggccaggtcggtgccggctacgcgcccgtccttgactgccacacggcccacatcgcctgcaagttcgccgagatcaaggagaagattgaccgccgtaccggcaaggctgtcgaggcggcccccaagttcatcaagtccggtgactccgccatcgtcaagatggttccctccaagcccatgtgcgtggaggccttcaccgactaccc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM651990</INSDSeq_locus>
+    <INSDSeq_length>905</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1446 translation elongation factor 1-alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM651990</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM651990.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM651990.1|</INSDSeqid>
+      <INSDSeqid>gi|751129299</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..905</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..905</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..905</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>905</INSDInterval_to>
+            <INSDInterval_accession>KM651990.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1446</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;905</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>905</INSDInterval_to>
+            <INSDInterval_accession>KM651990.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GACTGCGCTATCCTCATCATCGCTGCCGGCACTGGTGAGTTCGAGGCTGGTATCTCCAAGGATGGCCAGACCCGCGAGCACGCCCTGCTCGCCTACACCCTCGGTGTCAAGCAGCTCATCGTCGCCATCAACAAGATGGACACCACCCAGTGGTCCGAGGCCCGTTACCAGGAAATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACGGTTCCCTTCGTCCCCATCTCCGGCTTCAACGGCGACAACATGCTTGCCGCCTCCACCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGCGGCAAGTCCACCGGCAAGACGCTCCTCGAGGCCATCGACTCCATCGAGCCCCCCAAGCGTCCCACCGACAAGCCCCTCCGTCTTCCCCTCCAGGACGTCTACAAGATTGGCGGTATCGGAACTGTTCCCGTCGGCCGTATCGAGACTGGTGTCCTGAAGCCCGGCATGGTCGTCACCTTCGCCCCCTCCAACGTCACCACTGAAGTCAAGTCGGTCGAGATGCACCACGAGCAGCTCAGCGAGGGTGTCCCTGGCGACAACGTCGGCTTCAACGTGAAGAACGTCTCCGTCAAGGAAATCCGCCGTGGCAACGTCGCCGGCGACTCCAAGAACGACCCCCCCGCTGGCGCTGCCTCCTTCGACGCCCAGGTCATCGTCCTCAACCACCCCGGCCAGGTCGGTGCCGGCTACGCGCCCGTCCTTGACTGCCACACGGCCCACATCGCCTGCAAGTTCGCCGAGATCAAGGAGAAGATTGACCGCCGTACCGGCAAGGCTGTCGAGGCGGCCCCCAAGTTCATCAAGTCCGGTGACTCCGCCATCGTCAAGATGGTTCCCTCCAAGCCCATGTGCGTGGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;905</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>905</INSDInterval_to>
+            <INSDInterval_accession>KM651990.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AJF36214.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>DCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTQWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLAASTNCPWYKGWEKETKGGKSTGKTLLEAIDSIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGVLKPGMVVTFAPSNVTTEVKSVEMHHEQLSEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPAGAASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVEAAPKFIKSGDSAIVKMVPSKPMCV</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gactgcgctatcctcatcatcgctgccggcactggtgagttcgaggctggtatctccaaggatggccagacccgcgagcacgccctgctcgcctacaccctcggtgtcaagcagctcatcgtcgccatcaacaagatggacaccacccagtggtccgaggcccgttaccaggaaatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagacggttcccttcgtccccatctccggcttcaacggcgacaacatgcttgccgcctccaccaactgcccctggtacaagggctgggagaaggagaccaagggcggcaagtccaccggcaagacgctcctcgaggccatcgactccatcgagccccccaagcgtcccaccgacaagcccctccgtcttcccctccaggacgtctacaagattggcggtatcggaactgttcccgtcggccgtatcgagactggtgtcctgaagcccggcatggtcgtcaccttcgccccctccaacgtcaccactgaagtcaagtcggtcgagatgcaccacgagcagctcagcgagggtgtccctggcgacaacgtcggcttcaacgtgaagaacgtctccgtcaaggaaatccgccgtggcaacgtcgccggcgactccaagaacgacccccccgctggcgctgcctccttcgacgcccaggtcatcgtcctcaaccaccccggccaggtcggtgccggctacgcgcccgtccttgactgccacacggcccacatcgcctgcaagttcgccgagatcaaggagaagattgaccgccgtaccggcaaggctgtcgaggcggcccccaagttcatcaagtccggtgactccgccatcgtcaagatggttccctccaagcccatgtgcgtgga</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM651991</INSDSeq_locus>
+    <INSDSeq_length>925</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 2598 translation elongation factor 1-alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM651991</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM651991.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM651991.1|</INSDSeqid>
+      <INSDSeqid>gi|751129301</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..925</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..925</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..925</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>925</INSDInterval_to>
+            <INSDInterval_accession>KM651991.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Heteropsylla cubana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 2598</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: Visayas, Leyte</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1987</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;925</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>925</INSDInterval_to>
+            <INSDInterval_accession>KM651991.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CGACTGCGCTATCCTCATCATCGCTGCCGGCACTGGTGAGTTCGAGGCTGGTATCTCCAAGGATGGCCAGACCCGCGAGCACGCCCTGCTCGCCTACACCCTCGGTGTCAAGCAGCTCATCGTCGCCATCAACAAGATGGACACCACCCAGTGGTCCGAGGCCCGTTACCAGGAAATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACGGTTCCCTTCGTCCCCATCTCCGGCTTCAACGGCGACAACATGCTTGCCGCCTCCACCAACTGCCCTTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGCGGCAAGTCCACCGGCAAGACGCTCCTCGAGGCCATCGACTCCATCGAGCCCCCCAAGCGTCCCACCGACAAGCCCCTCCGTCTTCCCCTCCAGGACGTCTACAAGATTGGCGGTATCGGAACTGTTCCCGTCGGCCGTATCGAGACTGGTGTCCTGAAGCCCGGCATGGTCGTCACCTTCGCCCCCTCCAACGTCACCACTGAAGTCAAGTCGGTCGAGATGCACCACGAGCAGCTCAGCGAGGGTGTCCCTGGCGACAACGTCGGCTTCAACGTGAAGAACGTCTCCGTCAAGGAAATCCGCCGTGGCAACGTCGCCGGCGACTCCAAGAACGACCCCCCCGCTGGCGCTGCCTCCTTCGACGCCCAGGTCATCGTCCTCAACCACCCCGGCCAGGTCGGTGCCGGCTACGCGCCCGTCCTAGACTGCCACACGGCCCACATCGCCTGCAAGTTCGCCGAGATCAAGGAGAAGATTGACCGCCGTACCGGCAAGGCTGTCGAGGCGGCCCCCAAGTTCATCAAGTCCGGTGACTCCGCCATCGTCAAGATGGTTCCCTCCAAGCCCATGTGCGTGGAGGCCTTCACCGACTACCCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;925</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>925</INSDInterval_to>
+            <INSDInterval_accession>KM651991.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AJF36215.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>DCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTQWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLAASTNCPWYKGWEKETKGGKSTGKTLLEAIDSIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGVLKPGMVVTFAPSNVTTEVKSVEMHHEQLSEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPAGAASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVEAAPKFIKSGDSAIVKMVPSKPMCVEAFTDYP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cgactgcgctatcctcatcatcgctgccggcactggtgagttcgaggctggtatctccaaggatggccagacccgcgagcacgccctgctcgcctacaccctcggtgtcaagcagctcatcgtcgccatcaacaagatggacaccacccagtggtccgaggcccgttaccaggaaatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagacggttcccttcgtccccatctccggcttcaacggcgacaacatgcttgccgcctccaccaactgcccttggtacaagggctgggagaaggagaccaagggcggcaagtccaccggcaagacgctcctcgaggccatcgactccatcgagccccccaagcgtcccaccgacaagcccctccgtcttcccctccaggacgtctacaagattggcggtatcggaactgttcccgtcggccgtatcgagactggtgtcctgaagcccggcatggtcgtcaccttcgccccctccaacgtcaccactgaagtcaagtcggtcgagatgcaccacgagcagctcagcgagggtgtccctggcgacaacgtcggcttcaacgtgaagaacgtctccgtcaaggaaatccgccgtggcaacgtcgccggcgactccaagaacgacccccccgctggcgctgcctccttcgacgcccaggtcatcgtcctcaaccaccccggccaggtcggtgccggctacgcgcccgtcctagactgccacacggcccacatcgcctgcaagttcgccgagatcaaggagaagattgaccgccgtaccggcaaggctgtcgaggcggcccccaagttcatcaagtccggtgactccgccatcgtcaagatggttccctccaagcccatgtgcgtggaggccttcaccgactaccct</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

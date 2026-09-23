@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AY494596</INSDSeq_locus>
+    <INSDSeq_length>458</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-NOV-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>01-DEC-2005</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis strain NHJ3711 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AY494596</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AY494596.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|AY494596.1|</INSDSeqid>
+      <INSDSeqid>gi|45758807</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..458</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nicomrat,D.</INSDAuthor>
+          <INSDAuthor>Valyasevi,R.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+          <INSDAuthor>Tanticharoen,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The Molecular Discrimination among Cordyceps irangiensis, C. myrmecophila, and Hymenostilbe aurantiaca</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..458</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Nicomrat,D.</INSDAuthor>
+          <INSDAuthor>Valyasevi,R.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (03-DEC-2003) Phylogenetics Lab, National Center for Genetic Engineering and Biotechnology (BIOTEC), 113 Thailand Sciencepark Paholyothin Rd., Klong 1, Klong Luang, Pathumthani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..458</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>458</INSDInterval_to>
+            <INSDInterval_accession>AY494596.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NHJ3711</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>ant</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;458</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>458</INSDInterval_to>
+            <INSDInterval_accession>AY494596.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttttattgaaccgctcgaggcccctgttgcccgacctccaacccttttgtgaaccaacctcgttgcttcgggggcgaccccgccgttcgcgcggcgtgcggcgcccccggaggccatcaaacactgcgtaaccttgcgtcggagtcttgattaaatcaaacaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgccctttggtattccgaagggcatgcctgttcgagcgtcattacaccactcaagcctggcttggtgttgggcgtcgcgggatcccccgcgcgccttaaagtcctttccggctgggtcgtcttgtctccaagcgttgtggcaaactcgcggcgagatcgggcggcgcggccgttaaatctag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>GU723756</INSDSeq_locus>
+    <INSDSeq_length>586</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUL-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUL-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis strain KT3307 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>GU723756</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>GU723756.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|GU723756.1|</INSDSeqid>
+      <INSDSeqid>gi|325492520</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..586</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps halabalaensis: a new species of Ophiocordyceps pathogenic to Camponotus gigas in Hala Bala Wildlife Sanctuary, Southern Thailand</INSDReference_title>
+        <INSDReference_journal>Fungal Biol 115 (7), 608-614 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.funbio.2011.03.002</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>21724166</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..586</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (08-FEB-2010) Phylogenetics Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, 113 Paholyothin Rd., Khlong 1, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..586</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>586</INSDInterval_to>
+            <INSDInterval_accession>GU723756.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>KT3307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;586</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>586</INSDInterval_to>
+            <INSDInterval_accession>GU723756.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgggtcgcgagacgcccaaaaccccacgagaaccccgtcggaaacgagttgcctcggcggccccggccgccgcagggaggagcaagtcgctgagccttcggcagagcagcctctgagtgaagagcgaatacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgcccacacccctcgggcgcgcgccgtcccccgtccgcggggggccgcgcgcccggcgttggggggccgcccgccgcggcgcccccctaaactcagcggcggccgcgccgccccagtcccccgcgcagtacgacctccgcgacgggacgggcggcccggccacgcccggcagccgcgcgagagcgcgatgacagcaggttgaccctcggatcaggcggggatacccgctgaacttaagcatatcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>GU723757</INSDSeq_locus>
+    <INSDSeq_length>555</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-JUL-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>19-JUL-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis strain KT3308 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>GU723757</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>GU723757.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|GU723757.1|</INSDSeqid>
+      <INSDSeqid>gi|325492521</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..555</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Thanakitpipattana,D.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ophiocordyceps halabalaensis: a new species of Ophiocordyceps pathogenic to Camponotus gigas in Hala Bala Wildlife Sanctuary, Southern Thailand</INSDReference_title>
+        <INSDReference_journal>Fungal Biol 115 (7), 608-614 (2011)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.funbio.2011.03.002</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>21724166</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..555</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ridkaew,R.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.</INSDAuthor>
+          <INSDAuthor>Tasanathai,K.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (08-FEB-2010) Phylogenetics Laboratory, National Center for Genetic Engineering and Biotechnology, National Science and Technology Development Agency, 113 Paholyothin Rd., Khlong 1, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..555</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>555</INSDInterval_to>
+            <INSDInterval_accession>GU723757.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>KT3308</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;555</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>555</INSDInterval_to>
+            <INSDInterval_accession>GU723757.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agcggaggatattaccgggtcgcgagacgcccaaaaccccacgagaaccccgtcggaaacgagttgcctcggcggccccggccgccgcagggaggagcaagtcgctgagccttcggcagagcagcctctgagtgaagagcgaatacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgcccacacccctcgggcgcgcgccgtcccccgtccgcggggggccgcgcgcccggcgttggggggccgcccgccgcggcgcccccctaaactcagcggcggccgcgccgccccagtcccccgcgcagtacgacctccgcgacgggacgggcggcccggccacgcccggcagccgcgcgagagcgcgatgacagcaggttgacctcggatcaggcggggatacccgctgaacttaagcatatcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MK752874</INSDSeq_locus>
+    <INSDSeq_length>526</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-DEC-2019</INSDSeq_update-date>
+    <INSDSeq_create-date>11-APR-2019</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis voucher HKAS 102447 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MK752874</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MK752874.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MK752874.1|</INSDSeqid>
+      <INSDSeqid>gi|1607263785</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..526</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.-P.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Mortimer,P.E.</INSDAuthor>
+          <INSDAuthor>Xu,J.</INSDAuthor>
+          <INSDAuthor>Xiao,Y.-P.</INSDAuthor>
+          <INSDAuthor>Bhunjun,C.S.</INSDAuthor>
+          <INSDAuthor>To-anun,C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>The genus Simplicillium</INSDReference_title>
+        <INSDReference_journal>MycoKeys 60, 69-92 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3897/mycokeys.60.38040</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..526</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wei,D.P.</INSDAuthor>
+          <INSDAuthor>Wanasinghe,D.N.</INSDAuthor>
+          <INSDAuthor>Hyde,K.D.</INSDAuthor>
+          <INSDAuthor>Xiao,Y.P.</INSDAuthor>
+          <INSDAuthor>Mortimer,P.E.</INSDAuthor>
+          <INSDAuthor>Xu,J.C.</INSDAuthor>
+          <INSDAuthor>To-anun,C.</INSDAuthor>
+          <INSDAuthor>Bhunijun,C.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-APR-2019) Centre of Excellence in Fungal Research, Mae Fah Luang University, 333 M. 1, T. Thasud, Muang, Chiang Rai 57100, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..526</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>526</INSDInterval_to>
+            <INSDInterval_accession>MK752874.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>Ant</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS 102447</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand: Chiang Mai Province</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>19-Feb-2018</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Deping Wei</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;526</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>526</INSDInterval_to>
+            <INSDInterval_accession>MK752874.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cagcggagggatcattaccgggtcgcgagacgcccaaaaccccgcgaggaccacgtcggaacgaagttgcctcggcggccccggccgccgcagggaggagcaagtcgctgacccgtcagtagagaagcctctgagtgaacgcgaatacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgcccacacccctcgggggggcgcgccacccgtccgcgggcggcgcgcgaccccggcgttggggggccgcccgccgcggcgcccccctaaacggagcggcggccgcgccgccccgtcccccgcgcagtacgacctccgcgacgggacgggcggcggggccacgccagccaagcctcgcgacagcgaaccgcaggttgacctcggatcaggcggggat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MT675212</INSDSeq_locus>
+    <INSDSeq_length>549</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-JUL-2021</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JUL-2021</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis voucher MAHUA001E internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MT675212</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MT675212.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MT675212.1|</INSDSeqid>
+      <INSDSeqid>gi|1863319893</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..549</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity and Molecular Phylogeny of Entomopathogenic Fungi of Borneo</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..549</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (27-JUN-2020) Jaya Mycology Lab, Institute for Tropical Biology and Conservation, Universiti Malaysia Sabah., Jalan UMS, Kota Kinabalu, Sabah 84000, Malaysia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..549</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>549</INSDInterval_to>
+            <INSDInterval_accession>MT675212.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>MAHUA001E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;549</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>549</INSDInterval_to>
+            <INSDInterval_accession>MT675212.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gggtcgcgagagccacaccccgcgagacgagagagggaaccgcccgttgcctcggcggcgaccccgccgccggagggccgagcaagacgctttttttcaagtcgaacagcctctgagtgaacacgaataaacaagttaaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggcgcgcgcctcccccaccccttctctggggttccgggaaggcaggcgcccggcgatggggggccgccccttttgcggcgccccccgaaatgcagcggcggcaacgtcccgcctcccccgcgaagtaaaaaacacctccgcgacggggggcgcggcgatgccacgcccggcaagaactgcccccattaccacagggttgacctcggatcaggcggggatacccgccgaacttaagcatatca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MT675213</INSDSeq_locus>
+    <INSDSeq_length>547</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-JUL-2021</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JUL-2021</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis voucher KANG027E internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MT675213</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MT675213.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MT675213.1|</INSDSeqid>
+      <INSDSeqid>gi|1863319894</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..547</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity and Molecular Phylogeny of Entomopathogenic Fungi of Borneo</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..547</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (27-JUN-2020) Jaya Mycology Lab, Institute for Tropical Biology and Conservation, Universiti Malaysia Sabah., Jalan UMS, Kota Kinabalu, Sabah 84000, Malaysia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..547</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>547</INSDInterval_to>
+            <INSDInterval_accession>MT675213.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KANG027E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;547</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>547</INSDInterval_to>
+            <INSDInterval_accession>MT675213.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgcgagagcccacaccccgcgagacgagagagggaaccgcccgttgcctcggcggcgaccccgccgccggagggccgagcaagacgctttttttcaagtcgaacagcctctgagtgaacatgaataaacaagtttaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggcgcgcgcctccccaccccttctctggggttccaggaaggcaggcgcccggcgatggggggccgcccctttgcggcgccccccgaaatgcagcggcggcaacgtcccgcctcccccgcgaagtaaaaaacacctccgcgacggggggcgcggcgatgccacgcccggcaagaactgcccccattaccaggttgacctcggatcaggcggggatacccgccgaacttaagcatatcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MT675214</INSDSeq_locus>
+    <INSDSeq_length>534</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-JUL-2021</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JUL-2021</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis voucher KANG012E internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MT675214</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MT675214.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MT675214.1|</INSDSeqid>
+      <INSDSeqid>gi|1863319895</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..534</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity and Molecular Phylogeny of Entomopathogenic Fungi of Borneo</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..534</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (27-JUN-2020) Jaya Mycology Lab, Institute for Tropical Biology and Conservation, Universiti Malaysia Sabah., Jalan UMS, Kota Kinabalu, Sabah 84000, Malaysia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..534</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>534</INSDInterval_to>
+            <INSDInterval_accession>MT675214.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KANG012E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;534</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>534</INSDInterval_to>
+            <INSDInterval_accession>MT675214.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgcgagagcccacaccccgcgaggagagagggaaccgcccgttgcctcggcgaccccgccgcggagggccgagcaagacgctttttttcaagtcgaacagcctctgagtgaacatgaataaacaagtttaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggcgcgcgcctccccaccccttctctggggttccaggaaggcaggcgcccggcgatggggggccgcccctttgcggccccccgaaatgcagcggcggcaacgtcccgcctcccccgcgaagtaaaaaacacctccgcgacggggggcgcggcgatgccacgcccggcaagaactgcccccattaccaggttgacctcggtcaggcggggatacccgcaacttaagattcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MT675215</INSDSeq_locus>
+    <INSDSeq_length>534</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-JUL-2021</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JUL-2021</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis voucher KANG008E internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MT675215</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MT675215.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MT675215.1|</INSDSeqid>
+      <INSDSeqid>gi|1863319896</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..534</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Diversity and Molecular Phylogeny of Entomopathogenic Fungi of Borneo</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..534</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kassim,M.H.S.</INSDAuthor>
+          <INSDAuthor>Sathiya Seelan,J.S.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (27-JUN-2020) Jaya Mycology Lab, Institute for Tropical Biology and Conservation, Universiti Malaysia Sabah., Jalan UMS, Kota Kinabalu, Sabah 84000, Malaysia</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..534</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>534</INSDInterval_to>
+            <INSDInterval_accession>MT675215.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KANG008E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;534</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>534</INSDInterval_to>
+            <INSDInterval_accession>MT675215.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gggtcgcgagagccacaccccgcgacgagagagggaaccgcccgttctcggcggcgaccccgccgccggagggccgagcaagacgctttttttcagtcgaacagcctctgagtgaacacgaatacaagttaaaaactttcaacaacggatctttggttctggcatcgatggaacgcagcgaaatgcgatagtaatgtgaattgcagagcccaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgaccacccctcgggcgcgcgcctcccccaccccttctctggggttccgggaaggcaggcgcccggcgatggggggccgccccttttgcggcgccccccgaaatgcagcggcggcaacgtcccgcctcccccgcgaagtaaaaaacacctccgcgacggggggcgcggcgatgccacgcccggcaagaactgcccccattaccacagggttgacctcggatcaggcggggatacccgccgaacttaagcatatca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON890867</INSDSeq_locus>
+    <INSDSeq_length>526</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>05-JUL-2022</INSDSeq_update-date>
+    <INSDSeq_create-date>05-JUL-2022</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps unilateralis strain XS70 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON890867</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON890867.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON890867.1|</INSDSeqid>
+      <INSDSeqid>gi|2261465616</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps unilateralis</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps unilateralis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..526</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Viet,N.D.</INSDAuthor>
+          <INSDAuthor>Lam,D.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (26-JUN-2022) faculty of biology, hanoi national university of education, xuanthuy, Hanoi 122000, Viet Nam</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..526</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>526</INSDInterval_to>
+            <INSDInterval_accession>ON890867.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps unilateralis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>XS70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:268505</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;526</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>526</INSDInterval_to>
+            <INSDInterval_accession>ON890867.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cagcggagggatcattaccgggtcgcgagacgcccaaaaccccgcgaggaccacgtcggaacgaagttgcctcggcggccccggccgccgcagggaggagcaagtcgctgacccgtcagtagagaagcctctgagtgaacgcgaatacaagtcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagagcccagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcacgcctgtccgagcgtcatgcccacacccctcgggggggcgcgccacccgtccgcgggcggcgcgcgaccccggcgttggggggccgcccgccgcggcgcccccctaaacggagcggcggccgcgccgccccgtcccccgcgcagtacgacctccgcgacgggacgggcggcggggccacgccagccaagcctcgcgacagcgaaccgcaggttgacctcggatcaggcggggat</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

@@ -1,0 +1,260 @@
+Taxon	Decision	Notes	ITS_present	SSU_present	LSU_present	TEF_present	RPB1_present
+Hirsutella_citriformis_ARSEF1446	KEEP			X		X	X
+Hirsutella_citriformis_ARSEF9180	KEEP		X				
+Hirsutella_citriformis_NHJ12118	KEEP				X		
+Illumina_203_A	KEEP		X	X			
+Illumina_204_B	KEEP		X	X		X	
+Illumina_205_A	KEEP		X	X	X	X	
+Illumina_206_A	KEEP		X	X	X		
+ONT_203_A	KEEP		X	X	X	X	
+ONT_204_B	KEEP		X		X	X	X
+ONT_205_A	KEEP				X	X	X
+ONT_206_A	KEEP		X		X	X	
+Ophiocordyceps_acicularis_OSC128580	KEEP		X	X	X	X	X
+Ophiocordyceps_agriotidis_ARSEF5692	KEEP		X	X	X	X	X
+Ophiocordyceps_albacongiuae_RC20	KEEP			X		X	
+Ophiocordyceps_amazonica_Ophama2026	KEEP			X	X	X	X
+Ophiocordyceps_annulata_CEM303	KEEP			X	X	X	X
+Ophiocordyceps_anocheti_HKAS132231	KEEP		X	X	X	X	X
+Ophiocordyceps_anocheti_HKAS132269	KEEP		X				
+Ophiocordyceps_anshunensis_GMBC3026	KEEP		X		X	X	X
+Ophiocordyceps_anshunensis_GMBC3027	KEEP		X				
+Ophiocordyceps_aphodii_ARSEF5498	KEEP			X	X	X	
+Ophiocordyceps_aphrophoridarum_YTS19061907	KEEP		X	X	X	X	X
+Ophiocordyceps_appendiculata_NBRC106959	KEEP		X	X	X	X	X
+Ophiocordyceps_appendiculata_NBRC106960	KEEP		X				
+Ophiocordyceps_araracuarensis_Ophful696	KEEP			X	X	X	X
+Ophiocordyceps_araracuarensis_Ophsp_696	KEEP		X				
+Ophiocordyceps_arborescens_NBRC_105890	KEEP				X	X	
+Ophiocordyceps_arborescens_NBRC_105891	KEEP		X	X			
+Ophiocordyceps_aseptatospora_GZAAS_22_2052	KEEP		X	X	X	X	X
+Ophiocordyceps_asiana_GMBC3023	KEEP		X		X	X	X
+Ophiocordyceps_asiana_HKAS125846	KEEP			X			
+Ophiocordyceps_asiana_MY11878	KEEP		X		X	X	X
+Ophiocordyceps_australis_Ophaus1780	KEEP		X		X		
+Ophiocordyceps_australis_Ophaus774	KEEP			X	X	X	X
+Ophiocordyceps_australis_Ophaus926	KEEP			X	X	X	X
+Ophiocordyceps_bannaensis_ant_of_Camponotus_sp	KEEP		X	X	X		
+Ophiocordyceps_bannaensis_GACP24_0801	KEEP					X	X
+Ophiocordyceps_binata_Binat	KEEP				X		
+Ophiocordyceps_blakebarnesii_MISSOU5	KEEP			X	X	X	X
+Ophiocordyceps_blattarioides_Ophbla014	KEEP			X	X	X	
+Ophiocordyceps_blattarioides_Ophsp_014	KEEP						X
+Ophiocordyceps_brunneanigra_BCC69032	KEEP				X	X	X
+Ophiocordyceps_brunneaperitheciata_BCC49312	KEEP				X	X	
+Ophiocordyceps_brunneipunctata_HKAS149958	KEEP		X	X			X
+Ophiocordyceps_brunneipunctata_OSC128576	KEEP			X	X	X	X
+Ophiocordyceps_buquetii_BCC93053	KEEP		X				
+Ophiocordyceps_buquetii_HMAS199613	KEEP			X	X	X	X
+Ophiocordyceps_buquetii_HMAS199617	KEEP			X	X	X	X
+Ophiocordyceps_calliphoridarum_GMB3129	KEEP		X	X	X	X	
+Ophiocordyceps_calliphoridarum_GMB3131	KEEP		X				
+Ophiocordyceps_camponoti_ATRI3	KEEP			X	X	X	
+Ophiocordyceps_camponoti_C36	KEEP			X			
+Ophiocordyceps_camponoti_C40	KEEP			X			
+Ophiocordyceps_camponoti_Co24	KEEP					X	
+Ophiocordyceps_camponoti_Co25	KEEP					X	
+Ophiocordyceps_camponoti_FEMO2	KEEP			X	X	X	X
+Ophiocordyceps_camponoti_Flo4	KEEP			X	X		
+Ophiocordyceps_camponoti_Flx2	KEEP					X	
+Ophiocordyceps_camponoti_G108	KEEP			X	X	X	X
+Ophiocordyceps_camponoti_G143	KEEP			X	X	X	X
+Ophiocordyceps_camponoti_HIPPOC	KEEP			X	X	X	X
+Ophiocordyceps_camponoti_INDI2	KEEP			X	X		
+Ophiocordyceps_camponoti_MFLU_22_0269	KEEP		X				
+Ophiocordyceps_camponoti_NIDUL2	KEEP			X	X	X	X
+Ophiocordyceps_camponoti_OBIS5	KEEP			X	X	X	X
+Ophiocordyceps_camponoti_ORENG	KEEP			X	X	X	
+Ophiocordyceps_camponoti_YFCC9028	KEEP				X		X
+Ophiocordyceps_clavata_CEM1762	KEEP			X	X	X	X
+Ophiocordyceps_cochlidiicola_520621MF432	KEEP		X				
+Ophiocordyceps_cochlidiicola_HMAS199612	KEEP			X	X	X	X
+Ophiocordyceps_communis_BCC2754	KEEP		X				X
+Ophiocordyceps_communis_NHJ12581	KEEP			X	X	X	
+Ophiocordyceps_corriemoreauae_C2014A	KEEP			X	X		X
+Ophiocordyceps_crinalis_GDGM17327	KEEP			X	X	X	X
+Ophiocordyceps_crinalis_KUMCC5194	KEEP		X				
+Ophiocordyceps_curculionum_IAvH_TRI_MR160	KEEP		X				
+Ophiocordyceps_curculionum_OSC151910	KEEP			X	X		X
+Ophiocordyceps_cylindrospora_HKAS148937	KEEP					X	X
+Ophiocordyceps_cylindrospora_MFLU_17_1961	KEEP		X	X	X		
+Ophiocordyceps_daceti_MF01	KEEP				X	X	
+Ophiocordyceps_daceti_MF90	KEEP			X			
+Ophiocordyceps_diabolica_BDS32	KEEP			X	X	X	
+Ophiocordyceps_dipterigena_MRCIF71	KEEP		X				
+Ophiocordyceps_dipterigena_OSC151911	KEEP			X	X	X	X
+Ophiocordyceps_dipterigena_OSC151912	KEEP			X	X	X	X
+Ophiocordyceps_ditmarii_WU42993	KEEP		X		X		
+Ophiocordyceps_elongata_OSC110989	KEEP				X	X	X
+Ophiocordyceps_entomorrhiza_KEW53484	KEEP		X	X	X	X	X
+Ophiocordyceps_evansii_Ophsp_858	KEEP		X	X	X	X	X
+Ophiocordyceps_evansii_Ophsp_912	KEEP		X				
+Ophiocordyceps_floriformis_BBH51295	KEEP		X		X	X	
+Ophiocordyceps_formicarum_1	KEEP		X				
+Ophiocordyceps_formicarum_TNS_F18565	KEEP			X	X	X	X
+Ophiocordyceps_formosana_HS0825_01	KEEP		X				
+Ophiocordyceps_formosana_TNM_F13893	KEEP			X		X	X
+Ophiocordyceps_forquignonii_OSC151902	KEEP			X	X		X
+Ophiocordyceps_fulgoromorphila_Ophara717	KEEP				X	X	X
+Ophiocordyceps_fulgoromorphila_Ophsp_717	KEEP			X			
+Ophiocordyceps_geometridicola_BCC35947	KEEP				X	X	X
+Ophiocordyceps_globiceps_MFLUCC_18_0495	KEEP		X	X	X	X	
+Ophiocordyceps_gracilis_EFCC3101	KEEP			X	X	X	X
+Ophiocordyceps_gracilis_EFCC8572	KEEP		X				
+Ophiocordyceps_gracillisima_Ophgrc679	KEEP				X	X	X
+Ophiocordyceps_granospora_BCC82255	KEEP				X	X	X
+Ophiocordyceps_granospora_OSC128579	KEEP			X	X	X	X
+Ophiocordyceps_halabalaensis_MY1308	KEEP		X	X		X	
+Ophiocordyceps_halabalaensis_MY5151	KEEP		X				
+Ophiocordyceps_heteropoda_EFCC10125	KEEP		X	X	X	X	X
+Ophiocordyceps_humbertii_MF116A	KEEP			X	X		X
+Ophiocordyceps_humbertii_MF116B	KEEP						X
+Ophiocordyceps_irangiensis_OSC128578	KEEP		X	X	X	X	X
+Ophiocordyceps_khaoyaiensis_BCC82796	KEEP				X	X	X
+Ophiocordyceps_kimflemingiae_SC30	KEEP			X	X	X	X
+Ophiocordyceps_kniphofioides_HUA_TSF790	KEEP			X	X	X	X
+Ophiocordyceps_kniphofioides_MF90	KEEP			X	X		X
+Ophiocordyceps_kniphofioides_PCFB	KEEP		X				
+Ophiocordyceps_konnoana_EFCC7315	KEEP			X		X	X
+Ophiocordyceps_lanpingensis_CS96	KEEP		X				
+Ophiocordyceps_lanpingensis_KUMCC5190	KEEP		X				
+Ophiocordyceps_lanpingensis_YHOS0705	KEEP				X	X	X
+Ophiocordyceps_laosensis_GMB3137	KEEP		X	X	X	X	X
+Ophiocordyceps_laosensis_GMB3138	KEEP		X				
+Ophiocordyceps_laotii_BCC76495	KEEP		X		X	X	X
+Ophiocordyceps_lloydii_OSC151913	KEEP			X	X	X	X
+Ophiocordyceps_lloydii_Pan_OY01	KEEP		X				
+Ophiocordyceps_longissima_Cod_SN1402	KEEP		X				
+Ophiocordyceps_longissima_TNS_F18448	KEEP			X	X	X	X
+Ophiocordyceps_macroacicularis_BCC22918	KEEP				X	X	X
+Ophiocordyceps_macroacicularis_NBRC_100685	KEEP		X	X			
+Ophiocordyceps_macroacicularis_NBRC_105888	KEEP				X	X	
+Ophiocordyceps_megacuculla_BCC82258	KEEP				X	X	X
+Ophiocordyceps_melolonthae_iNAT_13875275	KEEP		X				
+Ophiocordyceps_melolonthae_OSC110993	KEEP			X	X	X	X
+Ophiocordyceps_mizoramensis_OCCMZ001	KEEP			X	X	X	
+Ophiocordyceps_monacidis_MF74	KEEP			X	X		X
+Ophiocordyceps_multiperitheciata_BCC22861	KEEP				X	X	X
+Ophiocordyceps_muscae_BBC73607	KEEP				X		
+Ophiocordyceps_muscae_BCC73607	KEEP					X	
+Ophiocordyceps_muscae_BCC73616	KEEP		X				
+Ophiocordyceps_muscae_GMB3136	KEEP			X			
+Ophiocordyceps_muscidarum_HKAS132178	KEEP		X	X	X	X	
+Ophiocordyceps_myrmecophila_BCC82985	KEEP		X			X	X
+Ophiocordyceps_myrmecophila_HMAS199620	KEEP			X	X	X	X
+Ophiocordyceps_myrmecophila_Liyi4389	KEEP		X				
+Ophiocordyceps_naomipierceae_DAWKSANT	KEEP			X	X		X
+Ophiocordyceps_neonutans_FMF88	KEEP		X				
+Ophiocordyceps_neovolkiana_NFCCI_4331	KEEP		X				
+Ophiocordyceps_neovolkiana_OSC151903	KEEP			X	X	X	X
+Ophiocordyceps_nigrella_EFCC9247	KEEP		X	X	X	X	X
+Ophiocordyceps_nutans_104_50	KEEP		X				
+Ophiocordyceps_nutans_11BidoupNLU	KEEP				X		
+Ophiocordyceps_nutans_12BidoupNLU	KEEP				X		
+Ophiocordyceps_nutans_15BidoupNLU	KEEP				X		
+Ophiocordyceps_nutans_420526MF0525	KEEP				X		
+Ophiocordyceps_nutans_420526MF0895	KEEP				X		
+Ophiocordyceps_nutans_FI935	KEEP				X		
+Ophiocordyceps_nutans_FI942	KEEP				X		
+Ophiocordyceps_nutans_GMBC3024	KEEP			X			
+Ophiocordyceps_nutans_HKAS_102461	KEEP			X	X		
+Ophiocordyceps_nutans_HKAS126074	KEEP			X			
+Ophiocordyceps_nutans_HKAS126077	KEEP			X			
+Ophiocordyceps_nutans_iNaturalist_84633145	KEEP			X	X		
+Ophiocordyceps_nutans_iNaturalist_84633564	KEEP			X	X		
+Ophiocordyceps_nutans_NBRC100944	KEEP			X	X	X	X
+Ophiocordyceps_nutans_NBRC_101749	KEEP		X			X	
+Ophiocordyceps_nutans_Oph994	KEEP				X		
+Ophiocordyceps_nutans_OSC110994	KEEP			X	X	X	X
+Ophiocordyceps_nutans_SICAU_24_0164	KEEP						X
+Ophiocordyceps_nutans_SICAU_24_0164_1	KEEP			X	X	X	X
+Ophiocordyceps_nutans_SICAU_24_0165	KEEP				X	X	X
+Ophiocordyceps_odonatae_Liyi4844	KEEP		X				
+Ophiocordyceps_odonatae_TNS_F18563	KEEP				X		X
+Ophiocordyceps_odontomachi_Odonto1	KEEP				X		X
+Ophiocordyceps_oecophyllae_BRIP62635a	KEEP		X		X	X	
+Ophiocordyceps_oecophyllae_OECO1	KEEP			X			
+Ophiocordyceps_ootakii_J13	KEEP			X	X	X	X
+Ophiocordyceps_oxycephala_KUMCC5193	KEEP		X		X		
+Ophiocordyceps_paltothyrei_Palt1	KEEP			X	X		X
+Ophiocordyceps_paltothyrei_Palt2	KEEP			X	X		X
+Ophiocordyceps_pauciovoperitheciata_BCC53615	KEEP				X	X	X
+Ophiocordyceps_philippinensis_BBC22048	KEEP				X		
+Ophiocordyceps_philippinensis_BCC22048	KEEP					X	
+Ophiocordyceps_philippinensis_BCC78339	KEEP		X				
+Ophiocordyceps_poecilometigena_BRIP61312a	KEEP			X		X	
+Ophiocordyceps_poecilometigena_BRIP_62634a	KEEP		X				
+Ophiocordyceps_polyrhachis_P39	KEEP			X			
+Ophiocordyceps_polyrhachis_Po21	KEEP					X	
+Ophiocordyceps_ponerinarum_Ophkni790	KEEP			X	X	X	X
+Ophiocordyceps_pruinosa_MY3912	KEEP		X			X	
+Ophiocordyceps_pruinosa_NHJ12994	KEEP			X	X	X	X
+Ophiocordyceps_pseudoacicularis_BCC49256	KEEP				X	X	X
+Ophiocordyceps_pseudolloydii_HKAS126055	KEEP			X	X	X	
+Ophiocordyceps_pseudolloydii_MFLU_22_0266	KEEP		X	X	X	X	X
+Ophiocordyceps_pseudomyrmicis_P10B1	KEEP			X	X		
+Ophiocordyceps_pseudonutans_HAKS131087	KEEP			X	X	X	X
+Ophiocordyceps_pseudonutans_TL31	KEEP		X				
+Ophiocordyceps_pulvinata_Ophiocordyceps_pulvinata_gene_for_28S_ribosomal_RNA_partial_sequence	KEEP				X		
+Ophiocordyceps_pulvinata_Ophiocordyceps_pulvinata_genes_for_18S_rRNA_ITS1_5_8S_rRNA_ITS2_28S_rRNA_partial_and_complete_sequence	KEEP		X				
+Ophiocordyceps_pulvinata_TNS_F_30044	KEEP			X		X	X
+Ophiocordyceps_purpureostromata_TNS_F18430	KEEP			X	X	X	X
+Ophiocordyceps_rami_MY6736	KEEP			X		X	
+Ophiocordyceps_ramosissimum_GZUHHN8	KEEP		X	X		X	X
+Ophiocordyceps_ravenelii_OSC110995	KEEP			X	X	X	X
+Ophiocordyceps_rhizoidea_NHJ12522	KEEP		X			X	
+Ophiocordyceps_rhizoidea_NHJ12529	KEEP			X	X	X	X
+Ophiocordyceps_robertsii_KEW27083	KEEP				X	X	
+Ophiocordyceps_robertsii_K_M_27083	KEEP		X				
+Ophiocordyceps_robertsii_YHORZT007	KEEP						X
+Ophiocordyceps_rubiginosiperitheciata_NBRC100946	KEEP		X	X		X	X
+Ophiocordyceps_rubiginosiperitheciata_NBRC106966	KEEP		X				
+Ophiocordyceps_satoi_J19	KEEP			X	X	X	X
+Ophiocordyceps_sinensis_EFCC7287	KEEP		X	X	X	X	X
+Ophiocordyceps_sobolifera_HKAS126020	KEEP					X	
+Ophiocordyceps_sobolifera_KEW78842	KEEP		X	X	X		X
+Ophiocordyceps_spataforae_NHJ12525	KEEP			X	X	X	X
+Ophiocordyceps_sp_CatKNZ01_OP	KEEP		X	X	X	X	X
+Ophiocordyceps_sphecocephala_OSC110998	KEEP			X	X	X	X
+Ophiocordyceps_sp_OSC151909	KEEP				X	X	X
+Ophiocordyceps_sp_SJ22	KEEP					X	X
+Ophiocordyceps_stylophora_OSC111000	KEEP		X	X	X	X	X
+Ophiocordyceps_tabani_BBC45127	KEEP				X		
+Ophiocordyceps_tabani_BCC39918	KEEP					X	
+Ophiocordyceps_tabani_BCC45127	KEEP		X				
+Ophiocordyceps_tessaratomidarum_GMBC3025	KEEP		X		X	X	X
+Ophiocordyceps_thanathonensis_HKAS_102442	KEEP				X	X	
+Ophiocordyceps_thanathonensis_HKAS126078	KEEP		X				
+Ophiocordyceps_thanathonensis_MFLU_16_2910	KEEP				X		
+Ophiocordyceps_thanathonensis_MFLUCC_16_2909	KEEP					X	X
+Ophiocordyceps_thanathonensis_MFLUCC_16_2910	KEEP						X
+Ophiocordyceps_thilosuensis_BBC47494	KEEP				X		
+Ophiocordyceps_thilosuensis_BCC46607	KEEP		X				
+Ophiocordyceps_thilosuensis_BCC47494	KEEP					X	
+Ophiocordyceps_tiputini_Ophsp_11465	KEEP			X			
+Ophiocordyceps_tiputini_Ophtip11465	KEEP				X	X	X
+Ophiocordyceps_tricentri_CEM160	KEEP			X	X		
+Ophiocordyceps_tricentri_HKAS126048	KEEP		X				
+Ophiocordyceps_tricentri_KUMCC5198	KEEP					X	
+Ophiocordyceps_tricentri_NBRC_106968	KEEP		X	X	X	X	
+Ophiocordyceps_unilateralis_OSC128574	KEEP			X	X	X	X
+Ophiocordyceps_variabilis_ARSEF5365	KEEP			X	X	X	X
+Ophiocordyceps_variabilis_OMDL_iNat_225208540	KEEP		X				
+Ophiocordyceps_vespulae_GZUCC2017064	KEEP				X	X	
+Ophiocordyceps_vespulae_HKAS_102449	KEEP						X
+Ophiocordyceps_vespulae_KA25_1007	KEEP		X				
+Ophiocordyceps_xuefengensis_GZUHHN13	KEEP		X			X	X
+Ophiocordyceps_yakusimensis_HMAS199604	KEEP			X	X		X
+Ophiocordyceps_yakusimensis_synonym_Cordyceps_yakusimensis	KEEP		X				
+Sanger_203_A	KEEP			X		X	
+Sanger_204_B	KEEP		X	X	X	X	
+Sanger_205_A	KEEP		X	X	X	X	
+Sanger_206_A	KEEP		X		X		
+Tolypocladium_capitatum_ARSEF1446	KEEP				X		
+Tolypocladium_capitatum_OSC71233	KEEP			X		X	X
+Tolypocladium_inflatum_CBS127302	KEEP		X				
+Tolypocladium_inflatum_KUMCC7769	KEEP					X	
+Tolypocladium_inflatum_MTCC557	KEEP						X
+Tolypocladium_ophioglossoides_CBS100239	KEEP			X	X	X	X
+Tolypocladium_ophioglossoides_CBS_139_63	KEEP		X				
+Tolypocladium_ophioglossoides_NBRC_106330	KEEP					X	

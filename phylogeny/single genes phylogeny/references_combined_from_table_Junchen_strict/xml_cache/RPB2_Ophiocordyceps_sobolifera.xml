@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>EF468925</INSDSeq_locus>
+    <INSDSeq_length>870</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-DEC-2007</INSDSeq_update-date>
+    <INSDSeq_create-date>31-DEC-2007</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera strain KEW 78842 DNA-dependent RNA polymerase II second largest subunit (rpb2) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>EF468925</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>EF468925.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|EF468925.1|</INSDSeqid>
+      <INSDSeqid>gi|156971950</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..870</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Sung,J.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogenetic classification of Cordyceps and the clavicipitaceous fungi</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 57, 5-59 (2007)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3114/sim.2007.57.01</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>18490993</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..870</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sung,G.-H.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Sung,J.-M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (26-FEB-2007) Dept. of Botany and Plant Pathology, Oregon State University, 2082 Cordley Hall, Corvallis, OR 97331, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..870</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>870</INSDInterval_to>
+            <INSDInterval_accession>EF468925.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>KEW 78842</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;870</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>870</INSDInterval_to>
+            <INSDInterval_accession>EF468925.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;870</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>870</INSDInterval_to>
+            <INSDInterval_accession>EF468925.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-dependent RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGCAACTGGGGCGACCAGAAGAAGGCCATGAGCTCGACGGCCGGCGTCTCGCAGGTGCTCAACCGCTACACGTTTGCCTCGACGCTCTCGCACCTGCGACGCACCAACACGCCCATCGGCCGCGACGGCAAGCTGGCCAAGCCGCGCCAGCTGCACAACACGCACTGGGGCCTCGTTTGCCCCGCCGAGACGCCCGAGGGGCAGGCCTGCGGCCTAGTCAAGAACCTGTCGCTCATGTGCTACGTCAGCGTCGGCTCCCCGGCGGAGCCGCTCATCGAGTTCATGATCAACCGCGGCATGGAGGTGGTGGAGGAGTACGAGCCCCTGCGATATCCTCACGCCACAAAGATCTTTGTCAACGGCGTCTGGGTTGGCGTGCACCAGGACCCCAAGCACCTGGTCAACCAGGTGCTCGACACGCGGCGCAAGTCTTACCTGCACTTCGAGGTGTCCCTCATCCGAGAGATCCGGGATCAAGAGTTCAAGATCTTCTCGGACGCGGGACGAGTCATGCGGCCCGTCTTCACCGTCCAGCAGGAGGAGGACCCCGACGCGGGCATCCACAAGGGCAGCCTGGTGCTGACCAAGGACCTGGTCAACCGGCTCGCCAAGGAGCTGTCGGAGCCGCCCGCGGATCCCAGCTCCAAGATTGGCTGGGACGGTCTGATCCACGCCGGCGCGGTCGAGTACCTGGATGCCGAGGAGGAGGAGACGTCCATGATCTGCATGACTCCCGAGGACCTGGAGCTGTATCGTCAACAGAAGGCCGGCATCGTGCCCGACGACGACCCCGGCGACGACCTTAACAAGCGGCTGAAGACGAAGACCAACCCGACGACGCACATATACACGCACTGCGAGATCCACCCC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;870</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>870</INSDInterval_to>
+            <INSDInterval_accession>EF468925.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-dependent RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>ABU98840.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>GNWGDQKKAMSSTAGVSQVLNRYTFASTLSHLRRTNTPIGRDGKLAKPRQLHNTHWGLVCPAETPEGQACGLVKNLSLMCYVSVGSPAEPLIEFMINRGMEVVEEYEPLRYPHATKIFVNGVWVGVHQDPKHLVNQVLDTRRKSYLHFEVSLIREIRDQEFKIFSDAGRVMRPVFTVQQEEDPDAGIHKGSLVLTKDLVNRLAKELSEPPADPSSKIGWDGLIHAGAVEYLDAEEEETSMICMTPEDLELYRQQKAGIVPDDDPGDDLNKRLKTKTNPTTHIYTHCEIHP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggcaactggggcgaccagaagaaggccatgagctcgacggccggcgtctcgcaggtgctcaaccgctacacgtttgcctcgacgctctcgcacctgcgacgcaccaacacgcccatcggccgcgacggcaagctggccaagccgcgccagctgcacaacacgcactggggcctcgtttgccccgccgagacgcccgaggggcaggcctgcggcctagtcaagaacctgtcgctcatgtgctacgtcagcgtcggctccccggcggagccgctcatcgagttcatgatcaaccgcggcatggaggtggtggaggagtacgagcccctgcgatatcctcacgccacaaagatctttgtcaacggcgtctgggttggcgtgcaccaggaccccaagcacctggtcaaccaggtgctcgacacgcggcgcaagtcttacctgcacttcgaggtgtccctcatccgagagatccgggatcaagagttcaagatcttctcggacgcgggacgagtcatgcggcccgtcttcaccgtccagcaggaggaggaccccgacgcgggcatccacaagggcagcctggtgctgaccaaggacctggtcaaccggctcgccaaggagctgtcggagccgcccgcggatcccagctccaagattggctgggacggtctgatccacgccggcgcggtcgagtacctggatgccgaggaggaggagacgtccatgatctgcatgactcccgaggacctggagctgtatcgtcaacagaaggccggcatcgtgcccgacgacgaccccggcgacgaccttaacaagcggctgaagacgaagaccaacccgacgacgcacatatacacgcactgcgagatccacccc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>AB968551</INSDSeq_locus>
+    <INSDSeq_length>1200</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>19-AUG-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>09-DEC-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera rpb2 gene for DNA-dependent RNA polymerase II second largest subunit, partial cds, culture_collection: NBRC:106967</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB968551</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB968551.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB968551.1|</INSDSeqid>
+      <INSDSeqid>gi|731174651</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1200</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Sakane,T.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Three new species of Ophiocordyceps and overview of anamorph types in the genus and the family Ophiocordyceptaceae</INSDReference_title>
+        <INSDReference_journal>Mycol. Prog. 14, 1017 (2015)</INSDReference_journal>
+        <INSDReference_remark>DOI:10.1007/s11557-014-1017-8</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1200</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Tabuchi,Y.</INSDAuthor>
+          <INSDAuthor>Shimamura,K.</INSDAuthor>
+          <INSDAuthor>Inaba,S.</INSDAuthor>
+          <INSDAuthor>Nakagiri,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-JUN-2014) Contact:Sayaka Ban Narional Institute of Technology and Evaluation, NITE Biological Resource Center; 2-5-8 Kazusakamatari, Kisarazu, Chiba 292-0818, Japan URL :http://www.nbrc.nite.go.jp/</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1200</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1200</INSDInterval_to>
+            <INSDInterval_accession>AB968551.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106967</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106967</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1200</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1200</INSDInterval_to>
+            <INSDInterval_accession>AB968551.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1200</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1200</INSDInterval_to>
+            <INSDInterval_accession>AB968551.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-dependent RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>BAP94700.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>KKRLDLAGPLLAKLFRGIMRRIHTELSNYLRRCVEGNRHFNLAVGIKPGTLSNGLKYSLATGNWGDQKKAMSSTAGVSQVLNRYTFASTLSHLRRTNTPIGRDGKLAKPRQLHNTHWGLVCPAETPEGQACGLVKNLSLMCYVSVGSPAEPLIEFMINRGMEVVEEYEPLRYPHATKIFVNGVWVGVHQDPKHLVNQVLDTRRKSYLHFEVSLIREIRDQEFKIFSDAGRVMRPVFTVQQEEDADAGIHKGSLVLTKDLVNRLAKELSEPPADPSSKIGWDGLIHAGAVEYLDAEEEETSMICMTPEDLELYRQQKAGIVPDDDPGDDLNKRLKTKTNPTTHMYTHCEIHPSMILGICASIIPFPDHNQVSLVVSRRLCWAGRLLTTVTRSRRATRTSLP</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>caagaagcgcctcgacctggccgggcccctcctggccaagctcttccgcggcatcatgcgccgcatccacacggagctctccaactacctccgccgctgcgtcgagggcaaccggcacttcaacttggccgtcggcatcaagccggggacgctgtccaacgggctcaagtactcgctcgccacgggcaactggggcgaccagaagaaggccatgagctcgacggccggcgtctcgcaggtgctcaaccgctacacgttcgcctcgacgctctcgcacctgcgacgcaccaacacgcccatcggccgcgacggcaagctggccaagccgcgccagctgcacaacacgcactggggcctcgtttgccccgccgagacgcccgaggggcaggcctgcggcctagtcaagaacctgtcgctcatgtgctacgtcagcgtcggctccccggcggagccgctcatcgagttcatgatcaaccgcggcatggaggtggtggaggagtacgagcccctgcgatatccgcacgccacaaagatctttgtcaacggcgtctgggttggcgtgcaccaggaccccaagcacctggtcaaccaggtgctcgacacgcggcgcaagtcttacctgcacttcgaggtgtccctcatccgagagatccgggatcaagagttcaagatcttctcggacgcgggacgagtcatgcggcccgtcttcaccgtccagcaggaggaggatgccgacgcgggcatccacaagggcagcctggtgctgaccaaggacctggtcaaccggctcgccaaggagctgtcggagccgcccgcggatcccagctcgaagattggctgggacggcctgatccacgccggcgcggtcgagtacttggatgccgaggaggaggagacgtctatgatctgcatgactcccgaggacctggagctgtatcgtcaacaaaaggccggcatcgtgcccgacgacgaccccggcgacgaccttaacaagcggctgaagacgaagaccaacccgacgacgcacatgtacacgcactgcgagatccaccccagcatgatcctgggcatctgcgcgagcattatccccttcccggaccacaaccaggtgagtttagtggtgtcccggcggctgtgctgggcggggcgcttgctaacgacggtgacgcgcagtcgccgcgcaacacgtaccagtctgcc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PV255957</INSDSeq_locus>
+    <INSDSeq_length>945</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-APR-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>01-APR-2026</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera isolate SICAU 24-0168 RNA polymerase II second largest subunit (rpb2) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV255957</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV255957.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV255957.1|</INSDSeqid>
+      <INSDSeqid>gi|2926824153</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..945</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Liu,F.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-MAR-2025) forestry institute, Sichuan Agricultural University, 211 Huimin Street, chengdu, sichuan 610000, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..945</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>945</INSDInterval_to>
+            <INSDInterval_accession>PV255957.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>SICAU 24-0168</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;882</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>882</INSDInterval_to>
+            <INSDInterval_accession>PV255957.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;882</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>882</INSDInterval_to>
+            <INSDInterval_accession>PV255957.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGGGTCTCGCAGGTGCTCAACCGCTACACGTTCGCCTCGACGCTCTCGCACCTGCGACGCACCAACACGCCCATCGGCCGCGACGGCAAGCTGGCCAAGCCGCGCCAGCTGCACAACACGCACTGGGGCCTCGTTTGCCCCGCCGAGACGCCCGAGGGGCAGGCCTGCGGCCTAGTCAAGAACCTGTCGCTCATGTGCTACGTCAGCGTCGGCTCCCCGGCGGAGCCGCTCATCGAGTTCATGATCAACCGCGGCATGGAGGTGGTGGAGGAGTACGAGCCCCTGCGATATCCGCACGCCACAAAGATCTTTGTCAACGGCGTCTGGGTTGGCGTGCACCAGGACCCCAAGCACCTGGTCAACCAGGTGCTCGACACGCGGCGCAAGTCTTACCTGCACTTCGAGGTGTCCCTCATCCGAGAGATCCGGGATCAAGAGTTCAAGATCTTCTCGGACGCGGGACGAGTCATGCGGCCCGTCTTCACCGTCCAGCAGGAGGAGGATGCCGACGCGGGCATCCACAAGGGCAGCCTGGTGCTGACCAAGGACCTGGTCAACCGGCTCGCCAAGGAGCTGTCGGAGCCGCCCGCGGATCCCAGCTCGAAGATTGGCTGGGACGGCCTGATCCACGCCGGCGCGGTCGAGTACTTGGATGCCGAGGAGGAGGAGACGTCTATGATCTGCATGACTCCCGAGGACCTGGAGCTGTATCGTCAACAAAAGGCCGGCATCGTGCCCGACGACGACCCCGGCGACGACCTTAACAAGCGGCTGAAGACGAAGACCAACCCGACGACGCACATGTACACGCACTGCGAGATCCACCCCAGCATGATCCTGGGCATCTGCGCGAGCATTATCCCCTTCCCGGACCACAACCAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;882</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>882</INSDInterval_to>
+            <INSDInterval_accession>PV255957.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>XPR30208.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>GVSQVLNRYTFASTLSHLRRTNTPIGRDGKLAKPRQLHNTHWGLVCPAETPEGQACGLVKNLSLMCYVSVGSPAEPLIEFMINRGMEVVEEYEPLRYPHATKIFVNGVWVGVHQDPKHLVNQVLDTRRKSYLHFEVSLIREIRDQEFKIFSDAGRVMRPVFTVQQEEDADAGIHKGSLVLTKDLVNRLAKELSEPPADPSSKIGWDGLIHAGAVEYLDAEEEETSMICMTPEDLELYRQQKAGIVPDDDPGDDLNKRLKTKTNPTTHMYTHCEIHPSMILGICASIIPFPDHNQ</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggggtctcgcaggtgctcaaccgctacacgttcgcctcgacgctctcgcacctgcgacgcaccaacacgcccatcggccgcgacggcaagctggccaagccgcgccagctgcacaacacgcactggggcctcgtttgccccgccgagacgcccgaggggcaggcctgcggcctagtcaagaacctgtcgctcatgtgctacgtcagcgtcggctccccggcggagccgctcatcgagttcatgatcaaccgcggcatggaggtggtggaggagtacgagcccctgcgatatccgcacgccacaaagatctttgtcaacggcgtctgggttggcgtgcaccaggaccccaagcacctggtcaaccaggtgctcgacacgcggcgcaagtcttacctgcacttcgaggtgtccctcatccgagagatccgggatcaagagttcaagatcttctcggacgcgggacgagtcatgcggcccgtcttcaccgtccagcaggaggaggatgccgacgcgggcatccacaagggcagcctggtgctgaccaaggacctggtcaaccggctcgccaaggagctgtcggagccgcccgcggatcccagctcgaagattggctgggacggcctgatccacgccggcgcggtcgagtacttggatgccgaggaggaggagacgtctatgatctgcatgactcccgaggacctggagctgtatcgtcaacaaaaggccggcatcgtgcccgacgacgaccccggcgacgaccttaacaagcggctgaagacgaagaccaacccgacgacgcacatgtacacgcactgcgagatccaccccagcatgatcctgggcatctgcgcgagcattatccccttcccggaccacaaccaggtgagtttagtggtgtcccggcggctgtgctgggcggggcgcttgctaacgacggtgacgcgc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PV255958</INSDSeq_locus>
+    <INSDSeq_length>945</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-APR-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>01-APR-2026</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera isolate SICAU 24-0167 RNA polymerase II second largest subunit (rpb2) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV255958</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV255958.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV255958.1|</INSDSeqid>
+      <INSDSeqid>gi|2926824157</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..945</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Liu,F.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-MAR-2025) forestry institute, Sichuan Agricultural University, 211 Huimin Street, chengdu, sichuan 610000, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..945</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>945</INSDInterval_to>
+            <INSDInterval_accession>PV255958.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>SICAU 24-0167</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;882</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>882</INSDInterval_to>
+            <INSDInterval_accession>PV255958.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;882</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>882</INSDInterval_to>
+            <INSDInterval_accession>PV255958.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGGGTCTCGCAGGTGCTCAACCGCTACACGTTCGCCTCGACGCTCTCGCACCTGCGACGCACCAACACGCCCATCGGCCGCGACGGCAAGCTGGCCAAGCCGCGCCAGCTGCACAACACGCACTGGGGCCTCGTTTGCCCCGCCGAGACGCCCGAGGGGCAGGCCTGCGGCCTAGTCAAGAACCTGTCGCTCATGTGCTACGTCAGCGTCGGCTCCCCGGCGGAGCCGCTCATCGAGTTCATGATCAACCGCGGCATGGAGGTGGTGGAGGAGTACGAGCCCCTGCGATATCCGCACGCCACAAAGATCTTTGTCAACGGCGTCTGGGTTGGCGTGCACCAGGACCCCAAGCACCTGGTCAACCAGGTGCTCGACACGCGGCGCAAGTCTTACCTGCACTTCGAGGTGTCCCTCATCCGAGAGATCCGGGATCAAGAGTTCAAGATCTTCTCGGACGCGGGACGAGTCATGCGGCCCGTCTTCACCGTCCAGCAGGAGGAGGATGCCGACGCGGGCATCCACAAGGGCAGCCTGGTGCTGACCAAGGACCTGGTCAACCGGCTCGCCAAGGAGCTGTCGGAGCCGCCCGCGGATCCCAGCTCGAAGATTGGCTGGGACGGCCTGATCCACGCCGGCGCGGTCGAGTACTTGGATGCCGAGGAGGAGGAGACGTCTATGATCTGCATGACTCCCGAGGACCTGGAGCTGTATCGTCAACAAAAGGCCGGCATCGTGCCCGACGACGACCCCGGCGACGACCTTAACAAGCGGCTGAAGACGAAGACCAACCCGACGACGCACATGTACACGCACTGCGAGATCCACCCCAGCATGATCCTGGGCATCTGCGCGAGCATTATCCCCTTCCCGGACCACAACCAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;882</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>882</INSDInterval_to>
+            <INSDInterval_accession>PV255958.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>rpb2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II second largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>XPR30209.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>GVSQVLNRYTFASTLSHLRRTNTPIGRDGKLAKPRQLHNTHWGLVCPAETPEGQACGLVKNLSLMCYVSVGSPAEPLIEFMINRGMEVVEEYEPLRYPHATKIFVNGVWVGVHQDPKHLVNQVLDTRRKSYLHFEVSLIREIRDQEFKIFSDAGRVMRPVFTVQQEEDADAGIHKGSLVLTKDLVNRLAKELSEPPADPSSKIGWDGLIHAGAVEYLDAEEEETSMICMTPEDLELYRQQKAGIVPDDDPGDDLNKRLKTKTNPTTHMYTHCEIHPSMILGICASIIPFPDHNQ</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggggtctcgcaggtgctcaaccgctacacgttcgcctcgacgctctcgcacctgcgacgcaccaacacgcccatcggccgcgacggcaagctggccaagccgcgccagctgcacaacacgcactggggcctcgtttgccccgccgagacgcccgaggggcaggcctgcggcctagtcaagaacctgtcgctcatgtgctacgtcagcgtcggctccccggcggagccgctcatcgagttcatgatcaaccgcggcatggaggtggtggaggagtacgagcccctgcgatatccgcacgccacaaagatctttgtcaacggcgtctgggttggcgtgcaccaggaccccaagcacctggtcaaccaggtgctcgacacgcggcgcaagtcttacctgcacttcgaggtgtccctcatccgagagatccgggatcaagagttcaagatcttctcggacgcgggacgagtcatgcggcccgtcttcaccgtccagcaggaggaggatgccgacgcgggcatccacaagggcagcctggtgctgaccaaggacctggtcaaccggctcgccaaggagctgtcggagccgcccgcggatcccagctcgaagattggctgggacggcctgatccacgccggcgcggtcgagtacttggatgccgaggaggaggagacgtctatgatctgcatgactcccgaggacctggagctgtatcgtcaacaaaaggccggcatcgtgcccgacgacgaccccggcgacgaccttaacaagcggctgaagacgaagaccaacccgacgacgcacatgtacacgcactgcgagatccaccccagcatgatcctgggcatctgcgcgagcattatccccttcccggaccacaaccaggtgagtttagtggtgtcccggcggctgtgctgggcggggcgcttgctaacgacggtgacgcgc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

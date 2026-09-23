@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>PP583068</INSDSeq_locus>
+    <INSDSeq_length>573</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>09-APR-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>09-APR-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps asiana isolate GMBC 3023 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP583068</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP583068.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PP583068.1|</INSDSeqid>
+      <INSDSeqid>gi|2710189933</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps asiana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps asiana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..573</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.</INSDAuthor>
+          <INSDAuthor>Guan,Y.H.</INSDAuthor>
+          <INSDAuthor>Zhang,X.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (02-APR-2024) School of Pharmaceutical Sciences, Guizhou Medical University, Guian new District, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..573</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>573</INSDInterval_to>
+            <INSDInterval_accession>PP583068.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps asiana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>GMBC 3023</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2790971</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;573</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>573</INSDInterval_to>
+            <INSDInterval_accession>PP583068.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttttaaagctctctattcctaatgtgaatttataaaacttgttgtgcctcggcagttgcctctattttttttttttaaagaaaaaaagaaaaaaaaaagagaacatatgccgaaggaaattttaaatgctgttatgtgaaatttcaaaacgtatattaaaaatataaaaacttttagcaacggatctcttggctctagcatcgatgaagaacgcagcgaaatgcgataagtaatgcgaattgcagaatctagtgagtcatcgaatctttgaacgcatattgcgcctactagctattctagtaggcatgcctatttgagcgtcattataagcatttatactctgtgtagtgttggagaatagcggaaatagctatctctaaaatatagaagcaagctctcttctttatctcttgcaaaagtaataatacaggttgcaagggggaaaaagaagaaggagagtcttttctttttaaagttgacctcaaattaggtagggatacccgctgaacttaagcatatcaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PP707760</INSDSeq_locus>
+    <INSDSeq_length>1023</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-APR-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>27-APR-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps asiana isolate HKAS125846 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP707760</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP707760.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PP707760.1|</INSDSeqid>
+      <INSDSeqid>gi|2719918875</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps asiana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps asiana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1023</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Zhang,X.</INSDAuthor>
+          <INSDAuthor>Wen,T.C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (21-APR-2024) Engineering Research Center of Southwest Bio-pharmaceutical Resources, Guizhou university, Song-tao Road, South campus of Guizhou University, Guiyang, Guizhou 550025, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1023</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1023</INSDInterval_to>
+            <INSDInterval_accession>PP707760.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps asiana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>HKAS125846</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>larva of Tessaratoma sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS125846</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2790971</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Guizhou</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>25.15 N 107.43 E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>12-Jul-2022</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1023</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1023</INSDInterval_to>
+            <INSDInterval_accession>PP707760.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTGCCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAATACCCGACTTTTGAAGGGTTGTATTTATTAGATTAAAAGCCAATGCCCTCTGGGCTCACTGGTGAATCATGATAACTTCGCGAATCGCATGGCCTTGTGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGATACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGAACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATACAATTTGCTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCGGGTCCGCCTCACCGCGTGTACTGCGCCGGCCGGGCCTTTCCCTCTGTGGAACCCTATGCCCTTTATTGGGTGTAGCGGGAAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATATATTAGCATGGAATAATAAAATAGGACGTGTGGTTTTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTACTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>attatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtgccttactacttggataaccgtggtaattctagagctaatacatgctaaaatacccgacttttgaagggttgtatttattagattaaaagccaatgccctctgggctcactggtgaatcatgataacttcgcgaatcgcatggccttgtgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgatacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagaacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatatacaatttgctgtggttaaaaagctcgtagttgaaccttgggcctggctggcgggtccgcctcaccgcgtgtactgcgccggccgggcctttccctctgtggaaccctatgccctttattgggtgtagcgggaaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatatattagcatggaataataaaataggacgtgtggttttattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattacttgactcgttcggcaccttacgagaaatcaaagtgct</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PV467431</INSDSeq_locus>
+    <INSDSeq_length>957</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-MAY-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>01-MAY-2026</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps asiana voucher HKAS 126029 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV467431</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV467431.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV467431.1|</INSDSeqid>
+      <INSDSeqid>gi|2953922035</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps asiana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps asiana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..957</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+          <INSDAuthor>Liao,H.F.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (09-APR-2025) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Lanhei Road 132. Panlong District. Kunming, Yunnan China, KunMing, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..957</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>957</INSDInterval_to>
+            <INSDInterval_accession>PV467431.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps asiana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS 126029</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2790971</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>17-Jul-2022</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>He Fa Liao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;957</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>957</INSDInterval_to>
+            <INSDInterval_accession>PV467431.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CTGCGATGGCTCATTATATAAGTTATCGTTTATTTGATAGTGCCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAATACCCGACTTTTGAAGGGTTGTATTTATTAGATTAAAAGCCAATGCCCTCTGGGCTCACTGGTGAATCATGATAACTTCGCGAATCGCAAGGCCTTGTGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGATACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGAACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATACAATTTGCTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCGGGTCCGCCTCACCGCGTGTACTGCGCCGGCCGGGCCTTTCCCTCTGTGGAACCCTATGCCCTTTATTGGGTGTAGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATATATTAGCATGGAATAATAAAATAGGACGTGTGGTTTTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ctgcgatggctcattatataagttatcgtttatttgatagtgccttactacttggataaccgtggtaattctagagctaatacatgctaaaatacccgacttttgaagggttgtatttattagattaaaagccaatgccctctgggctcactggtgaatcatgataacttcgcgaatcgcaaggccttgtgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgatacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagaacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatatacaatttgctgtggttaaaaagctcgtagttgaaccttgggcctggctggcgggtccgcctcaccgcgtgtactgcgccggccgggcctttccctctgtggaaccctatgccctttattgggtgtagcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatatattagcatggaataataaaataggacgtgtggttttattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PV467432</INSDSeq_locus>
+    <INSDSeq_length>969</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-MAY-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>01-MAY-2026</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps asiana voucher HKAS 126036 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV467432</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV467432.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV467432.1|</INSDSeqid>
+      <INSDSeqid>gi|2953922036</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps asiana</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps asiana</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..969</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+          <INSDAuthor>Liao,H.F.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (09-APR-2025) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Lanhei Road 132. Panlong District. Kunming, Yunnan China, KunMing, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..969</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>969</INSDInterval_to>
+            <INSDInterval_accession>PV467432.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps asiana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS 126036</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:2790971</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>28-Jun-2022</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>He Fa Liao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;969</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>969</INSDInterval_to>
+            <INSDInterval_accession>PV467432.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTGCCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAATACCCGACTTTTGAAGGGTTGTATTTATTAGATTAAAAGCCAATGCCCTCTGGGCTCACTGGTGAATCATGATAACTTCGCGAATCGCATGGCCTTGTGCCGGCGATGGCTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGATACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGAACAATTTAAATCCCTTAACGAGGAACAATTAGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCTAATAGCGTATATACAATTTGCTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCGGGTCCGCCTCACCGCGTGTACTGCGCCGGCCGGGCCTTTCCCTCTGTGGAACCCTATGCCCTTTATTGGGTGTAGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATATATTAGCATGGAATAATAAAATAGGACGTGTGGTTTTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aactgcgaatggctcattatataagttatcgtttatttgatagtgccttactacttggataaccgtggtaattctagagctaatacatgctaaaatacccgacttttgaagggttgtatttattagattaaaagccaatgccctctgggctcactggtgaatcatgataacttcgcgaatcgcatggccttgtgccggcgatggctcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgatacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagaacaatttaaatcccttaacgaggaacaattagagggcaagtctggtgccagcagccgcggtaattccagctctaatagcgtatatacaatttgctgtggttaaaaagctcgtagttgaaccttgggcctggctggcgggtccgcctcaccgcgtgtactgcgccggccgggcctttccctctgtggaaccctatgccctttattgggtgtagcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatatattagcatggaataataaaataggacgtgtggttttattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

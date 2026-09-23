@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AY245665</INSDSeq_locus>
+    <INSDSeq_length>1560</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>28-FEB-2004</INSDSeq_update-date>
+    <INSDSeq_create-date>28-FEB-2004</INSDSeq_create-date>
+    <INSDSeq_definition>Cordyceps subsessilis 18S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AY245665</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AY245665.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|AY245665.1|</INSDSeqid>
+      <INSDSeqid>gi|37931936</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1560</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kuo,H.C.</INSDAuthor>
+          <INSDAuthor>Yang,H.L.</INSDAuthor>
+          <INSDAuthor>Chen,T.Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Geographical Distribution of the Entomoparasitic Fungi Genus Cordyceps and Their Phylogenetic Relationships</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1560</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kuo,H.C.</INSDAuthor>
+          <INSDAuthor>Yang,H.L.</INSDAuthor>
+          <INSDAuthor>Chen,T.Y.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (19-FEB-2003) Institute of Biotechnology, National Cheng Kung University, No. 1, Ta-Hsueh Road, Tainan 701, Taiwan</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1560</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1560</INSDInterval_to>
+            <INSDInterval_accession>AY245665.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 305.95</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1560</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1560</INSDInterval_to>
+            <INSDInterval_accession>AY245665.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTAGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAAMCAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCCTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtagtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaamcaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccctagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatcccta</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

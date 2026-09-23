@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>MH859916</INSDSeq_locus>
+    <INSDSeq_length>527</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-JUL-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum strain CBS 714.70 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH859916</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH859916.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH859916.1|</INSDSeqid>
+      <INSDSeqid>gi|1473246972</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA422523</INSDSeq_project>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..527</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..527</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..527</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>527</INSDInterval_to>
+            <INSDInterval_accession>MH859916.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 714.70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:714.70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: West Virginia</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>W.B. Cooke, No. AM 5-11-4C, Nov 1964</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>CBS sequencing project</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;527</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>527</INSDInterval_to>
+            <INSDInterval_accession>MH859916.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcattcaaccgaagtctccaaccttccaaccccttgttgaacataacccaaacgttgctccggcgggaacgctcgggcctcggcgtccggaaccaggcgcccgccggaggaaccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaa</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA422523</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MH859963</INSDSeq_locus>
+    <INSDSeq_length>483</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-JUL-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum strain CBS 824.70 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH859963</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH859963.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH859963.1|</INSDSeqid>
+      <INSDSeqid>gi|1473247019</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA422523</INSDSeq_project>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..483</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>483</INSDInterval_to>
+            <INSDInterval_accession>MH859963.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 824.70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:824.70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>type material of Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Austria</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>W. Gams, 1958</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>CBS sequencing project; Other collections: CCT 4479;DAOM 64352;IHEM 4517;LCP 88.3552;MUCL 8086;UAMH 4828; Type status: Type of Tolypocladium inflatum W. Gams</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;483</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>483</INSDInterval_to>
+            <INSDInterval_accession>MH859963.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcattaccgagttatcaactcccaaacccctgtgaacatacccaacgttgcttcggcgggaccgccccggcgcctcggcgtcccggaaccaggcgcccgccggaggacccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacc</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA422523</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MH861779</INSDSeq_locus>
+    <INSDSeq_length>483</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-JUL-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum strain CBS 567.84 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH861779</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH861779.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH861779.1|</INSDSeqid>
+      <INSDSeqid>gi|1473248835</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA422523</INSDSeq_project>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..483</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>483</INSDInterval_to>
+            <INSDInterval_accession>MH861779.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 567.84</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:567.84</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Canada: Alberta</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>J. Bissett</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>CBS sequencing project; Other collections: DAOM 167322;IAM 14699; Type status: Neotype of Pachybasium niveum Rostr.</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;483</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>483</INSDInterval_to>
+            <INSDInterval_accession>MH861779.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcattaccgagttatcaactcccaaacccctgtgaacatacccaacgttgcttcggcgggaccgccccggcgcctcggcgtcccggaaccaggcgcccgccggaggacccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacc</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA422523</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MH864435</INSDSeq_locus>
+    <INSDSeq_length>696</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-JUL-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum strain CBS 127142 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH864435</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH864435.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH864435.1|</INSDSeqid>
+      <INSDSeqid>gi|1473251491</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA422523</INSDSeq_project>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..696</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..696</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..696</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>696</INSDInterval_to>
+            <INSDInterval_accession>MH864435.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 127142</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:127142</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Colorado</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>CBS sequencing project; Other collections: RMF 7817</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;696</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>696</INSDInterval_to>
+            <INSDInterval_accession>MH864435.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacccaacgttgcttcggcgggaccgccccggcgcctcggcgtcccggaaccaggcgcccgccggaggacccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaata</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA422523</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MH864439</INSDSeq_locus>
+    <INSDSeq_length>693</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-JUL-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum strain CBS 127147 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH864439</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH864439.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH864439.1|</INSDSeqid>
+      <INSDSeqid>gi|1473251495</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA422523</INSDSeq_project>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..693</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..693</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..693</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>693</INSDInterval_to>
+            <INSDInterval_accession>MH864439.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 127147</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:127147</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: New Hampshire</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>CBS sequencing project; Other collections: RMF 7897</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;693</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>693</INSDInterval_to>
+            <INSDInterval_accession>MH864439.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>actttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacccaacgttgcttcggcgggaccgccccggcgcctcggcgtcccggaaccaggcgcccgccggaggacccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaacttaagcatatca</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA422523</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MH864514</INSDSeq_locus>
+    <INSDSeq_length>659</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>08-JUL-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>12-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum strain CBS 127302 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MH864514</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MH864514.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MH864514.1|</INSDSeqid>
+      <INSDSeqid>gi|1473251570</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA422523</INSDSeq_project>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..659</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..659</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..659</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>659</INSDInterval_to>
+            <INSDInterval_accession>MH864514.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 127302</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:127302</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Wyoming</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>CBS sequencing project; Other collections: RMF 7984</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;659</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>659</INSDInterval_to>
+            <INSDInterval_accession>MH864514.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggcaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacccaacgttgcttcggcgggaccgccccggcgcctcggcgtcccggaaccaggcgcccgccggaggacccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagtgacctcggatcagg</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA422523</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>NR_171737</INSDSeq_locus>
+    <INSDSeq_length>483</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>16-FEB-2021</INSDSeq_update-date>
+    <INSDSeq_create-date>16-FEB-2021</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium inflatum CBS 824.70 ITS region; from TYPE material</INSDSeq_definition>
+    <INSDSeq_primary-accession>NR_171737</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>NR_171737.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>ref|NR_171737.1|</INSDSeqid>
+      <INSDSeqid>gi|1987567431</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_project>PRJNA177353</INSDSeq_project>
+    <INSDSeq_keywords>
+      <INSDKeyword>RefSeq</INSDKeyword>
+    </INSDSeq_keywords>
+    <INSDSeq_source>Tolypocladium inflatum</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium inflatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>de Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhardt,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Houbraken,J.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.W.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkley,G.J.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Large-scale generation and analysis of filamentous fungal DNA barcodes boosts coverage for kingdom fungi and reveals thresholds for fungal species and higher taxon delimitation</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 92, 135-154 (2019)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.simyco.2018.05.001</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29955203</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_consortium>NCBI RefSeq Targeted Loci Project</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-FEB-2021) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..483</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Vu,D.</INSDAuthor>
+          <INSDAuthor>Groenewald,M.</INSDAuthor>
+          <INSDAuthor>De Vries,M.</INSDAuthor>
+          <INSDAuthor>Gehrmann,T.</INSDAuthor>
+          <INSDAuthor>Stielow,B.</INSDAuthor>
+          <INSDAuthor>Eberhard,U.</INSDAuthor>
+          <INSDAuthor>Al-Hatmi,A.M.</INSDAuthor>
+          <INSDAuthor>Groenewald,J.Z.</INSDAuthor>
+          <INSDAuthor>Cardinali,G.</INSDAuthor>
+          <INSDAuthor>Boekhout,T.</INSDAuthor>
+          <INSDAuthor>Crous,P.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Verkleij,G.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (15-DEC-2017) Bioinformatics group, Westerdijk Fungal Biodiversity Institute, Upsalalaan, Utrecht 3584CT, Netherlands</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>REVIEWED REFSEQ: This record has been curated by NCBI staff. The reference sequence is identical to MH859963.; This submission replaces the Targeted Locus Study (TLS) project KBUW00000000, which included the individual sequences KBUW01000001-KBUW01024118.; ##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..483</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>483</INSDInterval_to>
+            <INSDInterval_accession>NR_171737.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CBS 824.70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>CBS:824.70</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>type material of Tolypocladium inflatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:29910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Austria</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>W. Gams, 1958</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..166</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>166</INSDInterval_to>
+            <INSDInterval_accession>NR_171737.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>167..324</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>167</INSDInterval_from>
+            <INSDInterval_to>324</INSDInterval_to>
+            <INSDInterval_accession>NR_171737.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTATTCTGGCGGGCATGCCTGTTCGAGCGTCATTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>325..&gt;483</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>325</INSDInterval_from>
+            <INSDInterval_to>483</INSDInterval_to>
+            <INSDInterval_accession>NR_171737.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcattaccgagttatcaactcccaaacccctgtgaacatacccaacgttgcttcggcgggaccgccccggcgcctcggcgtcccggaaccaggcgcccgccggaggacccaaactcttgtttaaccatagtggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaagccccagcggcttggtgttggggaccggccccggccgccccccaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaactcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacc</INSDSeq_sequence>
+    <INSDSeq_xrefs>
+      <INSDXref>
+        <INSDXref_dbname>BioProject</INSDXref_dbname>
+        <INSDXref_id>PRJNA177353</INSDXref_id>
+      </INSDXref>
+    </INSDSeq_xrefs>
+  </INSDSeq>
+
+</INSDSet>

@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ785314</INSDSeq_locus>
+    <INSDSeq_length>520</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>15-APR-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>15-APR-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ785314</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ785314.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ785314.1|</INSDSeqid>
+      <INSDSeqid>gi|2482655855</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..520</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Dirks,A.C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-APR-2023) Ecology and Evolutionary Biology, University of Michigan, 1105 N University Ave, Ann Arbor, MI 48109, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..520</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>520</INSDInterval_to>
+            <INSDInterval_accession>OQ785314.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>personal:Alden Dirks:ACD0585a</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>bio_material</INSDQualifier_name>
+            <INSDQualifier_value>iNAT:138056550</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Minnewaska State Park Preserve, Mossy Glen Trail, Ulster Co., New York</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>lat_lon</INSDQualifier_name>
+            <INSDQualifier_value>41.7272 N 74.2518 W</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>08-Oct-2022</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Alden C. Dirks</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Richard Tehan</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;520</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>520</INSDInterval_to>
+            <INSDInterval_accession>OQ785314.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaatttatagcggcatattctgagtctcacaaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccctagcgggggactggtgttggggaccggccccggccgccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagtgacctc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PP850494</INSDSeq_locus>
+    <INSDSeq_length>562</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JUN-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>03-JUN-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides isolate OMDL iNat # 178274401 from USA small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PP850494</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PP850494.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PP850494.1|</INSDSeqid>
+      <INSDSeqid>gi|2737464647</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..562</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Quark,M.</INSDAuthor>
+          <INSDAuthor>Coulon,A.</INSDAuthor>
+          <INSDAuthor>Geurin,Z.</INSDAuthor>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Rozanoff,M.</INSDAuthor>
+          <INSDAuthor>Culliton,S.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ohio Mushroom DNA Lab: Nanopore Strikes Back, One Year of Achievements and Challenges</INSDReference_title>
+        <INSDReference_journal>McIlvainea 34 (2025)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..562</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Guerin,Z.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ohio Mushroom DNA Lab (OMDL)</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>3</INSDReference_reference>
+        <INSDReference_position>1..562</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Guerin,Z.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-MAY-2024) Mycology, Ohio Mushroom DNA Lab, 2855 Alternate State Route 49, Arcanum, OH 45304, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: NGSpeciesID v. 0.3.0 ; Sequencing Technology :: Oxford Nanopore Technologies MinION; Flongle 10.4.1 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>PP850494.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>OMDL iNat # 178274401</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Ohio, Portage County, Ravenna</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>13-Aug-2023</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Jessica Williams</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>Jessica Williams</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>Ohio Mushroom DNA Lab: OMDL9; iNaturalist.org #178274401;&#xa;PCR_primers=fwd_name: ITS1F, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>PP850494.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaatttatagcggtatattctgagtctcacaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccctagcgggggactggtgttggggaccggccccggccgcccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PQ492895</INSDSeq_locus>
+    <INSDSeq_length>562</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-APR-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>27-OCT-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides bio-material iNAT:232988938 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PQ492895</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PQ492895.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PQ492895.1|</INSDSeqid>
+      <INSDSeqid>gi|2837365761</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..562</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Guerin,Z.</INSDAuthor>
+          <INSDAuthor>Rozanoff,M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (21-OCT-2024) Mycology, Ohio Mushroom DNA Lab, 2855 Alternate State Route 49, Arcanum, OH 45304, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: NGSpeciesID v. 0.3.0 ; Sequencing Technology :: Oxford Nanopore Technologies MinION; Flongle 10.4.1 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>PQ492895.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>OMDL iNat # 232988938</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>bio_material</INSDQualifier_name>
+            <INSDQualifier_value>iNAT:232988938</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Pennsylvania, Carbon County, Albrightsville</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>31-Jul-2024</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Kyle Canan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS1F, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>PQ492895.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaatttatagcggcatattctgagtctcacaaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccctagcgggggactggtgttggggaccggccccggccgccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PV101311</INSDSeq_locus>
+    <INSDSeq_length>564</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-FEB-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>17-FEB-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV101311</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV101311.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV101311.1|</INSDSeqid>
+      <INSDSeqid>gi|2909520898</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..564</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Russell,S.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-FEB-2025) Administration, Mycota Lab, 46701 Commerce Center Dr., Plymouth, MI 48170, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: NGSpeciesID v. 0.1.2.1 ; Sequencing Technology :: Oxford Nanopore MinION; Flongle 10.4.1 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..564</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>564</INSDInterval_to>
+            <INSDInterval_accession>PV101311.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>bio_material</INSDQualifier_name>
+            <INSDQualifier_value>iNAT:127643246</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Virginia, Dickenson County, Haysi</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>23-Jul-2022</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Fenner Morse</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>Mycoflora of Indiana; ONT MinION nanopore sequencing; Flongle 10.4.1; SQK-LSK114; iNaturalist.org #127643246;&#xa;PCR_primers=fwd_name: ITS1F, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;564</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>564</INSDInterval_to>
+            <INSDInterval_accession>PV101311.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaatttatagcggtatattctgagtctcacaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccccccagcgggggactggtgttggggaccggccccggccgcccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PX404182</INSDSeq_locus>
+    <INSDSeq_length>561</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>28-SEP-2025</INSDSeq_update-date>
+    <INSDSeq_create-date>28-SEP-2025</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides isolate OMDL bio-material iNAT:231477733 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PX404182</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PX404182.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PX404182.1|</INSDSeqid>
+      <INSDSeqid>gi|3063885500</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..561</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Guerin,Z.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Rozanoff,M.</INSDAuthor>
+          <INSDAuthor>Pattin,R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Ohio Mushroom DNA Lab (OMDL)</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..561</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Rockefeller,A.</INSDAuthor>
+          <INSDAuthor>Canan,K.</INSDAuthor>
+          <INSDAuthor>Birkebak,J.</INSDAuthor>
+          <INSDAuthor>Jakob,S.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Williams,J.</INSDAuthor>
+          <INSDAuthor>Rozanoff,M.</INSDAuthor>
+          <INSDAuthor>Borosch,L.</INSDAuthor>
+          <INSDAuthor>Pattin,R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (19-SEP-2025) Mycology, Ohio Mushroom DNA Lab, 2855 Alternate State Route 49, Arcanum, OH 45304, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: NGSpeciesID v. 0.3.0 ; Sequencing Technology :: Oxford Nanopore Technologies MinION; Flongle 10.4.1 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..561</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>561</INSDInterval_to>
+            <INSDInterval_accession>PX404182.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>OMDL</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>bio_material</INSDQualifier_name>
+            <INSDQualifier_value>iNAT:231477733</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: North Carolina, Buncombe County, Black Mountain</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>24-Jul-2024</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Ari Puentes</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>Ohio Mushroom DNA Lab: OMDL22; iNaturalist.org #231477733</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;561</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>561</INSDInterval_to>
+            <INSDInterval_accession>PX404182.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggagtacccaaactcttgtttaatttatagcggtatattctgagtctcacaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccccagcgggggactggtgttggggaccggccccggccgccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PZ017987</INSDSeq_locus>
+    <INSDSeq_length>562</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>24-FEB-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>24-FEB-2026</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium ophioglossoides small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PZ017987</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PZ017987.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PZ017987.1|</INSDSeqid>
+      <INSDSeqid>gi|3189142157</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..562</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Ostuni,S.</INSDAuthor>
+          <INSDAuthor>Russell,S.D.</INSDAuthor>
+          <INSDAuthor>Peace,R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-FEB-2026) Sequencing, Mycota Labs, 46701 Commerce Center Dr, Plymouth, MI 48170, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: NGSpeciesID v. 0.3.0 ; Sequencing Technology :: Oxford Nanopore Technologies MinION; Flongle 10.4.1 ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>PZ017987.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>bio_material</INSDQualifier_name>
+            <INSDQualifier_value>iNAT:178438965</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Pennsylvania, Westmoreland County, New Kensington</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>13-Aug-2023</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Cara Coulter</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>PCR_primers=fwd_name: ITS1F, rev_name: ITS4</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;562</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>562</INSDInterval_to>
+            <INSDInterval_accession>PZ017987.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains small subunit ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaatttatagcggtatattctgagtctcacaaaaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcaggcccccccccagcgggggactggtgttggggaccggccccggccgccccctaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgtaaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaactt</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

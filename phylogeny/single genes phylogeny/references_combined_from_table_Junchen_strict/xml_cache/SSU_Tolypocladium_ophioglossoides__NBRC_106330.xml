@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AB113827</INSDSeq_locus>
+    <INSDSeq_length>2277</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>03-JUL-2003</INSDSeq_update-date>
+    <INSDSeq_create-date>03-JUL-2003</INSDSeq_create-date>
+    <INSDSeq_definition>Cordyceps ophioglossoides genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AB113827</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AB113827.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>dbj|AB113827.1|</INSDSeqid>
+      <INSDSeqid>gi|32440949</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..2277</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Yokoyama,E.</INSDAuthor>
+          <INSDAuthor>Hara,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Chemotaxonomic and phylogenetic analyses of Clavicipitaceae</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..2277</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Yokoyama,E.</INSDAuthor>
+          <INSDAuthor>Hara,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (01-JUL-2003) Eiji Yokoyama, Meijo University, The Agricultural High-Tech Research Center; Tempaku-ku, Nagoya, Aichi 468-8502, Japan (E-mail:yokoyama@ccmfs.meijo-u.ac.jp, Tel:81-52-832-1151, Fax:81-52-835-7450)</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..2277</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>2277</INSDInterval_to>
+            <INSDInterval_accession>AB113827.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 8992</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..1735</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1735</INSDInterval_to>
+            <INSDInterval_accession>AB113827.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGAAACTACCACTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATTA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>1736..1897</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1736</INSDInterval_from>
+            <INSDInterval_to>1897</INSDInterval_to>
+            <INSDInterval_accession>AB113827.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>1898..2055</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1898</INSDInterval_from>
+            <INSDInterval_to>2055</INSDInterval_to>
+            <INSDInterval_accession>AB113827.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGTATTCTGGCGGGCATGCCTGTTCGAGCGTCATTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>2056..2215</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>2056</INSDInterval_from>
+            <INSDInterval_to>2215</INSDInterval_to>
+            <INSDInterval_accession>AB113827.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>2216..&gt;2277</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>2216</INSDInterval_from>
+            <INSDInterval_to>2277</INSDInterval_to>
+            <INSDInterval_accession>AB113827.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTTGACCTCGGATCAGGTAGGAATACCCGCTGAACTTAAGCATATCAATAAGCGGAGGAAAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggaaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagttatcaactcccaaacccctgtgaacatacctgaacgttgcttcggcgggaccgccccggcgcccacggcggcccggaaccaggcgcccgccggaggacccaaactcttgtttaacttatagcggcatattctgagtctcacaagaaaaatgaatcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagtattctggcgggcatgcctgttcgagcgtcatttcaaccctcagcccccccttagcgggggactggtgttggggaccggccccggccgcccccgaaatgcagtggcgacctcgccgcagcctcccctgcgtagtagcacaacctcgcaccggagcgcggagacggtcacgccgttaaacgcccaacttctcagagttgacctcggatcaggtaggaatacccgctgaacttaagcatatcaataagcggaggaaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941732</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps ophioglossoides strain NBRC 106332 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941732</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941732.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941732.1|</INSDSeqid>
+      <INSDSeqid>gi|363544844</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941732.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106332</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106332</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1350</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>12-Mar-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941732.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941732.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGAAACTACCACTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggaaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941733</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps ophioglossoides strain NBRC 106331 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941733</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941733.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941733.1|</INSDSeqid>
+      <INSDSeqid>gi|363544845</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941733.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106331</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106331</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1349</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>12-Mar-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941733.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941733.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGAAACTACCACTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggaaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941734</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>21-DEC-2011</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps ophioglossoides strain NBRC 106330 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941734</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941734.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941734.1|</INSDSeqid>
+      <INSDSeqid>gi|363544846</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>The internal transcribed spacer as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941734.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106330</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106330</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1348</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>20-Mar-2006</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941734.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941734.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGAAACTACCACTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggaaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941735</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps ophioglossoides strain NBRC 100998 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941735</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941735.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941735.1|</INSDSeqid>
+      <INSDSeqid>gi|363544847</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941735.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 100998</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100998</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1347</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>16-Mar-2005</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941735.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941735.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGAAACTACCACTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggaaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN941736</INSDSeq_locus>
+    <INSDSeq_length>1750</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>21-DEC-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps ophioglossoides strain NBRC 8992 18S ribosomal RNA (SSU) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN941736</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN941736.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN941736.1|</INSDSeqid>
+      <INSDSeqid>gi|363544848</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium ophioglossoides (Elaphocordyceps ophioglossoides)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium ophioglossoides</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1750</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (25-OCT-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941736.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium ophioglossoides</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 8992</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:8992</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1346</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:71617</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Yokoyama</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941736.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1750</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1750</INSDInterval_to>
+            <INSDInterval_accession>JN941736.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>SSU</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCAATTATACAGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTAAAAATCCCGACTTCGGAAGGGATGTATTTATTAGATTAAAAACCAATGCCCTCTGGGCTCTCTGGTGATTCATGATAACTTCTCGAATCGCATGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACACGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGTACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGTACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCACTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAGTATGGTCGCAAGGCTGAAACTTAAAGAAATTGACGGAAGGGCACCACCAGGGGTGGAGCCTGCGGCTTAATTTGACTCAACACGGGGAAACTCACCAGGTCCAGACACAATGAGGATTGACAGATTGAGAGCTCTTTCTTGATTTTGTGGGTGGTGGTGCATGGCCGTTCTTAGTTGGTGGAGTGATTTGTCTGCTTAATTGCGATAACGAACGAGACCTTAACCTGCTAAATAGCCCGTATTGCTTTGGCAGTACGCTGGCTTCTTAGAGGGACTATCGGCTCAAGCCGATGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGACGGAGCCAGCGAGTACTCCCTTGGCCGGAAGGCCCGGGTAATCTTGTTAAACTCCGTCGTGCTGGGGATAGAGCATTGCAATTATTGCTCTTCAACGAGGAATCCCTAGTAAGCGCAAGTCATCAGCTTGCGTTGATTACGTCCCTGCCCTTTGTACACACCGCCCGTCGCTACTACCGATTGAATGGCTCAGTGAGGCGTCCGGACTGGCCCAGAGAGGTGGGAAACTACCACTCAGGGCCGGAAAGCTCTCCAAACTCGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTCTCCGTT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>agtcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcaattatacagcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctaaaaatcccgacttcggaagggatgtatttattagattaaaaaccaatgccctctgggctctctggtgattcatgataacttctcgaatcgcatggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacacggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagtacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgtactggtccggccgggcctttccctctgtggaaccccatgcccttcactgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggagtatggtcgcaaggctgaaacttaaagaaattgacggaagggcaccaccaggggtggagcctgcggcttaatttgactcaacacggggaaactcaccaggtccagacacaatgaggattgacagattgagagctctttcttgattttgtgggtggtggtgcatggccgttcttagttggtggagtgatttgtctgcttaattgcgataacgaacgagaccttaacctgctaaatagcccgtattgctttggcagtacgctggcttcttagagggactatcggctcaagccgatggaagtttgaggcaataacaggtctgtgatgcccttagatgttctgggccgcacgcgcgctacactgacggagccagcgagtactcccttggccggaaggcccgggtaatcttgttaaactccgtcgtgctggggatagagcattgcaattattgctcttcaacgaggaatccctagtaagcgcaagtcatcagcttgcgttgattacgtccctgccctttgtacacaccgcccgtcgctactaccgattgaatggctcagtgaggcgtccggactggcccagagaggtgggaaactaccactcagggccggaaagctctccaaactcggtcatttagaggaagtaaaagtcgtaacaaggtctccgtt</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

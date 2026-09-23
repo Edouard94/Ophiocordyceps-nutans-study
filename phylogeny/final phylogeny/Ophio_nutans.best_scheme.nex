@@ -1,0 +1,14 @@
+#nexus
+begin sets;
+  charset nSSU.fasta = 1-1093;
+  charset TEF.fasta = 1094-2053;
+  charset RPB1.fasta = 2054-2647;
+  charset nLSU.fasta = 2648-3451;
+  charset RPB2.fasta = 3452-4423;
+  charpartition mymodels =
+    TIM3+R3: nSSU.fasta,
+    TN+F+I+G4: TEF.fasta,
+    TIM+F+I+G4: RPB1.fasta,
+    TIM3+I+G4: nLSU.fasta,
+    TN+F+I+G4: RPB2.fasta;
+end;

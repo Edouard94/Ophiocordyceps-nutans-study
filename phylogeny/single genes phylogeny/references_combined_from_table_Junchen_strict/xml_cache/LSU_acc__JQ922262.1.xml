@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>JQ922262</INSDSeq_locus>
+    <INSDSeq_length>1381</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-MAY-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>26-JUN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps longissima isolate Cod-MK1 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JQ922262</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JQ922262.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JQ922262.1|</INSDSeqid>
+      <INSDSeqid>gi|392495431</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps longissima</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps longissima</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1381</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Isolation, identification, culture and production of adenosine and cordycepin from cicada larva infected with entomopathogenic fungi in Thailand</INSDReference_title>
+        <INSDReference_journal>Afr J Microbiol Res 7 (2), 137-146 (2013)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1381</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sangdee,A.</INSDAuthor>
+          <INSDAuthor>Sangdee,K.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-APR-2012) Biology, Mahasarakham University, Khamrieng, Kantarawichai, Maha Sarakham 44150, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1381</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1381</INSDInterval_to>
+            <INSDInterval_accession>JQ922262.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps longissima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>Cod-MK1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452169</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: lror, fwd_seq: acccgctgaacttaagc, rev_name: lr7, rev_seq: tactaccaccaagatct</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1381</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1381</INSDInterval_to>
+            <INSDInterval_accession>JQ922262.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TTTTCCACTTGCTCCGACAGGTATTGCCCTAGTAGCGGCGAGTGAAGCGGCAGCAGCTCAAATTTGAAATCTGGCTCCCCCCCGCGGGGTGCCCGAGTTGTAATTTGCAGAGGATGCCTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGTCCCGTATGTTCGCAGGCCAGGCCTTCTGTTGAGGCTCCTTTCGAACGAGTCGAGTAGTTTGGGAAATGCTGCTCCAAAATGGGAGGTTATTTTCTTCTAAGGCTAAATACCGTCCAGCAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGACCAGACTCGGGCCCGGCGGATCATCCGGCGTTCTTCGCCGGTGCACTCCGCCGGCGCCCGGGCCCAGCATCGGCTCGGCCGCGGGGGATAAAGGCGGCGGGAACGTGGCCCCTCCGGGGGTGTTATAGCCCGCCGCGCAATGCCCCGCGCCGGGCCGAGGACCGCGCCCCAGGGCAAGGATGCTGGCGTAATGGTCGCTAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGCAATGAAAGTGAACGCGGGTGAGAGCCCTCGCGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATGGGGGCGAAAGACTAATCGAACCTTCTAGTAGCTGGTTCCCGCCGAAGTTTCCCTCAGGATAGCAGTGCCGATCTCAGTTTTATGAGGTAAAGCGAATGATTAGGGACCCGGGGGCGCTCATTAGCCTTCATCCATTCTCAAACTTTAAATATGTAAGAAGCCCTTGTTACTTGACTGAACGTGGGCATTCGAATGTAGCGGCACTAGTGGGCCATTTTTGGTAAGCAGAACTGGCGATGCGGGATGAACCGAACGCGAGGTTAAGGTGCCGGAGTGGACGCTCATCAGACACCACAAAAGGCGTTAGTACATCTTGACAGCAGGACGGTGGCCATGGAAGTCGGAATCCGCTAAGGACTGTGTAACAACTCACCTGCCGAATGTACTAGCCCTGAAAATGGATGGCGCTCTAGCGTCCCACCCATACCTCGCCCCCGGCTACAAGCGATGCCCCGGGGAGTAGGCGGGCGCGCGTGTCGTGACGAAGCCCAGGCGAGAGCCCGTCTGGTGGTGTTAAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ttttccacttgctccgacaggtattgccctagtagcggcgagtgaagcggcagcagctcaaatttgaaatctggctcccccccgcggggtgcccgagttgtaatttgcagaggatgcctctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagtcccgtatgttcgcaggccaggccttctgttgaggctcctttcgaacgagtcgagtagtttgggaaatgctgctccaaaatgggaggttattttcttctaaggctaaataccgtccagcagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggtttaaacagtacgtgaaattgttgaaagggaagcgctcgcgaccagactcgggcccggcggatcatccggcgttcttcgccggtgcactccgccggcgcccgggcccagcatcggctcggccgcgggggataaaggcggcgggaacgtggcccctccgggggtgttatagcccgccgcgcaatgccccgcgccgggccgaggaccgcgccccagggcaaggatgctggcgtaatggtcgctagcgacccgtcttgaaacacggaccaaggagtcgtcttcgtatgcgagtgttcgggtgtcaaacccctacgcgcaatgaaagtgaacgcgggtgagagccctcgcgggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatgggggcgaaagactaatcgaaccttctagtagctggttcccgccgaagtttccctcaggatagcagtgccgatctcagttttatgaggtaaagcgaatgattagggacccgggggcgctcattagccttcatccattctcaaactttaaatatgtaagaagcccttgttacttgactgaacgtgggcattcgaatgtagcggcactagtgggccatttttggtaagcagaactggcgatgcgggatgaaccgaacgcgaggttaaggtgccggagtggacgctcatcagacaccacaaaaggcgttagtacatcttgacagcaggacggtggccatggaagtcggaatccgctaaggactgtgtaacaactcacctgccgaatgtactagccctgaaaatggatggcgctctagcgtcccacccatacctcgcccccggctacaagcgatgccccggggagtaggcgggcgcgcgtgtcgtgacgaagcccaggcgagagcccgtctggtggtgttaat</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

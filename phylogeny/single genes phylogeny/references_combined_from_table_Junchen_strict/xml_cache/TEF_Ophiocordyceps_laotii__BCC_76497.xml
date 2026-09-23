@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>ON759346</INSDSeq_locus>
+    <INSDSeq_length>883</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>13-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps laotii isolate BCC 76492 translation elongation factor 1-alpha (TEF1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON759346</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON759346.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON759346.1|</INSDSeqid>
+      <INSDSeqid>gi|2630330181</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps laotii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps laotii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..883</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1), 5 (2023)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..883</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National Center for Genetic Engineering and Biotechnology, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759346.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps laotii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 76492</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3105908</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759346.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759346.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATCATCGCTGCCGGCACTGGTGAATTCGAGGCTGGTATCTCCAAGGATGGCCAGACTCGTGAGCACGCTCTGCTCGCCTACACCCTAGGTGTTAAACAACTCATTGTCGCCATCAACAAGATGGACACCACCAAGTGGTCCGAGGCCCGGTACCAGGAAATTATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGATACAACCCCAAGACGGTTCCTTTTGTTCCCATCTCTGGCTTCAATGGCGACAACATGCTCGAACCCTCCTCCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGTGGCAAGACTACTGGCAAGACGCTGCTCGAGGCCATCGACGCCATTGAGCCCCCCAAGCGTCCCACTGACAAGCCACTCCGTCTTCCTCTTCAGGATGTCTACAAGATTGGCGGTATCGGCACTGTCCCCGTCGGTCGTATTGAAACTGGTATTATCAAGCCCGGCATGGTTGTCACCTTTGCTCCCTCCAATGTCACTACTGAAGTCAAGTCTGTCGAAATGCATCACGAGCAACTTCAGGAGGGTGTTCCCGGTGACAACGTTGGCTTCAACGTGAAGAACGTCTCCGTTAAGGAAATCCGCCGTGGAAATGTTGCGGGCGACTCCAAGAACGACCCACCTCAGGGCTGCGCTTCGTTCGATGCCCAGGTCATCGTTCTCAACCACCCCGGTCAGGTTGGCGCTGGCTACGCCCCTGTCCTTGACTGCCATACCGCCCACATTGCCTGCAAGTTTGCCGAGATTAAGGAGAAGATCGACCGCCGTACTGGCAAGGCTGTCGAAAGTGCACCCAAATTCATCAAGTCTGGTGACTCTGCCATCGTCAAGATGGTTCCTTCGAAGCCCATGT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759346.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>WPU05102.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>IIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTKWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLEPSSNCPWYKGWEKETKGGKTTGKTLLEAIDAIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGIIKPGMVVTFAPSNVTTEVKSVEMHHEQLQEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPQGCASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVESAPKFIKSGDSAIVKMVPSKPM</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcatcgctgccggcactggtgaattcgaggctggtatctccaaggatggccagactcgtgagcacgctctgctcgcctacaccctaggtgttaaacaactcattgtcgccatcaacaagatggacaccaccaagtggtccgaggcccggtaccaggaaattatcaaggagacgtccaacttcatcaagaaggtcggatacaaccccaagacggttccttttgttcccatctctggcttcaatggcgacaacatgctcgaaccctcctccaactgcccctggtacaagggctgggagaaggagaccaagggtggcaagactactggcaagacgctgctcgaggccatcgacgccattgagccccccaagcgtcccactgacaagccactccgtcttcctcttcaggatgtctacaagattggcggtatcggcactgtccccgtcggtcgtattgaaactggtattatcaagcccggcatggttgtcacctttgctccctccaatgtcactactgaagtcaagtctgtcgaaatgcatcacgagcaacttcaggagggtgttcccggtgacaacgttggcttcaacgtgaagaacgtctccgttaaggaaatccgccgtggaaatgttgcgggcgactccaagaacgacccacctcagggctgcgcttcgttcgatgcccaggtcatcgttctcaaccaccccggtcaggttggcgctggctacgcccctgtccttgactgccataccgcccacattgcctgcaagtttgccgagattaaggagaagatcgaccgccgtactggcaaggctgtcgaaagtgcacccaaattcatcaagtctggtgactctgccatcgtcaagatggttccttcgaagcccatgt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON759347</INSDSeq_locus>
+    <INSDSeq_length>883</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>13-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps laotii isolate BCC 76495 translation elongation factor 1-alpha (TEF1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON759347</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON759347.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON759347.1|</INSDSeqid>
+      <INSDSeqid>gi|2630330183</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps laotii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps laotii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..883</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1), 5 (2023)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..883</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National Center for Genetic Engineering and Biotechnology, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759347.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps laotii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 76495</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>type_material</INSDQualifier_name>
+            <INSDQualifier_value>culture from holotype of Ophiocordyceps laotii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3105908</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759347.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759347.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATCATCGCTGCCGGCACTGGTGAATTCGAGGCTGGTATTTCCAAGGATGGCCAGACTCGTGAGCACGCTCTGCTCGCCTACACCCTAGGTGTTAAACAACTCATTGTCGCCATCAACAAGATGGACACCACCAAGTGGTCCGAGGCCCGGTACCAGGAAATTATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGATACAACCCCAAGACGGTTCCTTTTGTTCCCATCTCTGGCTTCAATGGCGACAACATGCTCGAACCCTCCTCCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGTGGCAAGACTACTGGCAAGACGCTGCTCGAGGCCATCGACGCCATTGAGCCCCCCAAGCGTCCCACTGACAAGCCACTCCGTCTTCCTCTTCAGGATGTCTACAAGATTGGCGGTATCGGCACTGTCCCCGTCGGTCGTATTGAAACTGGTATTATCAAGCCCGGCATGGTTGTCACCTTTGCTCCCTCCAATGTCACTACTGAAGTCAAGTCTGTCGAAATGCATCACGAGCAACTTCAGGAGGGTGTTCCCGGTGACAACGTTGGCTTCAACGTGAAGAACGTCTCCGTTAAGGAAATCCGCCGTGGAAATGTTGCGGGCGACTCCAAGAACGACCCACCTCAGGGCTGCGCTTCGTTCGATGCCCAGGTCATCGTTCTCAACCACCCCGGTCAGGTTGGCGCTGGCTACGCCCCTGTCCTTGACTGCCATACCGCCCACATTGCCTGCAAGTTTGCCGAGATTAAGGAGAAGATCGACCGCCGTACTGGCAAGGCTGTCGAAAGTGCACCCAAATTCATCAAGTCTGGTGACTCTGCCATCGTCAAGATGGTTCCTTCGAAGCCCATGT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;883</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>883</INSDInterval_to>
+            <INSDInterval_accession>ON759347.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>WPU05103.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>IIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTKWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLEPSSNCPWYKGWEKETKGGKTTGKTLLEAIDAIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGIIKPGMVVTFAPSNVTTEVKSVEMHHEQLQEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPQGCASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVESAPKFIKSGDSAIVKMVPSKPM</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcatcgctgccggcactggtgaattcgaggctggtatttccaaggatggccagactcgtgagcacgctctgctcgcctacaccctaggtgttaaacaactcattgtcgccatcaacaagatggacaccaccaagtggtccgaggcccggtaccaggaaattatcaaggagacgtccaacttcatcaagaaggtcggatacaaccccaagacggttccttttgttcccatctctggcttcaatggcgacaacatgctcgaaccctcctccaactgcccctggtacaagggctgggagaaggagaccaagggtggcaagactactggcaagacgctgctcgaggccatcgacgccattgagccccccaagcgtcccactgacaagccactccgtcttcctcttcaggatgtctacaagattggcggtatcggcactgtccccgtcggtcgtattgaaactggtattatcaagcccggcatggttgtcacctttgctccctccaatgtcactactgaagtcaagtctgtcgaaatgcatcacgagcaacttcaggagggtgttcccggtgacaacgttggcttcaacgtgaagaacgtctccgttaaggaaatccgccgtggaaatgttgcgggcgactccaagaacgacccacctcagggctgcgcttcgttcgatgcccaggtcatcgttctcaaccaccccggtcaggttggcgctggctacgcccctgtccttgactgccataccgcccacattgcctgcaagtttgccgagattaaggagaagatcgaccgccgtactggcaaggctgtcgaaagtgcacccaaattcatcaagtctggtgactctgccatcgtcaagatggttccttcgaagcccatgt</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>ON759348</INSDSeq_locus>
+    <INSDSeq_length>838</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>13-DEC-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>13-DEC-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps laotii isolate BCC 76497 translation elongation factor 1-alpha (TEF1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>ON759348</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>ON759348.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|ON759348.1|</INSDSeqid>
+      <INSDSeqid>gi|2630330185</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps laotii</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps laotii</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..838</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multi-gene phylogeny and morphology of Ophiocordyceps laotii sp. nov. and a new record of O. buquetii (Ophiocordycipitaceae, Hypocreales) on ants from Thailand</INSDReference_title>
+        <INSDReference_journal>Mycol Prog 22 (1), 5 (2023)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1007/s11557-022-01855-4</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..838</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Mongkolsamrit,S.</INSDAuthor>
+          <INSDAuthor>Noisripoom,W.</INSDAuthor>
+          <INSDAuthor>Hasin,S.</INSDAuthor>
+          <INSDAuthor>Sinchu,P.</INSDAuthor>
+          <INSDAuthor>Jangsantear,P.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (13-JUN-2022) Plant Microbe Interaction Research Team, National Center for Genetic Engineering and Biotechnology, Phaholyothin Rd., Khlong Nueng, Khlong Luang, Pathum Thani 12120, Thailand</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..838</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>838</INSDInterval_to>
+            <INSDInterval_accession>ON759348.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps laotii</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>BCC 76497</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:3105908</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Thailand</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;838</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>838</INSDInterval_to>
+            <INSDInterval_accession>ON759348.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;838</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>838</INSDInterval_to>
+            <INSDInterval_accession>ON759348.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GATGGCCAGACTCGTGAGCACGCTCTGCTCGCCTACACCCTAGGTGTTAAACAACTCATTGTCGCCATCAACAAGATGGACACCACCAAGTGGTCCGAGGCCCGGTACCAGGAAATTATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGATACAACCCCAAGACGGTTCCTTTTGTTCCCATCTCTGGCTTCAATGGCGACAACATGCTCGAACCCTCCTCCAACTGCCCCTGGTACAAGGGCTGGGAGAAGGAGACCAAGGGTGGCAAGACTACTGGCAAGACGCTGCTCGAGGCCATCGACGCCATTGAGCCCCCCAAGCGTCCCACTGACAAGCCACTCCGTCTTCCTCTTCAGGATGTCTACAAGATTGGCGGTATCGGCACTGTCCCCGTCGGTCGTATTGAAACTGGTATTATCAAGCCCGGCATGGTTGTCACCTTTGCTCCCTCCAATGTCACTACTGAAGTCAAGTCTGTCGAAATGCATCACGAGCAACTTCAGGAGGGTGTTCCCGGTGACAACGTTGGCTTCAACGTGAAGAACGTCTCCGTTAAGGAAATCCGCCGTGGAAATGTTGCGGGCGACTCCAAGAACGACCCACCTCAGGGCTGCGCTTCGTTCGATGCCCAGGTCATCGTTCTCAACCACCCCGGTCAGGTTGGCGCTGGCTACGCCCCTGTCCTTGACTGCCATACCGCCCACATTGCCTGCAAGTTTGCCGAGATTAAGGAGAAGATCGACCGCCGTACTGGCAAGGCTGTCGAAAGTGCACCCAAATTCATCAAGTCTGGTGACTCTGCCATCGTCAAGATGGTTCCTTCGAAGCCCATGT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;838</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>838</INSDInterval_to>
+            <INSDInterval_accession>ON759348.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>TEF1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1-alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>WPU05104.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>DGQTREHALLAYTLGVKQLIVAINKMDTTKWSEARYQEIIKETSNFIKKVGYNPKTVPFVPISGFNGDNMLEPSSNCPWYKGWEKETKGGKTTGKTLLEAIDAIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGIIKPGMVVTFAPSNVTTEVKSVEMHHEQLQEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPQGCASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVESAPKFIKSGDSAIVKMVPSKPM</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gatggccagactcgtgagcacgctctgctcgcctacaccctaggtgttaaacaactcattgtcgccatcaacaagatggacaccaccaagtggtccgaggcccggtaccaggaaattatcaaggagacgtccaacttcatcaagaaggtcggatacaaccccaagacggttccttttgttcccatctctggcttcaatggcgacaacatgctcgaaccctcctccaactgcccctggtacaagggctgggagaaggagaccaagggtggcaagactactggcaagacgctgctcgaggccatcgacgccattgagccccccaagcgtcccactgacaagccactccgtcttcctcttcaggatgtctacaagattggcggtatcggcactgtccccgtcggtcgtattgaaactggtattatcaagcccggcatggttgtcacctttgctccctccaatgtcactactgaagtcaagtctgtcgaaatgcatcacgagcaacttcaggagggtgttcccggtgacaacgttggcttcaacgtgaagaacgtctccgttaaggaaatccgccgtggaaatgttgcgggcgactccaagaacgacccacctcagggctgcgcttcgttcgatgcccaggtcatcgttctcaaccaccccggtcaggttggcgctggctacgcccctgtccttgactgccataccgcccacattgcctgcaagtttgccgagattaaggagaagatcgaccgccgtactggcaaggctgtcgaaagtgcacccaaattcatcaagtctggtgactctgccatcgtcaagatggttccttcgaagcccatgt</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

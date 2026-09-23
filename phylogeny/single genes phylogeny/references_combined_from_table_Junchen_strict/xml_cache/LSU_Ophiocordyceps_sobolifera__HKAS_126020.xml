@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OP970263</INSDSeq_locus>
+    <INSDSeq_length>550</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-JAN-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>01-JAN-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera voucher KUMCC 9357 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OP970263</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OP970263.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OP970263.1|</INSDSeqid>
+      <INSDSeqid>gi|2395482698</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..550</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-DEC-2022) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Lanhei Road 132, Kunming, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..550</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>550</INSDInterval_to>
+            <INSDInterval_accession>OP970263.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KUMCC 9357</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>tissue_type</INSDQualifier_name>
+            <INSDQualifier_value>culture from HKAS 126019</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>L.y. Xie</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;550</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>550</INSDInterval_to>
+            <INSDInterval_accession>OP970263.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcactcccaaacccccctgtgaaccttaccgcaaccgttgcctcggcggtggtctcgccccccgggcggccccgccggaggacacccgaactcctgtttccgcatggtggcagcactccgagttggcggcattagcgaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcattctggcgggcatgcctgtccgagcgtcattgtcatccctcgagcccgctgaggcggctcggcgttgggggtcccggcccgccccggccgcccccgaaatgcagtggcgacccccgcctcacgcctcccctgcgcagtaaagaaacgctcgcatcggggggcgcggctacggaggttgcggcctttgagaaggacgggatcgcgcccctcggcgcgtcccccgccattttcgtggttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OQ859972</INSDSeq_locus>
+    <INSDSeq_length>869</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>01-APR-2024</INSDSeq_update-date>
+    <INSDSeq_create-date>01-APR-2024</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera voucher KUMCC 9357 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>OQ859972</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OQ859972.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OQ859972.1|</INSDSeqid>
+      <INSDSeqid>gi|2494366651</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..869</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,y.B.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (22-APR-2023) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Kunming, No. 132, Lanhei Road, KunMing, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..869</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>869</INSDInterval_to>
+            <INSDInterval_accession>OQ859972.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>KUMCC 9357</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>tissue_type</INSDQualifier_name>
+            <INSDQualifier_value>culture from HKAS 126019</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Yunnan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>L.y. Xie</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;869</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>869</INSDInterval_to>
+            <INSDInterval_accession>OQ859972.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAGCATATCAATAAGCGGAGGAAAAGAAACCAACAGGGATTGCCCTAGTAACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCCCCCCCCCGCGGGGGCCCGAGTTGTAATTTGCAGAGGATGCTTCTGGCGCGGCGCCTTCCGAGTTCCCTGGAACGGGACGCCATAGAGGGTGAGAGCCCCGTCTGGTCGGCCGCCAAGCCTCTGTGAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCAAAATGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCCAGAGACCGATAGCGGACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAACAGTACGTGAAATTGTTGAAAGGGAAGCGCTCGCGACCAGACTCGGGCCCGGCGGATCATCCGGCGTTCCTCGCCGGTGCACTCCGCCGGCGCCCGGGCCAGCATCGGCTCGCCGCGGGGGATAAAGGCGGCGGGAACGTGGCCCCTCCGGGGGTGTTATAGCCCGCCGCGCAATGCCCCGCGCCGCGGGCCGAGGACCGCGCCCTAGGCAAGGATGCTGGCGTAATGGTCGCTAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCTTCGTATGCGAGTGTTCGGGTGTCAAACCCCTACGCGTAATGAAAGTGAACGCAGGTGAGAGCCCTCGCGGGCGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAGGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGTGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTCAAACATGGGCATG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aagcatatcaataagcggaggaaaagaaaccaacagggattgccctagtaacggcgagtgaagcggcaacagctcaaatttgaaatctggcccccccccgcgggggcccgagttgtaatttgcagaggatgcttctggcgcggcgccttccgagttccctggaacgggacgccatagagggtgagagccccgtctggtcggccgccaagcctctgtgaagctccttcgacgagtcgagtagtttgggaatgctgctcaaaatgggaggtatatgtcttctaaagctaaataccggccagagaccgatagcggacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaacagtacgtgaaattgttgaaagggaagcgctcgcgaccagactcgggcccggcggatcatccggcgttcctcgccggtgcactccgccggcgcccgggccagcatcggctcgccgcgggggataaaggcggcgggaacgtggcccctccgggggtgttatagcccgccgcgcaatgccccgcgccgcgggccgaggaccgcgccctaggcaaggatgctggcgtaatggtcgctagcgacccgtcttgaaacacggaccaaggagtcgtcttcgtatgcgagtgttcgggtgtcaaacccctacgcgtaatgaaagtgaacgcaggtgagagccctcgcgggcgcatcaccgaccgatcctgatgttctcggatggatttgagtaggagcatacggggccggacccgaaagaaggtgaactatgcctgtgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtcaaacatgggcatg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>PV466324</INSDSeq_locus>
+    <INSDSeq_length>842</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>06-MAY-2026</INSDSeq_update-date>
+    <INSDSeq_create-date>06-MAY-2026</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps sobolifera voucher HKAS 126020 large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>PV466324</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>PV466324.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|PV466324.1|</INSDSeqid>
+      <INSDSeqid>gi|2953805051</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps sobolifera (Beauveria sobolifera)</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps sobolifera</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..842</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Wang,Y.B.</INSDAuthor>
+          <INSDAuthor>Liao,H.F.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (09-APR-2025) CAS Key Laboratory for Plant Diversity and Biogeography of East Asia, Kunming Institute of Botany, Chinese Academy of Sciences, Lanhei Road 132. Panlong District. Kunming, Yunnan China, KunMing, Yunnan 650201, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..842</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>842</INSDInterval_to>
+            <INSDInterval_accession>PV466324.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps sobolifera</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>HKAS 126020</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:94213</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>China: Sichuan Prov.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>15-Jul-2024</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>He Fa Liao</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;842</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>842</INSDInterval_to>
+            <INSDInterval_accession>PV466324.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TAGCGAGAAAGAACCAACAGGGATGCCCTAGTACGGCGAGTGAAGCGGCAACAGCTCAAATTTGAAATCTGGCTTCCTCCAAGGAGTCCGAGTTGTAATTTGCAGAGGATGCTTTTGGCACGGTACCGAACAAGTTCCCTGGAACGGGACGCCACAGAGGGTGAGAGCCCCGTCTGGTCGGAAACCTAGCCTCTATAAAGCTCCTTCGACGAGTCGAGTAGTTTGGGAATGCTGCTCAAATTGGGAGGTATATGTCTTCTAAAGCTAAATACCGGCTAGAGACCGATAGCGCACAAGTAGAGTGATCGAAAGATGAAAAGCACTTTGAAAAGAGGGTTAAATAGTACGTGAAATTGCTAAAAGGGAAGCGCTTACAACTAGACGTGGGAGTGTTCAATCACCTAGTGTTTTTCACTAGGGTATTTGGGCGTTTTTTCCAGGCCAGCATCGGTTTGCTACGGGGGATAAAGACGCTAGGAATGTAGCCCCCTTTGGGGGGTGTTATAGCCTAGTGTGTAATGCCCTGTAGTAGACCGAGGTCTGCGCATTTTTTGCAAGGATGCTGGCGTAATAGTTGTTAGCGACCCGTCTTGAAACACGGACCAAGGAGTCGTCCTCGTATGCGAGTGTTTGGGTGTAAAACCCCTACGCGAAATGAAAGTGAACGTAGGTGAGAGCCTGTAACAGGGTGCATCACCGACCGATCCTGATGTTCTCGGATGGATTTGAGTAAGAGCATACGGGGCCGGACCCGAAAGAAGGTGAACTATGCCTGCGTAGGGTGAAGCCAGAGGAAACTCTGGTGGAGGCTCGCAGCGGTTCTGACGTGCAAATCGATCGTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tagcgagaaagaaccaacagggatgccctagtacggcgagtgaagcggcaacagctcaaatttgaaatctggcttcctccaaggagtccgagttgtaatttgcagaggatgcttttggcacggtaccgaacaagttccctggaacgggacgccacagagggtgagagccccgtctggtcggaaacctagcctctataaagctccttcgacgagtcgagtagtttgggaatgctgctcaaattgggaggtatatgtcttctaaagctaaataccggctagagaccgatagcgcacaagtagagtgatcgaaagatgaaaagcactttgaaaagagggttaaatagtacgtgaaattgctaaaagggaagcgcttacaactagacgtgggagtgttcaatcacctagtgtttttcactagggtatttgggcgttttttccaggccagcatcggtttgctacgggggataaagacgctaggaatgtagccccctttggggggtgttatagcctagtgtgtaatgccctgtagtagaccgaggtctgcgcattttttgcaaggatgctggcgtaatagttgttagcgacccgtcttgaaacacggaccaaggagtcgtcctcgtatgcgagtgtttgggtgtaaaacccctacgcgaaatgaaagtgaacgtaggtgagagcctgtaacagggtgcatcaccgaccgatcctgatgttctcggatggatttgagtaagagcatacggggccggacccgaaagaaggtgaactatgcctgcgtagggtgaagccagaggaaactctggtggaggctcgcagcggttctgacgtgcaaatcgatcgtc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

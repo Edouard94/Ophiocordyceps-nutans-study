@@ -1,0 +1,3220 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>JF894156</INSDSeq_locus>
+    <INSDSeq_length>510</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>14-APR-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>27-AUG-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain ARSEF8378 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JF894156</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JF894156.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JF894156.1|</INSDSeqid>
+      <INSDSeqid>gi|343975938</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..510</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Toledo,A.V.</INSDAuthor>
+          <INSDAuthor>Simurro,M.E.</INSDAuthor>
+          <INSDAuthor>Balatti,P.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Morphological and molecular characterization of a fungus, Hirsutella sp., isolated from planthoppers and psocids in Argentina</INSDReference_title>
+        <INSDReference_journal>J. Insect Sci. 13, 18 (2013)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1673/031.013.1801</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>23885970</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..510</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Toledo,A.V.</INSDAuthor>
+          <INSDAuthor>Simurro,M.E.</INSDAuthor>
+          <INSDAuthor>Balatti,P.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (27-APR-2011) Centro de Investigaciones de Fitopatologia (CIDEFI), Facultad de Ciencias Agrarias y Forestales, Universidad Nacional de La Plata, Avenida 60 y 119 s/n, La Plata, Buenos Aires 1900, Argentina</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..510</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>510</INSDInterval_to>
+            <INSDInterval_accession>JF894156.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF8378</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>rice crops</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Oliarus dimidiatus; adult</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Argentina</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>14-Feb-2007</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Andrea V Toledo</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;510</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>510</INSDInterval_to>
+            <INSDInterval_accession>JF894156.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gacaactcccaaaccccactgtgaaccgtacccccgaaaccgttgcctcggcggggcagggcccccgcggcccgcccgccgcaggaccgcagacccccccgaacccgggagccgccggccgacgccggccctccccgcgtctgaaacgaagaaaacacaatgagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcccgtccgagcgtcatctccatcctcgggggccccagggcgcgagccccgcgggcccccggcgttgggggacggccgcgcgccgcccccgaaatgcagtggcggccacgcccgcggcgacccctgcgtagtagcgactgctcgcaccgggagcccggcgtcggccaccgccgtcaaaacgaacccatcatcacgtgacctcgg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JF906754</INSDSeq_locus>
+    <INSDSeq_length>510</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>14-APR-2016</INSDSeq_update-date>
+    <INSDSeq_create-date>27-AUG-2011</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain ARSEF8679 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>JF906754</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JF906754.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JF906754.1|</INSDSeqid>
+      <INSDSeqid>gi|343976070</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..510</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Toledo,A.V.</INSDAuthor>
+          <INSDAuthor>Simurro,M.E.</INSDAuthor>
+          <INSDAuthor>Balatti,P.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Morphological and molecular characterization of a fungus, Hirsutella sp., isolated from planthoppers and psocids in Argentina</INSDReference_title>
+        <INSDReference_journal>J. Insect Sci. 13, 18 (2013)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1673/031.013.1801</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>23885970</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..510</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Toledo,A.V.</INSDAuthor>
+          <INSDAuthor>Simurro,M.E.</INSDAuthor>
+          <INSDAuthor>Balatti,P.A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (29-APR-2011) Centro de Investigaciones de Fitopatologia (CIDEFI), Facultad de Ciencias Agrarias y Forestales, Universidad Nacional de La Plata, Avenida 60 y 119 s/n, La Plata, Buenos Aires 1900, Argentina</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..510</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>510</INSDInterval_to>
+            <INSDInterval_accession>JF906754.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF8679</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Psocoptera; nymph</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Argentina</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>24-Sep-2007</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>Andrea V Toledo</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;510</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>510</INSDInterval_to>
+            <INSDInterval_accession>JF906754.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gacaactcccaaaccccactgtgaaccgtacccccgaaaccgttgcctcggcggggcagggcccccgcggcccgcccgccgcaggaccgcagacccccccgaacccgggagccgccggcctgcgccggccctccccgcgtctgaaacgaagaaaacacaatgagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcccgtccgagcgtcatctccatcctcgggggccccagggcgcgagccccgcgggcccccggcgttgggggacggccgcgcgccgcccccgaaatgcagtggcggccacgcccgcggcgacccctgcgtagtagcgactgctcgcaccgggagcccggcgtcggccaccgccgtcaaaacgaacccatcatcacgtgacctcgg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911849</INSDSeq_locus>
+    <INSDSeq_length>552</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain IB-Hir-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911849</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911849.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911849.1|</INSDSeqid>
+      <INSDSeqid>gi|524845457</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..552</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..552</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..552</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>552</INSDInterval_to>
+            <INSDInterval_accession>KC911849.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>IB-Hir-2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Tecoman, Colima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Sep-2011</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..28</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>28</INSDInterval_to>
+            <INSDInterval_accession>KC911849.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCGTAGGTGAACCTGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>29..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>29</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>KC911849.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..360</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>360</INSDInterval_to>
+            <INSDInterval_accession>KC911849.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>361..529</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>361</INSDInterval_from>
+            <INSDInterval_to>529</INSDInterval_to>
+            <INSDInterval_accession>KC911849.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>530..&gt;552</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>530</INSDInterval_from>
+            <INSDInterval_to>552</INSDInterval_to>
+            <INSDInterval_accession>KC911849.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccgtaggtgaacctgcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtagga</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911850</INSDSeq_locus>
+    <INSDSeq_length>588</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain INIFAP-Hir-6 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911850</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911850.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911850.1|</INSDSeqid>
+      <INSDSeqid>gi|524845458</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..588</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..588</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..588</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>588</INSDInterval_to>
+            <INSDInterval_accession>KC911850.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>INIFAP-Hir-6</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Edzna, Campeche</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Sep-2011</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..28</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>28</INSDInterval_to>
+            <INSDInterval_accession>KC911850.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCGTAGGTGAACCTGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>29..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>29</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>KC911850.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..360</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>360</INSDInterval_to>
+            <INSDInterval_accession>KC911850.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>361..529</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>361</INSDInterval_from>
+            <INSDInterval_to>529</INSDInterval_to>
+            <INSDInterval_accession>KC911850.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>530..&gt;588</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>530</INSDInterval_from>
+            <INSDInterval_to>588</INSDInterval_to>
+            <INSDInterval_accession>KC911850.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATTCAATAAGCGGAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccgtaggtgaacctgcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatattcaataagcggag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911851</INSDSeq_locus>
+    <INSDSeq_length>591</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain INIFAP-Hir-7 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911851</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911851.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911851.1|</INSDSeqid>
+      <INSDSeqid>gi|524845459</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..591</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..591</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..591</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>591</INSDInterval_to>
+            <INSDInterval_accession>KC911851.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>INIFAP-Hir-7</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Tapachula, Chiapas</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Dec-2011</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..28</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>28</INSDInterval_to>
+            <INSDInterval_accession>KC911851.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCGTAGGTGAACCTGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>29..201</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>29</INSDInterval_from>
+            <INSDInterval_to>201</INSDInterval_to>
+            <INSDInterval_accession>KC911851.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>202..360</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>202</INSDInterval_from>
+            <INSDInterval_to>360</INSDInterval_to>
+            <INSDInterval_accession>KC911851.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>361..529</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>361</INSDInterval_from>
+            <INSDInterval_to>529</INSDInterval_to>
+            <INSDInterval_accession>KC911851.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>530..&gt;591</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>530</INSDInterval_from>
+            <INSDInterval_to>591</INSDInterval_to>
+            <INSDInterval_accession>KC911851.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATTCAATAAGCGGAGGAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccgtaggtgaacctgcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatattcaataagcggaggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911852</INSDSeq_locus>
+    <INSDSeq_length>581</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain INIFAP-Hir-5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911852</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911852.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911852.1|</INSDSeqid>
+      <INSDSeqid>gi|524845460</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..581</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..581</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..581</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>581</INSDInterval_to>
+            <INSDInterval_accession>KC911852.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>INIFAP-Hir-5</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Nuevo Israel, Quintana Roo</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Jan-2010</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..21</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>21</INSDInterval_to>
+            <INSDInterval_accession>KC911852.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TGAACCTGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>22..194</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>22</INSDInterval_from>
+            <INSDInterval_to>194</INSDInterval_to>
+            <INSDInterval_accession>KC911852.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>195..353</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>195</INSDInterval_from>
+            <INSDInterval_to>353</INSDInterval_to>
+            <INSDInterval_accession>KC911852.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>354..522</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>354</INSDInterval_from>
+            <INSDInterval_to>522</INSDInterval_to>
+            <INSDInterval_accession>KC911852.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>523..&gt;581</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>523</INSDInterval_from>
+            <INSDInterval_to>581</INSDInterval_to>
+            <INSDInterval_accession>KC911852.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATTCAATAAGCGGAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tgaacctgcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatattcaataagcggag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911853</INSDSeq_locus>
+    <INSDSeq_length>596</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain INIFAP-Hir-1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911853</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911853.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911853.1|</INSDSeqid>
+      <INSDSeqid>gi|524845461</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..596</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..596</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..596</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>596</INSDInterval_to>
+            <INSDInterval_accession>KC911853.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>INIFAP-Hir-1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Huimanguillo, Tabasco</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Aug-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..33</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>33</INSDInterval_to>
+            <INSDInterval_accession>KC911853.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCTCCGTAGGGGTGAACCTGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>34..206</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>34</INSDInterval_from>
+            <INSDInterval_to>206</INSDInterval_to>
+            <INSDInterval_accession>KC911853.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>207..365</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>207</INSDInterval_from>
+            <INSDInterval_to>365</INSDInterval_to>
+            <INSDInterval_accession>KC911853.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>366..534</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>366</INSDInterval_from>
+            <INSDInterval_to>534</INSDInterval_to>
+            <INSDInterval_accession>KC911853.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>535..&gt;596</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>535</INSDInterval_from>
+            <INSDInterval_to>596</INSDInterval_to>
+            <INSDInterval_accession>KC911853.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATTCAATAAGCGGAGGAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cctccgtaggggtgaacctgcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatattcaataagcggaggaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911854</INSDSeq_locus>
+    <INSDSeq_length>545</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain IB-Hir-1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911854</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911854.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911854.1|</INSDSeqid>
+      <INSDSeqid>gi|524845462</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..545</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..545</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..545</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>545</INSDInterval_to>
+            <INSDInterval_accession>KC911854.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>IB-Hir-1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Tlapacoyan, Veracruz</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Sep-2011</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..164</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>164</INSDInterval_to>
+            <INSDInterval_accession>KC911854.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>165..323</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>165</INSDInterval_from>
+            <INSDInterval_to>323</INSDInterval_to>
+            <INSDInterval_accession>KC911854.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>324..492</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>324</INSDInterval_from>
+            <INSDInterval_to>492</INSDInterval_to>
+            <INSDInterval_accession>KC911854.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>493..&gt;545</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>493</INSDInterval_from>
+            <INSDInterval_to>545</INSDInterval_to>
+            <INSDInterval_accession>KC911854.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATTCAATAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgccgcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatattcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KC911855</INSDSeq_locus>
+    <INSDSeq_length>576</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>22-JUL-2013</INSDSeq_update-date>
+    <INSDSeq_create-date>22-JUL-2013</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain INIFAP-Hir-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KC911855</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KC911855.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KC911855.1|</INSDSeqid>
+      <INSDSeqid>gi|524845463</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..576</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Identification of Hirsutella strains isolated of Diaphorina citri from Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..576</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Perez-Gonzalez,O.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Villarreal,R.A.</INSDAuthor>
+          <INSDAuthor>Rodriguez-Guerra,R.</INSDAuthor>
+          <INSDAuthor>Lopez-Arroyo,J.I.</INSDAuthor>
+          <INSDAuthor>Maldonado-Blanco,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (16-APR-2013) Campo Experimental General Teran, Instituto Nacional de Investigaciones Forestales, Agricolas y Pecuarios (INIFAP), Km. 31 Carretera Montemorelos-China, General Teran, Nuevo Leon CP 67400, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..576</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>576</INSDInterval_to>
+            <INSDInterval_accession>KC911855.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>INIFAP-Hir-2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>conidia from synnemata</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Mococha, Yucatan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Sep-2011</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>PCR_primers</INSDQualifier_name>
+            <INSDQualifier_value>fwd_name: ITS1, fwd_seq: tccgtaggtgaacctgcgg, rev_name: ITS4, rev_seq: tcctccgcttattgaatatgc</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..22</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>22</INSDInterval_to>
+            <INSDInterval_accession>KC911855.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GAGAACCTGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>23..195</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>23</INSDInterval_from>
+            <INSDInterval_to>195</INSDInterval_to>
+            <INSDInterval_accession>KC911855.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>196..354</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>196</INSDInterval_from>
+            <INSDInterval_to>354</INSDInterval_to>
+            <INSDInterval_accession>KC911855.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>355..523</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>355</INSDInterval_from>
+            <INSDInterval_to>523</INSDInterval_to>
+            <INSDInterval_accession>KC911855.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>524..&gt;576</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>524</INSDInterval_from>
+            <INSDInterval_to>576</INSDInterval_to>
+            <INSDInterval_accession>KC911855.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATTCAATAA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gagaacctgcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgccgcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatattcaataa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652151</INSDSeq_locus>
+    <INSDSeq_length>583</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 490 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652151</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652151.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652151.1|</INSDSeqid>
+      <INSDSeqid>gi|751129534</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652151.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 490</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: IRRI, Los Banos, Manila</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>05-May-1980</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652151.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaacccttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaacctcgggacccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652152</INSDSeq_locus>
+    <INSDSeq_length>584</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 591 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652152</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652152.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652152.1|</INSDSeqid>
+      <INSDSeqid>gi|751129535</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652152.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Nilaparvata lugens</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 591</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Indonesia: Bantul District, Yogyakarta, Java</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>26-Feb-1981</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>RS Roper</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652152.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaacccttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaacctcgggacccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652153</INSDSeq_locus>
+    <INSDSeq_length>584</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1035 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652153</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652153.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652153.1|</INSDSeqid>
+      <INSDSeqid>gi|751129536</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..584</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652153.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1035</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;584</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>584</INSDInterval_to>
+            <INSDInterval_accession>KM652153.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652154</INSDSeq_locus>
+    <INSDSeq_length>585</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 1446 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652154</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652154.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652154.1|</INSDSeqid>
+      <INSDSeqid>gi|751129537</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..585</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..585</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..585</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>585</INSDInterval_to>
+            <INSDInterval_accession>KM652154.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Haplaxius crudus</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 1446</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Fort Pierce, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1979</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>MC Rombach</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;585</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>585</INSDInterval_to>
+            <INSDInterval_accession>KM652154.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>aacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652155</INSDSeq_locus>
+    <INSDSeq_length>583</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 2598 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652155</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652155.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652155.1|</INSDSeqid>
+      <INSDSeqid>gi|751129538</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..583</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652155.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Heteropsylla cubana</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 2598</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Philippines: Visayas, Leyte</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>1987</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>LT Villacarlos</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;583</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>583</INSDInterval_to>
+            <INSDInterval_accession>KM652155.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>acaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggagttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcata</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KM652156</INSDSeq_locus>
+    <INSDSeq_length>627</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>27-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>31-JAN-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis voucher ARSEF 9180 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KM652156</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KM652156.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KM652156.1|</INSDSeqid>
+      <INSDSeqid>gi|751129539</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..627</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Groden,E.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny of Hirsutella species (Ophiocordycipitaceae) from the USA: remedying the paucity of Hirsutella sequence data</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 6 (2), 345-356 (2015)</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..627</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Simmons,D.R.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (24-SEP-2014) School of Biology and Ecology, University of Maine, 5722 Deering Hall, Orono, ME 04473, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: Geneious v. 7.1.7 ; Sequencing Technology :: ABI 3730 DNA Analyzer ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..627</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>627</INSDInterval_to>
+            <INSDInterval_accession>KM652156.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>ARSEF 9180</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>USA: Immokalee, Florida</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>01-Jul-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>DG Boucias</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>identified_by</INSDQualifier_name>
+            <INSDQualifier_value>DG Boucias</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;627</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>627</INSDInterval_to>
+            <INSDInterval_accession>KM652156.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cttggtcatttagaggaagtaaaagtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatatcaataagcggagg</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KJ524680</INSDSeq_locus>
+    <INSDSeq_length>556</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>28-MAR-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>28-MAR-2015</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain MTCC 10806 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KJ524680</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KJ524680.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KJ524680.1|</INSDSeqid>
+      <INSDSeqid>gi|752273103</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..556</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Agrawal,Y.</INSDAuthor>
+          <INSDAuthor>Mual,P.</INSDAuthor>
+          <INSDAuthor>Shenoy,B.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogenetic Relationships of genus Hisutella</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..556</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Agrawal,Y.</INSDAuthor>
+          <INSDAuthor>Mual,P.</INSDAuthor>
+          <INSDAuthor>Shenoy,B.D.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (28-FEB-2014) Microbial Type Culture Collection, CSIR-Institute of Microbial Technology, Sector 39-a, Chandigarh 160036, India</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..556</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>556</INSDInterval_to>
+            <INSDInterval_accession>KJ524680.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>MTCC 10806</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>MTCC:10806</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;556</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>556</INSDInterval_to>
+            <INSDInterval_accession>KJ524680.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gttggtgaaccagcggagggatcattaccgagtttacaactcccaaaccccctgcgaaccgtaccattgaacgttgcctcggcgggaccgccccggcgcccatcgcggcccggacccaggcgcccgccggagggccccaagactccaactgtcagcggcatctcggcgtacaagcaaaacaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatttcaaccctcgagcaccgctcggcgttgggggagcggcccgcgcgccgccccccgaaatgcagtggcgacctcgccgcgtccacccctgcgcagtagctctcccgagaacctcgcatcggcggcgcggcggcggtcacgccgtgaaacgacccccctcaagagttgacctcggatcaggtagggatacccgctgaacttaagcatatcaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX686127</INSDSeq_locus>
+    <INSDSeq_length>590</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-SEP-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>04-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain CHE-CNRCB 384 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX686127</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX686127.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX686127.1|</INSDSeqid>
+      <INSDSeqid>gi|1129842488</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..590</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Berlanga-Padilla,A.M.</INSDAuthor>
+          <INSDAuthor>Ayala-Zermeno,M.A.</INSDAuthor>
+          <INSDAuthor>Gallou,A.</INSDAuthor>
+          <INSDAuthor>Serna-Dominguez,M.G.</INSDAuthor>
+          <INSDAuthor>Montesinos-Matias,R.</INSDAuthor>
+          <INSDAuthor>Arredondo-Bernal,H.C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Entomopathogenic fungi associated to Diaphorina citri Kuwayama (Hemiptera: Liviidae) in Colima, Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..590</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Serna-Dominguez,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-AUG-2016) Laboratorio de Biologia Molecular, Centro Nacional de Referencia de Control Biologico, Km 1.5 Carretera Tecoman-Estacion FFCC, Tecoman, Colima 28110, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..590</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>590</INSDInterval_to>
+            <INSDInterval_accession>KX686127.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CHE-CNRCB 384</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Tututepec, Oaxaca</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>2013</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..41</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>41</INSDInterval_to>
+            <INSDInterval_accession>KX686127.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>42..214</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>42</INSDInterval_from>
+            <INSDInterval_to>214</INSDInterval_to>
+            <INSDInterval_accession>KX686127.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>215..373</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>215</INSDInterval_from>
+            <INSDInterval_to>373</INSDInterval_to>
+            <INSDInterval_accession>KX686127.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>374..542</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>374</INSDInterval_from>
+            <INSDInterval_to>542</INSDInterval_to>
+            <INSDInterval_accession>KX686127.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>543..&gt;590</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>543</INSDInterval_from>
+            <INSDInterval_to>590</INSDInterval_to>
+            <INSDInterval_accession>KX686127.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>cgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatatca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX686128</INSDSeq_locus>
+    <INSDSeq_length>554</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>04-SEP-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>04-SEP-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain CHE-CNRCB 385 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX686128</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX686128.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX686128.1|</INSDSeqid>
+      <INSDSeqid>gi|1129842489</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..554</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Berlanga-Padilla,A.M.</INSDAuthor>
+          <INSDAuthor>Ayala-Zermeno,M.A.</INSDAuthor>
+          <INSDAuthor>Gallou,A.</INSDAuthor>
+          <INSDAuthor>Serna-Dominguez,M.G.</INSDAuthor>
+          <INSDAuthor>Montesinos-Matias,R.</INSDAuthor>
+          <INSDAuthor>Arredondo-Bernal,H.C.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Entomopathogenic fungi associated to Diaphorina citri Kuwayama (Hemiptera: Liviidae) in Colima, Mexico</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..554</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Serna-Dominguez,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (10-AUG-2016) Laboratorio de Biologia Molecular, Centro Nacional de Referencia de Control Biologico, Km 1.5 Carretera Tecoman-Estacion FFCC, Tecoman, Colima 28110, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..554</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>554</INSDInterval_to>
+            <INSDInterval_accession>KX686128.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CHE-CNRCB 385</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Tututepec, Oaxaca</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>2013</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..43</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>43</INSDInterval_to>
+            <INSDInterval_accession>KX686128.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTCGTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>44..216</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>44</INSDInterval_from>
+            <INSDInterval_to>216</INSDInterval_to>
+            <INSDInterval_accession>KX686128.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>217..375</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>217</INSDInterval_from>
+            <INSDInterval_to>375</INSDInterval_to>
+            <INSDInterval_accession>KX686128.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>376..544</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>376</INSDInterval_from>
+            <INSDInterval_to>544</INSDInterval_to>
+            <INSDInterval_accession>KX686128.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>545..&gt;554</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>545</INSDInterval_from>
+            <INSDInterval_to>554</INSDInterval_to>
+            <INSDInterval_accession>KX686128.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtcgtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctc</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KU725692</INSDSeq_locus>
+    <INSDSeq_length>587</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2018</INSDSeq_update-date>
+    <INSDSeq_create-date>09-MAR-2018</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain CHE-CNRCB 338 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KU725692</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KU725692.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KU725692.1|</INSDSeqid>
+      <INSDSeqid>gi|1129843578</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..587</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Serna-Dominguez,M.G.</INSDAuthor>
+          <INSDAuthor>Andrade-Michel,G.Y.</INSDAuthor>
+          <INSDAuthor>Arredondo-Bernal,H.C.</INSDAuthor>
+          <INSDAuthor>Gallou,A.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Two efficient methods for isolation of high-quality genomic DNA from entomopathogenic fungi</INSDReference_title>
+        <INSDReference_journal>J. Microbiol. Methods 148, 55-63 (2018)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1016/j.mimet.2018.03.012</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>29596959</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..587</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Serna-Dominguez,M.G.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (17-FEB-2016) Laboratorio de Biologia Molecular, Centro Nacional de Referencia de Control Biologico, Km 1.5 Carretera Tecoman-Estacion FFCC, Tecoman, Colima 28110, Mexico</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..587</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>587</INSDInterval_to>
+            <INSDInterval_accession>KU725692.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>CHE-CNRCB 338</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Mexico: Tecoman, Colima</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>2012</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..40</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>40</INSDInterval_to>
+            <INSDInterval_accession>KU725692.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>18S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GTAACAAGGTCTCCGTTGGTGAACCAGCGGAGGGATCATT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>41..213</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>41</INSDInterval_from>
+            <INSDInterval_to>213</INSDInterval_to>
+            <INSDInterval_accession>KU725692.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>214..372</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>214</INSDInterval_from>
+            <INSDInterval_to>372</INSDInterval_to>
+            <INSDInterval_accession>KU725692.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>5.8S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AAAACTTTCAACAACGGATCTCTTGGCTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCACTCTGGCGGGCATGCCTGTCCGAGCGTCATCA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>373..541</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>373</INSDInterval_from>
+            <INSDInterval_to>541</INSDInterval_to>
+            <INSDInterval_accession>KU725692.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>internal transcribed spacer 2</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>542..&gt;587</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>542</INSDInterval_from>
+            <INSDInterval_to>587</INSDInterval_to>
+            <INSDInterval_accession>KU725692.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>28S ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>AGTTGACCTCGGATCAGGTAGGAGTACCCGCTGAACTTAAGCATAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gtaacaaggtctccgttggtgaaccagcggagggatcattaccgagtttgacaactcccaaacccccggcgaaccgtaccccccctaagttgcctcggcaaggtgccgcgcccgaccgggcagcggccgccggccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatataaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggaccccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgcccgcggcaccccctgcgtagtagcaactgctcgcaccgggagcgcggcgtcggccacggccgtgaaacgacccccccatcaagttgacctcggatcaggtaggagtacccgctgaacttaagcatat</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>KX858870</INSDSeq_locus>
+    <INSDSeq_length>513</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>12-FEB-2017</INSDSeq_update-date>
+    <INSDSeq_create-date>12-FEB-2017</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis strain SNB-VECD13E internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>KX858870</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KX858870.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KX858870.1|</INSDSeqid>
+      <INSDSeqid>gi|1142894354</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..513</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Eparvier,V.</INSDAuthor>
+          <INSDAuthor>Stien,D.</INSDAuthor>
+          <INSDAuthor>Dusfour,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Antimicrobial and insecticidal compounds from entomopathogens</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..513</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Eparvier,V.</INSDAuthor>
+          <INSDAuthor>Stien,D.</INSDAuthor>
+          <INSDAuthor>Dusfour,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (14-SEP-2016) SN-CM, CNRS-ICSN, 1 avenue de la terrasse, Gif sur Yvette 91190, France</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..513</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>513</INSDInterval_to>
+            <INSDInterval_accession>KX858870.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>SNB-VECD13E</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>insect symbiotic fungi</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>Feb-2014</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;513</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>513</INSDInterval_to>
+            <INSDInterval_accession>KX858870.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>gcctcggcaaggtkcygcgcccgaccgggcagcggccgccgaccttgcaggcccttaccaaactcttctctcgcgggccctcgcgccccccatctgaaacataccatatatgtaaataagtcaaaactttcaacaacggatctcttggctctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcactctggcgggcatgcctgtccgagcgtcatcatcaccctcgggacccccccttcgcggggaggggaccggcgttgggggacggccctgcgccgcccccgaaatccagtggcggccacgsccgcggcaccccctgcgtagtagcaactgctcgcaccgggagygcggcgtcggccacggccgtgaaacgaccccccccatcaagttgacctcggatcaggtaggagtacccgctgaaacttaagcatatcaataagcggaggaaa</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>MN252576</INSDSeq_locus>
+    <INSDSeq_length>563</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>18-SEP-2020</INSDSeq_update-date>
+    <INSDSeq_create-date>18-SEP-2020</INSDSeq_create-date>
+    <INSDSeq_definition>Hirsutella citriformis isolate F-HY001-4A internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>MN252576</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>MN252576.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|MN252576.1|</INSDSeqid>
+      <INSDSeqid>gi|1717330024</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Hirsutella citriformis</INSDSeq_source>
+    <INSDSeq_organism>Hirsutella citriformis</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Hirsutella</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..563</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Meng,l.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Isolation, Characterization and Virulence of Entomopathogenic fungi against Diaphornia citri[</INSDReference_title>
+        <INSDReference_journal>Unpublished</INSDReference_journal>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..563</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Meng,l.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (05-AUG-2019) College of Plant Science and Technology, Huazhong Argricutural University, Hongshan District 66 South lake Road, wuhan, hubei 430070, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..563</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>563</INSDInterval_to>
+            <INSDInterval_accession>MN252576.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Hirsutella citriformis</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolate</INSDQualifier_name>
+            <INSDQualifier_value>F-HY001-4A</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>host</INSDQualifier_name>
+            <INSDQualifier_value>Diaphorina citri</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:104307</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>misc_RNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;563</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>563</INSDInterval_to>
+            <INSDInterval_accession>MN252576.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>contains internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggggtacggagcttttactcctaccctttgtgaacatacctatcgttgcttcggcggactcgccccggcgtccggacggccctgcgccgcccgcgacccggacccaggcggccgccggagacccacaaattctgtttctatcagtctttctgaatccgccgcaaggcaaaacaaatgaatcaaaactttcaacaacggatctcttggttctggcatcgatgaagaacgcagcgaaatgcgataagtaatgtgaattgcagaattcagtgaatcatcgaatctttgaacgcacattgcgcccgccagcattctggcgggcatgcctgttcgagcgtcatttcaaccctcgacaccccttcgggggagtcggcgttggggaccggcagcataccgccggccccgaaatacagtggcggcccgtccgcggcgacctctgcgtagtactccaacgcgcaccgggaacccgacgcggccacgccgtaaaacacccaacttctgaacgttgacctcggatcaggtaggactacccgctgaacttaagcatatcaataagcggaggaatg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

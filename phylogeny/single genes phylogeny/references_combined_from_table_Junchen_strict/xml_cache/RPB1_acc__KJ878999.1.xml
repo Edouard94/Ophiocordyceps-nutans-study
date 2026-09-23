@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>KJ878999</INSDSeq_locus>
+    <INSDSeq_length>725</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>14-OCT-2015</INSDSeq_update-date>
+    <INSDSeq_create-date>01-SEP-2014</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps curculionum voucher OSC 151910 DNA-directed RNA polymerase II largest subunit gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>KJ878999</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>KJ878999.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|KJ878999.1|</INSDSeqid>
+      <INSDSeqid>gi|675023535</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps curculionum</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps curculionum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..725</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Quandt,C.A.</INSDAuthor>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+          <INSDAuthor>Gams,W.</INSDAuthor>
+          <INSDAuthor>Araujo,J.P.</INSDAuthor>
+          <INSDAuthor>Ban,S.</INSDAuthor>
+          <INSDAuthor>Evans,H.C.</INSDAuthor>
+          <INSDAuthor>Hughes,D.</INSDAuthor>
+          <INSDAuthor>Humber,R.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.</INSDAuthor>
+          <INSDAuthor>Li,Z.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Rehner,S.A.</INSDAuthor>
+          <INSDAuthor>Sanjuan,T.</INSDAuthor>
+          <INSDAuthor>Sato,H.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Yao,Y.J.</INSDAuthor>
+          <INSDAuthor>Zare,R.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogenetic-based nomenclatural proposals for Ophiocordycipitaceae (Hypocreales) with new combinations in Tolypocladium</INSDReference_title>
+        <INSDReference_journal>IMA Fungus 5 (1), 121-134 (2014)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.5598/imafungus.2014.05.01.12</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>25083412</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..725</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Kepler,R.M.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (23-MAY-2014) Botany and Plant Pathology, Oregon State University, 2082 Cordley Hall, Corvallis, OR 97331, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Assembly Method :: genious v. 7.1.5 ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..725</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>725</INSDInterval_to>
+            <INSDInterval_accession>KJ878999.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps curculionum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>OSC 151910</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:1515110</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..71,138..&gt;725)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>71</INSDInterval_to>
+            <INSDInterval_accession>KJ878999.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>138</INSDInterval_from>
+            <INSDInterval_to>725</INSDInterval_to>
+            <INSDInterval_accession>KJ878999.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>GGCTTCATCAGAAGGTCAAGAAGATCTTGGAGATTGTCTGCCATAACTGCAGCAAGGTGTTGGCCGATACTAGCGATCCTGACTTTGCCTCTGCCATCAAGACGCGGGACCCCAAGGTTCGCTTCAACCGCGTCTGGAACGTGTGCAAGAAGAAGCGGAGATGCGAAAACGAGGATCGCCAGAACAAAGACAAAGACGAAGATTTCATGCCAGGAATGAAACAGCTGCAGACTGTCGATAACCACGGTGGCTGCGGCAACGTTCAGCCTGCTGTTCGTCAACTCGCCTTGCAACTCAAGGCTGCCTTCGACGTGCCTCAAGAAGACGGACCCAAGCGTAGAGACACGGTTCCCATCACACCAGAGATGGCACACAACATTCTGCGGCGTATTTCGGAAGAAGACTTGCGCAACATGGGCCTCAACGTTGACTATGCCCGCCCCGAGTGGATGATTATCACTGTCTTGCCCGTGCCCCCGCCGCCCGTTCGCCCCAGCATATCCATGGATGGCACCGGCACAGGCATGCGCAACGAAGACGATTTGACCTACAAACTCGGAGACATCATTCGAGCCAATGGCAACGTCAAACAGGCTATTCGCGAAGGTTCACCTCAACACATTGCAAGAGATTTTGAAGAGTTGCTCCAGTATCACGTG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..71,138..&gt;725)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>71</INSDInterval_to>
+            <INSDInterval_accession>KJ878999.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>138</INSDInterval_from>
+            <INSDInterval_to>725</INSDInterval_to>
+            <INSDInterval_accession>KJ878999.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>3</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AIL33441.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>LHQKVKKILEIVCHNCSKVLADTSDPDFASAIKTRDPKVRFNRVWNVCKKKRRCENEDRQNKDKDEDFMPGMKQLQTVDNHGGCGNVQPAVRQLALQLKAAFDVPQEDGPKRRDTVPITPEMAHNILRRISEEDLRNMGLNVDYARPEWMIITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHV</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ggcttcatcagaaggtcaagaagatcttggagattgtctgccataactgcagcaaggtgttggccgatactgtcagttgatgcaacatcctccaaggttattcttagactttgttggttgctgactcgcttacgcagagcgatcctgactttgcctctgccatcaagacgcgggaccccaaggttcgcttcaaccgcgtctggaacgtgtgcaagaagaagcggagatgcgaaaacgaggatcgccagaacaaagacaaagacgaagatttcatgccaggaatgaaacagctgcagactgtcgataaccacggtggctgcggcaacgttcagcctgctgttcgtcaactcgccttgcaactcaaggctgccttcgacgtgcctcaagaagacggacccaagcgtagagacacggttcccatcacaccagagatggcacacaacattctgcggcgtatttcggaagaagacttgcgcaacatgggcctcaacgttgactatgcccgccccgagtggatgattatcactgtcttgcccgtgcccccgccgcccgttcgccccagcatatccatggatggcaccggcacaggcatgcgcaacgaagacgatttgacctacaaactcggagacatcattcgagccaatggcaacgtcaaacaggctattcgcgaaggttcacctcaacacattgcaagagattttgaagagttgctccagtatcacgtg</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

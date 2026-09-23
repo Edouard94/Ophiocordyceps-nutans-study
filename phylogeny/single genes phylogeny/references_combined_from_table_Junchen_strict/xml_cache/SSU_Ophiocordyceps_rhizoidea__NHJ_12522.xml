@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>EF468969</INSDSeq_locus>
+    <INSDSeq_length>1088</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-DEC-2007</INSDSeq_update-date>
+    <INSDSeq_create-date>31-DEC-2007</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps rhizoidea strain NHJ 12529 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>EF468969</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>EF468969.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|EF468969.1|</INSDSeqid>
+      <INSDSeqid>gi|154819846</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps rhizoidea</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps rhizoidea</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1088</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Sung,J.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogenetic classification of Cordyceps and the clavicipitaceous fungi</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 57, 5-59 (2007)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3114/sim.2007.57.01</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>18490993</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1088</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sung,G.-H.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Sung,J.-M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (26-FEB-2007) Dept. of Botany and Plant Pathology, Oregon State University, 2082 Cordley Hall, Corvallis, OR 97331, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1088</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1088</INSDInterval_to>
+            <INSDInterval_accession>EF468969.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps rhizoidea</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NHJ 12529</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452145</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1088</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1088</INSDInterval_to>
+            <INSDInterval_accession>EF468969.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TCATATGCTTGTCTCAAAGATTAAGCCATGCATGTCTAAGTATAAGCGATTATACGGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTCCGGAAGGGATGTATTTATTAGATTCAAAACCAATGCCCCCCGGGCTCACTGGTGATTCATGATAACTGCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACGCGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGCACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCGCTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGCGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTCTTTTGACTCGTTCGGCACCTTACGAGAAATCAAAGTGCTTGGGCTCCAGGGGGAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tcatatgcttgtctcaaagattaagccatgcatgtctaagtataagcgattatacggcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgactccggaagggatgtatttattagattcaaaaccaatgccccccgggctcactggtgattcatgataactgctcgaatcgcacggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacgcggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagcacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctctgtggaaccccatgcccttcgctgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgcgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattcttttgactcgttcggcaccttacgagaaatcaaagtgcttgggctccagggggag</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>EF468970</INSDSeq_locus>
+    <INSDSeq_length>1047</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>31-DEC-2007</INSDSeq_update-date>
+    <INSDSeq_create-date>31-DEC-2007</INSDSeq_create-date>
+    <INSDSeq_definition>Ophiocordyceps rhizoidea strain NHJ 12522 small subunit ribosomal RNA gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>EF468970</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>EF468970.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|EF468970.1|</INSDSeqid>
+      <INSDSeqid>gi|154819847</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Ophiocordyceps rhizoidea</INSDSeq_source>
+    <INSDSeq_organism>Ophiocordyceps rhizoidea</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Ophiocordyceps</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..1047</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Sung,J.M.</INSDAuthor>
+          <INSDAuthor>Luangsa-Ard,J.J.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogenetic classification of Cordyceps and the clavicipitaceous fungi</INSDReference_title>
+        <INSDReference_journal>Stud. Mycol. 57, 5-59 (2007)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3114/sim.2007.57.01</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>18490993</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..1047</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Sung,G.-H.</INSDAuthor>
+          <INSDAuthor>Hywel-Jones,N.L.</INSDAuthor>
+          <INSDAuthor>Sung,J.-M.</INSDAuthor>
+          <INSDAuthor>Luangsa-ard,J.J.</INSDAuthor>
+          <INSDAuthor>Shrestha,B.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (26-FEB-2007) Dept. of Botany and Plant Pathology, Oregon State University, 2082 Cordley Hall, Corvallis, OR 97331, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..1047</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1047</INSDInterval_to>
+            <INSDInterval_accession>EF468970.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Ophiocordyceps rhizoidea</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NHJ 12522</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:452145</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>rRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;1047</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>1047</INSDInterval_to>
+            <INSDInterval_accession>EF468970.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>small subunit ribosomal RNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATAAGCGATTATACGGCGAAACTGCGAATGGCTCATTATATAAGTTATCGTTTATTTGATAGTACCTTACTACTTGGATAACCGTGGTAATTCTAGAGCTAATACATGCTGAAAATCCCGACTCCGGAAGGGATGTATTTATTAGATTCAAAACCAATGCCCCCCGGGCTCACTGGTGATTCATGATAACTGCTCGAATCGCACGGCCTTGCGCCGGCGATGGTTCATTCAAATTTCTTCCCTATCAACTTTCGATGTTTGGGTAGTGGCCAAACATGGTTGCAACGGGTAACGGAGGGTTAGGGCTCGACCCCGGAGAAGGAGCCTGAGAAACGGCTACTACATCCAAGGAAGGCAGCAGGCGCGCAAATTACCCAATCCCGACGCGGGGAGGTAGTGACAATAAATACTGATACAGGGCTCTTTTGGGTCTTGTAATTGGAATGAGCACAATTTAAATCCCTTAACGAGGAACAATTGGAGGGCAAGTCTGGTGCCAGCAGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGTGGTTAAAAAGCTCGTAGTTGAACCTTGGGCCTGGCTGGCCGGTCCGCCTCACCGCGTGCACTGGTCCGGCCGGGCCTTTCCCTCTGTGGAACCCCATGCCCTTCGCTGGGTGTGGCGGGGAAACAGGACTTTTACTTTGAAAAAATTAGAGTGCTCCAGGCAGGCCTATGCTCGAATACATTAGCATGGAATAATGAAATAGGACGTGCGGTTCTATTTTGTTGGTTTCTAGGACCGCCGTAATGATTAATAGGGACAGTCGGGGGCATCAGTATTCAATTGTCAGAGGTGAAATTCTTGGATTTATTGAAGACTAACTACTGCGAAAGCATTTGCCAAGGATGTTTTCATTAATCAGGAACGAAAGTTAGGGGATCGAAGACGATCAGATACCGTCGTAGTCTTAACCATAAACTATGCCGACTAGGGATCGGACGATGTTATTCTTTTGACTCGTTCGGCACCTTACGAGAAATCAAGGTGCTTGGGCTCCAGGGGGAG</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ataagcgattatacggcgaaactgcgaatggctcattatataagttatcgtttatttgatagtaccttactacttggataaccgtggtaattctagagctaatacatgctgaaaatcccgactccggaagggatgtatttattagattcaaaaccaatgccccccgggctcactggtgattcatgataactgctcgaatcgcacggccttgcgccggcgatggttcattcaaatttcttccctatcaactttcgatgtttgggtagtggccaaacatggttgcaacgggtaacggagggttagggctcgaccccggagaaggagcctgagaaacggctactacatccaaggaaggcagcaggcgcgcaaattacccaatcccgacgcggggaggtagtgacaataaatactgatacagggctcttttgggtcttgtaattggaatgagcacaatttaaatcccttaacgaggaacaattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgttgtggttaaaaagctcgtagttgaaccttgggcctggctggccggtccgcctcaccgcgtgcactggtccggccgggcctttccctctgtggaaccccatgcccttcgctgggtgtggcggggaaacaggacttttactttgaaaaaattagagtgctccaggcaggcctatgctcgaatacattagcatggaataatgaaataggacgtgcggttctattttgttggtttctaggaccgccgtaatgattaatagggacagtcgggggcatcagtattcaattgtcagaggtgaaattcttggatttattgaagactaactactgcgaaagcatttgccaaggatgttttcattaatcaggaacgaaagttaggggatcgaagacgatcagataccgtcgtagtcttaaccataaactatgccgactagggatcggacgatgttattcttttgactcgttcggcaccttacgagaaatcaaggtgcttgggctccagggggag</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

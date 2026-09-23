@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>OP223145</INSDSeq_locus>
+    <INSDSeq_length>990</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>23-NOV-2022</INSDSeq_update-date>
+    <INSDSeq_create-date>23-NOV-2022</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium capitatum strain YFCC 881 translation elongation factor 1 alpha gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>OP223145</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OP223145.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OP223145.1|</INSDSeqid>
+      <INSDSeqid>gi|2330521336</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..990</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Dong,Q.Y.</INSDAuthor>
+          <INSDAuthor>Wang,Y.</INSDAuthor>
+          <INSDAuthor>Wang,Z.Q.</INSDAuthor>
+          <INSDAuthor>Liu,Y.F.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny and Systematics of the Genus Tolypocladium (Ophiocordycipitaceae, Hypocreales)</INSDReference_title>
+        <INSDReference_journal>J Fungi (Basel) 8 (11), 1158 (2022)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3390/jof8111158</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>36354925</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..990</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Dong,Q.</INSDAuthor>
+          <INSDAuthor>Wang,Z.</INSDAuthor>
+          <INSDAuthor>Wang,Y.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-AUG-2022) Yunnan University, Yunnan Herbal Laboratory, College of Ecology and Environmental Sciences, No. 2 North Cuihu Road, Kunming, Yunnan 650091, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..990</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>990</INSDInterval_to>
+            <INSDInterval_accession>OP223145.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>YFCC 881</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;990</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>990</INSDInterval_to>
+            <INSDInterval_accession>OP223145.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1 alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>ATCAAGAACATGATCACTGGTACCTCCCAGGCCGATTGTGCTATCCTCATCATCGCTGCCGGTACTGGTGAGTTCGAGGCTGGTATCTCCAAGGATGGCCAGACCCGTGAGCACGCTCTGCTCGCCTACACCCTGGGTGTCAAGCAGCTCATCGTCGCCATCAACAAGATGGACACCACCAAGTGGTCCGAGGCCCGTTTCCAGGAGATCATCAAGGAGACGTCCAACTTCATCAAGAAGGTCGGCTACAACCCCAAGACCGTTGCCTTCGTCCCCATCTCCGGCTTCAACGGCGACAACATGCTTGAGCCCTCCACCAACTGCCCCTGGTACAAGGGTTGGGAGAAGGAGACCAAGAGCGGCAAGTCCAACGGCAAGACCCTGCTTGAGGCCATCGACTCCATCGAGCCCCCCAAGCGCCCCACCGACAAGCCCCTTCGTCTTCCCCTCCAGGACGTGTACAAGATCGGCGGTATCGGAACTGTTCCCGTCGGCCGTATCGAGACTGGTATCCTCAAGCCCGGCATGGTCGTCACCTTCGCTCCTTCCAACGTCACCACCGAAGTCAAGTCCGTGGAGATGCACCACGAGCAGCTCGTCGAGGGCGTGCCCGGTGACAACGTCGGCTTCAACGTGAAGAACGTCTCGGTCAAGGAAATCCGCCGTGGCAACGTCGCCGGTGACTCCAAGAACGACCCTCCCCTGGGTGCTGCCTCCTTCGACGCCCAGGTCATCGTCCTCAACCACCCCGGTCAGGTCGGTGCCGGCTACGCCCCCGTCCTGGACTGCCACACCGCCCACATTGCCTGCAAGTTCGCCGAGATCAAGGAGAAGATCGACCGCCGTACCGGCAAGGCCGTCGAGACCAGCCCCAAGTTCATCAAGTCTGGCGACTCCGCCATCGTCAAGATGGTTCCCTCCAAGCCCATGTGCGTGGAGGCCTTCACCGACTACCCTCCCCTGGGCCGTTTCGCCGTCCGTGACATGCGC</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;990</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>990</INSDInterval_to>
+            <INSDInterval_accession>OP223145.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>tef</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>translation elongation factor 1 alpha</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>UZP65092.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>IKNMITGTSQADCAILIIAAGTGEFEAGISKDGQTREHALLAYTLGVKQLIVAINKMDTTKWSEARFQEIIKETSNFIKKVGYNPKTVAFVPISGFNGDNMLEPSTNCPWYKGWEKETKSGKSNGKTLLEAIDSIEPPKRPTDKPLRLPLQDVYKIGGIGTVPVGRIETGILKPGMVVTFAPSNVTTEVKSVEMHHEQLVEGVPGDNVGFNVKNVSVKEIRRGNVAGDSKNDPPLGAASFDAQVIVLNHPGQVGAGYAPVLDCHTAHIACKFAEIKEKIDRRTGKAVETSPKFIKSGDSAIVKMVPSKPMCVEAFTDYPPLGRFAVRDMR</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>atcaagaacatgatcactggtacctcccaggccgattgtgctatcctcatcatcgctgccggtactggtgagttcgaggctggtatctccaaggatggccagacccgtgagcacgctctgctcgcctacaccctgggtgtcaagcagctcatcgtcgccatcaacaagatggacaccaccaagtggtccgaggcccgtttccaggagatcatcaaggagacgtccaacttcatcaagaaggtcggctacaaccccaagaccgttgccttcgtccccatctccggcttcaacggcgacaacatgcttgagccctccaccaactgcccctggtacaagggttgggagaaggagaccaagagcggcaagtccaacggcaagaccctgcttgaggccatcgactccatcgagccccccaagcgccccaccgacaagccccttcgtcttcccctccaggacgtgtacaagatcggcggtatcggaactgttcccgtcggccgtatcgagactggtatcctcaagcccggcatggtcgtcaccttcgctccttccaacgtcaccaccgaagtcaagtccgtggagatgcaccacgagcagctcgtcgagggcgtgcccggtgacaacgtcggcttcaacgtgaagaacgtctcggtcaaggaaatccgccgtggcaacgtcgccggtgactccaagaacgaccctcccctgggtgctgcctccttcgacgcccaggtcatcgtcctcaaccaccccggtcaggtcggtgccggctacgcccccgtcctggactgccacaccgcccacattgcctgcaagttcgccgagatcaaggagaagatcgaccgccgtaccggcaaggccgtcgagaccagccccaagttcatcaagtctggcgactccgccatcgtcaagatggttccctccaagcccatgtgcgtggaggccttcaccgactaccctcccctgggccgtttcgccgtccgtgacatgcgc</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

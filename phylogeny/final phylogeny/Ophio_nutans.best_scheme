@@ -1,0 +1,5 @@
+DNA, nSSU.fasta = 1-1093
+DNAF, TEF.fasta = 1094-2053
+DNAF, RPB1.fasta = 2054-2647
+DNA, nLSU.fasta = 2648-3451
+DNAF, RPB2.fasta = 3452-4423

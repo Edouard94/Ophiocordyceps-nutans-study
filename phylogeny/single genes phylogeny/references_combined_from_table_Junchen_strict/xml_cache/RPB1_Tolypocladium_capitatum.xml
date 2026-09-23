@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<!DOCTYPE INSDSet PUBLIC "-//NCBI//INSD INSDSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/INSD_INSDSeq.dtd">
+<INSDSet>
+  <INSDSeq>
+
+    <INSDSeq_locus>AY489649</INSDSeq_locus>
+    <INSDSeq_length>482</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>30-MAY-2014</INSDSeq_update-date>
+    <INSDSeq_create-date>20-OCT-2004</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps capitata RNA polymerase II largest subunit (RPB1) gene, partial sequence</INSDSeq_definition>
+    <INSDSeq_primary-accession>AY489649</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>AY489649.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|AY489649.1|</INSDSeqid>
+      <INSDSeqid>gi|45645304</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..482</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Castlebury,L.A.</INSDAuthor>
+          <INSDAuthor>Rossman,A.Y.</INSDAuthor>
+          <INSDAuthor>Sung,G.H.</INSDAuthor>
+          <INSDAuthor>Hyten,A.S.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Multigene phylogeny reveals new lineage for Stachybotrys chartarum, the indoor air fungus</INSDReference_title>
+        <INSDReference_journal>Mycol. Res. 108 (PT 8), 864-872 (2004)</INSDReference_journal>
+        <INSDReference_pubmed>15449591</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..482</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Castlebury,L.A.</INSDAuthor>
+          <INSDAuthor>Rossman,A.Y.</INSDAuthor>
+          <INSDAuthor>Sung,G.-H.</INSDAuthor>
+          <INSDAuthor>Hyten,A.S.</INSDAuthor>
+          <INSDAuthor>Spatafora,J.W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (28-NOV-2003) Systematic Botany and Mycology Laboratory, USDA ARS, Bldg. 011A, Rm. 304, BARC-West; 10300 Baltimore Ave, Beltsville, MD 20705, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..482</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>482</INSDInterval_to>
+            <INSDInterval_accession>AY489649.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>isolation_source</INSDQualifier_name>
+            <INSDQualifier_value>Elaphomyces sp.</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>specimen_voucher</INSDQualifier_name>
+            <INSDQualifier_value>OSC71233</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>France</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;482</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>482</INSDInterval_to>
+            <INSDInterval_accession>AY489649.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II largest subunit</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>actttacgcagagcgaccccgagtttgtcgctgccatcaacacacgggaccccaagcttcgcttcaaccgtgtctggtccgtctgcaagaagaagcgcaagtgtgagaacgaggatcgccagaaaaaggacgatgacgatttcataccgggaatgaagtctcataactgcaacaaccacggtggttgtggcaacttgcagcccttggtgcgacaggctgcgctgcaactcaaggctgccttcgacgtgatccaggaagacggccccaagagaaaagagagcgtgcccatcactccagagatggcccacggcatcttgcggcgaatttccgaggccgacttgcgcaacatgggcctcaactccgactacgcccgcccagagtggatgatcatcacggtccttcccgtccccccgccaaccgttcgtcctagtatttccatggatggcaccggcaccggtatgcggaacgaagacgacttgact</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN992471</INSDSeq_locus>
+    <INSDSeq_length>759</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>29-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps capitata strain NBRC 106327 RPB1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN992471</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN992471.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN992471.1|</INSDSeqid>
+      <INSDSeqid>gi|373841812</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992471.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106327</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106327</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1345</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>12-Mar-2008</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992471.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992471.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992471.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCACATCGAGCTGGCCAAGCCAGTGTACCATCCAGGCTTTATCAAAAAGGTCAAGAAGATCTTGGAGATTGTCTGCCATAACTGCAGCAAGGTGTTGTCCGATACTAGCGACCCTGAGTTCGTCGCTGCCATCAACACACGGGACCCCAAGCTTCGCTTCAACCGTGTCTGGTCTGTCTGCAAGAAGAAGCGCAAGTGTGAGAACGAAGATCGCCAGAAAAAGGACGATGACGATTTCATACCGGGAATGAAGACTCATAATAACTGCAACAACCACGGCGGATGCGGCAACTTGCAGCCCTTGGTGCGACAAGCTGCGCTGCAACTCAAAGCTGCCTTCGACGTGGCCCAGGAAGACGGCCCCAAGAGAAAAGAGAGCGTGCCCATCACTCCAGAGATGGCTCACGGCATCTTGCGGCGAATTTCCGAGGCAGACTTGCGCAACATGGGCCTCAACTCCGACTACGCTCGCCCAGAGTGGATGGTCATCACGGTCCTTCCCGTGCCCCCTCCACCCGTTCGTCCTAGTATTTCTATGGATGGCACCGGCACCGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGCGACATCATCCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGATCCCCGCAACACATTGCCCGGGATTTCGAGGAATTGCTGCAGTACCATGTGGCTACA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992471.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992471.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEY76999.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HIELAKPVYHPGFIKKVKKILEIVCHNCSKVLSDTSDPEFVAAINTRDPKLRFNRVWSVCKKKRKCENEDRQKKDDDDFIPGMKTHNNCNNHGGCGNLQPLVRQAALQLKAAFDVAQEDGPKRKESVPITPEMAHGILRRISEADLRNMGLNSDYARPEWMVITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccacatcgagctggccaagccagtgtaccatccaggctttatcaaaaaggtcaagaagatcttggagattgtctgccataactgcagcaaggtgttgtccgatactgttagtctatgctgctctcttgcaagggtttgagcttcgtatgatgctgaccccttgcgcagagcgaccctgagttcgtcgctgccatcaacacacgggaccccaagcttcgcttcaaccgtgtctggtctgtctgcaagaagaagcgcaagtgtgagaacgaagatcgccagaaaaaggacgatgacgatttcataccgggaatgaagactcataataactgcaacaaccacggcggatgcggcaacttgcagcccttggtgcgacaagctgcgctgcaactcaaagctgccttcgacgtggcccaggaagacggccccaagagaaaagagagcgtgcccatcactccagagatggctcacggcatcttgcggcgaatttccgaggcagacttgcgcaacatgggcctcaactccgactacgctcgcccagagtggatggtcatcacggtccttcccgtgccccctccacccgttcgtcctagtatttctatggatggcaccggcaccggcatgcgaaacgaagacgacttgacctacaagctcggcgacatcatccgcgccaacggcaacgtcaagcaggctatccgcgaaggatccccgcaacacattgcccgggatttcgaggaattgctgcagtaccatgtggctaca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN992472</INSDSeq_locus>
+    <INSDSeq_length>759</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>29-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps capitata strain NBRC 106326 RPB1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN992472</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN992472.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN992472.1|</INSDSeqid>
+      <INSDSeqid>gi|373841814</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992472.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106326</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106326</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1344</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>21-Feb-2007</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992472.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992472.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992472.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCACATCGAGCTGGCCAAGCCAGTGTACCATCCAGGCTTTATCAAAAAGGTCAAGAAGATCTTGGAGATTGTCTGCCATAACTGCAGCAAGGTGTTGTCCGATACTAGCGACCCTGAGTTCGTCGCTGCCATCAACACACGGGACCCCAAGCTTCGCTTCAACCGTGTCTGGTCTGTCTGCAAGAAGAAGCGCAAGTGTGAGAACGAAGATCGCCAGAAAAAGGACGATGACGATTTCATACCGGGAATGAAGACTCATAATAACTGCAACAACCACGGCGGATGCGGCAACTTGCAGCCCTTGGTGCGACAAGCTGCGCTGCAACTCAAAGCTGCCTTCGACGTGGCCCAGGAAGACGGCCCCAAGAGAAAAGAGAGCGTGCCCATCACTCCAGAGATGGCTCACGGCATCTTGCGGCGAATTTCCGAGGCAGACTTGCGCAACATGGGCCTCAACTCCGACTACGCTCGCCCAGAGTGGATGGTCATCACGGTCCTTCCCGTGCCCCCTCCACCCGTTCGTCCTAGTATTTCTATGGATGGCACCGGCACCGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGCGACATCATCCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGATCCCCGCAACACATTGCCCGGGATTTCGAGGAATTGCTGCAGTACCATGTGGCTACA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992472.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992472.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEY77000.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HIELAKPVYHPGFIKKVKKILEIVCHNCSKVLSDTSDPEFVAAINTRDPKLRFNRVWSVCKKKRKCENEDRQKKDDDDFIPGMKTHNNCNNHGGCGNLQPLVRQAALQLKAAFDVAQEDGPKRKESVPITPEMAHGILRRISEADLRNMGLNSDYARPEWMVITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccacatcgagctggccaagccagtgtaccatccaggctttatcaaaaaggtcaagaagatcttggagattgtctgccataactgcagcaaggtgttgtccgatactgttagtctatgctgctctcttgcaagggtttgagcttcgtatgatgctgaccccttgcgcagagcgaccctgagttcgtcgctgccatcaacacacgggaccccaagcttcgcttcaaccgtgtctggtctgtctgcaagaagaagcgcaagtgtgagaacgaagatcgccagaaaaaggacgatgacgatttcataccgggaatgaagactcataataactgcaacaaccacggcggatgcggcaacttgcagcccttggtgcgacaagctgcgctgcaactcaaagctgccttcgacgtggcccaggaagacggccccaagagaaaagagagcgtgcccatcactccagagatggctcacggcatcttgcggcgaatttccgaggcagacttgcgcaacatgggcctcaactccgactacgctcgcccagagtggatggtcatcacggtccttcccgtgccccctccacccgttcgtcctagtatttctatggatggcaccggcaccggcatgcgaaacgaagacgacttgacctacaagctcggcgacatcatccgcgccaacggcaacgtcaagcaggctatccgcgaaggatccccgcaacacattgcccgggatttcgaggaattgctgcagtaccatgtggctaca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN992473</INSDSeq_locus>
+    <INSDSeq_length>759</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>29-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps capitata strain NBRC 106325 RPB1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN992473</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN992473.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN992473.1|</INSDSeqid>
+      <INSDSeqid>gi|373841816</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992473.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 106325</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:106325</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1343</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>21-Feb-2007</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992473.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992473.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992473.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCACATCGAGCTGGCCAAGCCAGTGTACCATCCAGGCTTTATCAAAAAGGTCAAGAAGATCTTGGAGATTGTCTGCCATAACTGCAGCAAGGTGTTGTCCGATACTAGCGACCCTGAGTTCGTCGCTGCCATCAACACACGGGACCCCAAGCTTCGCTTCAACCGTGTCTGGTCTGTCTGCAAGAAGAAGCGCAAGTGTGAGAACGAAGATCGCCAGAAAAAGGACGATGACGATTTCATACCGGGAATGAAGACTCATAATAACTGCAACAACCACGGCGGATGCGGCAACTTGCAGCCCTTGGTGCGACAAGCTGCGCTGCAACTCAAAGCTGCCTTCGACGTGGCCCAGGAAGACGGCCCCAAGAGAAAAGAGAGCGTGCCCATCACTCCAGAGATGGCTCACGGCATCTTGCGGCGAATTTCCGAGGCAGACTTGCGCAACATGGGCCTCAACTCCGACTACGCTCGCCCAGAGTGGATGGTCATCACGGTCCTTCCCGTGCCCCCTCCACCCGTTCGTCCTAGTATTTCTATGGATGGCACCGGCACCGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGCGACATCATCCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGATCCCCGCAACACATTGCCCGGGATTTCGAGGAATTGCTGCAGTACCATGTGGCTACA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992473.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992473.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEY77001.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HIELAKPVYHPGFIKKVKKILEIVCHNCSKVLSDTSDPEFVAAINTRDPKLRFNRVWSVCKKKRKCENEDRQKKDDDDFIPGMKTHNNCNNHGGCGNLQPLVRQAALQLKAAFDVAQEDGPKRKESVPITPEMAHGILRRISEADLRNMGLNSDYARPEWMVITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccacatcgagctggccaagccagtgtaccatccaggctttatcaaaaaggtcaagaagatcttggagattgtctgccataactgcagcaaggtgttgtccgatactgttagtctatgctgctctcttgcaagggtttgagcttcgtatgatgctgaccccttgcgcagagcgaccctgagttcgtcgctgccatcaacacacgggaccccaagcttcgcttcaaccgtgtctggtctgtctgcaagaagaagcgcaagtgtgagaacgaagatcgccagaaaaaggacgatgacgatttcataccgggaatgaagactcataataactgcaacaaccacggcggatgcggcaacttgcagcccttggtgcgacaagctgcgctgcaactcaaagctgccttcgacgtggcccaggaagacggccccaagagaaaagagagcgtgcccatcactccagagatggctcacggcatcttgcggcgaatttccgaggcagacttgcgcaacatgggcctcaactccgactacgctcgcccagagtggatggtcatcacggtccttcccgtgccccctccacccgttcgtcctagtatttctatggatggcaccggcaccggcatgcgaaacgaagacgacttgacctacaagctcggcgacatcatccgcgccaacggcaacgtcaagcaggctatccgcgaaggatccccgcaacacattgcccgggatttcgaggaattgctgcagtaccatgtggctaca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>JN992474</INSDSeq_locus>
+    <INSDSeq_length>759</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>17-APR-2012</INSDSeq_update-date>
+    <INSDSeq_create-date>29-JAN-2012</INSDSeq_create-date>
+    <INSDSeq_definition>Elaphocordyceps capitata strain NBRC 100997 RPB1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>JN992474</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>JN992474.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|JN992474.1|</INSDSeqid>
+      <INSDSeqid>gi|373841818</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Schoch,C.L.</INSDAuthor>
+          <INSDAuthor>Seifert,K.A.</INSDAuthor>
+          <INSDAuthor>Huhndorf,S.</INSDAuthor>
+          <INSDAuthor>Robert,V.</INSDAuthor>
+          <INSDAuthor>Spouge,J.L.</INSDAuthor>
+          <INSDAuthor>Levesque,C.A.</INSDAuthor>
+          <INSDAuthor>Chen,W.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium; Fungal Barcoding Consortium Author List</INSDReference_consortium>
+        <INSDReference_title>Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi</INSDReference_title>
+        <INSDReference_journal>Proc. Natl. Acad. Sci. U.S.A. (2012) In press</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.1073/pnas.1117018109</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>22454494</INSDReference_pubmed>
+        <INSDReference_remark>Publication Status: Available-Online prior to print</INSDReference_remark>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..759</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Okane,I.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_consortium>Fungal Barcoding Consortium</INSDReference_consortium>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (07-NOV-2011) NIH/NLM/NCBI, NCBI, 45 Center Drive, MSC 6510 Building 45, Room 6an.18, Bethesda, MD 20892-6510, USA</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992474.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>NBRC 100997</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>culture_collection</INSDQualifier_name>
+            <INSDQualifier_value>NBRC:100997</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>FBOL:1342</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>geo_loc_name</INSDQualifier_name>
+            <INSDQualifier_value>Japan</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collection_date</INSDQualifier_name>
+            <INSDQualifier_value>23-Feb-2005</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>collected_by</INSDQualifier_name>
+            <INSDQualifier_value>T. Sakane</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;759</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992474.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992474.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992474.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>CCACATCGAGCTGGCCAAGCCAGTGTACCATCCAGGCTTTATCAAAAAGGTCAAGAAGATCTTGGAGATTGTCTGCCATAACTGCAGCAAGGTGTTGTCCGATACTAGCGACCCTGAGTTCGTCGCTGCCATCAACACACGGGACCCCAAGCTTCGCTTCAACCGTGTCTGGTCTGTCTGCAAGAAGAAGCGCAAGTGTGAGAACGAAGATCGCCAGAAAAAGGACGATGACGATTTCATACCGGGAATGAAGACTCATAATAACTGCAACAACCACGGCGGATGCGGCAACTTGCAGCCCTTGGTGCGACAAGCTGCGCTGCAACTCAAAGCTGCCTTCGACGTGGCCCAGGAAGACGGCCCCAAGAGAAAAGAGAGCGTGCCCATCACTCCAGAGATGGCTCACGGCATCTTGCGGCGAATTTCCGAGGCAGACTTGCGCAACATGGGCCTCAACTCCGACTACGCTCGCCCAGAGTGGATGGTCATCACGGTCCTTCCCGTGCCCCCTCCACCCGTTCGTCCTAGTATTTCTATGGATGGCACCGGCACCGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGCGACATCATCCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGATCCCCGCAACACATTGCCCGGGATTTCGAGGAATTGCTGCAGTACCATGTGGCTACA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..106,169..&gt;759)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>106</INSDInterval_to>
+            <INSDInterval_accession>JN992474.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>169</INSDInterval_from>
+            <INSDInterval_to>759</INSDInterval_to>
+            <INSDInterval_accession>JN992474.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>note</INSDQualifier_name>
+            <INSDQualifier_value>DNA-directed RNA polymerase II largest subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>2</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>AEY77002.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>HIELAKPVYHPGFIKKVKKILEIVCHNCSKVLSDTSDPEFVAAINTRDPKLRFNRVWSVCKKKRKCENEDRQKKDDDDFIPGMKTHNNCNNHGGCGNLQPLVRQAALQLKAAFDVAQEDGPKRKESVPITPEMAHGILRRISEADLRNMGLNSDYARPEWMVITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>ccacatcgagctggccaagccagtgtaccatccaggctttatcaaaaaggtcaagaagatcttggagattgtctgccataactgcagcaaggtgttgtccgatactgttagtctatgctgctctcttgcaagggtttgagcttcgtatgatgctgaccccttgcgcagagcgaccctgagttcgtcgctgccatcaacacacgggaccccaagcttcgcttcaaccgtgtctggtctgtctgcaagaagaagcgcaagtgtgagaacgaagatcgccagaaaaaggacgatgacgatttcataccgggaatgaagactcataataactgcaacaaccacggcggatgcggcaacttgcagcccttggtgcgacaagctgcgctgcaactcaaagctgccttcgacgtggcccaggaagacggccccaagagaaaagagagcgtgcccatcactccagagatggctcacggcatcttgcggcgaatttccgaggcagacttgcgcaacatgggcctcaactccgactacgctcgcccagagtggatggtcatcacggtccttcccgtgccccctccacccgttcgtcctagtatttctatggatggcaccggcaccggcatgcgaaacgaagacgacttgacctacaagctcggcgacatcatccgcgccaacggcaacgtcaagcaggctatccgcgaaggatccccgcaacacattgcccgggatttcgaggaattgctgcagtaccatgtggctaca</INSDSeq_sequence>
+  </INSDSeq>
+
+  <INSDSeq>
+
+    <INSDSeq_locus>OP223123</INSDSeq_locus>
+    <INSDSeq_length>724</INSDSeq_length>
+    <INSDSeq_strandedness>double</INSDSeq_strandedness>
+    <INSDSeq_moltype>DNA</INSDSeq_moltype>
+    <INSDSeq_topology>linear</INSDSeq_topology>
+    <INSDSeq_division>PLN</INSDSeq_division>
+    <INSDSeq_update-date>30-JAN-2023</INSDSeq_update-date>
+    <INSDSeq_create-date>30-JAN-2023</INSDSeq_create-date>
+    <INSDSeq_definition>Tolypocladium capitatum strain YFCC 881 RNA polymerase II subunit 1 (RPB1) gene, partial cds</INSDSeq_definition>
+    <INSDSeq_primary-accession>OP223123</INSDSeq_primary-accession>
+    <INSDSeq_accession-version>OP223123.1</INSDSeq_accession-version>
+    <INSDSeq_other-seqids>
+      <INSDSeqid>gb|OP223123.1|</INSDSeqid>
+      <INSDSeqid>gi|2431426027</INSDSeqid>
+    </INSDSeq_other-seqids>
+    <INSDSeq_source>Tolypocladium capitatum (Elaphocordyceps capitata)</INSDSeq_source>
+    <INSDSeq_organism>Tolypocladium capitatum</INSDSeq_organism>
+    <INSDSeq_taxonomy>Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina; Sordariomycetes; Hypocreomycetidae; Hypocreales; Ophiocordycipitaceae; Tolypocladium</INSDSeq_taxonomy>
+    <INSDSeq_references>
+      <INSDReference>
+        <INSDReference_reference>1</INSDReference_reference>
+        <INSDReference_position>1..724</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Dong,Q.Y.</INSDAuthor>
+          <INSDAuthor>Wang,Y.</INSDAuthor>
+          <INSDAuthor>Wang,Z.Q.</INSDAuthor>
+          <INSDAuthor>Liu,Y.F.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Phylogeny and Systematics of the Genus Tolypocladium (Ophiocordycipitaceae, Hypocreales)</INSDReference_title>
+        <INSDReference_journal>J Fungi (Basel) 8 (11), 1158 (2022)</INSDReference_journal>
+        <INSDReference_xref>
+          <INSDXref>
+            <INSDXref_dbname>doi</INSDXref_dbname>
+            <INSDXref_id>10.3390/jof8111158</INSDXref_id>
+          </INSDXref>
+        </INSDReference_xref>
+        <INSDReference_pubmed>36354925</INSDReference_pubmed>
+      </INSDReference>
+      <INSDReference>
+        <INSDReference_reference>2</INSDReference_reference>
+        <INSDReference_position>1..724</INSDReference_position>
+        <INSDReference_authors>
+          <INSDAuthor>Dong,Q.</INSDAuthor>
+          <INSDAuthor>Wang,Z.</INSDAuthor>
+          <INSDAuthor>Wang,Y.</INSDAuthor>
+          <INSDAuthor>Yu,H.</INSDAuthor>
+        </INSDReference_authors>
+        <INSDReference_title>Direct Submission</INSDReference_title>
+        <INSDReference_journal>Submitted (11-AUG-2022) Yunnan University, Yunnan Herbal Laboratory, College of Ecology and Environmental Sciences, No. 2 North Cuihu Road, Kunming, Yunnan 650091, China</INSDReference_journal>
+      </INSDReference>
+    </INSDSeq_references>
+    <INSDSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</INSDSeq_comment>
+    <INSDSeq_feature-table>
+      <INSDFeature>
+        <INSDFeature_key>source</INSDFeature_key>
+        <INSDFeature_location>1..724</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>724</INSDInterval_to>
+            <INSDInterval_accession>OP223123.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>organism</INSDQualifier_name>
+            <INSDQualifier_value>Tolypocladium capitatum</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>mol_type</INSDQualifier_name>
+            <INSDQualifier_value>genomic DNA</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>strain</INSDQualifier_name>
+            <INSDQualifier_value>YFCC 881</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>db_xref</INSDQualifier_name>
+            <INSDQualifier_value>taxon:45235</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>gene</INSDFeature_key>
+        <INSDFeature_location>&lt;1..&gt;724</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>724</INSDInterval_to>
+            <INSDInterval_accession>OP223123.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>mRNA</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..69,132..&gt;724)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>69</INSDInterval_to>
+            <INSDInterval_accession>OP223123.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>132</INSDInterval_from>
+            <INSDInterval_to>724</INSDInterval_to>
+            <INSDInterval_accession>OP223123.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transcription</INSDQualifier_name>
+            <INSDQualifier_value>TTTATCAAGAAGGTCAAGAAGATCTTGGAGATTGTCTGCCATAACTGCAGCAAGGTGTTGTCCGATACTAGCGACCCTGAGTTCGTCGCTGCCATCAACACACGGGACCCCAAGCTTCGCTTCAACCGTGTCTGGTCTGTCTGCAAGAAGAAGCGCAAGTGTGAGAACGAAGATCGCCAGAAAAAGGACGATGACGATTTCATACCGGGAATGAAGACTCATAATAACTGCAACAACCACGGCGGATGCGGCAACTTGCAGCCCTTGGTGCGACAAGCTGCGCTGCAACTCAAAGCTGCCTTCGACGTGGCCCAGGAAGACGGCCCCAAGAGAAAAGAGAGCGTGCCCATCACTCCAGAGATGGCTCACGGCATCTTGCGGCGAATTTCCGAGGCAGACTTGCGCAACATGGGCCTCAACTCCGACTACGCTCGCCCAGAGTGGATGGTCATCACGGTCCTTCCCGTGCCCCCTCCACCCGTTCGTCCTAGTATTTCTATGGATGGCACCGGCACCGGCATGCGAAACGAAGACGACTTGACCTACAAGCTCGGCGACATCATCCGCGCCAACGGCAACGTCAAGCAGGCTATCCGCGAAGGATCCCCGCAACACATTGCCCGGGATTTCGAGGAATTGCTGCAGTACCATGTGGCTACATA</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+      <INSDFeature>
+        <INSDFeature_key>CDS</INSDFeature_key>
+        <INSDFeature_location>join(&lt;1..69,132..&gt;724)</INSDFeature_location>
+        <INSDFeature_intervals>
+          <INSDInterval>
+            <INSDInterval_from>1</INSDInterval_from>
+            <INSDInterval_to>69</INSDInterval_to>
+            <INSDInterval_accession>OP223123.1</INSDInterval_accession>
+          </INSDInterval>
+          <INSDInterval>
+            <INSDInterval_from>132</INSDInterval_from>
+            <INSDInterval_to>724</INSDInterval_to>
+            <INSDInterval_accession>OP223123.1</INSDInterval_accession>
+          </INSDInterval>
+        </INSDFeature_intervals>
+        <INSDFeature_operator>join</INSDFeature_operator>
+        <INSDFeature_partial5 value="true"/>
+        <INSDFeature_partial3 value="true"/>
+        <INSDFeature_quals>
+          <INSDQualifier>
+            <INSDQualifier_name>gene</INSDQualifier_name>
+            <INSDQualifier_value>RPB1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>codon_start</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>transl_table</INSDQualifier_name>
+            <INSDQualifier_value>1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>product</INSDQualifier_name>
+            <INSDQualifier_value>RNA polymerase II subunit 1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>protein_id</INSDQualifier_name>
+            <INSDQualifier_value>WCB56979.1</INSDQualifier_value>
+          </INSDQualifier>
+          <INSDQualifier>
+            <INSDQualifier_name>translation</INSDQualifier_name>
+            <INSDQualifier_value>FIKKVKKILEIVCHNCSKVLSDTSDPEFVAAINTRDPKLRFNRVWSVCKKKRKCENEDRQKKDDDDFIPGMKTHNNCNNHGGCGNLQPLVRQAALQLKAAFDVAQEDGPKRKESVPITPEMAHGILRRISEADLRNMGLNSDYARPEWMVITVLPVPPPPVRPSISMDGTGTGMRNEDDLTYKLGDIIRANGNVKQAIREGSPQHIARDFEELLQYHVAT</INSDQualifier_value>
+          </INSDQualifier>
+        </INSDFeature_quals>
+      </INSDFeature>
+    </INSDSeq_feature-table>
+    <INSDSeq_sequence>tttatcaagaaggtcaagaagatcttggagattgtctgccataactgcagcaaggtgttgtccgatactgttagtctatgctgctctcttgcaagggtttgagcttcgtatgatgctgaccccttgcgcagagcgaccctgagttcgtcgctgccatcaacacacgggaccccaagcttcgcttcaaccgtgtctggtctgtctgcaagaagaagcgcaagtgtgagaacgaagatcgccagaaaaaggacgatgacgatttcataccgggaatgaagactcataataactgcaacaaccacggcggatgcggcaacttgcagcccttggtgcgacaagctgcgctgcaactcaaagctgccttcgacgtggcccaggaagacggccccaagagaaaagagagcgtgcccatcactccagagatggctcacggcatcttgcggcgaatttccgaggcagacttgcgcaacatgggcctcaactccgactacgctcgcccagagtggatggtcatcacggtccttcccgtgccccctccacccgttcgtcctagtatttctatggatggcaccggcaccggcatgcgaaacgaagacgacttgacctacaagctcggcgacatcatccgcgccaacggcaacgtcaagcaggctatccgcgaaggatccccgcaacacattgcccgggatttcgaggaattgctgcagtaccatgtggctacata</INSDSeq_sequence>
+  </INSDSeq>
+
+</INSDSet>

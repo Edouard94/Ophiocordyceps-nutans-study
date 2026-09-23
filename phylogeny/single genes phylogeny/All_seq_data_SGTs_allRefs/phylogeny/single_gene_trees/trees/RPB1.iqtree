@@ -1,0 +1,699 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Input file name: /home/edouard/Documents/Bioinfo/Multigene_phylogeny/Onutans/All_seq_data_SGTs_allRefs/phylogeny/trimmed/RPB1_trimmed.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 326708
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 121 sequences with 496 nucleotide sites
+Number of constant sites: 211 (= 42.5403% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 211 (= 42.5403% of all sites)
+Number of parsimony informative sites: 249
+Number of distinct site patterns: 322
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TN+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TN+F+I+G4        -13283.758   27059.516 +    0.343   27547.565 +    0.919   28094.334 +    0.825
+TIM+F+I+G4       -13283.070   27060.140 +    0.251   27554.140 -   0.0343   28099.164 +   0.0737
+TIM3+F+I+G4      -13283.275   27060.550 +    0.204   27554.550 -   0.0279   28099.574 +   0.0601
+TIM2+F+I+G4      -13283.653   27061.307 +     0.14   27555.307 -   0.0191   28100.331 -   0.0411
+GTR+F+I+G4       -13282.476   27062.951 +   0.0615   27569.049 - 1.99e-05   28110.389 - 0.000269
+TIM3+I+G4        -13320.813   27129.625 - 2.05e-16   27605.960 - 1.92e-13   28156.030 - 3.31e-14
+TIM3e+I+G4       -13320.819   27129.637 - 2.04e-16   27605.972 - 1.91e-13   28156.042 - 3.29e-14
+TIM3e+I+G4       -13320.819   27129.637 - 2.04e-16   27605.972 - 1.91e-13   28156.042 - 3.29e-14
+GTR+I+G4         -13319.123   27130.247 -  1.5e-16   27618.295 - 4.02e-16   28165.065 - 3.61e-16
+SYM+I+G4         -13319.127   27130.254 - 1.49e-16   27618.302 - 4.01e-16   28165.072 -  3.6e-16
+SYM+I+G4         -13319.127   27130.254 - 1.49e-16   27618.302 - 4.01e-16   28165.072 -  3.6e-16
+HKY+F+I+G4       -13329.693   27149.385 - 1.05e-20   27631.545 - 5.33e-19   28179.996 - 2.07e-19
+TPM3u+I+G4       -13338.109   27162.218 - 1.71e-23   27632.790 - 2.86e-19   28184.416 - 2.27e-20
+TPM3+I+G4        -13338.110   27162.219 - 1.71e-23   27632.791 - 2.86e-19   28184.417 - 2.26e-20
+TPM3+I+G4        -13338.110   27162.219 - 1.71e-23   27632.791 - 2.86e-19   28184.417 - 2.26e-20
+K3Pu+F+I+G4      -13329.015   27150.030 - 7.59e-21   27638.078 - 2.03e-20   28184.848 - 1.83e-20
+TPM3u+F+I+G4     -13329.223   27150.446 - 6.16e-21   27638.495 - 1.65e-20   28185.264 - 1.48e-20
+TPM2u+F+I+G4     -13329.643   27151.285 - 4.05e-21   27639.333 - 1.09e-20   28186.103 - 9.75e-21
+TN+I+G4          -13339.113   27164.226 - 6.28e-24   27634.797 - 1.05e-19   28186.424 - 8.31e-21
+TNe+I+G4         -13339.128   27164.256 - 6.18e-24   27634.827 - 1.03e-19   28186.454 - 8.18e-21
+TNe+I+G4         -13339.128   27164.256 - 6.18e-24   27634.827 - 1.03e-19   28186.454 - 8.18e-21
+TIM2+I+G4        -13337.752   27163.504 -    9e-24   27639.839 - 8.43e-21   28189.909 - 1.45e-21
+TIM2e+I+G4       -13337.758   27163.516 - 8.95e-24   27639.851 - 8.38e-21   28189.921 - 1.45e-21
+TIM2e+I+G4       -13337.758   27163.516 - 8.95e-24   27639.851 - 8.38e-21   28189.921 - 1.45e-21
+TIM+I+G4         -13338.496   27164.993 - 4.28e-24   27641.327 - 4.01e-21   28191.397 - 6.91e-22
+TIMe+I+G4        -13338.508   27165.015 - 4.23e-24   27641.350 - 3.96e-21   28191.420 - 6.83e-22
+TIMe+I+G4        -13338.508   27165.015 - 4.23e-24   27641.350 - 3.96e-21   28191.420 - 6.83e-22
+TVM+I+G4         -13335.947   27161.893 - 2.01e-23   27644.053 - 1.03e-21   28192.504 - 3.97e-22
+TVMe+I+G4        -13335.955   27161.910 -    2e-23   27644.070 - 1.02e-21   28192.521 - 3.94e-22
+TVMe+I+G4        -13335.955   27161.910 -    2e-23   27644.070 - 1.02e-21   28192.521 - 3.94e-22
+TVM+F+I+G4       -13328.386   27152.772 - 1.93e-21   27652.789 -  1.3e-23   28196.003 - 6.91e-23
+HKY+I+G4         -13353.270   27190.540 - 1.21e-29   27655.409 - 3.51e-24   28208.531 - 1.31e-25
+K2P+I+G4         -13353.281   27190.562 -  1.2e-29   27655.431 - 3.47e-24   28208.553 -  1.3e-25
+K2P+I+G4         -13353.281   27190.562 -  1.2e-29   27655.431 - 3.47e-24   28208.553 -  1.3e-25
+TPM2u+I+G4       -13351.543   27189.086 - 2.51e-29   27659.658 - 4.19e-25   28211.284 - 3.32e-26
+TPM2+I+G4        -13351.544   27189.089 - 2.51e-29   27659.660 - 4.19e-25   28211.286 - 3.31e-26
+TPM2+I+G4        -13351.544   27189.089 - 2.51e-29   27659.660 - 4.19e-25   28211.286 - 3.31e-26
+K3Pu+I+G4        -13352.678   27191.356 - 8.06e-30   27661.927 - 1.35e-25   28213.554 - 1.07e-26
+K3P+I+G4         -13352.679   27191.358 - 8.06e-30   27661.929 - 1.35e-25   28213.556 - 1.07e-26
+K3P+I+G4         -13352.679   27191.358 - 8.06e-30   27661.929 - 1.35e-25   28213.556 - 1.07e-26
+JC+I+G4          -14043.607   28569.215 -        0   29028.443 - 2.52e-322   29583.000 - 4.94e-324
+JC+I+G4          -14043.607   28569.215 -        0   29028.443 - 2.52e-322   29583.000 - 4.94e-324
+F81+I+G4         -14043.627   28569.254 -        0   29028.482 - 2.47e-322   29583.039 - 4.94e-324
+JC+R4            -14040.180   28570.361 -        0   29052.521 -        0   29600.972 -        0
+JC+I+R4          -14038.665   28569.330 -        0   29057.379 -        0   29604.148 -        0
+JC+R5            -14035.779   28565.557 -        0   29059.557 -        0   29604.582 -        0
+JC+I+R5          -14033.555   28563.109 -        0   29063.125 -        0   29606.340 -        0
+JC+I+R3          -14051.646   28591.292 -        0   29067.627 -        0   29617.697 -        0
+JC+R3            -14087.236   28660.472 -        0   29131.044 -        0   29682.670 -        0
+JC+G4            -14112.190   28704.380 -        0   29158.027 -        0   29713.959 -        0
+JC+I+R2          -14131.494   28746.988 -        0   29211.858 -        0   29764.979 -        0
+F81+F+I+G4       -14159.762   28807.525 -        0   29283.859 -        0   29833.929 -        0
+JC+R2            -14301.960   29085.920 -        0   29545.149 -        0   30099.705 -        0
+JC+I             -14742.097   29964.194 -        0   30417.841 -        0   30973.772 -        0
+JC               -16182.350   32842.700 -        0   33290.825 -        0   33848.072 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 3.6239
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 7.4423
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2408
+  pi(C) = 0.3047
+  pi(G) = 0.2839
+  pi(T) = 0.1706
+
+Rate matrix Q:
+
+  A   -0.8509    0.1724     0.582   0.09649
+  C    0.1362    -1.015    0.1606    0.7181
+  G    0.4935    0.1724   -0.7623   0.09649
+  T    0.1362     1.283    0.1606     -1.58
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.3866
+Gamma shape alpha: 0.8985
+
+ Category  Relative_rate  Proportion
+  0         0              0.3866
+  1         0.1896         0.1534
+  2         0.7238         0.1534
+  3         1.599          0.1534
+  4         4.008          0.1534
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13239.4416 (s.e. 653.4846)
+Unconstrained log-likelihood (without tree): -2590.2566
+Number of free parameters (#branches + #model parameters): 246
+Akaike information criterion (AIC) score: 26970.8832
+Corrected Akaike information criterion (AICc) score: 27458.9314
+Bayesian information criterion (BIC) score: 28005.7009
+
+Total tree length (sum of branch lengths): 8.0358
+Sum of internal branch lengths: 2.6527 (33.0112% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0020) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Tolypocladium_capitatum_OSC71233' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Tolypocladium_capitatum_OSC71233
+|
+|                                +---Ophiocordyceps_agriotidis_ARSEF5692
+|                             +--| (75.6/84)
+|                             |  |                   +**Ophiocordyceps_acicularis_OSC128580
+|                             |  |               +---| (99.9/100)
+|                             |  |               |   |  +**Ophiocordyceps_cochlidiicola_HMAS199612
+|                             |  |               |   +**| (0/100)
+|                             |  |               |      +**Ophiocordyceps_pseudoacicularis_BCC49256
+|                             |  |            +--| (97.9/91)
+|                             |  |            |  |  +----Ophiocordyceps_geometridicola_BCC35947
+|                             |  |            |  +--| (86.8/91)
+|                             |  |            |     +--Ophiocordyceps_pauciovoperitheciata_BCC53615
+|                             |  |         +--| (22.6/21)
+|                             |  |         |  +----Ophiocordyceps_brunneanigra_BCC69032
+|                             |  |      +--| (97.1/95)
+|                             |  |      |  |     +----------Ophiocordyceps_spataforae_NHJ12525
+|                             |  |      |  |  +--| (58.9/56)
+|                             |  |      |  |  |  +---------------Ophiocordyceps_pruinosa_NHJ12994
+|                             |  |      |  +--| (74.8/33)
+|                             |  |      |     +---Ophiocordyceps_crinalis_GDGM17327
+|                             |  |   +--| (78.1/76)
+|                             |  |   |  +---Ophiocordyceps_ramosissimum_GZUHHN8
+|                             |  +---| (99/91)
+|                             |      |     +--Ophiocordyceps_stylophora_OSC111000
+|                             |      |  +--| (90.9/93)
+|                             |      |  |  |  +---Ophiocordyceps_rubiginosiperitheciata_NBRC100946
+|                             |      |  |  +--| (61.7/62)
+|                             |      |  |     +--Ophiocordyceps_appendiculata_NBRC106959
+|                             |      +--| (80.4/71)
+|                             |         |           +--Ophiocordyceps_sinensis_EFCC7287
+|                             |         |        +--| (80.6/84)
+|                             |         |        |  +--Ophiocordyceps_robertsii_YHORZT007
+|                             |         |     +**| (0/58)
+|                             |         |     |  +--Ophiocordyceps_lanpingensis_YHOS0705
+|                             |         |  +--| (77.5/88)
+|                             |         |  |  |  +--Ophiocordyceps_xuefengensis_GZUHHN13
+|                             |         |  |  +--| (97.2/95)
+|                             |         |  |     +--Ophiocordyceps_macroacicularis_BCC22918
+|                             |         +--| (94.6/78)
+|                             |            +-----------Ophiocordyceps_multiperitheciata_BCC22861
+|                          +--| (80.3/53)
+|                          |  +------------------Ophiocordyceps_communis_BCC2754
+|                       +--| (96.4/78)
+|                       |  +--Ophiocordyceps_rhizoidea_NHJ12529
+|                    +--| (58.3/27)
+|                    |  |          +--Ophiocordyceps_elongata_OSC110989
+|                    |  |       +--| (35.7/51)
+|                    |  |       |  +-----Hirsutella_citriformis_ARSEF1446
+|                    |  |  +----| (99.1/100)
+|                    |  |  |    |  +**Ophiocordyceps_humbertii_MF116B
+|                    |  |  |    +--| (98.5/100)
+|                    |  |  |       +**Ophiocordyceps_humbertii_MF116A
+|                    |  +--| (70.1/48)
+|                    |     |          +**Ophiocordyceps_ponerinarum_Ophkni790
+|                    |     |       +--| (78.6/100)
+|                    |     |       |  +**Ophiocordyceps_kniphofioides_HUA_TSF790
+|                    |     +-------| (100/100)
+|                    |             +--Ophiocordyceps_kniphofioides_MF90
+|                 +--| (93.4/65)
+|                 |  |                         +--Ophiocordyceps_unilateralis_OSC128574
+|                 |  |                      +--| (72.7/59)
+|                 |  |                      |  +**Ophiocordyceps_satoi_J19
+|                 |  |                   +--| (8.4/35)
+|                 |  |                   |  +--Ophiocordyceps_naomipierceae_DAWKSANT
+|                 |  |              +----| (99.3/100)
+|                 |  |              |    |   +--Ophiocordyceps_ootakii_J13
+|                 |  |              |    +---| (98.1/100)
+|                 |  |              |        +----Ophiocordyceps_camponoti_YFCC9028
+|                 |  |           +--| (74.6/57)
+|                 |  |           |  |            +--Ophiocordyceps_camponoti_FEMO2
+|                 |  |           |  |  +---------| (100/100)
+|                 |  |           |  |  |         +--Ophiocordyceps_camponoti_G108
+|                 |  |           |  +--| (83.3/64)
+|                 |  |           |     +-----Ophiocordyceps_camponoti_OBIS5
+|                 |  |        +--| (85.3/73)
+|                 |  |        |  |  +--Ophiocordyceps_camponoti_G143
+|                 |  |        |  +--| (95.3/93)
+|                 |  |        |     |       +**Ophiocordyceps_camponoti_HIPPOC
+|                 |  |        |     |    +**| (82.4/96)
+|                 |  |        |     |    |  +**Ophiocordyceps_camponoti_NIDUL2
+|                 |  |        |     +----| (100/100)
+|                 |  |        |          +**Ophiocordyceps_kimflemingiae_SC30
+|                 |  |     +--| (98.1/100)
+|                 |  |     |  |  +--Ophiocordyceps_pulvinata_TNS_F_30044
+|                 |  |     |  +--| (80.2/70)
+|                 |  |     |     +--Ophiocordyceps_blakebarnesii_MISSOU5
+|                 |  |  +--| (89.4/69)
+|                 |  |  |  +-----Ophiocordyceps_monacidis_MF74
+|                 |  +--| (80.8/40)
+|                 |     +---Ophiocordyceps_tiputini_Ophtip11465
+|              +--| (95.7/79)
+|              |  |           +**Ophiocordyceps_brunneipunctata_OSC128576
+|              |  |        +--| (97.9/100)
+|              |  |        |  +**Ophiocordyceps_brunneipunctata_HKAS149958
+|              |  |     +--| (95.1/100)
+|              |  |     |  +-----Ophiocordyceps_annulata_CEM303
+|              |  |  +--| (96.7/99)
+|              |  |  |  |     +--Ophiocordyceps_sobolifera_KEW78842
+|              |  |  |  |  +--| (63.6/68)
+|              |  |  |  |  |  |     +--Ophiocordyceps_longissima_TNS_F18448
+|              |  |  |  |  |  |  +--| (97.3/99)
+|              |  |  |  |  |  |  |  +**Ophiocordyceps_yakusimensis_HMAS199604
+|              |  |  |  |  |  +--| (88.9/85)
+|              |  |  |  |  |     +--Ophiocordyceps_sp_CatKNZ01_OP
+|              |  |  |  +--| (81.4/86)
+|              |  |  |     +--Ophiocordyceps_araracuarensis_Ophful696
+|              |  +--| (86.9/89)
+|              |     |                            +--Ophiocordyceps_nutans_OSC110994
+|              |     |                         +--| (97.5/100)
+|              |     |                         |  +**ONT_205_A
+|              |     |                      +--| (99/100)
+|              |     |                      |  |           +**Ophiocordyceps_nutans_NBRC100944
+|              |     |                      |  |        +**| (82.6/62)
+|              |     |                      |  |        |  |     +**Ophiocordyceps_asiana_MY11878
+|              |     |                      |  |        |  |  +**| (0/17)
+|              |     |                      |  |        |  |  |  +**Ophiocordyceps_nutans_SICAU_24_0165
+|              |     |                      |  |        |  +**| (0/15)
+|              |     |                      |  |        |     +**Ophiocordyceps_asiana_GMBC3023
+|              |     |                      |  |     +--| (94.3/99)
+|              |     |                      |  |     |  |  +**Ophiocordyceps_nutans_SICAU_24_0164
+|              |     |                      |  |     |  +**| (0/95)
+|              |     |                      |  |     |     +**Ophiocordyceps_nutans_SICAU_24_0164_1
+|              |     |                      |  |  +--| (85.3/87)
+|              |     |                      |  |  |  +--Ophiocordyceps_tessaratomidarum_GMBC3025
+|              |     |                      |  +--| (96.7/100)
+|              |     |                      |     |  +**Ophiocordyceps_pseudonutans_HAKS131087
+|              |     |                      |     +--| (91.9/98)
+|              |     |                      |        +--Ophiocordyceps_anshunensis_GMBC3026
+|              |     |                   +--| (84.3/57)
+|              |     |                   |  |  +------------Ophiocordyceps_fulgoromorphila_Ophara717
+|              |     |                   |  +**| (0/49)
+|              |     |                   |     +------Ophiocordyceps_odonatae_TNS_F18563
+|              |     |                +--| (70.9/39)
+|              |     |                |  |           +-----Ophiocordyceps_sphecocephala_OSC110998
+|              |     |                |  |        +--| (90.6/96)
+|              |     |                |  |        |  |  +--Ophiocordyceps_sp_OSC151909
+|              |     |                |  |        |  +--| (97.5/100)
+|              |     |                |  |        |     +--Ophiocordyceps_corriemoreauae_C2014A
+|              |     |                |  |     +--| (48/41)
+|              |     |                |  |     |  +------ONT_204_B
+|              |     |                |  |  +--| (78.7/39)
+|              |     |                |  |  |  |          +--Ophiocordyceps_aphrophoridarum_YTS19061907
+|              |     |                |  |  |  |       +--| (75.2/66)
+|              |     |                |  |  |  |       |  +--Ophiocordyceps_aseptatospora_GZAAS_22_2052
+|              |     |                |  |  |  |    +--| (90.5/97)
+|              |     |                |  |  |  |    |  +--Ophiocordyceps_vespulae_HKAS_102449
+|              |     |                |  |  |  +----| (99.7/100)
+|              |     |                |  |  |       +--Ophiocordyceps_anocheti_HKAS132231
+|              |     |                |  +--| (90.8/62)
+|              |     |                |     |                 +--Ophiocordyceps_australis_Ophaus926
+|              |     |                |     |              +--| (95.4/96)
+|              |     |                |     |              |  +--Ophiocordyceps_australis_Ophaus774
+|              |     |                |     |           +**| (39.4/44)
+|              |     |                |     |           |  |     +--Ophiocordyceps_buquetii_HMAS199617
+|              |     |                |     |           |  |  +--| (75.8/45)
+|              |     |                |     |           |  |  |  +--Ophiocordyceps_laotii_BCC76495
+|              |     |                |     |           |  +--| (77.5/48)
+|              |     |                |     |           |     |  +--Ophiocordyceps_odontomachi_Odonto1
+|              |     |                |     |           |     +--| (73.8/83)
+|              |     |                |     |           |        +--Ophiocordyceps_sp_SJ22
+|              |     |                |     |        +--| (92.5/92)
+|              |     |                |     |        |  |  +**Ophiocordyceps_paltothyrei_Palt1
+|              |     |                |     |        |  +--| (99.8/100)
+|              |     |                |     |        |     +**Ophiocordyceps_paltothyrei_Palt2
+|              |     |                |     |     +--| (74.3/74)
+|              |     |                |     |     |  +---Ophiocordyceps_curculionum_OSC151910
+|              |     |                |     |  +--| (92.5/78)
+|              |     |                |     |  |  +--Ophiocordyceps_evansii_Ophsp_858
+|              |     |                |     +**| (0/22)
+|              |     |                |        +----Ophiocordyceps_formicarum_TNS_F18565
+|              |     |             +--| (79.1/47)
+|              |     |             |  |                     +**Ophiocordyceps_irangiensis_OSC128578
+|              |     |             |  |                  +--| (98.4/100)
+|              |     |             |  |                  |  +**Ophiocordyceps_megacuculla_BCC82258
+|              |     |             |  |               +--| (24.9/61)
+|              |     |             |  |               |  |     +**Ophiocordyceps_myrmecophila_HMAS199620
+|              |     |             |  |               |  |  +**| (0/72)
+|              |     |             |  |               |  |  |  +**Ophiocordyceps_myrmecophila_BCC82985
+|              |     |             |  |               |  +--| (92.2/99)
+|              |     |             |  |               |     +**Ophiocordyceps_khaoyaiensis_BCC82796
+|              |     |             |  |            +--| (96.6/99)
+|              |     |             |  |            |  |  +**Ophiocordyceps_thanathonensis_MFLUCC_16_2909
+|              |     |             |  |            |  +--| (91.3/99)
+|              |     |             |  |            |     +--Ophiocordyceps_thanathonensis_MFLUCC_16_2910
+|              |     |             |  |        +---| (99.7/100)
+|              |     |             |  |        |   |     +**Ophiocordyceps_granospora_OSC128579
+|              |     |             |  |        |   |  +--| (92.9/97)
+|              |     |             |  |        |   |  |  +--Ophiocordyceps_bannaensis_GACP24_0801
+|              |     |             |  |        |   +--| (97.2/100)
+|              |     |             |  |        |      +**Ophiocordyceps_granospora_BCC82255
+|              |     |             |  |     +--| (81.8/85)
+|              |     |             |  |     |  +--Ophiocordyceps_pseudolloydii_MFLU_22_0266
+|              |     |             |  +-----| (99.9/100)
+|              |     |             |        +---Ophiocordyceps_cylindrospora_HKAS148937
+|              |     |          +--| (87.2/72)
+|              |     |          |  +--Ophiocordyceps_forquignonii_OSC151902
+|              |     |       +--| (61.1/62)
+|              |     |       |  |      +----Ophiocordyceps_lloydii_OSC151913
+|              |     |       |  +------| (95.3/86)
+|              |     |       |         +--------------------Ophiocordyceps_laosensis_GMB3137
+|              |     +-------| (96.4/100)
+|              |             |                             +**Ophiocordyceps_dipterigena_OSC151911
+|              |             +-----------------------------| (100/100)
+|              |                                           +**Ophiocordyceps_dipterigena_OSC151912
+|           +--| (78.4/71)
+|           |  +----Ophiocordyceps_entomorrhiza_KEW53484
++-----------| (100/100)
+|           |                       +--Ophiocordyceps_melolonthae_OSC110993
+|           |                    +--| (93.4/97)
+|           |                    |  +--Ophiocordyceps_gracillisima_Ophgrc679
+|           |                 +--| (87.5/93)
+|           |                 |  +------Ophiocordyceps_neovolkiana_OSC151903
+|           |              +--| (68.1/54)
+|           |              |  +---------Ophiocordyceps_clavata_CEM1762
+|           |           +--| (74.2/54)
+|           |           |  +------Ophiocordyceps_variabilis_ARSEF5365
+|           |        +--| (70.9/59)
+|           |        |  +----Ophiocordyceps_purpureostromata_TNS_F18430
+|           |     +--| (76.1/67)
+|           |     |  |         +--Ophiocordyceps_ravenelii_OSC110995
+|           |     |  |  +------| (99.9/100)
+|           |     |  |  |      +**Ophiocordyceps_nigrella_EFCC9247
+|           |     |  +--| (78.6/85)
+|           |     |     |  +--------Ophiocordyceps_konnoana_EFCC7315
+|           |     |     +--| (45.6/70)
+|           |     |        +---------------------------Ophiocordyceps_buquetii_HMAS199613
+|           |  +--| (75.9/78)
+|           |  |  |            +--Ophiocordyceps_gracilis_EFCC3101
+|           |  |  |         +--| (57.8/66)
+|           |  |  |         |  +--Ophiocordyceps_blattarioides_Ophsp_014
+|           |  |  |  +------| (100/100)
+|           |  |  |  |      +--Ophiocordyceps_amazonica_Ophama2026
+|           |  |  +--| (90.1/93)
+|           |  |     +----Ophiocordyceps_heteropoda_EFCC10125
+|           +--| (75.5/77)
+|              +----Ophiocordyceps_formosana_TNM_F13893
+|
+|  +--Tolypocladium_inflatum_MTCC557
++--| (69.8/75)
+   +--Tolypocladium_ophioglossoides_CBS100239
+
+Tree in newick format:
+
+(Tolypocladium_capitatum_OSC71233:0.0320150412,((((((((Ophiocordyceps_agriotidis_ARSEF5692:0.0523852571,((((((Ophiocordyceps_acicularis_OSC128580:0.0020074415,(Ophiocordyceps_cochlidiicola_HMAS199612:0.0000010018,Ophiocordyceps_pseudoacicularis_BCC49256:0.0000010018)0/100:0.0000027609)99.9/100:0.0555120890,(Ophiocordyceps_geometridicola_BCC35947:0.0664757382,Ophiocordyceps_pauciovoperitheciata_BCC53615:0.0291451030)86.8/91:0.0171935346)97.9/91:0.0460928280,Ophiocordyceps_brunneanigra_BCC69032:0.0610917759)22.6/21:0.0043344025,((Ophiocordyceps_spataforae_NHJ12525:0.1449452145,Ophiocordyceps_pruinosa_NHJ12994:0.1942344904)58.9/56:0.0435324109,Ophiocordyceps_crinalis_GDGM17327:0.0554546771)74.8/33:0.0092013753)97.1/95:0.0353072046,Ophiocordyceps_ramosissimum_GZUHHN8:0.0601840995)78.1/76:0.0137582441,((Ophiocordyceps_stylophora_OSC111000:0.0248296531,(Ophiocordyceps_rubiginosiperitheciata_NBRC100946:0.0600539482,Ophiocordyceps_appendiculata_NBRC106959:0.0290042595)61.7/62:0.0022898769)90.9/93:0.0161670588,((((Ophiocordyceps_sinensis_EFCC7287:0.0138775494,Ophiocordyceps_robertsii_YHORZT007:0.0154068976)80.6/84:0.0040040083,Ophiocordyceps_lanpingensis_YHOS0705:0.0162842777)0/58:0.0000028607,(Ophiocordyceps_xuefengensis_GZUHHN13:0.0224683189,Ophiocordyceps_macroacicularis_BCC22918:0.0195616280)97.2/95:0.0149962029)77.5/88:0.0159741053,Ophiocordyceps_multiperitheciata_BCC22861:0.1500986016)94.6/78:0.0261304149)80.4/71:0.0102188512)99/91:0.0542711751)75.6/84:0.0225110155,Ophiocordyceps_communis_BCC2754:0.2340727244)80.3/53:0.0113530657,Ophiocordyceps_rhizoidea_NHJ12529:0.0474817439)96.4/78:0.0365174760,(((Ophiocordyceps_elongata_OSC110989:0.0462658478,Hirsutella_citriformis_ARSEF1446:0.0772036447)35.7/51:0.0150587556,(Ophiocordyceps_humbertii_MF116B:0.0000010018,Ophiocordyceps_humbertii_MF116A:0.0000010018)98.5/100:0.0450061899)99.1/100:0.0631604535,((Ophiocordyceps_ponerinarum_Ophkni790:0.0000010018,Ophiocordyceps_kniphofioides_HUA_TSF790:0.0000010018)78.6/100:0.0082195718,Ophiocordyceps_kniphofioides_MF90:0.0125544338)100/100:0.0981126637)70.1/48:0.0126106323)58.3/27:0.0113198945,((((((((Ophiocordyceps_unilateralis_OSC128574:0.0081420589,Ophiocordyceps_satoi_J19:0.0000022054)72.7/59:0.0036117568,Ophiocordyceps_naomipierceae_DAWKSANT:0.0141108147)8.4/35:0.0053600263,(Ophiocordyceps_ootakii_J13:0.0480562668,Ophiocordyceps_camponoti_YFCC9028:0.0654745471)98.1/100:0.0514572037)99.3/100:0.0626838691,((Ophiocordyceps_camponoti_FEMO2:0.0305397812,Ophiocordyceps_camponoti_G108:0.0067822626)100/100:0.1211759107,Ophiocordyceps_camponoti_OBIS5:0.0816502627)83.3/64:0.0186409073)74.6/57:0.0058199283,(Ophiocordyceps_camponoti_G143:0.0211018777,((Ophiocordyceps_camponoti_HIPPOC:0.0000010018,Ophiocordyceps_camponoti_NIDUL2:0.0000010018)82.4/96:0.0019660041,Ophiocordyceps_kimflemingiae_SC30:0.0000029836)100/100:0.0696362925)95.3/93:0.0250416145)85.3/73:0.0142232438,(Ophiocordyceps_pulvinata_TNS_F_30044:0.0396559917,Ophiocordyceps_blakebarnesii_MISSOU5:0.0303558781)80.2/70:0.0109936427)98.1/100:0.0414650050,Ophiocordyceps_monacidis_MF74:0.0829004703)89.4/69:0.0229532610,Ophiocordyceps_tiputini_Ophtip11465:0.0553780413)80.8/40:0.0098950967)93.4/65:0.0303633363,((((Ophiocordyceps_brunneipunctata_OSC128576:0.0000010018,Ophiocordyceps_brunneipunctata_HKAS149958:0.0020146075)97.9/100:0.0340228969,Ophiocordyceps_annulata_CEM303:0.0741199597)95.1/100:0.0335269136,((Ophiocordyceps_sobolifera_KEW78842:0.0337393674,((Ophiocordyceps_longissima_TNS_F18448:0.0035506683,Ophiocordyceps_yakusimensis_HMAS199604:0.0005493316)97.3/99:0.0146688221,Ophiocordyceps_sp_CatKNZ01_OP:0.0109198586)88.9/85:0.0101808798)63.6/68:0.0055796609,Ophiocordyceps_araracuarensis_Ophful696:0.0388165642)81.4/86:0.0169728864)96.7/99:0.0327090872,((((((((Ophiocordyceps_nutans_OSC110994:0.0050393986,ONT_205_A:0.0000023131)97.5/100:0.0339254602,((((Ophiocordyceps_nutans_NBRC100944:0.0018322951,((Ophiocordyceps_asiana_MY11878:0.0018292740,Ophiocordyceps_nutans_SICAU_24_0165:0.0018216805)0/17:0.0000025729,Ophiocordyceps_asiana_GMBC3023:0.0000010018)0/15:0.0000010017)82.6/62:0.0018273728,(Ophiocordyceps_nutans_SICAU_24_0164:0.0000010018,Ophiocordyceps_nutans_SICAU_24_0164_1:0.0000010018)0/95:0.0000025871)94.3/99:0.0127612360,Ophiocordyceps_tessaratomidarum_GMBC3025:0.0240865394)85.3/87:0.0082335596,(Ophiocordyceps_pseudonutans_HAKS131087:0.0017026033,Ophiocordyceps_anshunensis_GMBC3026:0.0096034706)91.9/98:0.0127435080)96.7/100:0.0288571934)99/100:0.0425603669,(Ophiocordyceps_fulgoromorphila_Ophara717:0.1649561475,Ophiocordyceps_odonatae_TNS_F18563:0.0896439358)0/49:0.0000027097)84.3/57:0.0093424400,((((Ophiocordyceps_sphecocephala_OSC110998:0.0732622612,(Ophiocordyceps_sp_OSC151909:0.0031114193,Ophiocordyceps_corriemoreauae_C2014A:0.0245087472)97.5/100:0.0475982107)90.6/96:0.0344300273,ONT_204_B:0.0880695520)48/41:0.0081275961,(((Ophiocordyceps_aphrophoridarum_YTS19061907:0.0161049052,Ophiocordyceps_aseptatospora_GZAAS_22_2052:0.0193703749)75.2/66:0.0022547689,Ophiocordyceps_vespulae_HKAS_102449:0.0226717573)90.5/97:0.0140961442,Ophiocordyceps_anocheti_HKAS132231:0.0290866217)99.7/100:0.0651749715)78.7/39:0.0079112812,((((((Ophiocordyceps_australis_Ophaus926:0.0365304637,Ophiocordyceps_australis_Ophaus774:0.0199830842)95.4/96:0.0179569487,((Ophiocordyceps_buquetii_HMAS199617:0.0216336276,Ophiocordyceps_laotii_BCC76495:0.0384372746)75.8/45:0.0034424551,(Ophiocordyceps_odontomachi_Odonto1:0.0253444425,Ophiocordyceps_sp_SJ22:0.0351878005)73.8/83:0.0159697230)77.5/48:0.0050292697)39.4/44:0.0016099583,(Ophiocordyceps_paltothyrei_Palt1:0.0000021187,Ophiocordyceps_paltothyrei_Palt2:0.0000010018)99.8/100:0.0480612604)92.5/92:0.0186430184,Ophiocordyceps_curculionum_OSC151910:0.0560438914)74.3/74:0.0134782617,Ophiocordyceps_evansii_Ophsp_858:0.0437619045)92.5/78:0.0201093924,Ophiocordyceps_formicarum_TNS_F18565:0.0624156696)0/22:0.0000023586)90.8/62:0.0192254500)70.9/39:0.0074923995,((((((Ophiocordyceps_irangiensis_OSC128578:0.0000010018,Ophiocordyceps_megacuculla_BCC82258:0.0000010018)98.4/100:0.0148858588,((Ophiocordyceps_myrmecophila_HMAS199620:0.0017755687,Ophiocordyceps_myrmecophila_BCC82985:0.0000010018)0/72:0.0000021442,Ophiocordyceps_khaoyaiensis_BCC82796:0.0017774786)92.2/99:0.0080853553)24.9/61:0.0050030645,(Ophiocordyceps_thanathonensis_MFLUCC_16_2909:0.0000010018,Ophiocordyceps_thanathonensis_MFLUCC_16_2910:0.0035579613)91.3/99:0.0095597116)96.6/99:0.0310793206,((Ophiocordyceps_granospora_OSC128579:0.0000026203,Ophiocordyceps_bannaensis_GACP24_0801:0.0245566967)92.9/97:0.0091502890,Ophiocordyceps_granospora_BCC82255:0.0000120347)97.2/100:0.0339752529)99.7/100:0.0577371742,Ophiocordyceps_pseudolloydii_MFLU_22_0266:0.0307318816)81.8/85:0.0131431136,Ophiocordyceps_cylindrospora_HKAS148937:0.0588857414)99.9/100:0.0747944274)79.1/47:0.0140659589,Ophiocordyceps_forquignonii_OSC151902:0.0347007901)87.2/72:0.0302011506,(Ophiocordyceps_lloydii_OSC151913:0.0637958611,Ophiocordyceps_laosensis_GMB3137:0.2612710769)95.3/86:0.0921781890)61.1/62:0.0367306966,(Ophiocordyceps_dipterigena_OSC151911:0.0000010018,Ophiocordyceps_dipterigena_OSC151912:0.0000010018)100/100:0.3707729065)96.4/100:0.0966999114)86.9/89:0.0200567535)95.7/79:0.0457400490,Ophiocordyceps_entomorrhiza_KEW53484:0.0622611657)78.4/71:0.0167761710,((((((((Ophiocordyceps_melolonthae_OSC110993:0.0114922235,Ophiocordyceps_gracillisima_Ophgrc679:0.0097210838)93.4/97:0.0181053099,Ophiocordyceps_neovolkiana_OSC151903:0.0921482059)87.5/93:0.0187686214,Ophiocordyceps_clavata_CEM1762:0.1322777109)68.1/54:0.0060651564,Ophiocordyceps_variabilis_ARSEF5365:0.0904708412)74.2/54:0.0066930411,Ophiocordyceps_purpureostromata_TNS_F18430:0.0685369169)70.9/59:0.0054743179,((Ophiocordyceps_ravenelii_OSC110995:0.0301157163,Ophiocordyceps_nigrella_EFCC9247:0.0018696020)99.9/100:0.0876949897,(Ophiocordyceps_konnoana_EFCC7315:0.1169793907,Ophiocordyceps_buquetii_HMAS199613:0.3448116357)45.6/70:0.0236619447)78.6/85:0.0126044850)76.1/67:0.0060214947,(((Ophiocordyceps_gracilis_EFCC3101:0.0132912911,Ophiocordyceps_blattarioides_Ophsp_014:0.0224792091)57.8/66:0.0055050304,Ophiocordyceps_amazonica_Ophama2026:0.0412340420)100/100:0.0879618656,Ophiocordyceps_heteropoda_EFCC10125:0.0618662843)90.1/93:0.0234129085)75.9/78:0.0101246699,Ophiocordyceps_formosana_TNM_F13893:0.0700635330)75.5/77:0.0113253617)100/100:0.1555233133,(Tolypocladium_inflatum_MTCC557:0.0241059644,Tolypocladium_ophioglossoides_CBS100239:0.0291959795)69.8/75:0.0045518289);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13241.983738
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Tolypocladium_capitatum_OSC71233
+|
+|                              +---Ophiocordyceps_agriotidis_ARSEF5692
+|                           +--| (84)
+|                           |  |                   +--Ophiocordyceps_acicularis_OSC128580
+|                           |  |               +---| (100)
+|                           |  |               |   |  +--Ophiocordyceps_cochlidiicola_HMAS199612
+|                           |  |               |   +--| (100)
+|                           |  |               |      +--Ophiocordyceps_pseudoacicularis_BCC49256
+|                           |  |            +--| (91)
+|                           |  |            |  |  +----Ophiocordyceps_geometridicola_BCC35947
+|                           |  |            |  +--| (91)
+|                           |  |            |     +--Ophiocordyceps_pauciovoperitheciata_BCC53615
+|                           |  |         +--| (21)
+|                           |  |         |  +----Ophiocordyceps_brunneanigra_BCC69032
+|                           |  |      +--| (95)
+|                           |  |      |  |     +-----------Ophiocordyceps_spataforae_NHJ12525
+|                           |  |      |  |  +--| (56)
+|                           |  |      |  |  |  +---------------Ophiocordyceps_pruinosa_NHJ12994
+|                           |  |      |  +--| (33)
+|                           |  |      |     +---Ophiocordyceps_crinalis_GDGM17327
+|                           |  |   +--| (76)
+|                           |  |   |  +----Ophiocordyceps_ramosissimum_GZUHHN8
+|                           |  +---| (91)
+|                           |      |     +--Ophiocordyceps_stylophora_OSC111000
+|                           |      |  +--| (93)
+|                           |      |  |  |  +----Ophiocordyceps_rubiginosiperitheciata_NBRC100946
+|                           |      |  |  +--| (62)
+|                           |      |  |     +--Ophiocordyceps_appendiculata_NBRC106959
+|                           |      +--| (71)
+|                           |         |           +--Ophiocordyceps_sinensis_EFCC7287
+|                           |         |        +--| (84)
+|                           |         |        |  +--Ophiocordyceps_robertsii_YHORZT007
+|                           |         |     +--| (58)
+|                           |         |     |  +--Ophiocordyceps_lanpingensis_YHOS0705
+|                           |         |  +--| (88)
+|                           |         |  |  |  +--Ophiocordyceps_xuefengensis_GZUHHN13
+|                           |         |  |  +--| (95)
+|                           |         |  |     +--Ophiocordyceps_macroacicularis_BCC22918
+|                           |         +--| (78)
+|                           |            +-----------Ophiocordyceps_multiperitheciata_BCC22861
+|                        +--| (53)
+|                        |  +------------------Ophiocordyceps_communis_BCC2754
+|                     +--| (78)
+|                     |  +---Ophiocordyceps_rhizoidea_NHJ12529
+|                  +--| (65)
+|                  |  |                            +--Ophiocordyceps_unilateralis_OSC128574
+|                  |  |                         +--| (59)
+|                  |  |                         |  +--Ophiocordyceps_satoi_J19
+|                  |  |                      +--| (35)
+|                  |  |                      |  +--Ophiocordyceps_naomipierceae_DAWKSANT
+|                  |  |                 +----| (100)
+|                  |  |                 |    |   +---Ophiocordyceps_ootakii_J13
+|                  |  |                 |    +---| (100)
+|                  |  |                 |        +----Ophiocordyceps_camponoti_YFCC9028
+|                  |  |              +--| (57)
+|                  |  |              |  |            +--Ophiocordyceps_camponoti_FEMO2
+|                  |  |              |  |  +---------| (100)
+|                  |  |              |  |  |         +--Ophiocordyceps_camponoti_G108
+|                  |  |              |  +--| (64)
+|                  |  |              |     +-----Ophiocordyceps_camponoti_OBIS5
+|                  |  |           +--| (73)
+|                  |  |           |  |  +--Ophiocordyceps_camponoti_G143
+|                  |  |           |  +--| (93)
+|                  |  |           |     |       +--Ophiocordyceps_camponoti_HIPPOC
+|                  |  |           |     |    +--| (96)
+|                  |  |           |     |    |  +--Ophiocordyceps_camponoti_NIDUL2
+|                  |  |           |     +----| (100)
+|                  |  |           |          +--Ophiocordyceps_kimflemingiae_SC30
+|                  |  |        +--| (100)
+|                  |  |        |  |  +--Ophiocordyceps_pulvinata_TNS_F_30044
+|                  |  |        |  +--| (70)
+|                  |  |        |     +--Ophiocordyceps_blakebarnesii_MISSOU5
+|                  |  |     +--| (69)
+|                  |  |     |  +-----Ophiocordyceps_monacidis_MF74
+|                  |  |  +--| (40)
+|                  |  |  |  +---Ophiocordyceps_tiputini_Ophtip11465
+|                  |  +--| (28)
+|                  |     |          +--Ophiocordyceps_elongata_OSC110989
+|                  |     |       +--| (51)
+|                  |     |       |  +-----Hirsutella_citriformis_ARSEF1446
+|                  |     |  +----| (100)
+|                  |     |  |    |  +--Ophiocordyceps_humbertii_MF116B
+|                  |     |  |    +--| (100)
+|                  |     |  |       +--Ophiocordyceps_humbertii_MF116A
+|                  |     +--| (48)
+|                  |        |         +--Ophiocordyceps_ponerinarum_Ophkni790
+|                  |        |      +--| (100)
+|                  |        |      |  +--Ophiocordyceps_kniphofioides_HUA_TSF790
+|                  |        +------| (100)
+|                  |               +--Ophiocordyceps_kniphofioides_MF90
+|               +--| (79)
+|               |  |           +--Ophiocordyceps_brunneipunctata_OSC128576
+|               |  |        +--| (100)
+|               |  |        |  +--Ophiocordyceps_brunneipunctata_HKAS149958
+|               |  |     +--| (100)
+|               |  |     |  +-----Ophiocordyceps_annulata_CEM303
+|               |  |  +--| (99)
+|               |  |  |  |     +--Ophiocordyceps_sobolifera_KEW78842
+|               |  |  |  |  +--| (68)
+|               |  |  |  |  |  |     +--Ophiocordyceps_longissima_TNS_F18448
+|               |  |  |  |  |  |  +--| (99)
+|               |  |  |  |  |  |  |  +--Ophiocordyceps_yakusimensis_HMAS199604
+|               |  |  |  |  |  +--| (85)
+|               |  |  |  |  |     +--Ophiocordyceps_sp_CatKNZ01_OP
+|               |  |  |  +--| (86)
+|               |  |  |     +--Ophiocordyceps_araracuarensis_Ophful696
+|               |  +--| (89)
+|               |     |                           +--Ophiocordyceps_nutans_OSC110994
+|               |     |                        +--| (100)
+|               |     |                        |  +--ONT_205_A
+|               |     |                     +--| (100)
+|               |     |                     |  |                 +--Ophiocordyceps_nutans_NBRC100944
+|               |     |                     |  |              +--| (20)
+|               |     |                     |  |              |  +--Ophiocordyceps_asiana_GMBC3023
+|               |     |                     |  |           +--| (25)
+|               |     |                     |  |           |  +--Ophiocordyceps_asiana_MY11878
+|               |     |                     |  |        +--| (62)
+|               |     |                     |  |        |  +--Ophiocordyceps_nutans_SICAU_24_0165
+|               |     |                     |  |     +--| (99)
+|               |     |                     |  |     |  |  +--Ophiocordyceps_nutans_SICAU_24_0164
+|               |     |                     |  |     |  +--| (95)
+|               |     |                     |  |     |     +--Ophiocordyceps_nutans_SICAU_24_0164_1
+|               |     |                     |  |  +--| (87)
+|               |     |                     |  |  |  +--Ophiocordyceps_tessaratomidarum_GMBC3025
+|               |     |                     |  +--| (100)
+|               |     |                     |     |  +--Ophiocordyceps_pseudonutans_HAKS131087
+|               |     |                     |     +--| (98)
+|               |     |                     |        +--Ophiocordyceps_anshunensis_GMBC3026
+|               |     |                  +--| (57)
+|               |     |                  |  |  +------------Ophiocordyceps_fulgoromorphila_Ophara717
+|               |     |                  |  +--| (49)
+|               |     |                  |     +------Ophiocordyceps_odonatae_TNS_F18563
+|               |     |               +--| (39)
+|               |     |               |  |           +-----Ophiocordyceps_sphecocephala_OSC110998
+|               |     |               |  |        +--| (96)
+|               |     |               |  |        |  |  +--Ophiocordyceps_sp_OSC151909
+|               |     |               |  |        |  +--| (100)
+|               |     |               |  |        |     +--Ophiocordyceps_corriemoreauae_C2014A
+|               |     |               |  |     +--| (41)
+|               |     |               |  |     |  +------ONT_204_B
+|               |     |               |  |  +--| (39)
+|               |     |               |  |  |  |          +--Ophiocordyceps_aphrophoridarum_YTS19061907
+|               |     |               |  |  |  |       +--| (66)
+|               |     |               |  |  |  |       |  +--Ophiocordyceps_aseptatospora_GZAAS_22_2052
+|               |     |               |  |  |  |    +--| (97)
+|               |     |               |  |  |  |    |  +--Ophiocordyceps_vespulae_HKAS_102449
+|               |     |               |  |  |  +----| (100)
+|               |     |               |  |  |       +--Ophiocordyceps_anocheti_HKAS132231
+|               |     |               |  +--| (62)
+|               |     |               |     |                 +--Ophiocordyceps_australis_Ophaus926
+|               |     |               |     |              +--| (96)
+|               |     |               |     |              |  +--Ophiocordyceps_australis_Ophaus774
+|               |     |               |     |           +--| (44)
+|               |     |               |     |           |  |     +--Ophiocordyceps_buquetii_HMAS199617
+|               |     |               |     |           |  |  +--| (45)
+|               |     |               |     |           |  |  |  +--Ophiocordyceps_laotii_BCC76495
+|               |     |               |     |           |  +--| (48)
+|               |     |               |     |           |     |  +--Ophiocordyceps_odontomachi_Odonto1
+|               |     |               |     |           |     +--| (83)
+|               |     |               |     |           |        +--Ophiocordyceps_sp_SJ22
+|               |     |               |     |        +--| (92)
+|               |     |               |     |        |  |   +--Ophiocordyceps_paltothyrei_Palt1
+|               |     |               |     |        |  +---| (100)
+|               |     |               |     |        |      +--Ophiocordyceps_paltothyrei_Palt2
+|               |     |               |     |     +--| (74)
+|               |     |               |     |     |  +---Ophiocordyceps_curculionum_OSC151910
+|               |     |               |     |  +--| (78)
+|               |     |               |     |  |  +--Ophiocordyceps_evansii_Ophsp_858
+|               |     |               |     +--| (22)
+|               |     |               |        +----Ophiocordyceps_formicarum_TNS_F18565
+|               |     |            +--| (47)
+|               |     |            |  |                     +--Ophiocordyceps_irangiensis_OSC128578
+|               |     |            |  |                  +--| (100)
+|               |     |            |  |                  |  +--Ophiocordyceps_megacuculla_BCC82258
+|               |     |            |  |               +--| (61)
+|               |     |            |  |               |  |     +--Ophiocordyceps_myrmecophila_HMAS199620
+|               |     |            |  |               |  |  +--| (72)
+|               |     |            |  |               |  |  |  +--Ophiocordyceps_myrmecophila_BCC82985
+|               |     |            |  |               |  +--| (99)
+|               |     |            |  |               |     +--Ophiocordyceps_khaoyaiensis_BCC82796
+|               |     |            |  |            +--| (99)
+|               |     |            |  |            |  |  +--Ophiocordyceps_thanathonensis_MFLUCC_16_2909
+|               |     |            |  |            |  +--| (99)
+|               |     |            |  |            |     +--Ophiocordyceps_thanathonensis_MFLUCC_16_2910
+|               |     |            |  |        +---| (100)
+|               |     |            |  |        |   |     +--Ophiocordyceps_granospora_OSC128579
+|               |     |            |  |        |   |  +--| (97)
+|               |     |            |  |        |   |  |  +--Ophiocordyceps_bannaensis_GACP24_0801
+|               |     |            |  |        |   +--| (100)
+|               |     |            |  |        |      +--Ophiocordyceps_granospora_BCC82255
+|               |     |            |  |     +--| (85)
+|               |     |            |  |     |  +--Ophiocordyceps_pseudolloydii_MFLU_22_0266
+|               |     |            |  +-----| (100)
+|               |     |            |        +---Ophiocordyceps_cylindrospora_HKAS148937
+|               |     |         +--| (72)
+|               |     |         |  +--Ophiocordyceps_forquignonii_OSC151902
+|               |     |      +--| (62)
+|               |     |      |  |      +----Ophiocordyceps_lloydii_OSC151913
+|               |     |      |  +------| (86)
+|               |     |      |         +--------------------Ophiocordyceps_laosensis_GMB3137
+|               |     +------| (100)
+|               |            |                              +--Ophiocordyceps_dipterigena_OSC151911
+|               |            +------------------------------| (100)
+|               |                                           +--Ophiocordyceps_dipterigena_OSC151912
+|            +--| (71)
+|            |  +----Ophiocordyceps_entomorrhiza_KEW53484
++------------| (100)
+|            |                       +--Ophiocordyceps_melolonthae_OSC110993
+|            |                    +--| (97)
+|            |                    |  +--Ophiocordyceps_gracillisima_Ophgrc679
+|            |                 +--| (93)
+|            |                 |  +------Ophiocordyceps_neovolkiana_OSC151903
+|            |              +--| (54)
+|            |              |  +----------Ophiocordyceps_clavata_CEM1762
+|            |           +--| (54)
+|            |           |  +------Ophiocordyceps_variabilis_ARSEF5365
+|            |        +--| (59)
+|            |        |  +----Ophiocordyceps_purpureostromata_TNS_F18430
+|            |     +--| (67)
+|            |     |  |         +--Ophiocordyceps_ravenelii_OSC110995
+|            |     |  |  +------| (100)
+|            |     |  |  |      +--Ophiocordyceps_nigrella_EFCC9247
+|            |     |  +--| (85)
+|            |     |     |  +--------Ophiocordyceps_konnoana_EFCC7315
+|            |     |     +--| (70)
+|            |     |        +---------------------------Ophiocordyceps_buquetii_HMAS199613
+|            |  +--| (78)
+|            |  |  |            +--Ophiocordyceps_gracilis_EFCC3101
+|            |  |  |         +--| (66)
+|            |  |  |         |  +--Ophiocordyceps_blattarioides_Ophsp_014
+|            |  |  |  +------| (100)
+|            |  |  |  |      +--Ophiocordyceps_amazonica_Ophama2026
+|            |  |  +--| (93)
+|            |  |     +----Ophiocordyceps_heteropoda_EFCC10125
+|            +--| (77)
+|               +----Ophiocordyceps_formosana_TNM_F13893
+|
+|  +--Tolypocladium_inflatum_MTCC557
++--| (75)
+   +--Tolypocladium_ophioglossoides_CBS100239
+
+
+Consensus tree in newick format: 
+
+(Tolypocladium_capitatum_OSC71233:0.0321404082,(((((((Ophiocordyceps_agriotidis_ARSEF5692:0.0583160174,((((((Ophiocordyceps_acicularis_OSC128580:0.0020091136,(Ophiocordyceps_cochlidiicola_HMAS199612:0.0000029736,Ophiocordyceps_pseudoacicularis_BCC49256:0.0000029736)100:0.0000029736)100:0.0555625192,(Ophiocordyceps_geometridicola_BCC35947:0.0664828199,Ophiocordyceps_pauciovoperitheciata_BCC53615:0.0291892281)91:0.0171843419)91:0.0460951590,Ophiocordyceps_brunneanigra_BCC69032:0.0611492444)21:0.0044351071,((Ophiocordyceps_spataforae_NHJ12525:0.1449423789,Ophiocordyceps_pruinosa_NHJ12994:0.1943588478)56:0.0434054611,Ophiocordyceps_crinalis_GDGM17327:0.0554957219)33:0.0091085826)95:0.0351911315,Ophiocordyceps_ramosissimum_GZUHHN8:0.0600589460)76:0.0137830596,((Ophiocordyceps_stylophora_OSC111000:0.0248003887,(Ophiocordyceps_rubiginosiperitheciata_NBRC100946:0.0601526986,Ophiocordyceps_appendiculata_NBRC106959:0.0289935926)62:0.0023299881)93:0.0161609901,((((Ophiocordyceps_sinensis_EFCC7287:0.0138695692,Ophiocordyceps_robertsii_YHORZT007:0.0154326580)84:0.0040073766,Ophiocordyceps_lanpingensis_YHOS0705:0.0162894414)58:0.0000029916,(Ophiocordyceps_xuefengensis_GZUHHN13:0.0224818354,Ophiocordyceps_macroacicularis_BCC22918:0.0195721855)95:0.0150040885)88:0.0160729102,Ophiocordyceps_multiperitheciata_BCC22861:0.1499879674)78:0.0261695181)71:0.0101906081)91:0.0484151871)84:0.0237533796,Ophiocordyceps_communis_BCC2754:0.2272433029)53:0.0114454012,Ophiocordyceps_rhizoidea_NHJ12529:0.0479473797)78:0.0290766670,(((((((((Ophiocordyceps_unilateralis_OSC128574:0.0081421407,Ophiocordyceps_satoi_J19:0.0000029736)59:0.0035682467,Ophiocordyceps_naomipierceae_DAWKSANT:0.0141105449)35:0.0059930934,(Ophiocordyceps_ootakii_J13:0.0480208633,Ophiocordyceps_camponoti_YFCC9028:0.0654252164)100:0.0508568037)100:0.0625786974,((Ophiocordyceps_camponoti_FEMO2:0.0306185278,Ophiocordyceps_camponoti_G108:0.0067041297)100:0.1220153545,Ophiocordyceps_camponoti_OBIS5:0.0809258464)64:0.0187714417)57:0.0058808091,(Ophiocordyceps_camponoti_G143:0.0211371205,((Ophiocordyceps_camponoti_HIPPOC:0.0000029736,Ophiocordyceps_camponoti_NIDUL2:0.0000029736)96:0.0019667690,Ophiocordyceps_kimflemingiae_SC30:0.0000029736)100:0.0695398449)93:0.0245848823)73:0.0140052635,(Ophiocordyceps_pulvinata_TNS_F_30044:0.0402234742,Ophiocordyceps_blakebarnesii_MISSOU5:0.0298673365)70:0.0114703258)100:0.0415528515,Ophiocordyceps_monacidis_MF74:0.0817731036)69:0.0223793699,Ophiocordyceps_tiputini_Ophtip11465:0.0564362046)40:0.0000022305,(((Ophiocordyceps_elongata_OSC110989:0.0449457809,Hirsutella_citriformis_ARSEF1446:0.0785241530)51:0.0178217742,(Ophiocordyceps_humbertii_MF116B:0.0000029736,Ophiocordyceps_humbertii_MF116A:0.0000029736)100:0.0432794463)100:0.0696338074,((Ophiocordyceps_ponerinarum_Ophkni790:0.0000029736,Ophiocordyceps_kniphofioides_HUA_TSF790:0.0000029736)100:0.0066569447,Ophiocordyceps_kniphofioides_MF90:0.0141075854)100:0.0857243577)48:0.0246780367)28:0.0254426764)65:0.0290411924,((((Ophiocordyceps_brunneipunctata_OSC128576:0.0000029736,Ophiocordyceps_brunneipunctata_HKAS149958:0.0020149587)100:0.0339366701,Ophiocordyceps_annulata_CEM303:0.0742440858)100:0.0313954163,((Ophiocordyceps_sobolifera_KEW78842:0.0338129889,((Ophiocordyceps_longissima_TNS_F18448:0.0035422061,Ophiocordyceps_yakusimensis_HMAS199604:0.0005521271)99:0.0146712618,Ophiocordyceps_sp_CatKNZ01_OP:0.0109109641)85:0.0101466946)68:0.0057568985,Ophiocordyceps_araracuarensis_Ophful696:0.0386303699)86:0.0193459932)99:0.0371375577,((((((((Ophiocordyceps_nutans_OSC110994:0.0050400345,ONT_205_A:0.0000029736)100:0.0339550677,((((((Ophiocordyceps_nutans_NBRC100944:0.0018325161,Ophiocordyceps_asiana_GMBC3023:0.0000029736)20:0.0000029736,Ophiocordyceps_asiana_MY11878:0.0018301163)25:0.0000029736,Ophiocordyceps_nutans_SICAU_24_0165:0.0018225154)62:0.0018275853,(Ophiocordyceps_nutans_SICAU_24_0164:0.0000029736,Ophiocordyceps_nutans_SICAU_24_0164_1:0.0000029736)95:0.0000029736)99:0.0127663341,Ophiocordyceps_tessaratomidarum_GMBC3025:0.0241001280)87:0.0082280661,(Ophiocordyceps_pseudonutans_HAKS131087:0.0017028328,Ophiocordyceps_anshunensis_GMBC3026:0.0096063539)98:0.0127563404)100:0.0288607977)100:0.0426878478,(Ophiocordyceps_fulgoromorphila_Ophara717:0.1650514082,Ophiocordyceps_odonatae_TNS_F18563:0.0895556594)49:0.0000022164)57:0.0093849410,((((Ophiocordyceps_sphecocephala_OSC110998:0.0732038824,(Ophiocordyceps_sp_OSC151909:0.0030932044,Ophiocordyceps_corriemoreauae_C2014A:0.0245363610)100:0.0476363121)96:0.0342924634,ONT_204_B:0.0876965030)41:0.0082985444,(((Ophiocordyceps_aphrophoridarum_YTS19061907:0.0160986677,Ophiocordyceps_aseptatospora_GZAAS_22_2052:0.0193834268)66:0.0022563505,Ophiocordyceps_vespulae_HKAS_102449:0.0226719279)97:0.0140905763,Ophiocordyceps_anocheti_HKAS132231:0.0291137244)100:0.0651769880)39:0.0078646562,((((((Ophiocordyceps_australis_Ophaus926:0.0365403152,Ophiocordyceps_australis_Ophaus774:0.0199973589)96:0.0179392363,((Ophiocordyceps_buquetii_HMAS199617:0.0216427123,Ophiocordyceps_laotii_BCC76495:0.0384508701)45:0.0034388478,(Ophiocordyceps_odontomachi_Odonto1:0.0253365809,Ophiocordyceps_sp_SJ22:0.0352200177)83:0.0159851379)48:0.0050452451)44:0.0016036784,(Ophiocordyceps_paltothyrei_Palt1:0.0000029736,Ophiocordyceps_paltothyrei_Palt2:0.0000029736)100:0.0480717796)92:0.0186782765,Ophiocordyceps_curculionum_OSC151910:0.0560348380)74:0.0135007267,Ophiocordyceps_evansii_Ophsp_858:0.0437636995)78:0.0201539452,Ophiocordyceps_formicarum_TNS_F18565:0.0624476919)22:0.0000020613)62:0.0192963579)39:0.0073097150,((((((Ophiocordyceps_irangiensis_OSC128578:0.0000029736,Ophiocordyceps_megacuculla_BCC82258:0.0000029736)100:0.0148921352,((Ophiocordyceps_myrmecophila_HMAS199620:0.0017763899,Ophiocordyceps_myrmecophila_BCC82985:0.0000029736)72:0.0000029736,Ophiocordyceps_khaoyaiensis_BCC82796:0.0017782845)99:0.0080889408)61:0.0050106703,(Ophiocordyceps_thanathonensis_MFLUCC_16_2909:0.0000029736,Ophiocordyceps_thanathonensis_MFLUCC_16_2910:0.0035595258)99:0.0095569122)99:0.0310846665,((Ophiocordyceps_granospora_OSC128579:0.0000029798,Ophiocordyceps_bannaensis_GACP24_0801:0.0245645481)97:0.0091444691,Ophiocordyceps_granospora_BCC82255:0.0000211293)100:0.0339746399)100:0.0577121568,Ophiocordyceps_pseudolloydii_MFLU_22_0266:0.0307781111)85:0.0131348860,Ophiocordyceps_cylindrospora_HKAS148937:0.0588867550)100:0.0749157014)47:0.0147667099,Ophiocordyceps_forquignonii_OSC151902:0.0340417418)72:0.0278008937,(Ophiocordyceps_lloydii_OSC151913:0.0635563991,Ophiocordyceps_laosensis_GMB3137:0.2615153588)86:0.0937371558)62:0.0344081468,(Ophiocordyceps_dipterigena_OSC151911:0.0000029736,Ophiocordyceps_dipterigena_OSC151912:0.0000029736)100:0.3735592941)100:0.0937206545)89:0.0271622739)79:0.0322494104,Ophiocordyceps_entomorrhiza_KEW53484:0.0605998408)71:0.0181804889,((((((((Ophiocordyceps_melolonthae_OSC110993:0.0114931183,Ophiocordyceps_gracillisima_Ophgrc679:0.0097265133)97:0.0180072582,Ophiocordyceps_neovolkiana_OSC151903:0.0923313545)93:0.0187345530,Ophiocordyceps_clavata_CEM1762:0.1324397056)54:0.0060507503,Ophiocordyceps_variabilis_ARSEF5365:0.0905388882)54:0.0066989808,Ophiocordyceps_purpureostromata_TNS_F18430:0.0684343951)59:0.0054443091,((Ophiocordyceps_ravenelii_OSC110995:0.0301232950,Ophiocordyceps_nigrella_EFCC9247:0.0018762454)100:0.0877002758,(Ophiocordyceps_konnoana_EFCC7315:0.1169903025,Ophiocordyceps_buquetii_HMAS199613:0.3445077691)70:0.0236462938)85:0.0125466223)67:0.0058956768,(((Ophiocordyceps_gracilis_EFCC3101:0.0132911456,Ophiocordyceps_blattarioides_Ophsp_014:0.0224888465)66:0.0054817418,Ophiocordyceps_amazonica_Ophama2026:0.0412653785)100:0.0883366214,Ophiocordyceps_heteropoda_EFCC10125:0.0620893128)93:0.0233885702)78:0.0103283675,Ophiocordyceps_formosana_TNM_F13893:0.0700560102)77:0.0111096401)100:0.1552261883,(Tolypocladium_inflatum_MTCC557:0.0240978817,Tolypocladium_ophioglossoides_CBS100239:0.0291975572)75:0.0044216863);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /home/edouard/Documents/Bioinfo/Multigene_phylogeny/Onutans/All_seq_data_SGTs_allRefs/phylogeny/single_gene_trees/trees/RPB1.treefile -m "TN{3.62389,7.44232}+F{0.240756,0.304726,0.283937,0.170581}+I{0.386561}+G4{0.89854}" --length 496
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /home/edouard/Documents/Bioinfo/Multigene_phylogeny/Onutans/All_seq_data_SGTs_allRefs/phylogeny/trimmed/RPB1_trimmed.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /home/edouard/Documents/Bioinfo/Multigene_phylogeny/Onutans/All_seq_data_SGTs_allRefs/phylogeny/trimmed/RPB1_trimmed.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep 11 18:15:43 2026
+Total CPU time used: 242.979373 seconds (0h:4m:2s)
+Total wall-clock time used: 92.69682598 seconds (0h:1m:32s)
+
