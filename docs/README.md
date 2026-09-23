@@ -1,13 +1,14 @@
-# Documentation and Data Tables
+# Documentation and data tables
 
-This folder stores project tables and supporting documentation for the *Ophiocordyceps nutans* complex study.
+This folder stores project metadata tables for the *Ophiocordyceps nutans* complex analyses.
 
-## Current Files
+## Files currently present
 
-- `All_seq_data.xlsx` — sequence and specimen-associated dataset.
-- `DNA_Extraction_QC.xlsx` — DNA extraction tracking and quality-control records.
-- `Sanger_Data_Pentatomidae_Julia_Aug2025.xlsx` — Sanger sequencing dataset for Pentatomidae samples.
+- `All_seq_data.xlsx` — combined sequence and specimen metadata table used for downstream amplicon/phylogeny processing.
+- `DNA_Extraction_QC.xlsx` — extraction workflow tracking and QC records.
+- `Sanger_Data_Pentatomidae_Julia_Aug2025.xlsx` — Sanger sequencing table for Pentatomidae-related samples.
 
-## Notes
+## Inputs/outputs role
 
-Add future documentation and curated study tables here, keeping filenames explicit and versioned when needed.
+- These spreadsheets are **inputs** to downstream scripts after conversion/selection (for example CSV exports consumed by phylogeny scripts).
+- No executable scripts are stored in this folder.

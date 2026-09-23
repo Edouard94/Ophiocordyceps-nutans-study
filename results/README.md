@@ -1,13 +1,13 @@
-# Results Directory
+# Results
 
-This directory stores outputs generated from analyses of the *Ophiocordyceps nutans* complex.
+This folder is the top-level location for consolidated analysis outputs.
 
-## Structure
+## Current structure
 
-- `figures/` — plots and graphical outputs.
-- `tables/` — summary tables and exported result matrices.
+- `figures/` — placeholder for exported figure files (`.gitkeep` currently present).
+- `tables/` — placeholder for exported result tables (`.gitkeep` currently present).
 
 ## Notes
 
-- Preserve one result per clearly named file.
-- Add short metadata notes when results are regenerated or replaced.
+- Most pipeline-specific result files currently tracked in this repository are stored within workflow folders (for example `amplicon processing/*/final_results/`).
+- Use this folder for final cross-workflow deliverables intended for reporting/manuscript assembly.
