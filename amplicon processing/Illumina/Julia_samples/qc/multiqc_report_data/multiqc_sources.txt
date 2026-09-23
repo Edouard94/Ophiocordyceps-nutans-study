@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	NG-A6188_203_A_libLAR8427_1	/home/edouard/Postdoc_Hemiptera/UK_Illumina_data/Julia_samples/qc/203_A_fastp.json
+fastp	all_sections	NG-A6188_205_A_libLAR9044_1	/home/edouard/Postdoc_Hemiptera/UK_Illumina_data/Julia_samples/qc/205_A_fastp.json
+fastp	all_sections	NG-A6188_206_A_libLAR9046_1	/home/edouard/Postdoc_Hemiptera/UK_Illumina_data/Julia_samples/qc/206_A_fastp.json
+fastp	all_sections	NG-A6188_204_B_libLAR9042_1	/home/edouard/Postdoc_Hemiptera/UK_Illumina_data/Julia_samples/qc/204_B_fastp.json

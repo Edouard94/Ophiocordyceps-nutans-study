@@ -1,0 +1,5 @@
+Sample	fastp_mqc-generalstats-fastp-pct_duplication	fastp_mqc-generalstats-fastp-after_filtering_q30_rate	fastp_mqc-generalstats-fastp-after_filtering_q30_bases	fastp_mqc-generalstats-fastp-filtering_result_passed_filter_reads	fastp_mqc-generalstats-fastp-after_filtering_gc_content	fastp_mqc-generalstats-fastp-pct_surviving	fastp_mqc-generalstats-fastp-pct_adapter
+NG-A6188_203_A_libLAR8427_1	14.7807	0.870635	65552526.0	302906.0	0.5117	99.03937955297472	25.30309569584494
+NG-A6188_204_B_libLAR9042_1	22.320999999999998	0.876126	67835265.0	265594.0	0.482917	99.2518572773883	9.839459483699308
+NG-A6188_205_A_libLAR9044_1	32.2845	0.87723	44286712.0	175016.0	0.50984	68.16963729278325	32.18247538327309
+NG-A6188_206_A_libLAR9046_1	39.8746	0.912644	29494558.0	117196.0	0.430471	44.928847451389316	32.890418941299146
