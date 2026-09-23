@@ -1,5 +1,8 @@
 # Disentangling the *Ophiocordyceps nutans* Complex Through Museomics
 
+Large ONT FASTQ files are stored with Git LFS. After cloning, run `git lfs install`
+and `git lfs pull` if the sequence files are needed locally.
+
 This repository contains sequencing datasets, amplicon-processing pipelines, primer-design resources, and phylogenetic workflows used to study the *Ophiocordyceps nutans* species complex from museum material.
 
 ## Repository structure
@@ -8,9 +11,9 @@ This repository contains sequencing datasets, amplicon-processing pipelines, pri
 | --- | --- |
 | `amplicon processing/` | ONT and Illumina multiplex amplicon pipelines, run manifests, and generated consensus/taxonomy outputs. |
 | `docs/` | Study metadata tables (sample sheets, extraction QC, sequence tracking). |
-| `phylogeny/` | Scripts for reference-sequence retrieval and multigene phylogeny preparation/inference. |
+| `phylogeny/` | Marker extraction, reference retrieval, alignment/QC, single-gene analyses, and the final multigene tree. |
 | `primer design/` | Primer design workflow script plus alignments, entropy plots, and Primer-BLAST/PrimerProspector outputs. |
-| `raw data/` | Placeholder folder for additional raw inputs not currently tracked in Git. |
+| `raw data/` | Reserved location for additional raw inputs; tracked ONT reads are under `amplicon processing/ONT/`. |
 | `results/` | Top-level destination folders for project figures and summary tables. |
 
 ## Folder-level documentation

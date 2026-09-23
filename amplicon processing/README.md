@@ -1,5 +1,8 @@
 # Amplicon processing
 
+ONT FASTQ inputs and intermediate reads are tracked with Git LFS. After cloning,
+run `git lfs install` and `git lfs pull` to retrieve their contents.
+
 This folder stores platform-specific amplicon processing workflows and their run outputs for the *Ophiocordyceps nutans* project.
 
 ## Subfolders
@@ -58,7 +61,11 @@ This folder stores platform-specific amplicon processing workflows and their run
 
 ### Outputs present in this repository
 
-- `Onutans_203/` and `ONT_main_070726/`: saved pipeline runs with manifests and staged outputs.
+- `Onutans_203/` and `ONT_main_070726/`: saved pipeline runs with manifests and staged outputs. `ONT_main_070726/` is the larger multiplex run; `Onutans_203/` contains an earlier sample-focused run.
 - `*/stage1_tagdemux/`: demultiplexed FASTQs and `demux_summary.tsv`.
 - `*/samples/`: per-sample/per-marker intermediate files and NGSpeciesID outputs.
 - `*/final_results/`: consolidated outputs such as `all_consensuses_annotated.tsv`, `sample_marker_status.tsv`, `selected_consensus.tsv`, BLAST/taxonomy summaries, and coverage/read-count reports.
+
+The ONT workflow uses `All_input.csv` for sample, marker, tag, and primer metadata
+and writes run-specific manifests, logs, demultiplexed reads, per-sample/per-marker
+NGSpeciesID results, and final consensus tables.
