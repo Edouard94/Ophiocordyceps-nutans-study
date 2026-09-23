@@ -1,8 +1,8 @@
-# Raw Data Directory
+# Raw data
 
-This directory is reserved for additional raw inputs related to the *Ophiocordyceps nutans* complex study.
+This folder is reserved for additional raw inputs related to the *Ophiocordyceps nutans* study.
 
-## Status
+## Current status
 
-- No raw data files are currently tracked here.
-- Add new raw files in this folder and document provenance (source, date, and processing status).
+- No raw data files are currently tracked here (only this README).
+- Existing raw sequencing files currently committed to the repository are stored under `amplicon processing/Illumina/Julia_data/` and `amplicon processing/ONT/`.

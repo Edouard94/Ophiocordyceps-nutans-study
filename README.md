@@ -1,39 +1,30 @@
 # Disentangling the *Ophiocordyceps nutans* Complex Through Museomics
 
-This repository contains data resources, primer design assets, and phylogenetic workflows used to study the *Ophiocordyceps nutans* species complex from museum material.
+This repository contains sequencing datasets, amplicon-processing pipelines, primer-design resources, and phylogenetic workflows used to study the *Ophiocordyceps nutans* species complex from museum material.
 
-## Repository Structure
+## Repository structure
 
-```text
-.
-├── CITATION.cff
-├── docs/                     # Core project spreadsheets and documentation
-├── phylogeny/                # Amplicon/phylogeny scripts and reference-sequence resources
-├── primer design/            # Primer design scripts, alignments, entropy plots, and validation outputs
-├── raw data/                 # Placeholder directory for additional raw inputs
-└── results/                  # Output folders for generated figures and tables
-```
+| Folder | Purpose |
+| --- | --- |
+| `amplicon processing/` | ONT and Illumina multiplex amplicon pipelines, run manifests, and generated consensus/taxonomy outputs. |
+| `docs/` | Study metadata tables (sample sheets, extraction QC, sequence tracking). |
+| `phylogeny/` | Scripts for reference-sequence retrieval and multigene phylogeny preparation/inference. |
+| `primer design/` | Primer design workflow script plus alignments, entropy plots, and Primer-BLAST/PrimerProspector outputs. |
+| `raw data/` | Placeholder folder for additional raw inputs not currently tracked in Git. |
+| `results/` | Top-level destination folders for project figures and summary tables. |
 
-## Directory Highlights
+## Folder-level documentation
 
-- `docs/`
-  - `All_seq_data.xlsx`
-  - `DNA_Extraction_QC.xlsx`
-  - `Sanger_Data_Pentatomidae_Julia_Aug2025.xlsx`
-- `phylogeny/`
-  - `amplicon & phylogenetic scripts/` (pipeline and QC scripts)
-  - `references for phylogeny/` (reference metadata, FASTA files, and cache)
-- `primer design/`
-  - `Primer_Design_Ophio_cordyceps_genes.sh`
-  - `Primers_museomics_opti.xlsx`
-  - alignment, entropy, and Primer-BLAST result folders
-- `results/`
-  - `figures/`
-  - `tables/`
+- [`amplicon processing/README.md`](amplicon%20processing/README.md)
+- [`docs/README.md`](docs/README.md)
+- [`phylogeny/README.md`](phylogeny/README.md)
+- [`primer design/README.md`](primer%20design/README.md)
+- [`raw data/README.md`](raw%20data/README.md)
+- [`results/README.md`](results/README.md)
 
 ## Citation
 
-Please use the citation metadata in `CITATION.cff` for this repository.
+Please use the citation metadata in `CITATION.cff`.
 
 ## License
 
